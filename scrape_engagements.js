@@ -198,7 +198,8 @@ function chunkLines(header, lines, maxLen = 1800) {
   }
 
   // Find all DP-P (declared participants) from unique rows
-  const declaredParticipants = unique.filter(r => r.statut === 'DP-P');
+  // Match DP-P even if followed by /number or other suffixes
+  const declaredParticipants = unique.filter(r => /^DP-P/i.test(r.statut));
   
   if (newRows.length === 0 && changedRows.length === 0 && declaredParticipants.length === 0) {
     console.log('No new/changed engagements and no declared participants — nothing to post.');
