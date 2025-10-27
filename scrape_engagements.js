@@ -187,24 +187,45 @@ function chunkLines(header, lines, maxLen = 1800) {
     }
   }
 
-  if (newRows.length === 0 && changedRows.length === 0) {
-    console.log('No new/changed engagements — nothing to post.');
+  // Find all DP-P (declared participants) from unique rows
+  const declaredParticipants = unique.filter(r => r.statut === 'DP-P');
+  
+  if (newRows.length === 0 && changedRows.length === 0 && declaredParticipants.length === 0) {
+    console.log('No new/changed engagements and no declared participants — nothing to post.');
     await saveSeen(seen);
     process.exit(0);
   }
 
   const today = new Date().toISOString().slice(0, 10);
+  
+  // Format DP-P horses (running next)
+  const linesDPP = declaredParticipants.map(
+    r => `• ${r.horse} — ${r.date} — ${r.track} — ${r.race} (${r.cat || '-'}) — ${r.dist || '-'}`
+  );
+  
+  // Format new engagements
   const linesNew = newRows.map(
     r => `• ${r.horse} — ${r.date} — ${r.track} — ${r.race} (${r.cat || '-'}) — ${r.dist || '-'} — Statut: ${r.statut}`
   );
+  
+  // Format status updates
   const linesUpd = changedRows.map(
     r => `• ${r.horse} — ${r.date} — ${r.track} — ${r.race} (${r.cat || '-'}) — ${r.dist || '-'} — Statut: ${r.oldStatut} → ${r.statut}`
   );
 
   const payloads = [];
+  
+  // DP-P horses always go first
+  if (linesDPP.length) {
+    payloads.push(...chunkLines(`🏇 **PARTANTS — ${today}**`, linesDPP));
+  }
+  
+  // Then new engagements
   if (linesNew.length) {
     payloads.push(...chunkLines(`🆕 **Nouvelles engagements — ${today}**`, linesNew));
   }
+  
+  // Then status updates
   if (linesUpd.length) {
     payloads.push(...chunkLines(`🔄 **Statut mis à jour — ${today}**`, linesUpd));
   }
@@ -222,5 +243,5 @@ function chunkLines(header, lines, maxLen = 1800) {
   }
 
   await saveSeen(seen);
-  console.log(`✅ Posted ${newRows.length} new + ${changedRows.length} updated engagements`);
+  console.log(`✅ Posted ${declaredParticipants.length} declared participants + ${newRows.length} new + ${changedRows.length} updated engagements`);
 })();
