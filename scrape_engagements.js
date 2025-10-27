@@ -1,32 +1,24 @@
-// Node 18+ / 20+; CommonJS.
-// ENV required: TRAINER_URL, DISCORD_WEBHOOK_URL
-// Behavior: posts only NEW rows or rows whose Statut changed, twice daily (10:35 & 12:35 Paris).
-// Embeds: horse name (embed title) is a clickable link; "Prix" field is a clickable link when available.
+// Node 18+ / 20+; CommonJS. ENV: TRAINER_URL, DISCORD_WEBHOOK_URL
 
 const { chromium } = require('playwright');
 const fs = require('fs/promises');
 const path = require('path');
 
-// ---- Time gate: run only at 10:35 or 12:35 Europe/Paris (DST-safe).
-// Set FORCE_RUN=1 in the workflow env to bypass this for testing (no code edits needed).
-const FORCE_RUN = process.env.FORCE_RUN === '1';
-if (!FORCE_RUN) {
-  const parts = new Intl.DateTimeFormat('en-GB', {
-    timeZone: 'Europe/Paris',
-    hour: '2-digit',
-    minute: '2-digit',
-    hour12: false,
-  }).formatToParts(new Date());
-  const hh = parts.find(p => p.type === 'hour').value;
-  const mm = parts.find(p => p.type === 'minute').value;
-  const isRunTime = (hh === '10' && mm === '35') || (hh === '12' && mm === '35');
-  if (!isRunTime) {
-    console.log(`Skipping run at Paris ${hh}:${mm}`);
-    process.exit(0);
-  }
-} else {
-  console.log('FORCE_RUN=1 → bypassing time gate for test run');
+// --- Run only at 10:35 or 12:35 in Paris (DST-safe) ---
+const parts = new Intl.DateTimeFormat('en-GB', {
+  timeZone: 'Europe/Paris',
+  hour: '2-digit',
+  minute: '2-digit',
+  hour12: false,
+}).formatToParts(new Date());
+const hh = parts.find(p => p.type === 'hour').value;
+const mm = parts.find(p => p.type === 'minute').value;
+const isRunTime = (hh === '10' && mm === '35') || (hh === '12' && mm === '35');
+if (!isRunTime) {
+  console.log(`Skipping run at Paris ${hh}:${mm}`);
+  process.exit(0);
 }
+// -------------------------------------------------------
 
 const TRAINER_URL = process.env.TRAINER_URL;
 const WEBHOOK = process.env.DISCORD_WEBHOOK_URL;
@@ -60,18 +52,11 @@ async function loadSeen() {
 
 async function saveSeen(map) {
   const arr = Array.from(map.entries());
-  const trimmed = arr.slice(-3000); // keep small
+  const trimmed = arr.slice(-3000); // keep it small
   await fs.writeFile(STORE_FILE, JSON.stringify(trimmed, null, 2), 'utf8');
 }
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
-
-function absolutize(url) {
-  if (!url) return '';
-  if (url.startsWith('http://') || url.startsWith('https://')) return url;
-  if (url.startsWith('/')) return 'https://www.france-galop.com' + url;
-  return url;
-}
 
 async function scrape() {
   const browser = await chromium.launch({ headless: true });
@@ -84,7 +69,7 @@ async function scrape() {
 
   await page.goto(TRAINER_URL, { waitUntil: 'domcontentloaded' });
 
-  // Accept cookie banner (FR/EN variants)
+  // Accept cookies if shown (FR/EN variants)
   for (const sel of [
     'button:has-text("Tout accepter")',
     'button:has-text("Accepter tout")',
@@ -99,13 +84,9 @@ async function scrape() {
   const tab = page.locator('text=Engagements');
   if (await tab.count()) await tab.first().click().catch(()=>{});
 
-  // Wait precisely for the table to exist (up to 15s)
-  await Promise.race([
-    page.locator('section:has-text("Engagements") table').first().waitFor({ timeout: 15000 }),
-    page.locator('table:has-text("Cheval")').first().waitFor({ timeout: 15000 }),
-  ]).catch(() => {});
+  await page.waitForTimeout(1500);
 
-  // Find the Engagements table (look for headers "Cheval" and "Statut")
+  // Find the Engagements table (header with Cheval + Statut)
   const allTables = page.locator('table');
   let table = null;
   for (let i = 0; i < await allTables.count(); i++) {
@@ -126,7 +107,7 @@ async function scrape() {
     return [];
   }
 
-  // Map column indices
+  // Map header indices
   const headerCells = await table.locator('thead tr th, tr:first-child th, tr:first-child td').allInnerTexts();
   const headers = headerCells.map(norm);
   const idx = {
@@ -143,43 +124,24 @@ async function scrape() {
   };
   const cell = (tds, i) => (i >= 0 && i < tds.length ? norm(tds[i]) : '');
 
-  // Extract rows
+  // Read rows
   const rows = table.locator('tbody tr');
   const out = [];
   for (let r = 0; r < await rows.count(); r++) {
-    const row = rows.nth(r);
-    const tds = await row.locator('td').allInnerTexts();
+    const tds = await rows.nth(r).locator('td').allInnerTexts();
     if (!tds.length) continue;
-
-    // Links from Cheval & Prix cells
-    let horseUrl = '';
-    let raceUrl = '';
-    try {
-      if (idx.horse >= 0) {
-        const a = row.locator('td').nth(idx.horse).locator('a').first();
-        if (await a.count()) horseUrl = absolutize(await a.getAttribute('href'));
-      }
-      if (idx.race >= 0) {
-        const a2 = row.locator('td').nth(idx.race).locator('a').first();
-        if (await a2.count()) raceUrl = absolutize(await a2.getAttribute('href'));
-      }
-    } catch {}
-
     const rec = {
       horse: cell(tds, idx.horse),
       statut: cell(tds, idx.statut),
-      date:   cell(tds, idx.date),
-      track:  cell(tds, idx.track),
-      race:   cell(tds, idx.race),
-      cat:    cell(tds, idx.cat),
-      purse:  cell(tds, idx.purse),
-      disc:   cell(tds, idx.disc),
-      dist:   cell(tds, idx.dist),
-      owner:  cell(tds, idx.owner),
-      horseUrl,
-      raceUrl,
+      date: cell(tds, idx.date),
+      track: cell(tds, idx.track),
+      race: cell(tds, idx.race),
+      cat: cell(tds, idx.cat),
+      purse: cell(tds, idx.purse),
+      disc: cell(tds, idx.disc),
+      dist: cell(tds, idx.dist),
+      owner: cell(tds, idx.owner),
     };
-
     if (rec.horse && rec.date && (rec.race || rec.track)) out.push(rec);
   }
 
@@ -187,38 +149,22 @@ async function scrape() {
   return out;
 }
 
-// ---------- Embed posting (clickable horse title & Prix link) ----------
-function mdLink(text, url) {
-  const t = text || '-';
-  if (!url) return t;
-  // Masked links are supported in embed fields
-  return `[${t}](${url})`;
-}
-
-function chunkEmbeds(arr, size = 10) {
+function chunkLines(header, lines, maxLen = 1800) {
   const chunks = [];
-  for (let i = 0; i < arr.length; i += size) chunks.push(arr.slice(i, i + size));
-  return chunks;
-}
-
-async function postEmbeds(title, embeds, today) {
-  if (!embeds.length) return;
-  const chunks = chunkEmbeds(embeds, 10);
-  for (const chunk of chunks) {
-    const res = await fetch(WEBHOOK, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        content: `${title} — ${today}`,
-        embeds: chunk,
-        allowed_mentions: { parse: [] },
-      }),
-    });
-    if (!res.ok) {
-      console.error('Discord webhook failed', await res.text());
-      process.exit(2);
+  let buf = [];
+  let len = header.length + 1;
+  for (const ln of lines) {
+    if (len + ln.length + 1 > maxLen) {
+      chunks.push(`${header}\n${buf.join('\n')}`);
+      buf = [ln];
+      len = header.length + 1 + ln.length + 1;
+    } else {
+      buf.push(ln);
+      len += ln.length + 1;
     }
   }
+  if (buf.length) chunks.push(`${header}\n${buf.join('\n')}`);
+  return chunks;
 }
 
 (async () => {
@@ -233,7 +179,7 @@ async function postEmbeds(title, embeds, today) {
     if (!runSeen.has(k)) { runSeen.add(k); unique.push(r); }
   }
 
-  // Classify: new vs statut-changed vs unchanged
+  // Classify: brand-new vs statut-changed vs unchanged
   const newRows = [];
   const changedRows = [];
 
@@ -247,6 +193,7 @@ async function postEmbeds(title, embeds, today) {
       changedRows.push({ ...r, oldStatut: prev.statut });
       seen.set(k, { statut: r.statut, last: Date.now() });
     } else {
+      // unchanged
       seen.set(k, { statut: prev.statut, last: Date.now() });
     }
   }
@@ -258,37 +205,32 @@ async function postEmbeds(title, embeds, today) {
   }
 
   const today = new Date().toISOString().slice(0, 10);
-  const COLOR_NEW = 0x2b6cb0;  // blue
-  const COLOR_UPD = 0xf59e0b;  // amber
+  const linesNew = newRows.map(
+    r => `• ${r.horse} — ${r.date} — ${r.track} — ${r.race} (${r.cat || '-'}) — ${r.dist || '-'} — Statut: ${r.statut}`
+  );
+  const linesUpd = changedRows.map(
+    r => `• ${r.horse} — ${r.date} — ${r.track} — ${r.race} (${r.cat || '-'}) — ${r.dist || '-'} — Statut: ${r.oldStatut} → ${r.statut}`
+  );
 
-  const toEmbed = (r, type) => {
-    const prixField = mdLink(r.race || '-', r.raceUrl || '');
-    const fields = [
-      { name: 'Date',       value: r.date || '-',  inline: true },
-      { name: 'Hippodrome', value: r.track || '-', inline: true },
-      { name: 'Prix',       value: prixField,      inline: true }, // hyperlink here
-      { name: 'Cat.',       value: r.cat  || '-',  inline: true },
-      { name: 'Dist.',      value: r.dist || '-',  inline: true },
-    ];
-    if (type === 'new') {
-      fields.push({ name: 'Statut', value: r.statut || '-', inline: true });
-    } else {
-      fields.push({ name: 'Statut', value: `${r.oldStatut || '-'} → ${r.statut || '-'}`, inline: true });
+  const payloads = [];
+  if (linesNew.length) {
+    payloads.push(...chunkLines(`🆕 **Nouvelles engagements — ${today}**`, linesNew));
+  }
+  if (linesUpd.length) {
+    payloads.push(...chunkLines(`🔄 **Statut mis à jour — ${today}**`, linesUpd));
+  }
+
+  for (const content of payloads) {
+    const res = await fetch(WEBHOOK, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ content, allowed_mentions: { parse: [] } }),
+    });
+    if (!res.ok) {
+      console.error('Discord webhook failed', await res.text());
+      process.exit(2);
     }
-    return {
-      title: r.horse || 'Cheval',
-      url: r.horseUrl || undefined, // clickable horse title
-      color: type === 'new' ? COLOR_NEW : COLOR_UPD,
-      fields,
-      timestamp: new Date().toISOString(),
-    };
-  };
-
-  const embedsNew = newRows.map(r => toEmbed(r, 'new'));
-  const embedsUpd = changedRows.map(r => toEmbed(r, 'upd'));
-
-  await postEmbeds('🆕 **Nouvelles engagements**', embedsNew, today);
-  await postEmbeds('🔄 **Statut mis à jour**', embedsUpd, today);
+  }
 
   await saveSeen(seen);
 })();
