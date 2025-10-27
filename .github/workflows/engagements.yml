@@ -1,0 +1,36 @@
+name: FG engagements → Discord
+on:
+  schedule:
+    # Run at 9:35 UTC (10:35 Paris winter / 11:35 Paris summer)
+    - cron: "35 9 * * *"
+    # Run at 11:35 UTC (12:35 Paris winter / 13:35 Paris summer)
+    - cron: "35 11 * * *"
+  workflow_dispatch:
+    inputs:
+      manual_run:
+        description: 'Force run (bypass any time checks)'
+        required: false
+        type: boolean
+        default: true
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write    # allow committing state file
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm i playwright@1.47.2
+      - run: npx playwright install --with-deps chromium
+      - run: node scrape_engagements.js
+        env:
+          TRAINER_URL: ${{ secrets.TRAINER_URL }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          MANUAL_RUN: ${{ github.event.inputs.manual_run || 'false' }}
+      - name: Commit updated state
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: 'data/seen.json'
+          message: 'chore: update seen engagements'
