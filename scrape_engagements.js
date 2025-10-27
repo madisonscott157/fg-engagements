@@ -88,13 +88,17 @@ async function scrape() {
 
   await page.waitForTimeout(1500);
 
-  // Click "Plus" button repeatedly to load all engagements
+  // Find the Engagements section first
+  const engagementsSection = page.locator('section:has-text("Engagements"), div:has-text("Engagements")').first();
+  
+  // Click "Plus" button repeatedly ONLY within the Engagements section
   let clickedPlus = false;
   let previousRowCount = 0;
   
   for (let i = 0; i < 20; i++) { // max 20 clicks to avoid infinite loop
-    // Count current rows before clicking
-    const currentRowCount = await page.locator('table tbody tr').count();
+    // Count current rows in the Engagements table
+    const engagementsTable = engagementsSection.locator('table').first();
+    const currentRowCount = await engagementsTable.locator('tbody tr, tr').count();
     
     // If row count didn't change from last click, stop (no more data to load)
     if (i > 0 && currentRowCount === previousRowCount) {
@@ -104,17 +108,17 @@ async function scrape() {
     
     previousRowCount = currentRowCount;
     
-    const plusButton = page.locator('button:has-text("Plus"), button:has-text("plus"), a:has-text("Plus"), a:has-text("plus")');
-    const count = await plusButton.count();
+    // Look for Plus button ONLY within Engagements section
+    const plusButton = engagementsSection.locator('button:has-text("Plus"), button:has-text("plus"), a:has-text("Plus"), a:has-text("plus")').first();
     
-    if (count > 0 && await plusButton.first().isVisible().catch(() => false)) {
-      console.log(`Clicking "Plus" button (attempt ${i + 1}, currently ${currentRowCount} rows)...`);
-      await plusButton.first().click().catch(() => {});
+    if (await plusButton.count() && await plusButton.isVisible().catch(() => false)) {
+      console.log(`Clicking Engagements "Plus" button (attempt ${i + 1}, currently ${currentRowCount} rows)...`);
+      await plusButton.click().catch(() => {});
       clickedPlus = true;
       await page.waitForTimeout(2000); // wait 2 seconds for new rows to load
     } else {
       if (clickedPlus) {
-        console.log(`No more "Plus" button - all engagements loaded (${currentRowCount} rows)`);
+        console.log(`No more "Plus" button in Engagements section - all loaded (${currentRowCount} rows)`);
       }
       break;
     }
@@ -128,17 +132,28 @@ async function scrape() {
 
   // Find the Engagements table (header with Cheval + Statut)
   const allTables = page.locator('table');
+  const tableCount = await allTables.count();
+  console.log(`Found ${tableCount} tables on page, searching for Engagements table...`);
+  
   let table = null;
-  for (let i = 0; i < await allTables.count(); i++) {
+  for (let i = 0; i < tableCount; i++) {
     const t = allTables.nth(i);
     const header = norm(await t.locator('thead, tr').first().innerText().catch(()=>'')); 
-    if (/Cheval/i.test(header) && /Statut/i.test(header)) { table = t; break; }
+    console.log(`Table ${i}: header contains "${header.substring(0, 50)}..."`);
+    if (/Cheval/i.test(header) && /Statut/i.test(header)) { 
+      table = t; 
+      console.log(`✓ Using Table ${i} as Engagements table`);
+      break; 
+    }
   }
   if (!table) {
     const sec = page.locator('section:has-text("Engagements")');
     if (await sec.count()) {
       const t = sec.locator('table').first();
-      if (await t.count()) table = t;
+      if (await t.count()) {
+        table = t;
+        console.log('✓ Using table from Engagements section');
+      }
     }
   }
   if (!table) {
