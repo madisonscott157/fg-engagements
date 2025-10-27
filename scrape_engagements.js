@@ -1,4 +1,6 @@
 // Node 18+ / 20+; CommonJS. ENV: TRAINER_URL, DISCORD_WEBHOOK_URL
+// Posts only NEW rows or rows whose Statut changed, at 10:35 & 12:35 Paris.
+// Horse name (embed title) is a clickable link; "Prix" field is also a clickable link.
 
 const { chromium } = require('playwright');
 const fs = require('fs/promises');
@@ -57,6 +59,13 @@ async function saveSeen(map) {
 }
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+function absolutize(url) {
+  if (!url) return '';
+  if (url.startsWith('http://') || url.startsWith('https://')) return url;
+  if (url.startsWith('/')) return 'https://www.france-galop.com' + url;
+  return url;
+}
 
 async function scrape() {
   const browser = await chromium.launch({ headless: true });
@@ -128,20 +137,39 @@ async function scrape() {
   const rows = table.locator('tbody tr');
   const out = [];
   for (let r = 0; r < await rows.count(); r++) {
-    const tds = await rows.nth(r).locator('td').allInnerTexts();
+    const row = rows.nth(r);
+    const tds = await row.locator('td').allInnerTexts();
     if (!tds.length) continue;
+
+    // NEW: grab <a href> inside Cheval & Prix cells when present
+    let horseUrl = '';
+    let raceUrl = '';
+    try {
+      if (idx.horse >= 0) {
+        const a = row.locator('td').nth(idx.horse).locator('a').first();
+        if (await a.count()) horseUrl = absolutize(await a.getAttribute('href'));
+      }
+      if (idx.race >= 0) {
+        const a2 = row.locator('td').nth(idx.race).locator('a').first();
+        if (await a2.count()) raceUrl = absolutize(await a2.getAttribute('href'));
+      }
+    } catch {}
+
     const rec = {
       horse: cell(tds, idx.horse),
       statut: cell(tds, idx.statut),
-      date: cell(tds, idx.date),
-      track: cell(tds, idx.track),
-      race: cell(tds, idx.race),
-      cat: cell(tds, idx.cat),
-      purse: cell(tds, idx.purse),
-      disc: cell(tds, idx.disc),
-      dist: cell(tds, idx.dist),
-      owner: cell(tds, idx.owner),
+      date:   cell(tds, idx.date),
+      track:  cell(tds, idx.track),
+      race:   cell(tds, idx.race),
+      cat:    cell(tds, idx.cat),
+      purse:  cell(tds, idx.purse),
+      disc:   cell(tds, idx.disc),
+      dist:   cell(tds, idx.dist),
+      owner:  cell(tds, idx.owner),
+      horseUrl,
+      raceUrl,
     };
+
     if (rec.horse && rec.date && (rec.race || rec.track)) out.push(rec);
   }
 
@@ -149,22 +177,38 @@ async function scrape() {
   return out;
 }
 
-function chunkLines(header, lines, maxLen = 1800) {
+// ---------- posting as EMBEDS with clickable horse title & Prix link ----------
+function mdLink(text, url) {
+  const t = text || '-';
+  if (!url) return t;
+  // Masked links are supported in embed fields; avoid brackets in text for safety
+  return `[${t}](${url})`;
+}
+
+function chunkEmbeds(arr, size = 10) {
   const chunks = [];
-  let buf = [];
-  let len = header.length + 1;
-  for (const ln of lines) {
-    if (len + ln.length + 1 > maxLen) {
-      chunks.push(`${header}\n${buf.join('\n')}`);
-      buf = [ln];
-      len = header.length + 1 + ln.length + 1;
-    } else {
-      buf.push(ln);
-      len += ln.length + 1;
+  for (let i = 0; i < arr.length; i += size) chunks.push(arr.slice(i, i + size));
+  return chunks;
+}
+
+async function postEmbeds(title, embeds, today) {
+  if (!embeds.length) return;
+  const chunks = chunkEmbeds(embeds, 10);
+  for (const chunk of chunks) {
+    const res = await fetch(WEBHOOK, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        content: `${title} — ${today}`,
+        embeds: chunk,
+        allowed_mentions: { parse: [] },
+      }),
+    });
+    if (!res.ok) {
+      console.error('Discord webhook failed', await res.text());
+      process.exit(2);
     }
   }
-  if (buf.length) chunks.push(`${header}\n${buf.join('\n')}`);
-  return chunks;
 }
 
 (async () => {
@@ -205,32 +249,37 @@ function chunkLines(header, lines, maxLen = 1800) {
   }
 
   const today = new Date().toISOString().slice(0, 10);
-  const linesNew = newRows.map(
-    r => `• ${r.horse} — ${r.date} — ${r.track} — ${r.race} (${r.cat || '-'}) — ${r.dist || '-'} — Statut: ${r.statut}`
-  );
-  const linesUpd = changedRows.map(
-    r => `• ${r.horse} — ${r.date} — ${r.track} — ${r.race} (${r.cat || '-'}) — ${r.dist || '-'} — Statut: ${r.oldStatut} → ${r.statut}`
-  );
+  const COLOR_NEW = 0x2b6cb0;  // blue
+  const COLOR_UPD = 0xf59e0b;  // amber
 
-  const payloads = [];
-  if (linesNew.length) {
-    payloads.push(...chunkLines(`🆕 **Nouvelles engagements — ${today}**`, linesNew));
-  }
-  if (linesUpd.length) {
-    payloads.push(...chunkLines(`🔄 **Statut mis à jour — ${today}**`, linesUpd));
-  }
-
-  for (const content of payloads) {
-    const res = await fetch(WEBHOOK, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ content, allowed_mentions: { parse: [] } }),
-    });
-    if (!res.ok) {
-      console.error('Discord webhook failed', await res.text());
-      process.exit(2);
+  const toEmbed = (r, type) => {
+    const prixField = mdLink(r.race || '-', r.raceUrl || '');
+    const fields = [
+      { name: 'Date',       value: r.date || '-',  inline: true },
+      { name: 'Hippodrome', value: r.track || '-', inline: true },
+      { name: 'Prix',       value: prixField,       inline: true }, // hyperlink here
+      { name: 'Cat.',       value: r.cat  || '-',  inline: true },
+      { name: 'Dist.',      value: r.dist || '-',  inline: true },
+    ];
+    if (type === 'new') {
+      fields.push({ name: 'Statut', value: r.statut || '-', inline: true });
+    } else {
+      fields.push({ name: 'Statut', value: `${r.oldStatut || '-'} → ${r.statut || '-'}`, inline: true });
     }
-  }
+    return {
+      title: r.horse || 'Cheval',
+      url: r.horseUrl || undefined,      // clickable horse title
+      color: type === 'new' ? COLOR_NEW : COLOR_UPD,
+      fields,
+      timestamp: new Date().toISOString(),
+    };
+  };
+
+  const embedsNew = newRows.map(r => toEmbed(r, 'new'));
+  const embedsUpd = changedRows.map(r => toEmbed(r, 'upd'));
+
+  await postEmbeds('🆕 **Nouvelles engagements**', embedsNew, today);
+  await postEmbeds('🔄 **Statut mis à jour**', embedsUpd, today);
 
   await saveSeen(seen);
 })();
