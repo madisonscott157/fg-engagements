@@ -2,30 +2,25 @@ name: FG engagements → Discord
 
 on:
   schedule:
-    - cron: "35 * * * *"   # hourly; your script only posts at 10:35 & 12:35 Paris
+    - cron: "35 * * * *"   # every hour at :35 (UTC). Script gates to 10:35 & 12:35 Paris.
   workflow_dispatch:
 
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
     permissions:
-      contents: write
+      contents: write    # allow committing state file
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-
       - run: npm i playwright@1.47.2
       - run: npx playwright install --with-deps chromium
-
       - run: node scrape_engagements.js
         env:
           TRAINER_URL: ${{ secrets.TRAINER_URL }}
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-
       - name: Commit updated state
         uses: EndBug/add-and-commit@v9
         with:
