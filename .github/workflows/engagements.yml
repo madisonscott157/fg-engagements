@@ -12,6 +12,11 @@ on:
         required: false
         type: boolean
         default: true
+      force_post:
+        description: 'Force post all engagements (for testing formatting)'
+        required: false
+        type: boolean
+        default: false
 jobs:
   run:
     runs-on: ubuntu-latest
@@ -29,6 +34,7 @@ jobs:
           TRAINER_URL: ${{ secrets.TRAINER_URL }}
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           MANUAL_RUN: ${{ github.event.inputs.manual_run || 'false' }}
+          FORCE_POST: ${{ github.event.inputs.force_post || 'false' }}
       - name: Commit updated state
         uses: EndBug/add-and-commit@v9
         with:
