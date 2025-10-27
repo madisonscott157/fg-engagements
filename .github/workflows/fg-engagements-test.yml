@@ -1,31 +1,37 @@
 name: FG engagements → Discord (TEST NOW)
 
 on:
-  workflow_dispatch: {}   # Manual trigger only
+  workflow_dispatch: {}
 
 jobs:
   run:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     permissions:
-      contents: write      # allow committing the state file so you don't get duplicates later
+      contents: write
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - run: npm i playwright@1.47.2
-      - run: npx playwright install --with-deps chromium
 
-      # Force a one-time run by tricking the time gate to "10:35 Paris"
-      # (We DO NOT edit your scraper file; we just override Date before requiring it.)
-      - name: Run scraper (forced now)
+      - run: npm i playwright@1.47.2
+
+      - name: Setup Playwright browsers
+        uses: microsoft/playwright-github-action@v1
+        with:
+          version: 1.47.2
+
+      # Force a one-time run by faking the clock to 10:35 Paris.
+      # Your scraper file stays untouched.
+      - name: Run scraper (force time without code changes)
         run: |
           node -e "global.Date=class extends Date{constructor(...a){return a.length?super(...a):new Date('2025-01-01T10:35:00+01:00')}}; require('./scrape_engagements.js')"
         env:
           TRAINER_URL: ${{ secrets.TRAINER_URL }}
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
 
-      # Save seen.json so the scheduled job won't repost the same rows later
       - name: Commit updated state
         uses: EndBug/add-and-commit@v9
         with:
