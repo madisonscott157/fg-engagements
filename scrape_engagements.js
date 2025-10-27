@@ -34,6 +34,14 @@ const norm = (s) =>
 const keyify = (obj) =>
   norm([obj.horse, obj.date, obj.track, obj.race, obj.dist].join(' | ')).toLowerCase();
 
+// Format name with optional hyperlink for Discord
+const formatLink = (text, url) => {
+  if (url && url.startsWith('http')) {
+    return `[${text}](${url})`;
+  }
+  return text;
+};
+
 async function loadSeen() {
   try {
     const txt = await fs.readFile(STORE_FILE, 'utf8');
@@ -122,14 +130,42 @@ async function scrape() {
   const rows = table.locator('tbody tr');
   const out = [];
   for (let r = 0; r < await rows.count(); r++) {
-    const tds = await rows.nth(r).locator('td').allInnerTexts();
+    const row = rows.nth(r);
+    const tds = await row.locator('td').allInnerTexts();
     if (!tds.length) continue;
+    
+    // Extract links for horse name and race name
+    let horseUrl = '';
+    let raceUrl = '';
+    
+    if (idx.horse >= 0) {
+      const horseLink = row.locator('td').nth(idx.horse).locator('a').first();
+      if (await horseLink.count()) {
+        const href = await horseLink.getAttribute('href');
+        if (href) {
+          horseUrl = href.startsWith('http') ? href : `https://www.france-galop.com${href}`;
+        }
+      }
+    }
+    
+    if (idx.race >= 0) {
+      const raceLink = row.locator('td').nth(idx.race).locator('a').first();
+      if (await raceLink.count()) {
+        const href = await raceLink.getAttribute('href');
+        if (href) {
+          raceUrl = href.startsWith('http') ? href : `https://www.france-galop.com${href}`;
+        }
+      }
+    }
+    
     const rec = {
       horse: cell(tds, idx.horse),
+      horseUrl: horseUrl,
       statut: cell(tds, idx.statut),
       date: cell(tds, idx.date),
       track: cell(tds, idx.track),
       race: cell(tds, idx.race),
+      raceUrl: raceUrl,
       cat: cell(tds, idx.cat),
       purse: cell(tds, idx.purse),
       disc: cell(tds, idx.disc),
@@ -211,17 +247,17 @@ function chunkLines(header, lines, maxLen = 1800) {
   
   // Format DP-P horses (running next)
   const linesDPP = declaredParticipants.map(
-    r => `• ${r.horse} — ${r.date} — ${r.track} — ${r.race} (${r.cat || '-'}) — ${r.dist || '-'}`
+    r => `• ${formatLink(r.horse, r.horseUrl)} — ${r.date} — ${r.track} — ${formatLink(r.race, r.raceUrl)} (${r.cat || '-'}) — ${r.dist || '-'}`
   );
   
   // Format new engagements
   const linesNew = newRows.map(
-    r => `• ${r.horse} — ${r.date} — ${r.track} — ${r.race} (${r.cat || '-'}) — ${r.dist || '-'} — Statut: ${r.statut}`
+    r => `• ${formatLink(r.horse, r.horseUrl)} — ${r.date} — ${r.track} — ${formatLink(r.race, r.raceUrl)} (${r.cat || '-'}) — ${r.dist || '-'} — Statut: ${r.statut}`
   );
   
   // Format status updates
   const linesUpd = changedRows.map(
-    r => `• ${r.horse} — ${r.date} — ${r.track} — ${r.race} (${r.cat || '-'}) — ${r.dist || '-'} — Statut: ${r.oldStatut} → ${r.statut}`
+    r => `• ${formatLink(r.horse, r.horseUrl)} — ${r.date} — ${r.track} — ${formatLink(r.race, r.raceUrl)} (${r.cat || '-'}) — ${r.dist || '-'} — Statut: ${r.oldStatut} → ${r.statut}`
   );
 
   const payloads = [];
