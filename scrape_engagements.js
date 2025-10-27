@@ -1,31 +1,20 @@
-// Node 18+ / 20+; CommonJS. ENV: TRAINER_URL, DISCORD_WEBHOOK_URL
+// Node 18+ / 20+; CommonJS. ENV: TRAINER_URL, DISCORD_WEBHOOK_URL, MANUAL_RUN (optional)
 
 const { chromium } = require('playwright');
 const fs = require('fs/promises');
 const path = require('path');
 
-// --- Run only at 10:35 or 12:35 in Paris (DST-safe) ---
-const parts = new Intl.DateTimeFormat('en-GB', {
-  timeZone: 'Europe/Paris',
-  hour: '2-digit',
-  minute: '2-digit',
-  hour12: false,
-}).formatToParts(new Date());
-const hh = parts.find(p => p.type === 'hour').value;
-const mm = parts.find(p => p.type === 'minute').value;
-const isRunTime = (hh === '10' && mm === '35') || (hh === '12' && mm === '35');
-if (!isRunTime) {
-  console.log(`Skipping run at Paris ${hh}:${mm}`);
-  process.exit(0);
-}
-// -------------------------------------------------------
-
 const TRAINER_URL = process.env.TRAINER_URL;
 const WEBHOOK = process.env.DISCORD_WEBHOOK_URL;
+const MANUAL_RUN = process.env.MANUAL_RUN === 'true';
 
 if (!TRAINER_URL || !WEBHOOK) {
   console.error('Missing TRAINER_URL or DISCORD_WEBHOOK_URL');
   process.exit(1);
+}
+
+if (MANUAL_RUN) {
+  console.log('🔧 MANUAL RUN - bypassing schedule checks');
 }
 
 const STORE_DIR = 'data';
@@ -34,7 +23,7 @@ const STORE_FILE = path.join(STORE_DIR, 'seen.json');
 const norm = (s) =>
   (s ?? '')
     .replace(/\s+/g, ' ')
-    .replace(/[’]/g, "'")
+    .replace(/[']/g, "'")
     .trim();
 
 const keyify = (obj) =>
@@ -233,4 +222,5 @@ function chunkLines(header, lines, maxLen = 1800) {
   }
 
   await saveSeen(seen);
+  console.log(`✅ Posted ${newRows.length} new + ${changedRows.length} updated engagements`);
 })();
