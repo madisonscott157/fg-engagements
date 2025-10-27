@@ -1,0 +1,40 @@
+name: FG results → Discord
+on:
+  schedule:
+    # Run every 5 minutes between 10:00-19:55 UTC (11:00-20:55 Paris winter / 12:00-21:55 summer)
+    - cron: "*/5 10-19 * * *"
+  workflow_dispatch:
+    inputs:
+      manual_run:
+        description: 'Force run'
+        required: false
+        type: boolean
+        default: true
+      force_post:
+        description: 'Force post all results (for testing)'
+        required: false
+        type: boolean
+        default: false
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm i playwright@1.47.2
+      - run: npx playwright install --with-deps chromium
+      - run: node scrape_results.js
+        env:
+          RESULTS_URL: ${{ secrets.RESULTS_URL }}
+          DISCORD_WEBHOOK_RESULTS: ${{ secrets.DISCORD_WEBHOOK_RESULTS }}
+          MANUAL_RUN: ${{ github.event.inputs.manual_run || 'false' }}
+          FORCE_POST: ${{ github.event.inputs.force_post || 'false' }}
+      - name: Commit updated state
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: 'data/seen_results.json data/pending_tracking.json'
+          message: 'chore: update results and tracking queue'
