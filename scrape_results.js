@@ -192,6 +192,24 @@ const formatLink = (text, url) => {
   return text;
 };
 
+function chunkLines(header, lines, maxLen = 1800) {
+  const chunks = [];
+  let buf = [];
+  let len = header.length + 1;
+  for (const ln of lines) {
+    if (len + ln.length + 1 > maxLen) {
+      chunks.push(`${header}\n${buf.join('\n')}`);
+      buf = [ln];
+      len = header.length + 1 + ln.length + 1;
+    } else {
+      buf.push(ln);
+      len += ln.length + 1;
+    }
+  }
+  if (buf.length) chunks.push(`${header}\n${buf.join('\n')}`);
+  return chunks;
+}
+
 (async () => {
   const seen = await loadSeen();
   const results = await scrapeResults();
@@ -221,17 +239,19 @@ const formatLink = (text, url) => {
     r => `• ${formatLink(r.horse, r.horseUrl)} - Place: ${r.place} - ${r.distance} - ${r.cat || '-'} - ${r.hippodrome} - ${formatLink(r.date, r.raceUrl)}`
   );
 
-  const content = `🏁 **NOUVEAUX RÉSULTATS — ${today}**\n${lines.join('\n')}`;
+  const chunks = chunkLines(`🏁 **NOUVEAUX RÉSULTATS — ${today}**`, lines);
 
-  const res = await fetch(WEBHOOK, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ content, allowed_mentions: { parse: [] } }),
-  });
+  for (const content of chunks) {
+    const res = await fetch(WEBHOOK, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ content, allowed_mentions: { parse: [] } }),
+    });
 
-  if (!res.ok) {
-    console.error('Discord webhook failed', await res.text());
-    process.exit(2);
+    if (!res.ok) {
+      console.error('Discord webhook failed', await res.text());
+      process.exit(2);
+    }
   }
 
   // Add new results to pending tracking queue
