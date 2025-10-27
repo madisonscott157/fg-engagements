@@ -7,6 +7,7 @@ const path = require('path');
 const TRAINER_URL = process.env.TRAINER_URL;
 const WEBHOOK = process.env.DISCORD_WEBHOOK_URL;
 const MANUAL_RUN = process.env.MANUAL_RUN === 'true';
+const FORCE_POST = process.env.FORCE_POST === 'true';
 
 if (!TRAINER_URL || !WEBHOOK) {
   console.error('Missing TRAINER_URL or DISCORD_WEBHOOK_URL');
@@ -15,6 +16,10 @@ if (!TRAINER_URL || !WEBHOOK) {
 
 if (MANUAL_RUN) {
   console.log('🔧 MANUAL RUN - bypassing schedule checks');
+}
+
+if (FORCE_POST) {
+  console.log('🔧 FORCE POST - will post all current engagements for testing');
 }
 
 const STORE_DIR = 'data';
@@ -175,7 +180,12 @@ function chunkLines(header, lines, maxLen = 1800) {
   for (const r of unique) {
     const k = keyify(r);
     const prev = seen.get(k);
-    if (!prev) {
+    
+    // If FORCE_POST, treat everything as new for display purposes
+    if (FORCE_POST) {
+      newRows.push(r);
+      seen.set(k, { statut: r.statut, last: Date.now() });
+    } else if (!prev) {
       newRows.push(r);
       seen.set(k, { statut: r.statut, last: Date.now() });
     } else if (prev.statut !== r.statut) {
