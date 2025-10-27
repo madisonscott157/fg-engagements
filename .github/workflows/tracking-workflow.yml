@@ -1,8 +1,8 @@
 name: Check tracking reports
 on:
   schedule:
-    # Run every 10 minutes between 10:00-20:50 UTC to check for tracking reports
-    - cron: "*/10 10-20 * * *"
+    # Run every 3 minutes between 10:00-20:57 UTC to check for tracking reports
+    - cron: "*/3 10-20 * * *"
   workflow_dispatch:
 jobs:
   run:
