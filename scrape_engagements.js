@@ -88,61 +88,21 @@ async function scrape() {
 
   await page.waitForTimeout(1500);
 
-  // Find the Engagements section first
-  const engagementsSection = page.locator('section:has-text("Engagements"), div:has-text("Engagements")').first();
-  
-  // Click "Plus" button repeatedly ONLY within the Engagements section
-  let clickedPlus = false;
-  let previousRowCount = 0;
-  
-  for (let i = 0; i < 20; i++) { // max 20 clicks to avoid infinite loop
-    // Count current rows in the Engagements table
-    const engagementsTable = engagementsSection.locator('table').first();
-    const currentRowCount = await engagementsTable.locator('tbody tr, tr').count();
-    
-    // If row count didn't change from last click, stop (no more data to load)
-    if (i > 0 && currentRowCount === previousRowCount) {
-      console.log(`Row count unchanged (${currentRowCount} rows) - stopping`);
-      break;
-    }
-    
-    previousRowCount = currentRowCount;
-    
-    // Look for Plus button ONLY within Engagements section
-    const plusButton = engagementsSection.locator('button:has-text("Plus"), button:has-text("plus"), a:has-text("Plus"), a:has-text("plus")').first();
-    
-    if (await plusButton.count() && await plusButton.isVisible().catch(() => false)) {
-      console.log(`Clicking Engagements "Plus" button (attempt ${i + 1}, currently ${currentRowCount} rows)...`);
-      await plusButton.click().catch(() => {});
-      clickedPlus = true;
-      await page.waitForTimeout(2000); // wait 2 seconds for new rows to load
-    } else {
-      if (clickedPlus) {
-        console.log(`No more "Plus" button in Engagements section - all loaded (${currentRowCount} rows)`);
-      }
-      break;
-    }
-  }
-
-  // Extra wait to ensure all content is fully rendered
-  if (clickedPlus) {
-    await page.waitForTimeout(2000);
-    console.log('Waiting for all content to fully render...');
-  }
-
-  // Find the Engagements table (header with Cheval + Statut)
+  // Find the Engagements table (header with Cheval + Statut) FIRST
   const allTables = page.locator('table');
   const tableCount = await allTables.count();
   console.log(`Found ${tableCount} tables on page, searching for Engagements table...`);
   
   let table = null;
+  let tableIndex = -1;
   for (let i = 0; i < tableCount; i++) {
     const t = allTables.nth(i);
     const header = norm(await t.locator('thead, tr').first().innerText().catch(()=>'')); 
     console.log(`Table ${i}: header contains "${header.substring(0, 50)}..."`);
     if (/Cheval/i.test(header) && /Statut/i.test(header)) { 
       table = t; 
-      console.log(`✓ Using Table ${i} as Engagements table`);
+      tableIndex = i;
+      console.log(`✓ Found Engagements table at index ${i}`);
       break; 
     }
   }
@@ -160,6 +120,43 @@ async function scrape() {
     console.log('No Engagements table found.');
     await browser.close();
     return [];
+  }
+
+  // NOW click Plus button, counting rows in the CORRECT table
+  let clickedPlus = false;
+  let previousRowCount = 0;
+  
+  for (let i = 0; i < 20; i++) {
+    // Count rows in the Engagements table we just found
+    const currentRowCount = await table.locator('tbody tr, tr').count();
+    
+    if (i > 0 && currentRowCount === previousRowCount) {
+      console.log(`Row count unchanged (${currentRowCount} rows in Engagements table) - stopping`);
+      break;
+    }
+    
+    previousRowCount = currentRowCount;
+    
+    // Find Plus button near the Engagements table
+    const tableParent = table.locator('xpath=ancestor::*[self::section or self::div][1]');
+    const plusButton = tableParent.locator('button:has-text("Plus"), button:has-text("plus"), a:has-text("Plus"), a:has-text("plus")').first();
+    
+    if (await plusButton.count() && await plusButton.isVisible().catch(() => false)) {
+      console.log(`Clicking Engagements "Plus" (attempt ${i + 1}, currently ${currentRowCount} rows)...`);
+      await plusButton.click().catch(() => {});
+      clickedPlus = true;
+      await page.waitForTimeout(2000);
+    } else {
+      if (clickedPlus) {
+        console.log(`No more Plus button - done (${currentRowCount} rows)`);
+      }
+      break;
+    }
+  }
+
+  if (clickedPlus) {
+    await page.waitForTimeout(2000);
+    console.log('Waiting for content to render...');
   }
 
   // Map header indices
