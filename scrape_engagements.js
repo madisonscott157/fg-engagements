@@ -88,6 +88,27 @@ async function scrape() {
 
   await page.waitForTimeout(1500);
 
+  // Click "Plus" button repeatedly to load all engagements
+  let clickedPlus = false;
+  for (let i = 0; i < 20; i++) { // max 20 clicks to avoid infinite loop
+    const plusButton = page.locator('button:has-text("Plus"), button:has-text("plus"), a:has-text("Plus"), a:has-text("plus")');
+    const count = await plusButton.count();
+    
+    if (count > 0 && await plusButton.first().isVisible().catch(() => false)) {
+      console.log(`Clicking "Plus" button (attempt ${i + 1})...`);
+      await plusButton.first().click().catch(() => {});
+      clickedPlus = true;
+      await page.waitForTimeout(1000); // wait for new rows to load
+    } else {
+      if (clickedPlus) {
+        console.log('No more "Plus" button - all engagements loaded');
+      }
+      break;
+    }
+  }
+
+  await page.waitForTimeout(500);
+
   // Find the Engagements table (header with Cheval + Statut)
   const allTables = page.locator('table');
   let table = null;
