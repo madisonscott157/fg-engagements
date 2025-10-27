@@ -167,10 +167,15 @@ async function scrape() {
   // Read rows
   const rows = table.locator('tbody tr');
   const out = [];
+  let skippedCount = 0;
+  
   for (let r = 0; r < await rows.count(); r++) {
     const row = rows.nth(r);
     const tds = await row.locator('td').allInnerTexts();
-    if (!tds.length) continue;
+    if (!tds.length) {
+      skippedCount++;
+      continue;
+    }
     
     // Extract links for horse name and race name
     let horseUrl = '';
@@ -210,8 +215,15 @@ async function scrape() {
       dist: cell(tds, idx.dist),
       owner: cell(tds, idx.owner),
     };
-    if (rec.horse && rec.date && (rec.race || rec.track)) out.push(rec);
+    
+    if (rec.horse && rec.date && (rec.race || rec.track)) {
+      out.push(rec);
+    } else {
+      skippedCount++;
+    }
   }
+  
+  console.log(`Scraped ${out.length} valid engagements (skipped ${skippedCount} invalid/empty rows)`);
 
   await browser.close();
   return out;
