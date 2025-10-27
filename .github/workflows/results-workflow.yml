@@ -1,8 +1,10 @@
 name: FG results → Discord
 on:
   schedule:
-    # Run every 5 minutes between 10:00-19:55 UTC (11:00-20:55 Paris winter / 12:00-21:55 summer)
-    - cron: "*/5 10-19 * * *"
+    # Every 5 min from 11:00-17:55 UTC (12:00-18:55 Paris winter / 13:00-19:55 summer)
+    - cron: "*/5 11-17 * * *"
+    # Final check at 19:15 UTC (8:15pm Paris winter / 9:15pm summer)
+    - cron: "15 19 * * *"
   workflow_dispatch:
     inputs:
       manual_run:
