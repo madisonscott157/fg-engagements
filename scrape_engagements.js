@@ -90,24 +90,41 @@ async function scrape() {
 
   // Click "Plus" button repeatedly to load all engagements
   let clickedPlus = false;
+  let previousRowCount = 0;
+  
   for (let i = 0; i < 20; i++) { // max 20 clicks to avoid infinite loop
+    // Count current rows before clicking
+    const currentRowCount = await page.locator('table tbody tr').count();
+    
+    // If row count didn't change from last click, stop (no more data to load)
+    if (i > 0 && currentRowCount === previousRowCount) {
+      console.log(`Row count unchanged (${currentRowCount} rows) - stopping`);
+      break;
+    }
+    
+    previousRowCount = currentRowCount;
+    
     const plusButton = page.locator('button:has-text("Plus"), button:has-text("plus"), a:has-text("Plus"), a:has-text("plus")');
     const count = await plusButton.count();
     
     if (count > 0 && await plusButton.first().isVisible().catch(() => false)) {
-      console.log(`Clicking "Plus" button (attempt ${i + 1})...`);
+      console.log(`Clicking "Plus" button (attempt ${i + 1}, currently ${currentRowCount} rows)...`);
       await plusButton.first().click().catch(() => {});
       clickedPlus = true;
-      await page.waitForTimeout(1000); // wait for new rows to load
+      await page.waitForTimeout(2000); // wait 2 seconds for new rows to load
     } else {
       if (clickedPlus) {
-        console.log('No more "Plus" button - all engagements loaded');
+        console.log(`No more "Plus" button - all engagements loaded (${currentRowCount} rows)`);
       }
       break;
     }
   }
 
-  await page.waitForTimeout(500);
+  // Extra wait to ensure all content is fully rendered
+  if (clickedPlus) {
+    await page.waitForTimeout(2000);
+    console.log('Waiting for all content to fully render...');
+  }
 
   // Find the Engagements table (header with Cheval + Statut)
   const allTables = page.locator('table');
