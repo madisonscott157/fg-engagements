@@ -92,10 +92,21 @@ async function scrapeResults() {
   const tableCount = await allTables.count();
   console.log(`Found ${tableCount} tables, searching for Dernières courses...`);
 
+  // If no tables, check what's on the page
+  if (tableCount === 0) {
+    const bodyText = await page.locator('body').innerText().catch(() => '');
+    console.log('Page body text (first 500 chars):', bodyText.substring(0, 500));
+    
+    // Check for sections
+    const sections = await page.locator('section, div[class*="result"], div[class*="course"]').count();
+    console.log(`Found ${sections} sections/result divs`);
+  }
+
   let table = null;
   for (let i = 0; i < tableCount; i++) {
     const t = allTables.nth(i);
     const header = norm(await t.locator('thead, tr').first().innerText().catch(() => ''));
+    console.log(`Table ${i}: "${header.substring(0, 80)}"`);
     if (/Date/i.test(header) && /Place/i.test(header) && /Cheval/i.test(header)) {
       console.log(`✓ Found results table at index ${i}`);
       table = t;
@@ -254,9 +265,11 @@ function chunkLines(header, lines, maxLen = 1800) {
     }
   }
 
-  // Add new results to pending tracking queue
+  // Add new results to pending tracking queue (only if not already there)
+  const existingRaceUrls = new Set(pending.map(p => p.raceUrl));
+  
   for (const r of newResults) {
-    if (r.raceUrl) {
+    if (r.raceUrl && !existingRaceUrls.has(r.raceUrl)) {
       pending.push({
         horse: r.horse,
         date: r.date,
