@@ -295,12 +295,13 @@ function chunkLines(header, lines, maxLen = 1800) {
     }
   }
 
-  // Find all DP-P (declared participants) from unique rows
-  // Match DP-P even if followed by /number or other suffixes
-  const declaredParticipants = unique.filter(r => /^DP-P/i.test(r.statut));
+  // Find DP-P horses that are either NEW or just changed TO DP-P status
+  const newDPP = newRows.filter(r => /^DP-P/i.test(r.statut));
+  const changedToDPP = changedRows.filter(r => /^DP-P/i.test(r.statut));
+  const declaredParticipants = [...newDPP, ...changedToDPP];
   
-  if (newRows.length === 0 && changedRows.length === 0 && declaredParticipants.length === 0) {
-    console.log('No new/changed engagements and no declared participants — nothing to post.');
+  if (newRows.length === 0 && changedRows.length === 0) {
+    console.log('No new/changed engagements — nothing to post.');
     await saveSeen(seen);
     process.exit(0);
   }
