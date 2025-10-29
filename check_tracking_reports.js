@@ -134,7 +134,7 @@ async function checkForTracking(raceUrl) {
 
   // Post tracking reports to Discord
   for (const r of found) {
-    const content = `📊 **RAPPORT DE TRACKING DISPONIBLE**\n• **Cheval:** ${r.horse}\n• **Course:** ${r.date} - ${r.hippodrome}\n• **Lien course:** ${r.raceUrl}\n• **📄 Tracking Report:** ${r.trackingUrl}`;
+    const content = `📊 **RAPPORT DE TRACKING DISPONIBLE**\n• **Cheval:** ${r.horse}\n• **Course:** [${r.date} - ${r.hippodrome}](${r.raceUrl})\n• [**📄 Tracking Report**](${r.trackingUrl})`;
 
     const res = await fetch(WEBHOOK, {
       method: 'POST',
