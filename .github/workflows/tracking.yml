@@ -22,5 +22,5 @@ jobs:
       - name: Commit updated queue
         uses: EndBug/add-and-commit@v9
         with:
-          add: 'data/pending_tracking.json'
+          add: 'data/pending_tracking.json data/posted_tracking.json'
           message: 'chore: update tracking queue'
