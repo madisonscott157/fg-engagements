@@ -13,6 +13,7 @@ if (!WEBHOOK) {
 
 const STORE_DIR = 'data';
 const PENDING_FILE = path.join(STORE_DIR, 'pending_tracking.json');
+const POSTED_FILE = path.join(STORE_DIR, 'posted_tracking.json');
 
 async function loadPendingTracking() {
   try {
@@ -25,6 +26,20 @@ async function loadPendingTracking() {
 
 async function savePendingTracking(arr) {
   await fs.writeFile(PENDING_FILE, JSON.stringify(arr, null, 2), 'utf8');
+}
+
+async function loadPostedTracking() {
+  try {
+    const txt = await fs.readFile(POSTED_FILE, 'utf8');
+    return new Set(JSON.parse(txt));
+  } catch {
+    return new Set();
+  }
+}
+
+async function savePostedTracking(set) {
+  const arr = Array.from(set).slice(-500); // keep last 500
+  await fs.writeFile(POSTED_FILE, JSON.stringify(arr, null, 2), 'utf8');
 }
 
 async function checkForTracking(raceUrl) {
@@ -75,6 +90,7 @@ async function checkForTracking(raceUrl) {
 
 (async () => {
   let pending = await loadPendingTracking();
+  const posted = await loadPostedTracking();
   
   if (pending.length === 0) {
     console.log('No pending tracking reports to check');
@@ -91,6 +107,12 @@ async function checkForTracking(raceUrl) {
   for (const race of pending) {
     const age = now - race.addedAt;
     
+    // If already posted, skip
+    if (posted.has(race.raceUrl)) {
+      console.log(`⏭️  ${race.horse} (${race.date}) - already posted, removing from queue`);
+      continue;
+    }
+    
     // If older than 60 minutes, stop checking
     if (age > ONE_HOUR) {
       console.log(`⏱️  ${race.horse} (${race.date}) - exceeded 60min, removing from queue`);
@@ -103,6 +125,7 @@ async function checkForTracking(raceUrl) {
     if (trackingUrl) {
       console.log(`✅ Found tracking report for ${race.horse}!`);
       found.push({ ...race, trackingUrl });
+      posted.add(race.raceUrl); // Mark as posted
     } else {
       console.log(`⏳ No tracking yet for ${race.horse} (age: ${Math.round(age / 60000)}min)`);
       stillPending.push(race);
@@ -124,8 +147,9 @@ async function checkForTracking(raceUrl) {
     }
   }
 
-  // Save updated pending list
+  // Save updated pending list and posted list
   await savePendingTracking(stillPending);
+  await savePostedTracking(posted);
 
   console.log(`✅ Posted ${found.length} tracking reports, ${stillPending.length} still pending`);
 })();
