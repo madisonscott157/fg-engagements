@@ -262,6 +262,15 @@ async function checkAndSendAlerts() {
       continue;
     }
 
+    // CRITICAL: Only alert for races happening TODAY
+    const raceDate = parseRaceDate(race.date);
+    const today = new Date(parisTime.date);
+    
+    if (!raceDate || raceDate.toDateString() !== today.toDateString()) {
+      // Race is not today, skip it
+      continue;
+    }
+
     const postTime = race.postTime;
     
     // Calculate alert time (10 min before)
