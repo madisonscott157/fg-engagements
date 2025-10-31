@@ -263,10 +263,19 @@ async function checkAndSendAlerts() {
     }
 
     // CRITICAL: Only alert for races happening TODAY
-    const raceDate = parseRaceDate(race.date);
-    const today = new Date(parisTime.date);
+    // Compare date strings directly to avoid timezone issues
+    const raceDateMatch = race.date.match(/(\d{2})\/(\d{2})\/(\d{4})/);
+    if (!raceDateMatch) {
+      console.log(`  ⚠️  ${race.horse}: Invalid date format "${race.date}", skipping`);
+      continue;
+    }
     
-    if (!raceDate || raceDate.toDateString() !== today.toDateString()) {
+    const [, raceDay, raceMonth, raceYear] = raceDateMatch;
+    const todayParts = parisTime.date.split('-'); // "2025-10-31" -> ["2025", "10", "31"]
+    const [todayYear, todayMonth, todayDay] = todayParts;
+    
+    // Compare: year, month, day (all as strings with zero padding)
+    if (raceYear !== todayYear || raceMonth !== todayMonth || raceDay !== todayDay) {
       // Race is not today, skip it
       continue;
     }
