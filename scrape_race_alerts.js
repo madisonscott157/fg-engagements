@@ -16,11 +16,7 @@ const ALERTS_FILE = path.join(STORE_DIR, 'sent_alerts.json');
 const RACES_FILE = path.join(STORE_DIR, 'stored_races.json');
 const DPP_FILE = path.join(STORE_DIR, 'dpp_races.json');
 
-// Update windows: 10:40-10:50 AM and 12:40-12:50 PM (after engagements runs)
-const UPDATE_WINDOWS = [
-  { startHour: 10, startMin: 40, endHour: 10, endMin: 50 },
-  { startHour: 12, startMin: 40, endHour: 12, endMin: 50 },
-];
+// No longer using time-based windows - we check if dpp_races.json was recently updated instead
 
 const norm = (s) =>
   (s ?? '')
@@ -82,19 +78,25 @@ function getParisTime() {
   };
 }
 
-function isInUpdateWindow(parisTime) {
-  const currentMinutes = parisTime.hour * 60 + parisTime.minute;
-  
-  for (const window of UPDATE_WINDOWS) {
-    const startMinutes = window.startHour * 60 + window.startMin;
-    const endMinutes = window.endHour * 60 + window.endMin;
+async function shouldUpdateRaceData() {
+  // Check if dpp_races.json was modified in the last 30 minutes
+  // If yes, it means engagements scraper just ran, so we should update
+  try {
+    const stats = await fs.stat(DPP_FILE);
+    const fileAge = Date.now() - stats.mtimeMs;
+    const thirtyMinutes = 30 * 60 * 1000;
     
-    if (currentMinutes >= startMinutes && currentMinutes <= endMinutes) {
+    if (fileAge < thirtyMinutes) {
+      console.log(`📋 dpp_races.json was updated ${Math.round(fileAge / 1000 / 60)} minutes ago - will update race data`);
       return true;
+    } else {
+      console.log(`📋 dpp_races.json is ${Math.round(fileAge / 1000 / 60)} minutes old - will use stored data`);
+      return false;
     }
+  } catch (err) {
+    console.log('📋 dpp_races.json not found - will use stored data');
+    return false;
   }
-  
-  return false;
 }
 
 function parseRaceDate(dateStr) {
@@ -313,22 +315,21 @@ async function checkAndSendAlerts() {
 
 (async () => {
   const parisTime = getParisTime();
-  console.log(`\n⏰ Current Paris time: ${parisTime.formatted} on ${parisTime.date}`);
+  console.log(`\n⏰ Current Paris time: ${parisTime.formatted} on ${parisTime.date}\n`);
   
-  const inUpdateWindow = isInUpdateWindow(parisTime);
+  const shouldUpdate = await shouldUpdateRaceData();
   
-  if (inUpdateWindow) {
-    // UPDATE MODE: Read DPP data and fetch post times
-    console.log('📍 In update window - will fetch post times from France Galop\n');
+  if (shouldUpdate) {
+    // UPDATE MODE: dpp_races.json was recently updated by engagements scraper
+    console.log('🔄 UPDATE MODE: Engagements data is fresh - fetching post times\n');
     await updateRaceData();
     
-    // IMPORTANT: Also check for alerts immediately after updating
-    // (races can happen during update windows!)
-    console.log('\n📍 Now checking for alerts...\n');
+    // Also check for alerts immediately after updating
+    console.log('\n⏰ Now checking for alerts...\n');
     await checkAndSendAlerts();
   } else {
     // ALERT MODE: Just check stored races and send alerts
-    console.log('📍 Not in update window - using stored data\n');
+    console.log('⏰ ALERT MODE: Using stored race data\n');
     await checkAndSendAlerts();
   }
   
