@@ -300,7 +300,13 @@ async function checkAndSendAlerts() {
       
       console.log(`🚨 SENDING ALERT for ${race.horse} - Race at ${postTime.formatted} (${minutesUntilRace} min)`);
 
-      const content = `🚨 **ALERTE COURSE**\n⏰ **Départ:** ${postTime.formatted}\n\n🐇 **${race.horse}**\n📍 **Hippodrome:** ${race.track}\n🏆 **Course:** ${race.race}\n🔗 [**Voir la course**](${race.raceUrl})`;
+      // Format race name with category if available
+      const raceDisplay = race.cat ? `${race.race} (${race.cat})` : race.race;
+      
+      // Format distance if available (e.g., "1.400" -> "1400m")
+      const distDisplay = race.dist ? ` — ${race.dist.replace('.', '')}m` : '';
+      
+      const content = `🚨 **ALERTE COURSE**\n⏰ **Départ:** ${postTime.formatted}\n\n🏇 **${race.horse}**\n📍 **Hippodrome:** ${race.track}\n🏆 **Course:** ${raceDisplay}${distDisplay}\n🔗 [**Voir la course**](${race.raceUrl})`;
 
       try {
         const res = await fetch(WEBHOOK, {
