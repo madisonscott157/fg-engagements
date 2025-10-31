@@ -1,0 +1,27 @@
+name: Race alerts
+on:
+  schedule:
+    # Run every 5 minutes all day (to catch races at any time)
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm i playwright@1.47.2
+      - run: npx playwright install --with-deps chromium
+      - run: node scrape_race_alerts.js
+        env:
+          TRAINER_URL: ${{ secrets.TRAINER_URL }}
+          DISCORD_WEBHOOK_RACE_ALERTS: ${{ secrets.DISCORD_WEBHOOK_RACE_ALERTS }}
+      - name: Commit sent alerts
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: 'data/sent_alerts.json'
+          message: 'chore: update sent race alerts'
