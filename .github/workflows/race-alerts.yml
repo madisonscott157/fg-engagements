@@ -20,8 +20,8 @@ jobs:
         env:
           TRAINER_URL: ${{ secrets.TRAINER_URL }}
           DISCORD_WEBHOOK_RACE_ALERTS: ${{ secrets.DISCORD_WEBHOOK_RACE_ALERTS }}
-      - name: Commit sent alerts
+      - name: Commit race data
         uses: EndBug/add-and-commit@v9
         with:
-          add: 'data/sent_alerts.json'
-          message: 'chore: update sent race alerts'
+          add: 'data/*.json'
+          message: 'chore: update race alerts data'
