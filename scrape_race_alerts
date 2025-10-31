@@ -1,0 +1,286 @@
+// Node 18+ / 20+; CommonJS. ENV: TRAINER_URL, DISCORD_WEBHOOK_RACE_ALERTS
+
+const { chromium } = require('playwright');
+const fs = require('fs/promises');
+const path = require('path');
+
+const TRAINER_URL = process.env.TRAINER_URL || 'https://www.france-galop.com/fr/entraineur/dFgvcEtNNFExSVplTEJTTG0wU1NWQT09';
+const WEBHOOK = process.env.DISCORD_WEBHOOK_RACE_ALERTS;
+
+if (!WEBHOOK) {
+  console.error('Missing DISCORD_WEBHOOK_RACE_ALERTS');
+  process.exit(1);
+}
+
+const STORE_DIR = 'data';
+const ALERTS_FILE = path.join(STORE_DIR, 'sent_alerts.json');
+
+const norm = (s) =>
+  (s ?? '')
+    .replace(/\s+/g, ' ')
+    .replace(/[']/g, "'")
+    .trim();
+
+async function loadSentAlerts() {
+  try {
+    const txt = await fs.readFile(ALERTS_FILE, 'utf8');
+    return new Set(JSON.parse(txt));
+  } catch {
+    await fs.mkdir(STORE_DIR, { recursive: true });
+    return new Set();
+  }
+}
+
+async function saveSentAlerts(set) {
+  const arr = Array.from(set).slice(-200); // keep last 200
+  await fs.writeFile(ALERTS_FILE, JSON.stringify(arr, null, 2), 'utf8');
+}
+
+// Get current time in Paris timezone
+function getParisTime() {
+  const now = new Date();
+  const parisTime = new Intl.DateTimeFormat('en-GB', {
+    timeZone: 'Europe/Paris',
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+    hour: '2-digit',
+    minute: '2-digit',
+    hour12: false,
+  }).formatToParts(now);
+
+  const parts = {};
+  parisTime.forEach(p => { parts[p.type] = p.value; });
+  
+  return {
+    date: `${parts.year}-${parts.month}-${parts.day}`,
+    hour: parseInt(parts.hour),
+    minute: parseInt(parts.minute),
+    formatted: `${parts.hour}:${parts.minute}`,
+  };
+}
+
+async function getUpcomingRaces() {
+  const browser = await chromium.launch({ headless: true });
+  const ctx = await browser.newContext({
+    userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/120 Safari/537.36',
+  });
+  const page = await ctx.newPage();
+  page.setDefaultTimeout(45000);
+
+  await page.goto(TRAINER_URL, { waitUntil: 'domcontentloaded' });
+
+  // Accept cookies
+  for (const sel of [
+    'button:has-text("Tout accepter")',
+    'button:has-text("Accepter tout")',
+    'button:has-text("Accept all")',
+  ]) {
+    const b = page.locator(sel);
+    if (await b.count()) { await b.first().click().catch(() => {}); break; }
+  }
+
+  await page.waitForTimeout(1500);
+
+  // Click Engagements tab
+  const tab = page.locator('text=Engagements');
+  if (await tab.count()) await tab.first().click().catch(() => {});
+  await page.waitForTimeout(1500);
+
+  // Find engagements table and click Plus button
+  const allTables = page.locator('table');
+  let table = null;
+  for (let i = 0; i < await allTables.count(); i++) {
+    const t = allTables.nth(i);
+    const header = norm(await t.locator('thead, tr').first().innerText().catch(() => ''));
+    if (/Cheval/i.test(header) && /Statut/i.test(header)) {
+      table = t;
+      break;
+    }
+  }
+
+  if (!table) {
+    console.log('No engagements table found');
+    await browser.close();
+    return [];
+  }
+
+  // Click Plus button to load all rows
+  for (let i = 0; i < 10; i++) {
+    const tableParent = table.locator('xpath=ancestor::*[self::section or self::div][1]');
+    const plusButton = tableParent.locator('button:has-text("Plus"), button:has-text("plus")').first();
+    
+    if (await plusButton.count() && await plusButton.isVisible().catch(() => false)) {
+      await plusButton.click().catch(() => {});
+      await page.waitForTimeout(1500);
+    } else {
+      break;
+    }
+  }
+
+  // Get DP-P horses (declared participants)
+  const headerCells = await table.locator('thead tr th, tr:first-child th').allInnerTexts();
+  const headers = headerCells.map(norm);
+  const idx = {
+    horse: headers.findIndex(h => /^Cheval/i.test(h)),
+    statut: headers.findIndex(h => /^Statut/i.test(h)),
+    date: headers.findIndex(h => /^Date/i.test(h)),
+    track: headers.findIndex(h => /^Hippodrome/i.test(h)),
+    race: headers.findIndex(h => /^Prix/i.test(h)),
+  };
+
+  const cell = (tds, i) => (i >= 0 && i < tds.length ? norm(tds[i]) : '');
+  const rows = table.locator('tbody tr, tr').filter({ hasNot: page.locator('th') });
+  const upcomingRaces = [];
+
+  for (let r = 0; r < await rows.count(); r++) {
+    const row = rows.nth(r);
+    const tds = await row.locator('td').allInnerTexts();
+    if (!tds.length) continue;
+
+    const statut = cell(tds, idx.statut);
+    if (!/^DP-P/i.test(statut)) continue; // Only DP-P horses
+
+    // Get race URL from date column
+    let raceUrl = '';
+    if (idx.date >= 0) {
+      const dateLink = row.locator('td').nth(idx.date).locator('a').first();
+      if (await dateLink.count()) {
+        const href = await dateLink.getAttribute('href');
+        if (href) {
+          raceUrl = href.startsWith('http') ? href : `https://www.france-galop.com${href}`;
+        }
+      }
+    }
+
+    if (raceUrl) {
+      upcomingRaces.push({
+        horse: cell(tds, idx.horse),
+        date: cell(tds, idx.date),
+        track: cell(tds, idx.track),
+        race: cell(tds, idx.race),
+        raceUrl: raceUrl,
+      });
+    }
+  }
+
+  await browser.close();
+  console.log(`Found ${upcomingRaces.length} upcoming races with DP-P horses`);
+  return upcomingRaces;
+}
+
+async function getPostTime(raceUrl) {
+  const browser = await chromium.launch({ headless: true });
+  const ctx = await browser.newContext({
+    userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/120 Safari/537.36',
+  });
+  const page = await ctx.newPage();
+  page.setDefaultTimeout(30000);
+
+  try {
+    await page.goto(raceUrl, { waitUntil: 'domcontentloaded' });
+    await page.waitForTimeout(1500);
+
+    // Look for post time - usually near top, format like "15h58" or "15:58"
+    const bodyText = await page.locator('body').innerText();
+    
+    // Match patterns like "15h58", "15:58", "Départ : 15h58"
+    const timeMatch = bodyText.match(/(?:Départ|Post|Heure)?\s*:?\s*(\d{1,2})[h:](\d{2})/i);
+    
+    if (timeMatch) {
+      const hour = parseInt(timeMatch[1]);
+      const minute = parseInt(timeMatch[2]);
+      await browser.close();
+      return { hour, minute, formatted: `${hour}h${minute.toString().padStart(2, '0')}` };
+    }
+
+    await browser.close();
+    return null;
+  } catch (err) {
+    console.error(`Error fetching post time from ${raceUrl}:`, err.message);
+    await browser.close();
+    return null;
+  }
+}
+
+(async () => {
+  const sentAlerts = await loadSentAlerts();
+  const parisTime = getParisTime();
+  
+  console.log(`Current Paris time: ${parisTime.formatted} on ${parisTime.date}`);
+
+  // Get upcoming races
+  const races = await getUpcomingRaces();
+  
+  if (races.length === 0) {
+    console.log('No upcoming races to check');
+    process.exit(0);
+  }
+
+  const alertsSent = [];
+
+  // Check each race
+  for (const race of races) {
+    const alertKey = `${race.raceUrl}`;
+    
+    // Skip if already sent
+    if (sentAlerts.has(alertKey)) {
+      console.log(`Already sent alert for ${race.horse}`);
+      continue;
+    }
+
+    console.log(`Checking post time for ${race.horse}...`);
+    const postTime = await getPostTime(race.raceUrl);
+
+    if (!postTime) {
+      console.log(`Could not find post time for ${race.horse}`);
+      continue;
+    }
+
+    console.log(`${race.horse} post time: ${postTime.formatted}`);
+
+    // Calculate alert time (10 min before)
+    const alertHour = postTime.hour;
+    let alertMinute = postTime.minute - 10;
+    if (alertMinute < 0) {
+      alertMinute += 60;
+    }
+
+    // Check if current time is within alert window (alert time to race time)
+    const currentMinutes = parisTime.hour * 60 + parisTime.minute;
+    const alertMinutes = alertHour * 60 + alertMinute;
+    const raceMinutes = postTime.hour * 60 + postTime.minute;
+
+    if (currentMinutes >= alertMinutes && currentMinutes < raceMinutes) {
+      // Calculate exact minutes until race
+      const minutesUntilRace = raceMinutes - currentMinutes;
+      
+      console.log(`🚨 SENDING ALERT for ${race.horse} - Race at ${postTime.formatted} (${minutesUntilRace} min)`);
+
+      const content = `🚨 **ALERTE COURSE**\n⏰ **Départ:** ${postTime.formatted}\n\n🏇 **${race.horse}**\n📍 **Hippodrome:** ${race.track}\n🏆 **Course:** ${race.race}\n🔗 [**Voir la course**](${race.raceUrl})`;
+
+      const res = await fetch(WEBHOOK, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ content, allowed_mentions: { parse: [] } }),
+      });
+
+      if (res.ok) {
+        sentAlerts.add(alertKey);
+        alertsSent.push(race.horse);
+      } else {
+        console.error('Discord webhook failed', await res.text());
+      }
+    } else {
+      console.log(`${race.horse}: Not yet time for alert (alert at ${alertHour}:${alertMinute.toString().padStart(2, '0')})`);
+    }
+  }
+
+  await saveSentAlerts(sentAlerts);
+
+  if (alertsSent.length > 0) {
+    console.log(`✅ Sent ${alertsSent.length} race alerts: ${alertsSent.join(', ')}`);
+  } else {
+    console.log('No alerts to send at this time');
+  }
+})();
