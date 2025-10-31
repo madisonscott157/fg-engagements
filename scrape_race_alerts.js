@@ -321,6 +321,11 @@ async function checkAndSendAlerts() {
     // UPDATE MODE: Read DPP data and fetch post times
     console.log('📍 In update window - will fetch post times from France Galop\n');
     await updateRaceData();
+    
+    // IMPORTANT: Also check for alerts immediately after updating
+    // (races can happen during update windows!)
+    console.log('\n📍 Now checking for alerts...\n');
+    await checkAndSendAlerts();
   } else {
     // ALERT MODE: Just check stored races and send alerts
     console.log('📍 Not in update window - using stored data\n');
