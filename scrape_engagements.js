@@ -73,6 +73,17 @@ async function saveLastRun(date) {
   await fs.writeFile(LAST_RUN_FILE, JSON.stringify({ date }, null, 2), 'utf8');
 }
 
+// NEW: Save all current DP-P races for race alerts system
+async function saveDPPRaces(races) {
+  const dppFile = path.join(STORE_DIR, 'dpp_races.json');
+  const timestamp = new Date().toISOString();
+  await fs.writeFile(dppFile, JSON.stringify({ 
+    lastUpdate: timestamp, 
+    races: races 
+  }, null, 2), 'utf8');
+  console.log(`💾 Saved ${races.length} DP-P races for race alerts system`);
+}
+
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 async function scrape() {
@@ -332,14 +343,16 @@ function chunkLines(header, lines, maxLen = 1800) {
     declaredParticipants = [...newDPP, ...changedToDPP];
   }
   
+  // NEW: Save ALL current DP-P races for race alerts system (regardless of whether we post them)
+  const allCurrentDPP = unique.filter(r => /^DP-P/i.test(r.statut));
+  await saveDPPRaces(allCurrentDPP);
+  
   if (newRows.length === 0 && changedRows.length === 0 && declaredParticipants.length === 0) {
     console.log('No new/changed engagements — nothing to post.');
     await saveSeen(seen);
     await saveLastRun(today);
     process.exit(0);
   }
-
-  const today = new Date().toISOString().slice(0, 10);
   
   // Format DP-P horses (running next)
   const linesDPP = declaredParticipants.map(
