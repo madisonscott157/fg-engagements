@@ -24,6 +24,7 @@ if (FORCE_POST) {
 
 const STORE_DIR = 'data';
 const STORE_FILE = path.join(STORE_DIR, 'seen.json');
+const LAST_RUN_FILE = path.join(STORE_DIR, 'last_run.json');
 
 const norm = (s) =>
   (s ?? '')
@@ -56,6 +57,20 @@ async function saveSeen(map) {
   const arr = Array.from(map.entries());
   const trimmed = arr.slice(-3000); // keep it small
   await fs.writeFile(STORE_FILE, JSON.stringify(trimmed, null, 2), 'utf8');
+}
+
+async function loadLastRun() {
+  try {
+    const txt = await fs.readFile(LAST_RUN_FILE, 'utf8');
+    const data = JSON.parse(txt);
+    return data.date;
+  } catch {
+    return null;
+  }
+}
+
+async function saveLastRun(date) {
+  await fs.writeFile(LAST_RUN_FILE, JSON.stringify({ date }, null, 2), 'utf8');
 }
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -261,6 +276,14 @@ function chunkLines(header, lines, maxLen = 1800) {
 
 (async () => {
   const seen = await loadSeen();
+  const lastRunDate = await loadLastRun();
+  const today = new Date().toISOString().slice(0, 10);
+  const isFirstRunToday = lastRunDate !== today;
+  
+  if (isFirstRunToday) {
+    console.log('✨ First run of the day - will post all PARTANTS');
+  }
+  
   const rows = await scrape();
 
   // In-run de-dupe by row key
@@ -295,14 +318,24 @@ function chunkLines(header, lines, maxLen = 1800) {
     }
   }
 
-  // Find DP-P horses that are either NEW or just changed TO DP-P status
-  const newDPP = newRows.filter(r => /^DP-P/i.test(r.statut));
-  const changedToDPP = changedRows.filter(r => /^DP-P/i.test(r.statut));
-  const declaredParticipants = [...newDPP, ...changedToDPP];
+  // Find DP-P horses
+  // First run of day: show ALL DP-P horses
+  // Subsequent runs: only show new or newly-changed-to-DP-P horses
+  let declaredParticipants = [];
+  if (isFirstRunToday) {
+    // First run: all DP-P horses
+    declaredParticipants = unique.filter(r => /^DP-P/i.test(r.statut));
+  } else {
+    // Subsequent runs: only new or just-changed-to DP-P
+    const newDPP = newRows.filter(r => /^DP-P/i.test(r.statut));
+    const changedToDPP = changedRows.filter(r => /^DP-P/i.test(r.statut));
+    declaredParticipants = [...newDPP, ...changedToDPP];
+  }
   
-  if (newRows.length === 0 && changedRows.length === 0) {
+  if (newRows.length === 0 && changedRows.length === 0 && declaredParticipants.length === 0) {
     console.log('No new/changed engagements — nothing to post.');
     await saveSeen(seen);
+    await saveLastRun(today);
     process.exit(0);
   }
 
@@ -353,5 +386,6 @@ function chunkLines(header, lines, maxLen = 1800) {
   }
 
   await saveSeen(seen);
+  await saveLastRun(today);
   console.log(`✅ Posted ${declaredParticipants.length} declared participants + ${newRows.length} new + ${changedRows.length} updated engagements`);
 })();
