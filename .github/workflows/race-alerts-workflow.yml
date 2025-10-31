@@ -18,7 +18,6 @@ jobs:
       - run: npx playwright install --with-deps chromium
       - run: node scrape_race_alerts.js
         env:
-          TRAINER_URL: ${{ secrets.TRAINER_URL }}
           DISCORD_WEBHOOK_RACE_ALERTS: ${{ secrets.DISCORD_WEBHOOK_RACE_ALERTS }}
       - name: Commit race data
         uses: EndBug/add-and-commit@v9
