@@ -1,25 +1,6 @@
 {
-  "lastUpdate": "2025-11-02T14:12:22.031Z",
+  "lastUpdate": "2025-11-02T14:29:50.795Z",
   "races": [
-    {
-      "horse": "DOS MUKASAN H.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/eWMxRU83WW9tMVltWGhHQWtVNysrQT09",
-      "statut": "DP-P/745",
-      "date": "02/11/2025",
-      "track": "DEAUVILLE",
-      "race": "IRISH RIVER",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2025/P/d20wWE0rbDFIYmJKQjZydi9wUWdpdz09",
-      "cat": "(L)",
-      "purse": "47.600",
-      "disc": "P",
-      "dist": "1.400",
-      "owner": "",
-      "postTime": {
-        "hour": 15,
-        "minute": 15,
-        "formatted": "15h15"
-      }
-    },
     {
       "horse": "NAKED MEMORIES H.PS. 3 a.",
       "horseUrl": "https://www.france-galop.com/fr/cheval/V2J6YVlSaVVDMnJBaG5mY3k4Wkl6QT09",
