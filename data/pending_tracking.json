@@ -5,5 +5,12 @@
     "raceUrl": "https://www.france-galop.com/fr/course/detail/2025/P/MDdZZjdGN2JZWUhPZ0U4YnhTd1JVQT09",
     "hippodrome": "DEAUVILLE",
     "addedAt": 1762091211120
+  },
+  {
+    "horse": "DOS MUKASAN",
+    "date": "02/11/2025",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2025/P/d20wWE0rbDFIYmJKQjZydi9wUWdpdz09",
+    "hippodrome": "DEAUVILLE",
+    "addedAt": 1762094592013
   }
 ]
