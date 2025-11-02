@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-11-02T13:17:36.227Z",
+  "lastUpdate": "2025-11-02T13:33:34.010Z",
   "races": [
     {
       "horse": "DOS MUKASAN H.PS. 3 a.",
@@ -37,25 +37,6 @@
         "hour": 17,
         "minute": 0,
         "formatted": "17h00"
-      }
-    },
-    {
-      "horse": "REAL NEWS M.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/eGwwdzhQeWNLaUtXZmM2anozVXUxQT09",
-      "statut": "DP-P/744",
-      "date": "02/11/2025",
-      "track": "DEAUVILLE",
-      "race": "ZEDDAAN",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2025/P/MDdZZjdGN2JZWUhPZ0U4YnhTd1JVQT09",
-      "cat": "(L)",
-      "purse": "54.900",
-      "disc": "P",
-      "dist": "1.400",
-      "owner": "",
-      "postTime": {
-        "hour": 14,
-        "minute": 33,
-        "formatted": "14h33"
       }
     }
   ]
