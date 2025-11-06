@@ -1,4 +1,43 @@
 {
-  "lastUpdate": "2025-11-06T09:43:10.490Z",
-  "races": []
+  "lastUpdate": "2025-11-06T09:51:46.783Z",
+  "races": [
+    {
+      "horse": "HOTTOT M.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/dzNvbmQ5bytFTzloOG9mOVZyR2NEdz09",
+      "statut": "DP-P/1176",
+      "date": "08/11/2025",
+      "track": "CHANTILLY",
+      "race": "DE TROISSY",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2025/P/MlRzSFlWY0VKTzRLVzF0RDdxTzc3QT09",
+      "cat": "(Classe 2)",
+      "purse": "31.100",
+      "disc": "P",
+      "dist": "1.600",
+      "owner": "",
+      "postTime": {
+        "hour": 11,
+        "minute": 53,
+        "formatted": "11h53"
+      }
+    },
+    {
+      "horse": "HOUBLON IRE M.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/SHY4UWpDKzYxM1BJb1h0QTBIdVVUUT09",
+      "statut": "DP-P/1146",
+      "date": "08/11/2025",
+      "track": "CHANTILLY",
+      "race": "CROIX MARQUET",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2025/P/WFdEekczV2FzcVl1NmF1SklkYTFNQT09",
+      "cat": "(Maiden)",
+      "purse": "27.400",
+      "disc": "P",
+      "dist": "1.600",
+      "owner": "",
+      "postTime": {
+        "hour": 13,
+        "minute": 3,
+        "formatted": "13h03"
+      }
+    }
+  ]
 }
