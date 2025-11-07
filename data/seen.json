@@ -108,56 +108,77 @@
     "el vegas (ire) m.ps. 2 a. | 08/11/2025 | chantilly | croix marquet | 1.600",
     {
       "statut": "NV-P/1146",
-      "last": 1762422407266
+      "last": 1762508689815
     }
   ],
   [
     "hottot m.ps. 2 a. | 08/11/2025 | chantilly | de troissy | 1.600",
     {
       "statut": "DP-P/1176",
-      "last": 1762422407266
+      "last": 1762508689815
     }
   ],
   [
     "houblon ire m.ps. 2 a. | 08/11/2025 | chantilly | croix marquet | 1.600",
     {
       "statut": "DP-P/1146",
-      "last": 1762422407266
+      "last": 1762508689815
     }
   ],
   [
     "real news m.ps. 2 a. | 09/11/2025 | saint-cloud | herod | 1.400",
     {
       "statut": "F1-P/746",
-      "last": 1762422407266
+      "last": 1762508689815
     }
   ],
   [
     "banker nine gb m.ps. 2 a. | 10/11/2025 | chantilly | fonds houchard | 1.800",
     {
-      "statut": "VA-P/1185",
-      "last": 1762422407266
+      "statut": "DP-P/1185",
+      "last": 1762508689815
     }
   ],
   [
     "el vegas (ire) m.ps. 2 a. | 11/11/2025 | toulouse | crit. languedoc | 1.600",
     {
       "statut": "VA-P/4942",
-      "last": 1762422407266
+      "last": 1762508689815
     }
   ],
   [
     "el vegas (ire) m.ps. 2 a. | 18/11/2025 | chantilly | thomas bryon | 1.800",
     {
       "statut": "VA-P/750",
-      "last": 1762422407266
+      "last": 1762508689815
     }
   ],
   [
     "keremet h.ps. 3 a. | 13/11/2025 | fontainebleau | lande bruyere | 1.200",
     {
       "statut": "VA-P/6600",
-      "last": 1762422407266
+      "last": 1762508689815
+    }
+  ],
+  [
+    "asylla f.ps. 2 a. ... (sup.) | 10/11/2025 | chantilly | voie du garde | 1.900",
+    {
+      "statut": "DP-P/1184(Sup.)",
+      "last": 1762508689815
+    }
+  ],
+  [
+    "keremet h.ps. 3 a. | 16/11/2025 | toulouse | j et a le maire | 1.200",
+    {
+      "statut": "-P/6373",
+      "last": 1762508689815
+    }
+  ],
+  [
+    "roi du ciel (ire) h.ps. 2 a. | 16/11/2025 | angers | g.de la celle | 2.000",
+    {
+      "statut": "-P/6327",
+      "last": 1762508689815
     }
   ]
 ]
