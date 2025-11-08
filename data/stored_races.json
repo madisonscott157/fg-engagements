@@ -1,25 +1,6 @@
 {
-  "lastUpdate": "2025-11-08T10:52:00.919Z",
+  "lastUpdate": "2025-11-08T10:58:31.696Z",
   "races": [
-    {
-      "horse": "HOTTOT M.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/dzNvbmQ5bytFTzloOG9mOVZyR2NEdz09",
-      "statut": "DP-P/1176",
-      "date": "08/11/2025",
-      "track": "CHANTILLY",
-      "race": "DE TROISSY",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2025/P/MlRzSFlWY0VKTzRLVzF0RDdxTzc3QT09",
-      "cat": "(Classe 2)",
-      "purse": "31.100",
-      "disc": "P",
-      "dist": "1.600",
-      "owner": "",
-      "postTime": {
-        "hour": 11,
-        "minute": 53,
-        "formatted": "11h53"
-      }
-    },
     {
       "horse": "HOUBLON IRE M.PS. 2 a.",
       "horseUrl": "https://www.france-galop.com/fr/cheval/SHY4UWpDKzYxM1BJb1h0QTBIdVVUUT09",
