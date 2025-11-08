@@ -1,25 +1,6 @@
 {
-  "lastUpdate": "2025-11-08T11:57:03.938Z",
+  "lastUpdate": "2025-11-08T12:20:52.767Z",
   "races": [
-    {
-      "horse": "HOUBLON IRE M.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/SHY4UWpDKzYxM1BJb1h0QTBIdVVUUT09",
-      "statut": "DP-P/1146",
-      "date": "08/11/2025",
-      "track": "CHANTILLY",
-      "race": "CROIX MARQUET",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2025/P/WFdEekczV2FzcVl1NmF1SklkYTFNQT09",
-      "cat": "(Maiden)",
-      "purse": "27.400",
-      "disc": "P",
-      "dist": "1.600",
-      "owner": "",
-      "postTime": {
-        "hour": 13,
-        "minute": 3,
-        "formatted": "13h03"
-      }
-    },
     {
       "horse": "ASYLLA F.PS. 2 a. ... (Sup.)",
       "horseUrl": "https://www.france-galop.com/fr/cheval/SkQ3K0xsNE1PbWJiMkJhWCtwbHNjQT09",
