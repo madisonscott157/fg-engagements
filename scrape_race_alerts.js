@@ -282,7 +282,7 @@ async function checkAndSendAlerts() {
 
     const postTime = race.postTime;
     
-    // Calculate alert time (10 min before)
+    // Calculate alert time (10 min before race)
     const alertHour = postTime.hour;
     let alertMinute = postTime.minute - 10;
     let alertHourAdjusted = alertHour;
