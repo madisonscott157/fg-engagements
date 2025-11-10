@@ -1,10 +1,10 @@
 name: FG engagements → Discord
 on:
   schedule:
-    # Run at 9:35 UTC (10:35 Paris winter / 11:35 Paris summer)
-    - cron: "35 9 * * *"
-    # Run at 11:35 UTC (12:35 Paris winter / 13:35 Paris summer)
-    - cron: "35 11 * * *"
+    # Run at 9:36 UTC (10:36 Paris winter / 11:36 Paris summer) - 1 min after :35 to avoid conflicts
+    - cron: "36 9 * * *"
+    # Run at 11:36 UTC (12:36 Paris winter / 13:36 Paris summer)
+    - cron: "36 11 * * *"
   workflow_dispatch:
     inputs:
       manual_run:
@@ -35,8 +35,14 @@ jobs:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           MANUAL_RUN: ${{ github.event.inputs.manual_run || 'false' }}
           FORCE_POST: ${{ github.event.inputs.force_post || 'false' }}
+      - name: Pull latest changes before committing
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin main || true
       - name: Commit updated state
         uses: EndBug/add-and-commit@v9
         with:
           add: 'data/*.json'
           message: 'chore: update engagements data'
+          pull: '--rebase --autostash'
