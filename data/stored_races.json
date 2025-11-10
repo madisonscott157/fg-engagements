@@ -1,43 +1,4 @@
 {
-  "lastUpdate": "2025-11-10T05:53:06.655Z",
-  "races": [
-    {
-      "horse": "ASYLLA F.PS. 2 a. ... (Sup.)",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/SkQ3K0xsNE1PbWJiMkJhWCtwbHNjQT09",
-      "statut": "DP-P/1184(Sup.)",
-      "date": "10/11/2025",
-      "track": "CHANTILLY",
-      "race": "VOIE DU GARDE",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2025/P/SXlzWktiR3NFWWpUQUtMZGI3Z3NEUT09",
-      "cat": "(Inédits)",
-      "purse": "27.400",
-      "disc": "P",
-      "dist": "1.900",
-      "owner": "",
-      "postTime": {
-        "hour": 15,
-        "minute": 5,
-        "formatted": "15h05"
-      }
-    },
-    {
-      "horse": "BANKER NINE GB M.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/QmlNOXVhcTRLM2tzb2ozM24vM2RwZz09",
-      "statut": "DP-P/1185",
-      "date": "10/11/2025",
-      "track": "CHANTILLY",
-      "race": "FONDS HOUCHARD",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2025/P/dUxadEhOcnB2T1pQSmpkZXpZSjM0dz09",
-      "cat": "HAND.",
-      "purse": "25.900",
-      "disc": "P",
-      "dist": "1.800",
-      "owner": "",
-      "postTime": {
-        "hour": 13,
-        "minute": 13,
-        "formatted": "13h13"
-      }
-    }
-  ]
+  "lastUpdate": "2025-11-10T06:00:25.138Z",
+  "races": []
 }
