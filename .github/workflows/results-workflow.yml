@@ -35,8 +35,14 @@ jobs:
           DISCORD_WEBHOOK_RESULTS: ${{ secrets.DISCORD_WEBHOOK_RESULTS }}
           MANUAL_RUN: ${{ github.event.inputs.manual_run || 'false' }}
           FORCE_POST: ${{ github.event.inputs.force_post || 'false' }}
+      - name: Pull latest changes before committing
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin main || true
       - name: Commit updated state
         uses: EndBug/add-and-commit@v9
         with:
-          add: 'data/seen_results.json data/pending_tracking.json'
+          add: 'data/*.json'
           message: 'chore: update results and tracking queue'
+          pull: '--rebase --autostash'
