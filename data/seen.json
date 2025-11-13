@@ -150,14 +150,14 @@
     "el vegas (ire) m.ps. 2 a. | 18/11/2025 | chantilly | thomas bryon | 1.800",
     {
       "statut": "VA-P/750",
-      "last": 1762947863497
+      "last": 1763027239549
     }
   ],
   [
     "keremet h.ps. 3 a. | 13/11/2025 | fontainebleau | lande bruyere | 1.200",
     {
       "statut": "DP-P/6600",
-      "last": 1762947863497
+      "last": 1763027239549
     }
   ],
   [
@@ -171,14 +171,42 @@
     "keremet h.ps. 3 a. | 16/11/2025 | toulouse | j et a le maire | 1.200",
     {
       "statut": "F1-P/6373",
-      "last": 1762947863497
+      "last": 1763027239549
     }
   ],
   [
     "roi du ciel (ire) h.ps. 2 a. | 16/11/2025 | angers | g.de la celle | 2.000",
     {
       "statut": "NL-P/6327",
-      "last": 1762947863497
+      "last": 1763027239549
+    }
+  ],
+  [
+    "coco vanille f.ps. 2 a. | 21/11/2025 | chantilly | de l'etrier | 1.600",
+    {
+      "statut": "-P/1214",
+      "last": 1763027239549
+    }
+  ],
+  [
+    "filicudi ire m.ps. 2 a. | 21/11/2025 | chantilly | de l'eperon | 1.600",
+    {
+      "statut": "-P/1213",
+      "last": 1763027239549
+    }
+  ],
+  [
+    "rodrigue (ire) h.ps. 2 a. | 21/11/2025 | chantilly | de l'eperon | 1.600",
+    {
+      "statut": "-P/1213",
+      "last": 1763027239549
+    }
+  ],
+  [
+    "vyshyvanka ire f.ps. 2 a. | 21/11/2025 | chantilly | de l'etrier | 1.600",
+    {
+      "statut": "-P/1214",
+      "last": 1763027239549
     }
   ]
 ]
