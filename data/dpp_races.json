@@ -1,18 +1,18 @@
 {
-  "lastUpdate": "2025-11-13T11:44:08.886Z",
+  "lastUpdate": "2025-11-14T09:47:01.673Z",
   "races": [
     {
-      "horse": "KEREMET H.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/U3c0bFRnT0ZKb0psbnRrUmVLYklqQT09",
-      "statut": "DP-P/6600",
-      "date": "13/11/2025",
-      "track": "FONTAINEBLEAU",
-      "race": "LANDE BRUYERE",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2025/P/ajFJYzJ1SFpaUDVyZzE2M1VNUjdBUT09",
-      "cat": "HAND.",
-      "purse": "20.200",
+      "horse": "JOUE CHOPE F.PS. 2 a. ... (Sup.)",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/bDdTV0lzZmFIaERSUjA2WitrYU9xUT09",
+      "statut": "DP-P/6333(Sup.)",
+      "date": "17/11/2025",
+      "track": "LE MANS",
+      "race": "CREDIT AGRICOLE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2025/P/aDZRamlvTjJwWTMrb3RSUE92OWxFdz09",
+      "cat": "RECL.",
+      "purse": "14.400",
       "disc": "P",
-      "dist": "1.200",
+      "dist": "1.400",
       "owner": ""
     }
   ]
