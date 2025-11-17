@@ -1,44 +1,6 @@
 {
-  "lastUpdate": "2025-11-17T11:17:13.461Z",
+  "lastUpdate": "2025-11-17T11:30:33.058Z",
   "races": [
-    {
-      "horse": "JOUE CHOPE F.PS. 2 a. ... (Sup.)",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/bDdTV0lzZmFIaERSUjA2WitrYU9xUT09",
-      "statut": "DP-P/6333(Sup.)",
-      "date": "17/11/2025",
-      "track": "LE MANS",
-      "race": "CREDIT AGRICOLE",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2025/P/aDZRamlvTjJwWTMrb3RSUE92OWxFdz09",
-      "cat": "RECL.",
-      "purse": "14.400",
-      "disc": "P",
-      "dist": "1.400",
-      "owner": "",
-      "postTime": {
-        "hour": 13,
-        "minute": 27,
-        "formatted": "13h27"
-      }
-    },
-    {
-      "horse": "EL VEGAS (IRE) M.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/aGttMUhqaHB1M3kyekpleUF6eW5aZz09",
-      "statut": "DP-P/750",
-      "date": "18/11/2025",
-      "track": "CHANTILLY",
-      "race": "THOMAS BRYON",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2025/P/aWtKLzVuZWgyTmFMb1dQbmx1eEFLdz09",
-      "cat": "GR.III",
-      "purse": "73.200",
-      "disc": "P",
-      "dist": "1.800",
-      "owner": "",
-      "postTime": {
-        "hour": 12,
-        "minute": 35,
-        "formatted": "12h35"
-      }
-    },
     {
       "horse": "MASHA F.PS. 2 a. ... (Sup.)",
       "horseUrl": "https://www.france-galop.com/fr/cheval/ZDdsRmdxYXFseFVYaU9UanlZdHRLZz09",
