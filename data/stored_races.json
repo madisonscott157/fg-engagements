@@ -1,24 +1,4 @@
 {
-  "lastUpdate": "2025-11-18T15:43:02.990Z",
-  "races": [
-    {
-      "horse": "MASHA F.PS. 2 a. ... (Sup.)",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/ZDdsRmdxYXFseFVYaU9UanlZdHRLZz09",
-      "statut": "DP-P/6450(Sup.)",
-      "date": "18/11/2025",
-      "track": "MAR.P VIVAUX",
-      "race": "DES CRIQUES",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2025/P/UWU2UkhETDBVZ05wZEJvOXFEOTA4QT09",
-      "cat": "(Maiden)",
-      "purse": "21.000",
-      "disc": "P",
-      "dist": "1.500",
-      "owner": "",
-      "postTime": {
-        "hour": 16,
-        "minute": 52,
-        "formatted": "16h52"
-      }
-    }
-  ]
+  "lastUpdate": "2025-11-18T15:53:44.526Z",
+  "races": []
 }
