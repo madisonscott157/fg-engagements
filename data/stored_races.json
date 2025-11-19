@@ -1,4 +1,81 @@
 {
-  "lastUpdate": "2025-11-19T09:38:30.355Z",
-  "races": []
+  "lastUpdate": "2025-11-19T09:48:38.154Z",
+  "races": [
+    {
+      "horse": "COCO VANILLE F.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/T3dJNW9VSFBHbVVWSXN4NFk4bWpEZz09",
+      "statut": "DP-P/1214",
+      "date": "21/11/2025",
+      "track": "CHANTILLY",
+      "race": "DE L'ETRIER",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2025/P/YndyZ0lJNDRaMDZyU2Q3YUUzdVVmdz09",
+      "cat": "(Maiden)",
+      "purse": "27.400",
+      "disc": "P",
+      "dist": "1.600",
+      "owner": "",
+      "postTime": {
+        "hour": 12,
+        "minute": 33,
+        "formatted": "12h33"
+      }
+    },
+    {
+      "horse": "FILICUDI IRE M.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/S2toOEN3RVB0ZzhncEkrVWgxblUwdz09",
+      "statut": "DP-P/1213",
+      "date": "21/11/2025",
+      "track": "CHANTILLY",
+      "race": "DE L'EPERON",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2025/P/anljbGVwblRNNk41ejVFdExTRDNUQT09",
+      "cat": "(Maiden)",
+      "purse": "27.400",
+      "disc": "P",
+      "dist": "1.600",
+      "owner": "",
+      "postTime": {
+        "hour": 11,
+        "minute": 53,
+        "formatted": "11h53"
+      }
+    },
+    {
+      "horse": "RODRIGUE (IRE) H.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/ZCtPTm00Q2NyVGNwd1kydnIzckMrdz09",
+      "statut": "DP-P/1213",
+      "date": "21/11/2025",
+      "track": "CHANTILLY",
+      "race": "DE L'EPERON",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2025/P/anljbGVwblRNNk41ejVFdExTRDNUQT09",
+      "cat": "(Maiden)",
+      "purse": "27.400",
+      "disc": "P",
+      "dist": "1.600",
+      "owner": "",
+      "postTime": {
+        "hour": 11,
+        "minute": 53,
+        "formatted": "11h53"
+      }
+    },
+    {
+      "horse": "VYSHYVANKA IRE F.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/QkJBRjVsVVJtRCtoZWxHSEEyL3I0QT09",
+      "statut": "DP-P/1214",
+      "date": "21/11/2025",
+      "track": "CHANTILLY",
+      "race": "DE L'ETRIER",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2025/P/YndyZ0lJNDRaMDZyU2Q3YUUzdVVmdz09",
+      "cat": "(Maiden)",
+      "purse": "27.400",
+      "disc": "P",
+      "dist": "1.600",
+      "owner": "",
+      "postTime": {
+        "hour": 12,
+        "minute": 33,
+        "formatted": "12h33"
+      }
+    }
+  ]
 }
