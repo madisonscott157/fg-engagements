@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-11-19T11:44:14.545Z",
+  "lastUpdate": "2025-11-20T09:46:47.649Z",
   "races": [
     {
       "horse": "COCO VANILLE F.PS. 2 a.",
@@ -55,6 +55,20 @@
       "purse": "27.400",
       "disc": "P",
       "dist": "1.600",
+      "owner": ""
+    },
+    {
+      "horse": "REVEUR (IRE) M.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/enowTTJQV0p2ZGdhK1FuRzE4UFVPdz09",
+      "statut": "DP-P/6603",
+      "date": "22/11/2025",
+      "track": "FONTAINEBLEAU",
+      "race": "MONT PIERREUX",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2025/P/S3F6OWZ6RVRYN3VwaVYvV3hZZnVjZz09",
+      "cat": "(Inédits)",
+      "purse": "27.400",
+      "disc": "P",
+      "dist": "1.800",
       "owner": ""
     }
   ]
