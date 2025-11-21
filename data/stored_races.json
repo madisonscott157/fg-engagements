@@ -1,44 +1,6 @@
 {
-  "lastUpdate": "2025-11-21T11:29:14.060Z",
+  "lastUpdate": "2025-11-21T11:38:00.860Z",
   "races": [
-    {
-      "horse": "COCO VANILLE F.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/T3dJNW9VSFBHbVVWSXN4NFk4bWpEZz09",
-      "statut": "DP-P/1214",
-      "date": "21/11/2025",
-      "track": "CHANTILLY",
-      "race": "DE L'ETRIER",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2025/P/YndyZ0lJNDRaMDZyU2Q3YUUzdVVmdz09",
-      "cat": "(Maiden)",
-      "purse": "27.400",
-      "disc": "P",
-      "dist": "1.600",
-      "owner": "",
-      "postTime": {
-        "hour": 12,
-        "minute": 33,
-        "formatted": "12h33"
-      }
-    },
-    {
-      "horse": "VYSHYVANKA IRE F.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/QkJBRjVsVVJtRCtoZWxHSEEyL3I0QT09",
-      "statut": "DP-P/1214",
-      "date": "21/11/2025",
-      "track": "CHANTILLY",
-      "race": "DE L'ETRIER",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2025/P/YndyZ0lJNDRaMDZyU2Q3YUUzdVVmdz09",
-      "cat": "(Maiden)",
-      "purse": "27.400",
-      "disc": "P",
-      "dist": "1.600",
-      "owner": "",
-      "postTime": {
-        "hour": 12,
-        "minute": 33,
-        "formatted": "12h33"
-      }
-    },
     {
       "horse": "REVEUR (IRE) M.PS. 2 a.",
       "horseUrl": "https://www.france-galop.com/fr/cheval/enowTTJQV0p2ZGdhK1FuRzE4UFVPdz09",
