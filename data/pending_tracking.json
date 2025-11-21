@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "horse": "COCO VANILLE",
+    "date": "21/11/2025",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2025/P/YndyZ0lJNDRaMDZyU2Q3YUUzdVVmdz09",
+    "hippodrome": "CHANTILLY",
+    "addedAt": 1763726321881
+  },
+  {
+    "horse": "VYSHYVANKA",
+    "date": "21/11/2025",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2025/P/YndyZ0lJNDRaMDZyU2Q3YUUzdVVmdz09",
+    "hippodrome": "CHANTILLY",
+    "addedAt": 1763726321881
+  }
+]
