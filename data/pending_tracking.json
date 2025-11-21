@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "horse": "RODRIGUE",
+    "date": "21/11/2025",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2025/P/anljbGVwblRNNk41ejVFdExTRDNUQT09",
+    "hippodrome": "CHANTILLY",
+    "addedAt": 1763724414472
+  },
+  {
+    "horse": "FILICUDI",
+    "date": "21/11/2025",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2025/P/anljbGVwblRNNk41ejVFdExTRDNUQT09",
+    "hippodrome": "CHANTILLY",
+    "addedAt": 1763724414472
+  }
+]
