@@ -1,62 +1,6 @@
 {
-  "lastUpdate": "2025-11-21T11:42:47.423Z",
+  "lastUpdate": "2025-11-22T09:42:47.201Z",
   "races": [
-    {
-      "horse": "COCO VANILLE F.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/T3dJNW9VSFBHbVVWSXN4NFk4bWpEZz09",
-      "statut": "DP-P/1214",
-      "date": "21/11/2025",
-      "track": "CHANTILLY",
-      "race": "DE L'ETRIER",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2025/P/YndyZ0lJNDRaMDZyU2Q3YUUzdVVmdz09",
-      "cat": "(Maiden)",
-      "purse": "27.400",
-      "disc": "P",
-      "dist": "1.600",
-      "owner": ""
-    },
-    {
-      "horse": "FILICUDI IRE M.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/S2toOEN3RVB0ZzhncEkrVWgxblUwdz09",
-      "statut": "DP-P/1213",
-      "date": "21/11/2025",
-      "track": "CHANTILLY",
-      "race": "DE L'EPERON",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2025/P/anljbGVwblRNNk41ejVFdExTRDNUQT09",
-      "cat": "(Maiden)",
-      "purse": "27.400",
-      "disc": "P",
-      "dist": "1.600",
-      "owner": ""
-    },
-    {
-      "horse": "RODRIGUE (IRE) H.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/ZCtPTm00Q2NyVGNwd1kydnIzckMrdz09",
-      "statut": "DP-P/1213",
-      "date": "21/11/2025",
-      "track": "CHANTILLY",
-      "race": "DE L'EPERON",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2025/P/anljbGVwblRNNk41ejVFdExTRDNUQT09",
-      "cat": "(Maiden)",
-      "purse": "27.400",
-      "disc": "P",
-      "dist": "1.600",
-      "owner": ""
-    },
-    {
-      "horse": "VYSHYVANKA IRE F.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/QkJBRjVsVVJtRCtoZWxHSEEyL3I0QT09",
-      "statut": "DP-P/1214",
-      "date": "21/11/2025",
-      "track": "CHANTILLY",
-      "race": "DE L'ETRIER",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2025/P/YndyZ0lJNDRaMDZyU2Q3YUUzdVVmdz09",
-      "cat": "(Maiden)",
-      "purse": "27.400",
-      "disc": "P",
-      "dist": "1.600",
-      "owner": ""
-    },
     {
       "horse": "REVEUR (IRE) M.PS. 2 a.",
       "horseUrl": "https://www.france-galop.com/fr/cheval/enowTTJQV0p2ZGdhK1FuRzE4UFVPdz09",
@@ -69,6 +13,34 @@
       "purse": "27.400",
       "disc": "P",
       "dist": "1.800",
+      "owner": ""
+    },
+    {
+      "horse": "MATAURI QUEEN F.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/dXhEZzBJdXdYKzl4RHdHUGZ2R0kzUT09",
+      "statut": "DP-P/1225",
+      "date": "25/11/2025",
+      "track": "DEAUVILLE",
+      "race": "DE PREAUX",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2025/P/SU5hejM2MUZUNHBzNGtlTVc2U0NXUT09",
+      "cat": "(Maiden)",
+      "purse": "27.400",
+      "disc": "P",
+      "dist": "1.900",
+      "owner": ""
+    },
+    {
+      "horse": "ROI DU CIEL (IRE) H.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/L2RydUlPZGxyN0Q2b3VDZGVDYTl5Zz09",
+      "statut": "DP-P/1224",
+      "date": "25/11/2025",
+      "track": "DEAUVILLE",
+      "race": "DE MONTFORT",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2025/P/ODBibUZ5T3JoQk9UNzl5L1BETUIrdz09",
+      "cat": "(Maiden)",
+      "purse": "27.400",
+      "disc": "P",
+      "dist": "1.900",
       "owner": ""
     }
   ]
