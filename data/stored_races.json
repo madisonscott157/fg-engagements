@@ -1,24 +1,4 @@
 {
-  "lastUpdate": "2025-11-25T14:16:49.803Z",
-  "races": [
-    {
-      "horse": "MATAURI QUEEN F.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/dXhEZzBJdXdYKzl4RHdHUGZ2R0kzUT09",
-      "statut": "DP-P/1225",
-      "date": "25/11/2025",
-      "track": "DEAUVILLE",
-      "race": "DE PREAUX",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2025/P/SU5hejM2MUZUNHBzNGtlTVc2U0NXUT09",
-      "cat": "(Maiden)",
-      "purse": "27.400",
-      "disc": "P",
-      "dist": "1.900",
-      "owner": "",
-      "postTime": {
-        "hour": 15,
-        "minute": 40,
-        "formatted": "15h40"
-      }
-    }
-  ]
+  "lastUpdate": "2025-11-25T14:41:36.734Z",
+  "races": []
 }
