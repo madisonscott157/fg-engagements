@@ -1,33 +1,4 @@
 {
-  "lastUpdate": "2025-11-25T11:44:43.740Z",
-  "races": [
-    {
-      "horse": "MATAURI QUEEN F.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/dXhEZzBJdXdYKzl4RHdHUGZ2R0kzUT09",
-      "statut": "DP-P/1225",
-      "date": "25/11/2025",
-      "track": "DEAUVILLE",
-      "race": "DE PREAUX",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2025/P/SU5hejM2MUZUNHBzNGtlTVc2U0NXUT09",
-      "cat": "(Maiden)",
-      "purse": "27.400",
-      "disc": "P",
-      "dist": "1.900",
-      "owner": ""
-    },
-    {
-      "horse": "ROI DU CIEL (IRE) H.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/L2RydUlPZGxyN0Q2b3VDZGVDYTl5Zz09",
-      "statut": "DP-P/1224",
-      "date": "25/11/2025",
-      "track": "DEAUVILLE",
-      "race": "DE MONTFORT",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2025/P/ODBibUZ5T3JoQk9UNzl5L1BETUIrdz09",
-      "cat": "(Maiden)",
-      "purse": "27.400",
-      "disc": "P",
-      "dist": "1.900",
-      "owner": ""
-    }
-  ]
+  "lastUpdate": "2025-11-26T09:48:51.512Z",
+  "races": []
 }
