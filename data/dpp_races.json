@@ -1,4 +1,47 @@
 {
-  "lastUpdate": "2025-11-28T11:43:01.383Z",
-  "races": []
+  "lastUpdate": "2025-11-29T09:43:49.506Z",
+  "races": [
+    {
+      "horse": "PRIVATE STORY F.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/ZE13dDRJd1d4QlljTGQ5VldZMldrZz09",
+      "statut": "DP-P/1248",
+      "date": "02/12/2025",
+      "track": "DEAUVILLE",
+      "race": "GRAND CHESNAY",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2025/P/MWQ1SjYwQjkxOENmZDNWM3hrc1BPZz09",
+      "cat": "(Inédits)",
+      "purse": "27.400",
+      "disc": "P",
+      "dist": "1.900",
+      "owner": ""
+    },
+    {
+      "horse": "REVEUR (IRE) M.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/enowTTJQV0p2ZGdhK1FuRzE4UFVPdz09",
+      "statut": "DP-P/1247",
+      "date": "02/12/2025",
+      "track": "DEAUVILLE",
+      "race": "DE LA GAGNERIE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2025/P/R1RZblFtQndyWVZOckZhVU5uci9KUT09",
+      "cat": "(Inédits)",
+      "purse": "27.400",
+      "disc": "P",
+      "dist": "1.900",
+      "owner": ""
+    },
+    {
+      "horse": "TCHIRIKHOVA F.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/TnBURDNRRW8rWVl6aFdyN3hLVzJsQT09",
+      "statut": "DP-P/1248",
+      "date": "02/12/2025",
+      "track": "DEAUVILLE",
+      "race": "GRAND CHESNAY",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2025/P/MWQ1SjYwQjkxOENmZDNWM3hrc1BPZz09",
+      "cat": "(Inédits)",
+      "purse": "27.400",
+      "disc": "P",
+      "dist": "1.900",
+      "owner": ""
+    }
+  ]
 }
