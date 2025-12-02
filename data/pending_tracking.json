@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "horse": "PRIVATE STORY",
+    "date": "02/12/2025",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2025/P/MWQ1SjYwQjkxOENmZDNWM3hrc1BPZz09",
+    "hippodrome": "DEAUVILLE",
+    "addedAt": 1764683457794
+  },
+  {
+    "horse": "TCHIRIKHOVA",
+    "date": "02/12/2025",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2025/P/MWQ1SjYwQjkxOENmZDNWM3hrc1BPZz09",
+    "hippodrome": "DEAUVILLE",
+    "addedAt": 1764683457794
+  }
+]
