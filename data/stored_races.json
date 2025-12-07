@@ -1,24 +1,4 @@
 {
-  "lastUpdate": "2025-12-07T11:41:55.438Z",
-  "races": [
-    {
-      "horse": "ASYLLA F.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/SkQ3K0xsNE1PbWJiMkJhWCtwbHNjQT09",
-      "statut": "DP-P/1271",
-      "date": "09/12/2025",
-      "track": "CHANTILLY",
-      "race": "ROND ALICANTE",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2025/P/MlM5cFI5OGhMVUNxMUVUT1hsSXR1UT09",
-      "cat": "(Maiden)",
-      "purse": "27.400",
-      "disc": "P",
-      "dist": "1.900",
-      "owner": "CHR. HEAD (S)",
-      "postTime": {
-        "hour": 13,
-        "minute": 10,
-        "formatted": "13h10"
-      }
-    }
-  ]
+  "lastUpdate": "2025-12-07T11:48:32.335Z",
+  "races": []
 }
