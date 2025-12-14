@@ -1,1 +1,72 @@
-[]
+[
+  {
+    "horse": "ASYLLA",
+    "date": "09/12/2025",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2025/P/MlM5cFI5OGhMVUNxMUVUT1hsSXR1UT09",
+    "hippodrome": "CHANTILLY",
+    "addedAt": 1765741545098
+  },
+  {
+    "horse": "PRIVATE STORY",
+    "date": "02/12/2025",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2025/P/MWQ1SjYwQjkxOENmZDNWM3hrc1BPZz09",
+    "hippodrome": "DEAUVILLE",
+    "addedAt": 1765741545098
+  },
+  {
+    "horse": "TCHIRIKHOVA",
+    "date": "02/12/2025",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2025/P/MWQ1SjYwQjkxOENmZDNWM3hrc1BPZz09",
+    "hippodrome": "DEAUVILLE",
+    "addedAt": 1765741545098
+  },
+  {
+    "horse": "REVEUR",
+    "date": "02/12/2025",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2025/P/R1RZblFtQndyWVZOckZhVU5uci9KUT09",
+    "hippodrome": "DEAUVILLE",
+    "addedAt": 1765741545098
+  },
+  {
+    "horse": "MATAURI QUEEN",
+    "date": "25/11/2025",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2025/P/SU5hejM2MUZUNHBzNGtlTVc2U0NXUT09",
+    "hippodrome": "DEAUVILLE",
+    "addedAt": 1765741545098
+  },
+  {
+    "horse": "ROI DU CIEL",
+    "date": "25/11/2025",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2025/P/ODBibUZ5T3JoQk9UNzl5L1BETUIrdz09",
+    "hippodrome": "DEAUVILLE",
+    "addedAt": 1765741545098
+  },
+  {
+    "horse": "COCO VANILLE",
+    "date": "21/11/2025",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2025/P/YndyZ0lJNDRaMDZyU2Q3YUUzdVVmdz09",
+    "hippodrome": "CHANTILLY",
+    "addedAt": 1765741545098
+  },
+  {
+    "horse": "RODRIGUE",
+    "date": "21/11/2025",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2025/P/anljbGVwblRNNk41ejVFdExTRDNUQT09",
+    "hippodrome": "CHANTILLY",
+    "addedAt": 1765741545098
+  },
+  {
+    "horse": "FILICUDI",
+    "date": "21/11/2025",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2025/P/anljbGVwblRNNk41ejVFdExTRDNUQT09",
+    "hippodrome": "CHANTILLY",
+    "addedAt": 1765741545098
+  },
+  {
+    "horse": "VYSHYVANKA",
+    "date": "21/11/2025",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2025/P/YndyZ0lJNDRaMDZyU2Q3YUUzdVVmdz09",
+    "hippodrome": "CHANTILLY",
+    "addedAt": 1765741545098
+  }
+]
