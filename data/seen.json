@@ -325,21 +325,28 @@
     "el vegas (ire) m.ps. 2 a. | 15/12/2025 | lyon la soie | a. nebon carle | 1.800",
     {
       "statut": "F1-P/6543",
-      "last": 1765741448659
+      "last": 1765792600422
     }
   ],
   [
     "banker nine gb m.ps. 2 a. | 17/12/2025 | deauville | du lieu calice | 1.900",
     {
-      "statut": "PB-P/1301",
-      "last": 1765741448659
+      "statut": "DP-P/1301",
+      "last": 1765792600422
     }
   ],
   [
     "roi du ciel (ire) h.ps. 2 a. | 17/12/2025 | deauville | du lieu calice | 1.900",
     {
       "statut": "F1-P/1301",
-      "last": 1765741448659
+      "last": 1765792600422
+    }
+  ],
+  [
+    "joue chope f.ps. 2 a. | 22/12/2025 | deauville | de cuigny | 1.300",
+    {
+      "statut": "-P/1326",
+      "last": 1765792600422
     }
   ]
 ]
