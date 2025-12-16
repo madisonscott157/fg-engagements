@@ -332,28 +332,35 @@
     "banker nine gb m.ps. 2 a. | 17/12/2025 | deauville | du lieu calice | 1.900",
     {
       "statut": "DP-P/1301",
-      "last": 1765878746549
+      "last": 1765885477147
     }
   ],
   [
     "roi du ciel (ire) h.ps. 2 a. | 17/12/2025 | deauville | du lieu calice | 1.900",
     {
       "statut": "F1-P/1301",
-      "last": 1765878746549
+      "last": 1765885477147
     }
   ],
   [
     "joue chope f.ps. 2 a. | 22/12/2025 | deauville | de cuigny | 1.300",
     {
       "statut": "VA-P/1326",
-      "last": 1765878746549
+      "last": 1765885477147
     }
   ],
   [
     "masha f.ps. 2 a. ... (sup.) | 18/12/2025 | deauville | la placiere | 1.300",
     {
       "statut": "DP-P/1311(Sup.)",
-      "last": 1765878746549
+      "last": 1765885477147
+    }
+  ],
+  [
+    "coco vanille f.ps. 2 a. ... (sup.) | 19/12/2025 | chantilly | jardin cascade | 1.600",
+    {
+      "statut": "PB-P/1318(Sup.)",
+      "last": 1765885477147
     }
   ]
 ]
