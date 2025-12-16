@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2025-12-16T09:40:52.037Z",
+  "lastUpdate": "2025-12-16T09:54:39.343Z",
   "races": [
     {
       "horse": "BANKER NINE GB M.PS. 2 a.",
@@ -18,6 +18,25 @@
         "hour": 17,
         "minute": 42,
         "formatted": "17h42"
+      }
+    },
+    {
+      "horse": "MASHA F.PS. 2 a. ... (Sup.)",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/ZDdsRmdxYXFseFVYaU9UanlZdHRLZz09",
+      "statut": "DP-P/1311(Sup.)",
+      "date": "18/12/2025",
+      "track": "DEAUVILLE",
+      "race": "LA PLACIERE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2025/P/U3B0OENXRUppcDAxaTUyNzcrVXAxUT09",
+      "cat": "(Maiden)",
+      "purse": "27.400",
+      "disc": "P",
+      "dist": "1.300",
+      "owner": "CHR. HEAD (S)",
+      "postTime": {
+        "hour": 15,
+        "minute": 5,
+        "formatted": "15h05"
       }
     }
   ]
