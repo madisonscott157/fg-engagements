@@ -1,25 +1,6 @@
 {
-  "lastUpdate": "2025-12-19T13:57:37.833Z",
+  "lastUpdate": "2025-12-19T14:31:25.685Z",
   "races": [
-    {
-      "horse": "COCO VANILLE F.PS. 2 a. ... (Sup.)",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/T3dJNW9VSFBHbVVWSXN4NFk4bWpEZz09",
-      "statut": "DP-P/1318(Sup.)",
-      "date": "19/12/2025",
-      "track": "CHANTILLY",
-      "race": "JARDIN CASCADE",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2025/P/LzhrNUw5cUM2ai8zU0M2aTQxKzZ6dz09",
-      "cat": "(Maiden)",
-      "purse": "27.400",
-      "disc": "P",
-      "dist": "1.600",
-      "owner": "CHR. HEAD (S)",
-      "postTime": {
-        "hour": 15,
-        "minute": 10,
-        "formatted": "15h10"
-      }
-    },
     {
       "horse": "JOUE CHOPE F.PS. 2 a.",
       "horseUrl": "https://www.france-galop.com/fr/cheval/bDdTV0lzZmFIaERSUjA2WitrYU9xUT09",
