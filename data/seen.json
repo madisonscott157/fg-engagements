@@ -346,7 +346,7 @@
     "joue chope f.ps. 2 a. | 22/12/2025 | deauville | de cuigny | 1.300",
     {
       "statut": "DP-P/1326",
-      "last": 1766137832846
+      "last": 1766144632759
     }
   ],
   [
@@ -360,14 +360,14 @@
     "coco vanille f.ps. 2 a. ... (sup.) | 19/12/2025 | chantilly | jardin cascade | 1.600",
     {
       "statut": "DP-P/1318(Sup.)",
-      "last": 1766137832846
+      "last": 1766144632759
     }
   ],
   [
     "el vegas (ire) m.ps. 2 a. | 28/12/2025 | pau | oloron | 1.600",
     {
-      "statut": "-P/6438",
-      "last": 1766137832846
+      "statut": "VA-P/6438",
+      "last": 1766144632759
     }
   ]
 ]
