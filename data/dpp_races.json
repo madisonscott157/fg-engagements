@@ -1,19 +1,4 @@
 {
-  "lastUpdate": "2025-12-22T11:43:15.656Z",
-  "races": [
-    {
-      "horse": "JOUE CHOPE F.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/bDdTV0lzZmFIaERSUjA2WitrYU9xUT09",
-      "statut": "DP-P/1326",
-      "date": "22/12/2025",
-      "track": "DEAUVILLE",
-      "race": "DE CUIGNY",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2025/P/U0NiNlJwK1NoYkJmYVBqN2labnByQT09",
-      "cat": "RECL.",
-      "purse": "18.200",
-      "disc": "P",
-      "dist": "1.300",
-      "owner": "CHR. HEAD (S)"
-    }
-  ]
+  "lastUpdate": "2025-12-23T09:51:37.613Z",
+  "races": []
 }
