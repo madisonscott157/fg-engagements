@@ -1,4 +1,24 @@
 {
-  "lastUpdate": "2025-12-22T14:32:32.774Z",
-  "races": []
+  "lastUpdate": "2025-12-29T17:05:59.801Z",
+  "races": [
+    {
+      "horse": "ROI DU CIEL (IRE) H.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/L2RydUlPZGxyN0Q2b3VDZGVDYTl5Zz09",
+      "statut": "DP-P/1349",
+      "date": "29/12/2025",
+      "track": "DEAUVILLE",
+      "race": "PIERRE AUX FEES",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2025/P/a3REYUhhcjFPUzRmYURoMnY2UHZJZz09",
+      "cat": "RECL.",
+      "purse": "18.200",
+      "disc": "P",
+      "dist": "1.500",
+      "owner": "CHR. HEAD (S)",
+      "postTime": {
+        "hour": 18,
+        "minute": 35,
+        "formatted": "18h35"
+      }
+    }
+  ]
 }
