@@ -17,6 +17,10 @@ on:
   # Manual trigger
   workflow_dispatch:
 
+# ADD THIS SECTION:
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
