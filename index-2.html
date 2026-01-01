@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Headquarters</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0d1421; min-height: 100vh; padding: 15px; color: #333; }
+        .container { max-width: 1400px; margin: 0 auto; }
+        
+        .header { background: linear-gradient(135deg, #1a2332 0%, #2c3e50 100%); color: white; padding: 20px 30px; border-radius: 12px; margin-bottom: 20px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; }
+        .header h1 { font-size: 1.8em; }
+        .sync-status { background: rgba(255,255,255,0.1); padding: 8px 15px; border-radius: 20px; font-size: 0.9em; }
+        .sync-status.live { background: rgba(39,174,96,0.3); }
+        
+        .main-content { background: white; border-radius: 12px; padding: 25px; box-shadow: 0 4px 20px rgba(0,0,0,0.3); }
+        
+        .quick-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-bottom: 25px; }
+        .stat-card { background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); border-radius: 10px; padding: 20px; border-left: 4px solid #3498db; }
+        .stat-card.upcoming { border-left-color: #9b59b6; }
+        .stat-card.engaged { border-left-color: #f39c12; }
+        .stat-card h3 { font-size: 0.85em; color: #666; margin-bottom: 8px; text-transform: uppercase; }
+        .stat-card .count { font-size: 2.2em; font-weight: bold; color: #2c3e50; }
+        
+        .section { margin-bottom: 30px; }
+        .section-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; padding-bottom: 10px; border-bottom: 2px solid #e9ecef; }
+        .section-header h2 { font-size: 1.3em; color: #2c3e50; }
+        
+        /* Upcoming Cards */
+        .upcoming-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 15px; }
+        .upcoming-card { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border-radius: 12px; padding: 20px; position: relative; overflow: hidden; transition: transform 0.2s; }
+        .upcoming-card:hover { transform: translateY(-3px); }
+        .upcoming-card::before { content: '🏇'; position: absolute; right: 15px; top: 15px; font-size: 2.5em; opacity: 0.3; }
+        .upcoming-card .horse-name { font-size: 1.4em; font-weight: bold; margin-bottom: 10px; }
+        .upcoming-card .race-info { font-size: 0.95em; opacity: 0.95; margin-bottom: 5px; }
+        .upcoming-card .countdown { background: rgba(255,255,255,0.2); padding: 6px 14px; border-radius: 20px; display: inline-block; margin-top: 12px; font-size: 0.9em; font-weight: 500; }
+        .upcoming-card .countdown.today { background: rgba(231,76,60,0.9); }
+        .upcoming-card .countdown.tomorrow { background: rgba(241,196,15,0.9); color: #333; }
+        .upcoming-card .countdown.soon { background: rgba(46,204,113,0.8); }
+        
+        /* Engagements List */
+        .engagements-list { background: #f8f9fa; border-radius: 10px; padding: 15px; }
+        .engagement-item { display: flex; justify-content: space-between; align-items: center; padding: 12px 15px; background: white; border-radius: 8px; margin-bottom: 10px; border-left: 4px solid #f39c12; transition: all 0.2s; }
+        .engagement-item:hover { background: #fff8e8; transform: translateX(5px); }
+        .engagement-item:last-child { margin-bottom: 0; }
+        .engagement-item .horse { font-weight: bold; color: #2c3e50; font-size: 1.05em; }
+        .engagement-item .details { font-size: 0.85em; color: #666; margin-top: 3px; }
+        .engagement-item .status { font-size: 0.8em; padding: 4px 12px; border-radius: 15px; background: #fff3cd; color: #856404; white-space: nowrap; }
+        .engagement-item .status.dpp { background: #d4edda; color: #155724; }
+        
+        /* No Data */
+        .no-data { text-align: center; padding: 50px 20px; color: #888; }
+        .no-data-icon { font-size: 3.5em; margin-bottom: 15px; }
+        .no-data p { font-size: 1.1em; }
+        
+        /* Footer */
+        .footer { text-align: center; padding: 20px; color: rgba(255,255,255,0.3); font-family: 'Courier New', monospace; font-size: 12px; letter-spacing: 3px; margin-top: 20px; }
+        
+        /* Responsive */
+        @media (max-width: 600px) {
+            body { padding: 10px; }
+            .header { flex-direction: column; text-align: center; }
+            .header h1 { font-size: 1.5em; }
+            .quick-stats { grid-template-columns: 1fr 1fr; }
+            .upcoming-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>🏇 Headquarters</h1>
+            <span class="sync-status" id="sync-status">📊 Loading...</span>
+        </header>
+        
+        <main class="main-content">
+            <div class="quick-stats">
+                <div class="stat-card upcoming">
+                    <h3>🎯 Partants</h3>
+                    <div class="count" id="stat-upcoming">-</div>
+                </div>
+                <div class="stat-card engaged">
+                    <h3>📋 Engagés</h3>
+                    <div class="count" id="stat-engaged">-</div>
+                </div>
+            </div>
+            
+            <section class="section" id="upcoming-section">
+                <div class="section-header">
+                    <h2>🎯 Prochains Partants (DP-P)</h2>
+                </div>
+                <div class="upcoming-grid" id="upcoming-grid">
+                    <div class="no-data">
+                        <div class="no-data-icon">⏳</div>
+                        <p>Chargement...</p>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="section" id="engagements-section">
+                <div class="section-header">
+                    <h2>📋 Engagements</h2>
+                </div>
+                <div class="engagements-list" id="engagements-list">
+                    <div class="no-data">
+                        <div class="no-data-icon">⏳</div>
+                        <p>Chargement...</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
+        <footer class="footer">4 8 15 16 23 42</footer>
+    </div>
+    
+    <script>
+        let DATA = { upcoming: [], engagements: [], results: [], lastUpdate: null };
+        
+        // Load dashboard data
+        async function loadData() {
+            const paths = [
+                'data/dashboard_data.json',
+                './data/dashboard_data.json',
+                '/fg-engagements/data/dashboard_data.json'
+            ];
+            
+            for (const path of paths) {
+                try {
+                    const response = await fetch(path);
+                    if (response.ok) {
+                        DATA = await response.json();
+                        console.log('✅ Loaded data from:', path);
+                        console.log('   Upcoming:', DATA.upcoming?.length || 0);
+                        console.log('   Engagements:', DATA.engagements?.length || 0);
+                        updateSyncStatus(true);
+                        return true;
+                    }
+                } catch (e) {
+                    console.log('Failed to load from:', path);
+                }
+            }
+            
+            console.error('❌ Could not load dashboard_data.json');
+            updateSyncStatus(false);
+            return false;
+        }
+        
+        function updateSyncStatus(success) {
+            const el = document.getElementById('sync-status');
+            if (success && DATA.lastUpdate) {
+                const updated = new Date(DATA.lastUpdate);
+                const mins = Math.floor((new Date() - updated) / 60000);
+                let timeAgo;
+                if (mins < 60) timeAgo = mins + ' min ago';
+                else if (mins < 1440) timeAgo = Math.floor(mins / 60) + 'h ago';
+                else timeAgo = Math.floor(mins / 1440) + 'd ago';
+                
+                el.textContent = '✅ Updated ' + timeAgo;
+                el.className = 'sync-status live';
+            } else {
+                el.textContent = '❌ Data unavailable';
+                el.className = 'sync-status';
+            }
+        }
+        
+        function daysDiff(dateStr) {
+            if (!dateStr) return 999;
+            const raceDate = new Date(dateStr + 'T12:00:00');
+            const today = new Date();
+            today.setHours(12, 0, 0, 0);
+            return Math.round((raceDate - today) / 86400000);
+        }
+        
+        function formatDate(dateStr) {
+            if (!dateStr) return '-';
+            const d = new Date(dateStr);
+            return d.toLocaleDateString('fr-FR', { day: '2-digit', month: 'short', year: 'numeric' });
+        }
+        
+        function renderUpcoming() {
+            const container = document.getElementById('upcoming-grid');
+            const upcoming = DATA.upcoming || [];
+            
+            document.getElementById('stat-upcoming').textContent = upcoming.length;
+            
+            if (upcoming.length === 0) {
+                container.innerHTML = `
+                    <div class="no-data">
+                        <div class="no-data-icon">🏇</div>
+                        <p>Aucun partant déclaré</p>
+                    </div>
+                `;
+                return;
+            }
+            
+            // Sort by date
+            upcoming.sort((a, b) => (a.date || '').localeCompare(b.date || ''));
+            
+            container.innerHTML = upcoming.map(race => {
+                const days = daysDiff(race.date);
+                let countdownClass = 'countdown';
+                let countdownText = 'J-' + days;
+                
+                if (days < 0) {
+                    countdownText = 'Passé';
+                } else if (days === 0) {
+                    countdownClass = 'countdown today';
+                    countdownText = "🔥 Aujourd'hui!";
+                } else if (days === 1) {
+                    countdownClass = 'countdown tomorrow';
+                    countdownText = '⚡ Demain';
+                } else if (days <= 3) {
+                    countdownClass = 'countdown soon';
+                }
+                
+                const distance = race.distance ? race.distance.replace('.', ',') + 'm' : '';
+                
+                return `
+                    <div class="upcoming-card">
+                        <div class="horse-name">${race.horse}</div>
+                        <div class="race-info">📍 ${race.track || '-'}</div>
+                        <div class="race-info">🏆 ${race.race || '-'}</div>
+                        <div class="race-info">📏 ${distance} • 📅 ${formatDate(race.date)}</div>
+                        <span class="${countdownClass}">${countdownText}</span>
+                    </div>
+                `;
+            }).join('');
+        }
+        
+        function renderEngagements() {
+            const container = document.getElementById('engagements-list');
+            const engagements = DATA.engagements || [];
+            
+            document.getElementById('stat-engaged').textContent = engagements.length;
+            
+            if (engagements.length === 0) {
+                container.innerHTML = `
+                    <div class="no-data">
+                        <div class="no-data-icon">📋</div>
+                        <p>Aucun engagement en attente</p>
+                    </div>
+                `;
+                return;
+            }
+            
+            // Sort by date
+            engagements.sort((a, b) => (a.date || '').localeCompare(b.date || ''));
+            
+            // Show max 20
+            container.innerHTML = engagements.slice(0, 20).map(eng => {
+                const isDPP = eng.status && eng.status.includes('DP-P');
+                const statusClass = isDPP ? 'status dpp' : 'status';
+                const distance = eng.distance ? eng.distance.replace('.', ',') + 'm' : '';
+                
+                return `
+                    <div class="engagement-item">
+                        <div>
+                            <div class="horse">${eng.horse}</div>
+                            <div class="details">
+                                ${eng.track || '-'} • ${eng.race || '-'} • ${distance} • ${formatDate(eng.date)}
+                            </div>
+                        </div>
+                        <span class="${statusClass}">${eng.status || 'Engagé'}</span>
+                    </div>
+                `;
+            }).join('');
+        }
+        
+        // Initialize
+        document.addEventListener('DOMContentLoaded', async () => {
+            const loaded = await loadData();
+            if (loaded) {
+                renderUpcoming();
+                renderEngagements();
+            } else {
+                document.getElementById('upcoming-grid').innerHTML = `
+                    <div class="no-data">
+                        <div class="no-data-icon">❌</div>
+                        <p>Impossible de charger les données</p>
+                    </div>
+                `;
+                document.getElementById('engagements-list').innerHTML = '';
+            }
+        });
+    </script>
+</body>
+</html>
