@@ -401,29 +401,29 @@
   [
     "el vegas (ire) m.ps. 3 a. | 10/01/2026 | chantilly | bois de precy | 1.900",
     {
-      "statut": "VA-P/5",
-      "last": 1767779609744
+      "statut": "PB-P/5",
+      "last": 1767786288909
     }
   ],
   [
     "filicudi ire m.ps. 3 a. | 10/01/2026 | chantilly | tr. clairieres | 1.600",
     {
       "statut": "NV-P/29",
-      "last": 1767779609744
+      "last": 1767786288909
     }
   ],
   [
     "matauri queen f.ps. 3 a. | 10/01/2026 | chantilly | molton | 1.600",
     {
-      "statut": "VA-P/31",
-      "last": 1767779609744
+      "statut": "PB-P/31",
+      "last": 1767786288909
     }
   ],
   [
     "tchirikhova f.ps. 3 a. | 10/01/2026 | chantilly | rte des pins | 1.600",
     {
-      "statut": "VA-P/30",
-      "last": 1767779609744
+      "statut": "PB-P/30",
+      "last": 1767786288909
     }
   ]
 ]
