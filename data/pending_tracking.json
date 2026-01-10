@@ -1,1 +1,23 @@
-[]
+[
+  {
+    "horse": "TCHIRIKHOVA",
+    "date": "10/01/2026",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/YU9Wem1TNFZ2QzNWRmhGTGE3U1d5UT09",
+    "hippodrome": "CHANTILLY",
+    "addedAt": 1768083477863
+  },
+  {
+    "horse": "MATAURI QUEEN",
+    "date": "10/01/2026",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/ODRoM1g5WG40a1Rpb0VLZUVpcDlQZz09",
+    "hippodrome": "CHANTILLY",
+    "addedAt": 1768083477863
+  },
+  {
+    "horse": "EL VEGAS",
+    "date": "10/01/2026",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/dm15R0MvWlBYUEdyRjJXM2RrankvUT09",
+    "hippodrome": "CHANTILLY",
+    "addedAt": 1768083477863
+  }
+]

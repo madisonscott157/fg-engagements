@@ -1,1 +1,41 @@
-[]
+[
+  {
+    "horse": "El Vegas",
+    "date": "10/01/2026",
+    "track": "CHANTILLY",
+    "race": "",
+    "distance": "1.900",
+    "position": "7",
+    "jockey": "A. LEMAITRE",
+    "gain": "384",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/dm15R0MvWlBYUEdyRjJXM2RrankvUT09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/aGttMUhqaHB1M3kyekpleUF6eW5aZz09",
+    "scrapedAt": "2026-01-10T22:17:52.205Z"
+  },
+  {
+    "horse": "Matauri Queen",
+    "date": "10/01/2026",
+    "track": "CHANTILLY",
+    "race": "HAND.",
+    "distance": "1.600",
+    "position": "9",
+    "jockey": "A. LEMAITRE",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/ODRoM1g5WG40a1Rpb0VLZUVpcDlQZz09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/dXhEZzBJdXdYKzl4RHdHUGZ2R0kzUT09",
+    "scrapedAt": "2026-01-10T22:17:52.205Z"
+  },
+  {
+    "horse": "Tchirikhova",
+    "date": "10/01/2026",
+    "track": "CHANTILLY",
+    "race": "",
+    "distance": "1.600",
+    "position": "8",
+    "jockey": "C. SOUMILLON",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/YU9Wem1TNFZ2QzNWRmhGTGE3U1d5UT09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/TnBURDNRRW8rWVl6aFdyN3hLVzJsQT09",
+    "scrapedAt": "2026-01-10T22:17:52.204Z"
+  }
+]
