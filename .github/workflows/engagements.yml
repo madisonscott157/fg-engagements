@@ -1,51 +1,55 @@
-name: FG engagements → Discord
-on:
-  schedule:
-    # Run at 9:36 UTC (10:36 Paris winter / 11:36 Paris summer) - 1 min after :35 to avoid conflicts
-    - cron: "36 9 * * *"
-    # Run at 11:36 UTC (12:36 Paris winter / 13:36 Paris summer)
-    - cron: "36 11 * * *"
-  workflow_dispatch:
-    inputs:
-      manual_run:
-        description: 'Force run (bypass any time checks)'
-        required: false
-        type: boolean
-        default: true
-      force_post:
-        description: 'Force post all engagements (for testing formatting)'
-        required: false
-        type: boolean
-        default: false
-jobs:
-  run:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write    # allow committing state file
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 20
-      - run: npm i playwright@1.47.2 googleapis
-      - run: npx playwright install --with-deps chromium
-      - run: node scrape_engagements.js
-        env:
-          TRAINER_URL: ${{ secrets.TRAINER_URL }}
-          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-          MANUAL_RUN: ${{ github.event.inputs.manual_run || 'false' }}
-          FORCE_POST: ${{ github.event.inputs.force_post || 'false' }}
-          GOOGLE_SERVICE_ACCOUNT: ${{ secrets.GOOGLE_SERVICE_ACCOUNT }}
-          SPREADSHEET_ID: ${{ secrets.SPREADSHEET_ID }}
-          DOC_ID: ${{ secrets.DOC_ID }}
-      - name: Pull latest changes before committing
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git pull --rebase origin main || true
-      - name: Commit updated state
-        uses: EndBug/add-and-commit@v9
-        with:
-          add: 'data/*.json'
-          message: 'chore: update engagements data'
-          pull: '--rebase --autostash'
+name: Scrape Engagements
+
+  on:
+    schedule:
+      # Run every 2 hours during the day
+      - cron: '0 6,8,10,12,14,16,18,20 * * *'
+    workflow_dispatch:
+
+  permissions:
+    contents: write
+
+  jobs:
+    scrape:
+      runs-on: ubuntu-latest
+
+      steps:
+        - name: Checkout repository
+          uses: actions/checkout@v4
+
+        - name: Setup Node.js
+          uses: actions/setup-node@v4
+          with:
+            node-version: '20'
+
+        - name: Install dependencies
+          run: npm install playwright googleapis
+
+        - name: Cache Playwright browsers
+          uses: actions/cache@v4
+          id: playwright-cache
+          with:
+            path: ~/.cache/ms-playwright
+            key: playwright-chromium-${{ runner.os }}
+
+        - name: Install Playwright browsers
+          if: steps.playwright-cache.outputs.cache-hit != 'true'
+          run: npx playwright install chromium
+
+        - name: Run scraper
+          env:
+            TRAINER_URL: ${{ secrets.TRAINER_URL }}
+            DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+            GOOGLE_SERVICE_ACCOUNT: ${{ secrets.GOOGLE_SERVICE_ACCOUNT }}
+            SPREADSHEET_ID: ${{ secrets.SPREADSHEET_ID }}
+            DOC_ID: ${{ secrets.DOC_ID }}
+          run: node scrape_engagements.js
+
+        - name: Commit data files
+          run: |
+            git config --local user.email "github-actions[bot]@users.noreply.github.com"
+            git config --local user.name "github-actions[bot]"
+            git add data/seen.json data/dpp_races.json data/posted_partants.json data/last_run.json || true
+            git diff --staged --quiet || git commit -m "Update engagements data"
+            git push || true
+
