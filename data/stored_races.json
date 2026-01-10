@@ -1,4 +1,62 @@
 {
-  "lastUpdate": "2025-12-29T20:59:53.048Z",
-  "races": []
+  "lastUpdate": "2026-01-10T09:26:23.951Z",
+  "races": [
+    {
+      "horse": "EL VEGAS (IRE) M.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/aGttMUhqaHB1M3kyekpleUF6eW5aZz09",
+      "statut": "DP-P/5",
+      "date": "10/01/2026",
+      "track": "CHANTILLY",
+      "race": "BOIS DE PRECY",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/dm15R0MvWlBYUEdyRjJXM2RrankvUT09",
+      "cat": "(Classe 2)",
+      "purse": "25.600",
+      "disc": "P",
+      "dist": "1.900",
+      "owner": "CHR. HEAD (S)",
+      "postTime": {
+        "hour": 11,
+        "minute": 19,
+        "formatted": "11h19"
+      }
+    },
+    {
+      "horse": "MATAURI QUEEN F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/dXhEZzBJdXdYKzl4RHdHUGZ2R0kzUT09",
+      "statut": "DP-P/31",
+      "date": "10/01/2026",
+      "track": "CHANTILLY",
+      "race": "MOLTON",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/ODRoM1g5WG40a1Rpb0VLZUVpcDlQZz09",
+      "cat": "HAND.",
+      "purse": "24.000",
+      "disc": "P",
+      "dist": "1.600",
+      "owner": "CHR. HEAD (S)",
+      "postTime": {
+        "hour": 13,
+        "minute": 40,
+        "formatted": "13h40"
+      }
+    },
+    {
+      "horse": "TCHIRIKHOVA F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/TnBURDNRRW8rWVl6aFdyN3hLVzJsQT09",
+      "statut": "DP-P/30",
+      "date": "10/01/2026",
+      "track": "CHANTILLY",
+      "race": "RTE DES PINS",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/YU9Wem1TNFZ2QzNWRmhGTGE3U1d5UT09",
+      "cat": "(Maiden)",
+      "purse": "24.700",
+      "disc": "P",
+      "dist": "1.600",
+      "owner": "CHR. HEAD (S)",
+      "postTime": {
+        "hour": 14,
+        "minute": 15,
+        "formatted": "14h15"
+      }
+    }
+  ]
 }
