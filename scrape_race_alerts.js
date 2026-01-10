@@ -16,9 +16,9 @@ const ALERTS_FILE = path.join(STORE_DIR, 'sent_alerts.json');
 const RACES_FILE = path.join(STORE_DIR, 'stored_races.json');
 const DPP_FILE = path.join(STORE_DIR, 'dpp_races.json');
 
-// Alert this many minutes before race (must be > workflow interval + GitHub delay buffer)
-// Using 30 min to maximize reliability with 5-min workflow interval
-const ALERT_MINUTES_BEFORE = 30;
+// Alert this many minutes before race
+// Using 20 min as requested - workflow runs every 10 min so should catch the window
+const ALERT_MINUTES_BEFORE = 20;
 
 const norm = (s) =>
   (s ?? '')
