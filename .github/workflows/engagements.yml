@@ -1,55 +1,52 @@
 name: Scrape Engagements
 
-  on:
-    schedule:
-      # Run every 2 hours during the day
-      - cron: '0 6,8,10,12,14,16,18,20 * * *'
-    workflow_dispatch:
+on:
+  schedule:
+    - cron: '0 6,8,10,12,14,16,18,20 * * *'
+  workflow_dispatch:
 
-  permissions:
-    contents: write
+permissions:
+  contents: write
 
-  jobs:
-    scrape:
-      runs-on: ubuntu-latest
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      steps:
-        - name: Checkout repository
-          uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
 
-        - name: Setup Node.js
-          uses: actions/setup-node@v4
-          with:
-            node-version: '20'
+      - name: Install dependencies
+        run: npm install playwright googleapis
 
-        - name: Install dependencies
-          run: npm install playwright googleapis
+      - name: Cache Playwright browsers
+        uses: actions/cache@v4
+        id: playwright-cache
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-chromium-${{ runner.os }}
 
-        - name: Cache Playwright browsers
-          uses: actions/cache@v4
-          id: playwright-cache
-          with:
-            path: ~/.cache/ms-playwright
-            key: playwright-chromium-${{ runner.os }}
+      - name: Install Playwright browsers
+        if: steps.playwright-cache.outputs.cache-hit != 'true'
+        run: npx playwright install chromium
 
-        - name: Install Playwright browsers
-          if: steps.playwright-cache.outputs.cache-hit != 'true'
-          run: npx playwright install chromium
+      - name: Run scraper
+        env:
+          TRAINER_URL: ${{ secrets.TRAINER_URL }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          GOOGLE_SERVICE_ACCOUNT: ${{ secrets.GOOGLE_SERVICE_ACCOUNT }}
+          SPREADSHEET_ID: ${{ secrets.SPREADSHEET_ID }}
+          DOC_ID: ${{ secrets.DOC_ID }}
+        run: node scrape_engagements.js
 
-        - name: Run scraper
-          env:
-            TRAINER_URL: ${{ secrets.TRAINER_URL }}
-            DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-            GOOGLE_SERVICE_ACCOUNT: ${{ secrets.GOOGLE_SERVICE_ACCOUNT }}
-            SPREADSHEET_ID: ${{ secrets.SPREADSHEET_ID }}
-            DOC_ID: ${{ secrets.DOC_ID }}
-          run: node scrape_engagements.js
-
-        - name: Commit data files
-          run: |
-            git config --local user.email "github-actions[bot]@users.noreply.github.com"
-            git config --local user.name "github-actions[bot]"
-            git add data/seen.json data/dpp_races.json data/posted_partants.json data/last_run.json || true
-            git diff --staged --quiet || git commit -m "Update engagements data"
-            git push || true
-
+      - name: Commit data files
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/seen.json data/dpp_races.json data/posted_partants.json data/last_run.json || true
+          git diff --staged --quiet || git commit -m "Update engagements data"
+          git push || true

@@ -1,48 +1,48 @@
 name: Race Alerts
 
-  on:
-    schedule:
-      - cron: '*/15 10-22 * * *'
-    workflow_dispatch:
+on:
+  schedule:
+    - cron: '*/15 10-22 * * *'
+  workflow_dispatch:
 
-  permissions:
-    contents: write
+permissions:
+  contents: write
 
-  jobs:
-    alerts:
-      runs-on: ubuntu-latest
-      steps:
-        - name: Checkout repository
-          uses: actions/checkout@v4
+jobs:
+  alerts:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-        - name: Setup Node.js
-          uses: actions/setup-node@v4
-          with:
-            node-version: '20'
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
 
-        - name: Install dependencies
-          run: npm install playwright
+      - name: Install dependencies
+        run: npm install playwright
 
-        - name: Cache Playwright browsers
-          uses: actions/cache@v4
-          id: playwright-cache
-          with:
-            path: ~/.cache/ms-playwright
-            key: playwright-chromium-${{ runner.os }}
+      - name: Cache Playwright browsers
+        uses: actions/cache@v4
+        id: playwright-cache
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-chromium-${{ runner.os }}
 
-        - name: Install Playwright browsers
-          if: steps.playwright-cache.outputs.cache-hit != 'true'
-          run: npx playwright install chromium
+      - name: Install Playwright browsers
+        if: steps.playwright-cache.outputs.cache-hit != 'true'
+        run: npx playwright install chromium
 
-        - name: Run race alerts
-          env:
-            DISCORD_WEBHOOK_RACE_ALERTS: ${{ secrets.DISCORD_WEBHOOK_RACE_ALERTS }}
-          run: node scrape_race_alerts.js
+      - name: Run race alerts
+        env:
+          DISCORD_WEBHOOK_RACE_ALERTS: ${{ secrets.DISCORD_WEBHOOK_RACE_ALERTS }}
+        run: node scrape_race_alerts.js
 
-        - name: Commit data files
-          run: |
-            git config --local user.email "github-actions[bot]@users.noreply.github.com"
-            git config --local user.name "github-actions[bot]"
-            git add data/stored_races.json data/sent_alerts.json || true
-            git diff --staged --quiet || git commit -m "Update race alerts data"
-            git push || true
+      - name: Commit data files
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/stored_races.json data/sent_alerts.json || true
+          git diff --staged --quiet || git commit -m "Update race alerts data"
+          git push || true
