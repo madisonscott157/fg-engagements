@@ -2,8 +2,6 @@
 
   on:
     schedule:
-      # Run every 20 minutes during and after racing hours (12:00-23:00 UTC)
-      # Tracking reports appear 15-30 min after race, need to catch within 45 min
       - cron: '*/20 12-23 * * *'
     workflow_dispatch:
 
@@ -49,4 +47,3 @@
             git add data/pending_tracking.json data/posted_tracking.json || true
             git diff --staged --quiet || git commit -m "Update tracking data"
             git push || true
-
