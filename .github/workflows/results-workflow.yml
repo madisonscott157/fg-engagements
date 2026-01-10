@@ -2,7 +2,6 @@ name: Scrape Race Results
 
   on:
     schedule:
-      # Run every 30 minutes from 12:00-22:00 UTC (racing hours)
       - cron: '*/30 12-22 * * *'
     workflow_dispatch:
       inputs:
@@ -18,7 +17,6 @@ name: Scrape Race Results
   jobs:
     scrape:
       runs-on: ubuntu-latest
-
       steps:
         - name: Checkout repository
           uses: actions/checkout@v4
@@ -59,4 +57,3 @@ name: Scrape Race Results
             git add data/seen_results.json data/race_history.json data/pending_tracking.json || true
             git diff --staged --quiet || git commit -m "Update race results data"
             git push || true
-
