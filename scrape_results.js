@@ -187,7 +187,7 @@ async function getGoogleAuth() {
 async function lookupOwner(sheets, horseName) {
   const cleanedName = cleanHorseNameForSheet(horseName).toLowerCase();
 
-  for (const tabName of ['Selection 2026', 'Selection 2025']) {
+  for (const tabName of ['Sélection 2026', 'Sélection 2025']) {
     try {
       const response = await sheets.spreadsheets.values.get({
         spreadsheetId: SPREADSHEET_ID,
@@ -228,7 +228,7 @@ async function writeToSheet(sheets, rowsToAdd) {
     });
 
     const misesSheet = spreadsheet.data.sheets.find(
-      s => s.properties.title === 'Mises a jour'
+      s => s.properties.title === 'Mises à jour'
     );
 
     if (!misesSheet) {
@@ -267,7 +267,7 @@ async function writeToSheet(sheets, rowsToAdd) {
     // Write data to row 2
     await sheets.spreadsheets.values.update({
       spreadsheetId: SPREADSHEET_ID,
-      range: `'Mises a jour'!A2:E${1 + rowsToAdd.length}`,
+      range: `'Mises à jour'!A2:E${1 + rowsToAdd.length}`,
       valueInputOption: 'RAW',
       requestBody: {
         values: valuesForSheet
