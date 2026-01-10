@@ -1,50 +1,62 @@
 name: Scrape Race Results
 
-on:
-  schedule:
-    # Run every 30 minutes from 12:00-22:00 UTC (racing hours)
-    - cron: '*/30 12-22 * * *'
-  workflow_dispatch:
-    inputs:
-      force_post:
-        description: 'Force post all results (for testing)'
-        required: false
-        default: 'false'
-        type: boolean
+  on:
+    schedule:
+      # Run every 30 minutes from 12:00-22:00 UTC (racing hours)
+      - cron: '*/30 12-22 * * *'
+    workflow_dispatch:
+      inputs:
+        force_post:
+          description: 'Force post all results (for testing)'
+          required: false
+          default: 'false'
+          type: boolean
 
-jobs:
-  scrape:
-    runs-on: ubuntu-latest
-    
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+  permissions:
+    contents: write
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
+  jobs:
+    scrape:
+      runs-on: ubuntu-latest
 
-      - name: Install dependencies
-        run: npm install playwright googleapis
+      steps:
+        - name: Checkout repository
+          uses: actions/checkout@v4
 
-      - name: Install Playwright browsers
-        run: npx playwright install chromium
+        - name: Setup Node.js
+          uses: actions/setup-node@v4
+          with:
+            node-version: '20'
 
-      - name: Run scraper
-        env:
-          RESULTS_URL: ${{ secrets.RESULTS_URL }}
-          DISCORD_WEBHOOK_RESULTS: ${{ secrets.DISCORD_WEBHOOK_RESULTS }}
-          GOOGLE_SERVICE_ACCOUNT: ${{ secrets.GOOGLE_SERVICE_ACCOUNT }}
-          SPREADSHEET_ID: ${{ secrets.SPREADSHEET_ID }}
-          DOC_ID: ${{ secrets.DOC_ID }}
-          FORCE_POST: ${{ inputs.force_post }}
-        run: node scrape_results.js
+        - name: Install dependencies
+          run: npm install playwright googleapis
 
-      - name: Commit data files
-        run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add data/seen_results.json data/race_history.json data/pending_tracking.json || true
-          git diff --staged --quiet || git commit -m "Update race results data"
-          git push || true
+        - name: Cache Playwright browsers
+          uses: actions/cache@v4
+          id: playwright-cache
+          with:
+            path: ~/.cache/ms-playwright
+            key: playwright-chromium-${{ runner.os }}
+
+        - name: Install Playwright browsers
+          if: steps.playwright-cache.outputs.cache-hit != 'true'
+          run: npx playwright install chromium
+
+        - name: Run scraper
+          env:
+            RESULTS_URL: ${{ secrets.RESULTS_URL }}
+            DISCORD_WEBHOOK_RESULTS: ${{ secrets.DISCORD_WEBHOOK_RESULTS }}
+            GOOGLE_SERVICE_ACCOUNT: ${{ secrets.GOOGLE_SERVICE_ACCOUNT }}
+            SPREADSHEET_ID: ${{ secrets.SPREADSHEET_ID }}
+            DOC_ID: ${{ secrets.DOC_ID }}
+            FORCE_POST: ${{ inputs.force_post }}
+          run: node scrape_results.js
+
+        - name: Commit data files
+          run: |
+            git config --local user.email "github-actions[bot]@users.noreply.github.com"
+            git config --local user.name "github-actions[bot]"
+            git add data/seen_results.json data/race_history.json data/pending_tracking.json || true
+            git diff --staged --quiet || git commit -m "Update race results data"
+            git push || true
+
