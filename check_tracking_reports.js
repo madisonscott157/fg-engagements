@@ -100,22 +100,22 @@ async function checkForTracking(raceUrl) {
   console.log(`Checking ${pending.length} races for tracking reports...`);
 
   const now = Date.now();
-  const ONE_HOUR = 60 * 60 * 1000;
+  const FORTY_FIVE_MINUTES = 45 * 60 * 1000;
   const found = [];
   const stillPending = [];
 
   for (const race of pending) {
     const age = now - race.addedAt;
-    
+
     // If already posted, skip
     if (posted.has(race.raceUrl)) {
       console.log(`⏭️  ${race.horse} (${race.date}) - already posted, removing from queue`);
       continue;
     }
-    
-    // If older than 60 minutes, stop checking
-    if (age > ONE_HOUR) {
-      console.log(`⏱️  ${race.horse} (${race.date}) - exceeded 60min, removing from queue`);
+
+    // If older than 45 minutes, stop checking (tracking reports appear 15-30 min after race)
+    if (age > FORTY_FIVE_MINUTES) {
+      console.log(`⏱️  ${race.horse} (${race.date}) - exceeded 45min, removing from queue`);
       continue;
     }
 
@@ -127,7 +127,8 @@ async function checkForTracking(raceUrl) {
       found.push({ ...race, trackingUrl });
       posted.add(race.raceUrl); // Mark as posted
     } else {
-      console.log(`⏳ No tracking yet for ${race.horse} (age: ${Math.round(age / 60000)}min)`);
+      const ageMinutes = Math.round(age / (60 * 1000));
+      console.log(`⏳ No tracking yet for ${race.horse} (age: ${ageMinutes}min)`);
       stillPending.push(race);
     }
   }
