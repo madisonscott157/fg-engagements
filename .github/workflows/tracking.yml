@@ -1,26 +1,52 @@
-name: Check tracking reports
-on:
-  schedule:
-    # Run every 3 minutes between 10:00-20:57 UTC to check for tracking reports
-    - cron: "*/3 10-20 * * *"
-  workflow_dispatch:
-jobs:
-  run:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 20
-      - run: npm i playwright@1.47.2
-      - run: npx playwright install --with-deps chromium
-      - run: node check_tracking_reports.js
-        env:
-          DISCORD_WEBHOOK_RESULTS: ${{ secrets.DISCORD_WEBHOOK_RESULTS }}
-      - name: Commit updated queue
-        uses: EndBug/add-and-commit@v9
-        with:
-          add: 'data/pending_tracking.json data/posted_tracking.json'
-          message: 'chore: update tracking queue'
+ name: Check Tracking Reports
+
+  on:
+    schedule:
+      # Run every 20 minutes during and after racing hours (12:00-23:00 UTC)
+      # Tracking reports appear 15-30 min after race, need to catch within 45 min
+      - cron: '*/20 12-23 * * *'
+    workflow_dispatch:
+
+  permissions:
+    contents: write
+
+  jobs:
+    check:
+      runs-on: ubuntu-latest
+
+      steps:
+        - name: Checkout repository
+          uses: actions/checkout@v4
+
+        - name: Setup Node.js
+          uses: actions/setup-node@v4
+          with:
+            node-version: '20'
+
+        - name: Install dependencies
+          run: npm install playwright
+
+        - name: Cache Playwright browsers
+          uses: actions/cache@v4
+          id: playwright-cache
+          with:
+            path: ~/.cache/ms-playwright
+            key: playwright-chromium-${{ runner.os }}
+
+        - name: Install Playwright browsers
+          if: steps.playwright-cache.outputs.cache-hit != 'true'
+          run: npx playwright install chromium
+
+        - name: Run tracking checker
+          env:
+            DISCORD_WEBHOOK_RESULTS: ${{ secrets.DISCORD_WEBHOOK_RESULTS }}
+          run: node check_tracking_reports.js
+
+        - name: Commit data files
+          run: |
+            git config --local user.email "github-actions[bot]@users.noreply.github.com"
+            git config --local user.name "github-actions[bot]"
+            git add data/pending_tracking.json data/posted_tracking.json || true
+            git diff --staged --quiet || git commit -m "Update tracking data"
+            git push || true
+
