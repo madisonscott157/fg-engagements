@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-01-16T16:00:31.306Z",
+  "lastUpdate": "2026-01-16T16:24:35.787Z",
   "upcoming": [
     {
       "horse": "EL VEGAS (IRE) M.PS. 3 a.",
@@ -41,7 +41,7 @@
       "distance": "1.600",
       "cat": "",
       "status": "VA-P/46",
-      "lastUpdate": 1768573231927
+      "lastUpdate": 1768580664856
     },
     {
       "horse": "El Vegas (ire) M 3 A.",
@@ -51,7 +51,7 @@
       "distance": "1.700",
       "cat": "",
       "status": "F1-P/3052",
-      "lastUpdate": 1768573231927
+      "lastUpdate": 1768580664856
     }
   ],
   "results": [
