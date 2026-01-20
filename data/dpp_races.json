@@ -1,19 +1,4 @@
 {
-  "lastUpdate": "2026-01-20T14:27:42.050Z",
-  "races": [
-    {
-      "horse": "EL VEGAS (IRE) M.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/aGttMUhqaHB1M3kyekpleUF6eW5aZz09",
-      "statut": "DP-P/46",
-      "date": "21/01/2026",
-      "track": "CHANTILLY",
-      "race": "CHATEAU LA TOUR",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/eFRMRTVwbDFFblh2ZDFlQzJ4UTBKZz09",
-      "cat": "(Classe 2)",
-      "purse": "25.600",
-      "disc": "P",
-      "dist": "1.600",
-      "owner": "CHR. HEAD (S)"
-    }
-  ]
+  "lastUpdate": "2026-01-20T16:31:00.559Z",
+  "races": []
 }
