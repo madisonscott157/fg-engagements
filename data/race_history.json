@@ -1,6 +1,19 @@
 [
   {
     "horse": "El Vegas",
+    "date": "21/01/2026",
+    "track": "CHANTILLY",
+    "race": "",
+    "distance": "1.600",
+    "position": "6",
+    "jockey": "A. LEMAITRE",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/eFRMRTVwbDFFblh2ZDFlQzJ4UTBKZz09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/aGttMUhqaHB1M3kyekpleUF6eW5aZz09",
+    "scrapedAt": "2026-01-21T14:41:00.143Z"
+  },
+  {
+    "horse": "El Vegas",
     "date": "10/01/2026",
     "track": "CHANTILLY",
     "race": "",

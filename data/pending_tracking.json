@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "horse": "EL VEGAS",
+    "date": "21/01/2026",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/eFRMRTVwbDFFblh2ZDFlQzJ4UTBKZz09",
+    "hippodrome": "CHANTILLY",
+    "addedAt": 1769006465637
+  }
+]
