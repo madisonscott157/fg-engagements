@@ -1,35 +1,15 @@
 {
-  "lastUpdate": "2026-01-21T08:48:08.077Z",
+  "lastUpdate": "2026-01-21T10:24:38.499Z",
   "upcoming": [
     {
       "horse": "EL VEGAS (IRE) M.PS. 3 a.",
-      "date": "10/01/2026",
+      "date": "21/01/2026",
       "track": "CHANTILLY",
-      "race": "BOIS DE PRECY",
-      "distance": "1.900",
+      "race": "CHATEAU LA TOUR",
+      "distance": "1.600",
       "cat": "(Classe 2)",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/dm15R0MvWlBYUEdyRjJXM2RrankvUT09",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/eFRMRTVwbDFFblh2ZDFlQzJ4UTBKZz09",
       "horseUrl": "https://www.france-galop.com/fr/cheval/aGttMUhqaHB1M3kyekpleUF6eW5aZz09"
-    },
-    {
-      "horse": "MATAURI QUEEN F.PS. 3 a.",
-      "date": "10/01/2026",
-      "track": "CHANTILLY",
-      "race": "MOLTON",
-      "distance": "1.600",
-      "cat": "HAND.",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/ODRoM1g5WG40a1Rpb0VLZUVpcDlQZz09",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/dXhEZzBJdXdYKzl4RHdHUGZ2R0kzUT09"
-    },
-    {
-      "horse": "TCHIRIKHOVA F.PS. 3 a.",
-      "date": "10/01/2026",
-      "track": "CHANTILLY",
-      "race": "RTE DES PINS",
-      "distance": "1.600",
-      "cat": "(Maiden)",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/YU9Wem1TNFZ2QzNWRmhGTGE3U1d5UT09",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/TnBURDNRRW8rWVl6aFdyN3hLVzJsQT09"
     }
   ],
   "engagements": [
@@ -41,7 +21,7 @@
       "distance": "1.600",
       "cat": "",
       "status": "DP-P/46",
-      "lastUpdate": 1768984073614
+      "lastUpdate": 1768991065383
     }
   ],
   "results": [
