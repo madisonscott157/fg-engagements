@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-01-21T23:17:29.964Z",
+  "lastUpdate": "2026-01-22T02:32:41.729Z",
   "upcoming": [
     {
       "horse": "EL VEGAS (IRE) M.PS. 3 a.",
@@ -12,18 +12,7 @@
       "horseUrl": "https://www.france-galop.com/fr/cheval/aGttMUhqaHB1M3kyekpleUF6eW5aZz09"
     }
   ],
-  "engagements": [
-    {
-      "horse": "El Vegas (ire) M 3 A.",
-      "date": "21/01/2026",
-      "track": "chantilly",
-      "race": "chateau la tour",
-      "distance": "1.600",
-      "cat": "",
-      "status": "DP-P/46",
-      "lastUpdate": 1769027259478
-    }
-  ],
+  "engagements": [],
   "results": [
     {
       "horse": "El Vegas",
