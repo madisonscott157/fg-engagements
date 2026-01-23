@@ -448,9 +448,27 @@
     "masha f.ps. 3 a. | 30/01/2026 | deauville | cour oriot | 1.300",
     {
       "statut": "VA-P/78",
-      "last": 1769156753970,
+      "last": 1769163683873,
       "horseUrl": "https://www.france-galop.com/fr/cheval/ZDdsRmdxYXFseFVYaU9UanlZdHRLZz09",
       "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/cWM2bXR3RVUxVytSMzhCTzNwU0lRUT09"
+    }
+  ],
+  [
+    "el vegas (ire) m.ps. 3 a. | 31/01/2026 | chantilly | queusse garg. | 1.600",
+    {
+      "statut": "-P/85",
+      "last": 1769163683873,
+      "horseUrl": "https://www.france-galop.com/fr/cheval/aGttMUhqaHB1M3kyekpleUF6eW5aZz09",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/dWpudVVZNm1jRmlCcFpuKzVrRVNTQT09"
+    }
+  ],
+  [
+    "filicudi ire m.ps. 3 a. | 31/01/2026 | chantilly | carref. orleans | 1.900",
+    {
+      "statut": "-P/84",
+      "last": 1769163683873,
+      "horseUrl": "https://www.france-galop.com/fr/cheval/S2toOEN3RVB0ZzhncEkrVWgxblUwdz09",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/RXB2cFhKN1JyM2oyMVVKakpZZG9VUT09"
     }
   ]
 ]
