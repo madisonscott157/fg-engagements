@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-01-23T08:46:32.501Z",
+  "lastUpdate": "2026-01-23T10:21:42.271Z",
   "upcoming": [
     {
       "horse": "EL VEGAS (IRE) M.PS. 3 a.",
@@ -14,6 +14,26 @@
   ],
   "engagements": [
     {
+      "horse": "El Vegas (ire) M 3 A.",
+      "date": "31/01/2026",
+      "track": "chantilly",
+      "race": "queusse garg.",
+      "distance": "1.600",
+      "cat": "",
+      "status": "-P/85",
+      "lastUpdate": 1769163683873
+    },
+    {
+      "horse": "Filicudi M 3 A.",
+      "date": "31/01/2026",
+      "track": "chantilly",
+      "race": "carref. orleans",
+      "distance": "1.900",
+      "cat": "",
+      "status": "-P/84",
+      "lastUpdate": 1769163683873
+    },
+    {
       "horse": "Masha F 3 A.",
       "date": "30/01/2026",
       "track": "deauville",
@@ -21,7 +41,7 @@
       "distance": "1.300",
       "cat": "",
       "status": "VA-P/78",
-      "lastUpdate": 1769156753970
+      "lastUpdate": 1769163683873
     }
   ],
   "results": [
