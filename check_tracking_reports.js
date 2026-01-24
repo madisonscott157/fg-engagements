@@ -42,26 +42,18 @@ async function savePostedTracking(set) {
   await fs.writeFile(POSTED_FILE, JSON.stringify(arr, null, 2), 'utf8');
 }
 
-async function checkForTracking(raceUrl) {
-  const browser = await chromium.launch({ headless: true });
-  const ctx = await browser.newContext({
-    userAgent:
-      'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/120 Safari/537.36',
-  });
-  const page = await ctx.newPage();
-  page.setDefaultTimeout(30000);
-
+async function checkForTracking(page, raceUrl) {
   try {
-    await page.goto(raceUrl, { waitUntil: 'domcontentloaded' });
+    await page.goto(raceUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
     await page.waitForTimeout(1500);
 
     // Look for tracking report link (PDF with "tracking" or "last_times" in the URL)
     const trackingLinks = page.locator('a[href*="Tracking"], a[href*="last_times"], a:has-text("Tracking"), a:has-text("Rapport")');
-    
+
     if (await trackingLinks.count() > 0) {
       const link = trackingLinks.first();
       let href = await link.getAttribute('href');
-      
+
       if (href) {
         // Make full URL
         if (!href.startsWith('http')) {
@@ -73,17 +65,14 @@ async function checkForTracking(raceUrl) {
             href = 'https://www7.france-galop.com/Casaques/Tracking/' + href;
           }
         }
-        
-        await browser.close();
+
         return href;
       }
     }
 
-    await browser.close();
     return null;
   } catch (err) {
     console.error(`Error checking ${raceUrl}:`, err.message);
-    await browser.close();
     return null;
   }
 }
@@ -91,7 +80,7 @@ async function checkForTracking(raceUrl) {
 (async () => {
   let pending = await loadPendingTracking();
   const posted = await loadPostedTracking();
-  
+
   if (pending.length === 0) {
     console.log('No pending tracking reports to check');
     process.exit(0);
@@ -104,32 +93,50 @@ async function checkForTracking(raceUrl) {
   const found = [];
   const stillPending = [];
 
+  // Filter races first before launching browser
+  const racesToCheck = [];
   for (const race of pending) {
     const age = now - race.addedAt;
 
-    // If already posted, skip
     if (posted.has(race.raceUrl)) {
       console.log(`⏭️  ${race.horse} (${race.date}) - already posted, removing from queue`);
       continue;
     }
 
-    // If older than 45 minutes, stop checking (tracking reports appear 15-30 min after race)
     if (age > FORTY_FIVE_MINUTES) {
       console.log(`⏱️  ${race.horse} (${race.date}) - exceeded 45min, removing from queue`);
       continue;
     }
 
-    console.log(`Checking tracking for: ${race.horse} (${race.date})...`);
-    const trackingUrl = await checkForTracking(race.raceUrl);
+    racesToCheck.push({ race, age });
+  }
 
-    if (trackingUrl) {
-      console.log(`✅ Found tracking report for ${race.horse}!`);
-      found.push({ ...race, trackingUrl });
-      posted.add(race.raceUrl); // Mark as posted
-    } else {
-      const ageMinutes = Math.round(age / (60 * 1000));
-      console.log(`⏳ No tracking yet for ${race.horse} (age: ${ageMinutes}min)`);
-      stillPending.push(race);
+  // Only launch browser if we have races to check
+  if (racesToCheck.length > 0) {
+    const browser = await chromium.launch({ headless: true });
+    const ctx = await browser.newContext({
+      userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/120 Safari/537.36',
+    });
+    const page = await ctx.newPage();
+    page.setDefaultTimeout(30000);
+
+    try {
+      for (const { race, age } of racesToCheck) {
+        console.log(`Checking tracking for: ${race.horse} (${race.date})...`);
+        const trackingUrl = await checkForTracking(page, race.raceUrl);
+
+        if (trackingUrl) {
+          console.log(`✅ Found tracking report for ${race.horse}!`);
+          found.push({ ...race, trackingUrl });
+          posted.add(race.raceUrl);
+        } else {
+          const ageMinutes = Math.round(age / (60 * 1000));
+          console.log(`⏳ No tracking yet for ${race.horse} (age: ${ageMinutes}min)`);
+          stillPending.push(race);
+        }
+      }
+    } finally {
+      await browser.close();
     }
   }
 

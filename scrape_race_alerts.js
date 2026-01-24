@@ -176,56 +176,43 @@ async function loadDPPRaces() {
   }
 }
 
-async function getPostTime(raceUrl, retries = 2) {
-  let lastError;
-  
+async function getPostTime(page, raceUrl, retries = 2) {
   for (let attempt = 1; attempt <= retries; attempt++) {
-    const browser = await chromium.launch({ headless: true });
-    const ctx = await browser.newContext({
-      userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/120 Safari/537.36',
-    });
-    const page = await ctx.newPage();
-    page.setDefaultTimeout(30000);
-
     try {
-      await page.goto(raceUrl, { waitUntil: 'domcontentloaded' });
+      await page.goto(raceUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
       await page.waitForTimeout(1500);
 
       const bodyText = await page.locator('body').innerText();
-      
+
       // Match patterns like "15h58", "15:58", "Départ : 15h58"
       const timeMatch = bodyText.match(/(?:Départ|Depart|Post|Heure)?\s*:?\s*(\d{1,2})[h:](\d{2})/i);
-      
+
       if (timeMatch) {
         const hour = parseInt(timeMatch[1]);
         const minute = parseInt(timeMatch[2]);
-        await browser.close();
         return { hour, minute, formatted: `${hour}h${minute.toString().padStart(2, '0')}` };
       }
 
-      await browser.close();
       return null;
     } catch (err) {
-      lastError = err;
       console.error(`  ⚠️ Attempt ${attempt}/${retries} failed for ${raceUrl}: ${err.message}`);
-      await browser.close();
-      
+
       if (attempt < retries) {
-        await new Promise(r => setTimeout(r, 2000)); // Wait 2s before retry
+        await new Promise(r => setTimeout(r, 2000));
       }
     }
   }
-  
+
   console.error(`  ❌ All ${retries} attempts failed for ${raceUrl}`);
   return null;
 }
 
 async function updateRaceData() {
   const parisTime = getParisTime();
-  
+
   // Get DP-P races from engagements scraper's data
   const dppRaces = await loadDPPRaces();
-  
+
   if (!dppRaces) {
     console.log('⚠️  Could not load DPP races data, keeping previous data');
     return false;
@@ -237,32 +224,52 @@ async function updateRaceData() {
     return true;
   }
 
-  // Get post time for each race (only scraping we do!)
-  const racesWithTimes = [];
-  for (const race of dppRaces) {
-    // Skip if no race URL
+  // Filter to races with URLs
+  const racesToFetch = dppRaces.filter(race => {
     if (!race.raceUrl) {
       console.log(`  ⚠️  ${race.horse}: No race URL available`);
-      continue;
+      return false;
     }
-    
-    console.log(`  Fetching post time for ${race.horse}...`);
-    const postTime = await getPostTime(race.raceUrl);
-    
-    if (postTime) {
-      racesWithTimes.push({
-        ...race,
-        postTime,
-      });
-      console.log(`  ✓ ${race.horse}: ${postTime.formatted}`);
-    } else {
-      console.log(`  ✗ ${race.horse}: Could not get post time`);
+    return true;
+  });
+
+  if (racesToFetch.length === 0) {
+    console.log('ℹ️  No races with URLs to fetch');
+    await saveStoredRaces({ lastUpdate: parisTime.timestamp, races: [] });
+    return true;
+  }
+
+  // Launch browser once for all races
+  const browser = await chromium.launch({ headless: true });
+  const ctx = await browser.newContext({
+    userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/120 Safari/537.36',
+  });
+  const page = await ctx.newPage();
+  page.setDefaultTimeout(30000);
+
+  const racesWithTimes = [];
+  try {
+    for (const race of racesToFetch) {
+      console.log(`  Fetching post time for ${race.horse}...`);
+      const postTime = await getPostTime(page, race.raceUrl);
+
+      if (postTime) {
+        racesWithTimes.push({
+          ...race,
+          postTime,
+        });
+        console.log(`  ✓ ${race.horse}: ${postTime.formatted}`);
+      } else {
+        console.log(`  ✗ ${race.horse}: Could not get post time`);
+      }
     }
+  } finally {
+    await browser.close();
   }
 
   // Filter out past races
   const futureRaces = filterPastRaces(racesWithTimes, parisTime);
-  
+
   // Save to file
   await saveStoredRaces({
     lastUpdate: parisTime.timestamp,

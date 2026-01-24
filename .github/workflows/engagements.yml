@@ -8,6 +8,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: scraper-commits
+  cancel-in-progress: false
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
@@ -21,11 +25,11 @@ jobs:
           node-version: '20'
 
       - name: Install dependencies
-        run: npm install playwright googleapis
+        run: npm install
 
       - name: Get Playwright version
         id: playwright-version
-        run: echo "version=$(npm list playwright --json | jq -r '.dependencies.playwright.version')" >> $GITHUB_OUTPUT
+        run: echo "version=$(node -p "require('./package.json').dependencies.playwright")" >> $GITHUB_OUTPUT
 
       - name: Cache Playwright browsers
         uses: actions/cache@v4
@@ -47,10 +51,16 @@ jobs:
           DOC_ID: ${{ secrets.DOC_ID }}
         run: node scrape_engagements.js
 
-      - name: Commit data files
+      - name: Commit and push data files
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
+          git pull --rebase origin main || true
           git add data/seen.json data/dpp_races.json data/posted_partants.json data/last_run.json || true
           git diff --staged --quiet || git commit -m "Update engagements data"
-          git push || true
+          for i in 1 2 3; do
+            git push && break
+            echo "Push failed, retrying in 5s..."
+            sleep 5
+            git pull --rebase origin main || true
+          done

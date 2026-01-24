@@ -1,12 +1,10 @@
 name: Build Dashboard Data
 
 on:
-  # Run after scraper workflows complete
   workflow_run:
     workflows: ["Scrape Race Results", "Scrape Engagements"]
     types:
       - completed
-  # Also run on schedule to catch any missed updates
   schedule:
     - cron: '15 */2 * * *'
   workflow_dispatch:
@@ -14,22 +12,24 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: scraper-commits
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
-    # Only run if the triggering workflow succeeded (or if manually triggered/scheduled)
     if: ${{ github.event.workflow_run.conclusion == 'success' || github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' }}
-    
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          # Get latest changes from scraper commits
           ref: main
           fetch-depth: 0
 
       - name: Pull latest changes
-        run: git pull origin main || true
+        run: git pull --rebase origin main || true
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -39,10 +39,15 @@ jobs:
       - name: Build dashboard data
         run: node build_dashboard_data.js
 
-      - name: Commit dashboard data
+      - name: Commit and push dashboard data
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add data/dashboard_data.json || true
           git diff --staged --quiet || git commit -m "Update dashboard data"
-          git push || true
+          for i in 1 2 3; do
+            git push && break
+            echo "Push failed, retrying in 5s..."
+            sleep 5
+            git pull --rebase origin main || true
+          done

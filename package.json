@@ -1,0 +1,13 @@
+{
+  "name": "fg-engagements",
+  "version": "1.0.0",
+  "description": "France Galop scraper and Discord bot",
+  "private": true,
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "playwright": "1.49.1",
+    "googleapis": "^144.0.0"
+  }
+}
