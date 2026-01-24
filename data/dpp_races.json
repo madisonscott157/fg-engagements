@@ -1,4 +1,19 @@
 {
-  "lastUpdate": "2026-01-23T10:21:23.874Z",
-  "races": []
+  "lastUpdate": "2026-01-24T14:53:49.307Z",
+  "races": [
+    {
+      "horse": "ROI DU CIEL (IRE) H.PS. 3 a. ... (Sup.)",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/L2RydUlPZGxyN0Q2b3VDZGVDYTl5Zz09",
+      "statut": "DP-P/3067(Sup.)",
+      "date": "27/01/2026",
+      "track": "PORNICHET",
+      "race": "PARC DE BRIERE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/Z1hPR2NOU3pjdzdDbWxzUE53SWxDUT09",
+      "cat": "RECL.",
+      "purse": "11.500",
+      "disc": "P",
+      "dist": "2.100",
+      "owner": "CHR. HEAD (S)"
+    }
+  ]
 }
