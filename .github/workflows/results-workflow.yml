@@ -29,12 +29,16 @@ jobs:
       - name: Install dependencies
         run: npm install playwright googleapis
 
+      - name: Get Playwright version
+        id: playwright-version
+        run: echo "version=$(npm list playwright --json | jq -r '.dependencies.playwright.version')" >> $GITHUB_OUTPUT
+
       - name: Cache Playwright browsers
         uses: actions/cache@v4
         id: playwright-cache
         with:
           path: ~/.cache/ms-playwright
-          key: playwright-chromium-${{ runner.os }}
+          key: playwright-${{ runner.os }}-${{ steps.playwright-version.outputs.version }}
 
       - name: Install Playwright browsers
         if: steps.playwright-cache.outputs.cache-hit != 'true'
