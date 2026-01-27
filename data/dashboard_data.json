@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-01-27T10:47:45.132Z",
+  "lastUpdate": "2026-01-27T12:41:48.226Z",
   "upcoming": [
     {
       "horse": "ROI DU CIEL (IRE) H.PS. 3 a. ... (Sup.)",
@@ -21,7 +21,7 @@
       "distance": "1.600",
       "cat": "",
       "status": "VA-P/85",
-      "lastUpdate": 1769509453152
+      "lastUpdate": 1769517686922
     },
     {
       "horse": "Filicudi M 3 A.",
@@ -31,7 +31,7 @@
       "distance": "1.900",
       "cat": "",
       "status": "VA-P/84",
-      "lastUpdate": 1769509453152
+      "lastUpdate": 1769517686922
     },
     {
       "horse": "Masha F 3 A.",
@@ -40,8 +40,8 @@
       "race": "cour oriot",
       "distance": "1.300",
       "cat": "",
-      "status": "VA-P/78",
-      "lastUpdate": 1769509453152
+      "status": "PB-P/78",
+      "lastUpdate": 1769517686922
     },
     {
       "horse": "Roi Du Ciel (ire) H 3 A.",
@@ -51,7 +51,7 @@
       "distance": "2.100",
       "cat": "",
       "status": "DP-P/3067(Sup.)",
-      "lastUpdate": 1769509453152
+      "lastUpdate": 1769517686922
     }
   ],
   "results": [
