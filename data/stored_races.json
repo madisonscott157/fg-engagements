@@ -1,23 +1,23 @@
 {
-  "lastUpdate": "2026-01-21T10:15:18.825Z",
+  "lastUpdate": "2026-01-27T10:14:55.018Z",
   "races": [
     {
-      "horse": "EL VEGAS (IRE) M.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/aGttMUhqaHB1M3kyekpleUF6eW5aZz09",
-      "statut": "DP-P/46",
-      "date": "21/01/2026",
-      "track": "CHANTILLY",
-      "race": "CHATEAU LA TOUR",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/eFRMRTVwbDFFblh2ZDFlQzJ4UTBKZz09",
-      "cat": "(Classe 2)",
-      "purse": "25.600",
+      "horse": "ROI DU CIEL (IRE) H.PS. 3 a. ... (Sup.)",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/L2RydUlPZGxyN0Q2b3VDZGVDYTl5Zz09",
+      "statut": "DP-P/3067(Sup.)",
+      "date": "27/01/2026",
+      "track": "PORNICHET",
+      "race": "PARC DE BRIERE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/Z1hPR2NOU3pjdzdDbWxzUE53SWxDUT09",
+      "cat": "RECL.",
+      "purse": "11.500",
       "disc": "P",
-      "dist": "1.600",
+      "dist": "2.100",
       "owner": "CHR. HEAD (S)",
       "postTime": {
-        "hour": 15,
-        "minute": 22,
-        "formatted": "15h22"
+        "hour": 18,
+        "minute": 55,
+        "formatted": "18h55"
       }
     }
   ]
