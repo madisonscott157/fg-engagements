@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-01-29T07:05:06.298Z",
+  "lastUpdate": "2026-01-29T08:35:06.228Z",
   "upcoming": [
     {
       "horse": "ROI DU CIEL (IRE) H.PS. 3 a. ... (Sup.)",
@@ -21,7 +21,7 @@
       "distance": "1.600",
       "cat": "",
       "status": "VA-P/93",
-      "lastUpdate": 1769668924056
+      "lastUpdate": 1769675692272
     },
     {
       "horse": "Matauri Queen F 3 A.",
@@ -31,7 +31,7 @@
       "distance": "2.100",
       "cat": "",
       "status": "VA-P/3075",
-      "lastUpdate": 1769668924056
+      "lastUpdate": 1769675692272
     },
     {
       "horse": "Palm Springs F 3 A.",
@@ -41,7 +41,7 @@
       "distance": "1.600",
       "cat": "",
       "status": "VA-P/93",
-      "lastUpdate": 1769668924056
+      "lastUpdate": 1769675692272
     },
     {
       "horse": "El Vegas (ire) M 3 A.",
@@ -51,7 +51,7 @@
       "distance": "1.600",
       "cat": "",
       "status": "PB-P/85",
-      "lastUpdate": 1769668924056
+      "lastUpdate": 1769675692272
     },
     {
       "horse": "Filicudi M 3 A.",
@@ -61,7 +61,7 @@
       "distance": "1.900",
       "cat": "",
       "status": "PB-P/84",
-      "lastUpdate": 1769668924056
+      "lastUpdate": 1769675692272
     },
     {
       "horse": "Masha F 3 A.",
@@ -71,7 +71,7 @@
       "distance": "1.300",
       "cat": "",
       "status": "DP-P/78",
-      "lastUpdate": 1769668924056
+      "lastUpdate": 1769675692272
     }
   ],
   "results": [
