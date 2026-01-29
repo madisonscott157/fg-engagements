@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-01-29T14:08:44.476Z",
+  "lastUpdate": "2026-01-29T14:36:59.403Z",
   "upcoming": [
     {
       "horse": "ROI DU CIEL (IRE) H.PS. 3 a. ... (Sup.)",
@@ -21,7 +21,7 @@
       "distance": "1.300",
       "cat": "",
       "status": "VA-P/100",
-      "lastUpdate": 1769691056903
+      "lastUpdate": 1769697404341
     },
     {
       "horse": "Masha F 3 A.",
@@ -31,7 +31,7 @@
       "distance": "1.300",
       "cat": "",
       "status": "VA-P/101",
-      "lastUpdate": 1769691056903
+      "lastUpdate": 1769697404341
     },
     {
       "horse": "No Tune (gb) F 3 A.",
@@ -41,7 +41,7 @@
       "distance": "1.300",
       "cat": "",
       "status": "VA-P/100",
-      "lastUpdate": 1769691056903
+      "lastUpdate": 1769697404341
     },
     {
       "horse": "Do For Love F 3 A.",
@@ -51,7 +51,7 @@
       "distance": "1.600",
       "cat": "",
       "status": "VA-P/93",
-      "lastUpdate": 1769691056903
+      "lastUpdate": 1769697404341
     },
     {
       "horse": "Matauri Queen F 3 A.",
@@ -61,7 +61,7 @@
       "distance": "2.100",
       "cat": "",
       "status": "VA-P/3075",
-      "lastUpdate": 1769691056903
+      "lastUpdate": 1769697404341
     },
     {
       "horse": "Palm Springs F 3 A.",
@@ -71,7 +71,7 @@
       "distance": "1.600",
       "cat": "",
       "status": "VA-P/93",
-      "lastUpdate": 1769691056903
+      "lastUpdate": 1769697404341
     },
     {
       "horse": "El Vegas (ire) M 3 A.",
@@ -81,7 +81,7 @@
       "distance": "1.600",
       "cat": "",
       "status": "DP-P/85",
-      "lastUpdate": 1769691056903
+      "lastUpdate": 1769697404341
     },
     {
       "horse": "Filicudi M 3 A.",
@@ -91,7 +91,7 @@
       "distance": "1.900",
       "cat": "",
       "status": "DP-P/84",
-      "lastUpdate": 1769691056903
+      "lastUpdate": 1769697404341
     },
     {
       "horse": "Masha F 3 A.",
@@ -101,7 +101,7 @@
       "distance": "1.300",
       "cat": "",
       "status": "DP-P/78",
-      "lastUpdate": 1769691056903
+      "lastUpdate": 1769697404341
     }
   ],
   "results": [
