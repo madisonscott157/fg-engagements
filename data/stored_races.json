@@ -1,23 +1,61 @@
 {
-  "lastUpdate": "2026-01-27T10:14:55.018Z",
+  "lastUpdate": "2026-01-30T10:21:25.582Z",
   "races": [
     {
-      "horse": "ROI DU CIEL (IRE) H.PS. 3 a. ... (Sup.)",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/L2RydUlPZGxyN0Q2b3VDZGVDYTl5Zz09",
-      "statut": "DP-P/3067(Sup.)",
-      "date": "27/01/2026",
-      "track": "PORNICHET",
-      "race": "PARC DE BRIERE",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/Z1hPR2NOU3pjdzdDbWxzUE53SWxDUT09",
-      "cat": "RECL.",
-      "purse": "11.500",
+      "horse": "MASHA F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/ZDdsRmdxYXFseFVYaU9UanlZdHRLZz09",
+      "statut": "DP-P/78",
+      "date": "30/01/2026",
+      "track": "DEAUVILLE",
+      "race": "COUR ORIOT",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/cWM2bXR3RVUxVytSMzhCTzNwU0lRUT09",
+      "cat": "HAND.",
+      "purse": "24.000",
       "disc": "P",
-      "dist": "2.100",
+      "dist": "1.300",
       "owner": "CHR. HEAD (S)",
       "postTime": {
         "hour": 18,
-        "minute": 55,
-        "formatted": "18h55"
+        "minute": 23,
+        "formatted": "18h23"
+      }
+    },
+    {
+      "horse": "EL VEGAS (IRE) M.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/aGttMUhqaHB1M3kyekpleUF6eW5aZz09",
+      "statut": "DP-P/85",
+      "date": "31/01/2026",
+      "track": "CHANTILLY",
+      "race": "QUEUSSE GARG.",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/dWpudVVZNm1jRmlCcFpuKzVrRVNTQT09",
+      "cat": "RECL.",
+      "purse": "18.200",
+      "disc": "P",
+      "dist": "1.600",
+      "owner": "CHR. HEAD (S)",
+      "postTime": {
+        "hour": 11,
+        "minute": 53,
+        "formatted": "11h53"
+      }
+    },
+    {
+      "horse": "FILICUDI IRE M.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/S2toOEN3RVB0ZzhncEkrVWgxblUwdz09",
+      "statut": "DP-P/84",
+      "date": "31/01/2026",
+      "track": "CHANTILLY",
+      "race": "CARREF. ORLEANS",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/RXB2cFhKN1JyM2oyMVVKakpZZG9VUT09",
+      "cat": "(Classe 2)",
+      "purse": "25.600",
+      "disc": "P",
+      "dist": "1.900",
+      "owner": "CHR. HEAD (S)",
+      "postTime": {
+        "hour": 12,
+        "minute": 28,
+        "formatted": "12h28"
       }
     }
   ]
