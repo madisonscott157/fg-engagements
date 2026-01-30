@@ -1,5 +1,18 @@
 [
   {
+    "horse": "Masha",
+    "date": "30/01/2026",
+    "track": "DEAUVILLE",
+    "race": "HAND.",
+    "distance": "1.300",
+    "position": "11",
+    "jockey": "A. LEMAITRE",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/cWM2bXR3RVUxVytSMzhCTzNwU0lRUT09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/ZDdsRmdxYXFseFVYaU9UanlZdHRLZz09",
+    "scrapedAt": "2026-01-30T17:52:24.342Z"
+  },
+  {
     "horse": "Roi Du Ciel",
     "date": "27/01/2026",
     "track": "PORNICHET",
