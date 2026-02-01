@@ -1,33 +1,4 @@
 {
-  "lastUpdate": "2026-01-31T20:21:31.996Z",
-  "races": [
-    {
-      "horse": "EL VEGAS (IRE) M.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/aGttMUhqaHB1M3kyekpleUF6eW5aZz09",
-      "statut": "DP-P/85",
-      "date": "31/01/2026",
-      "track": "CHANTILLY",
-      "race": "QUEUSSE GARG.",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/dWpudVVZNm1jRmlCcFpuKzVrRVNTQT09",
-      "cat": "RECL.",
-      "purse": "18.200",
-      "disc": "P",
-      "dist": "1.600",
-      "owner": "CHR. HEAD (S)"
-    },
-    {
-      "horse": "FILICUDI IRE M.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/S2toOEN3RVB0ZzhncEkrVWgxblUwdz09",
-      "statut": "DP-P/84",
-      "date": "31/01/2026",
-      "track": "CHANTILLY",
-      "race": "CARREF. ORLEANS",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/RXB2cFhKN1JyM2oyMVVKakpZZG9VUT09",
-      "cat": "(Classe 2)",
-      "purse": "25.600",
-      "disc": "P",
-      "dist": "1.900",
-      "owner": "CHR. HEAD (S)"
-    }
-  ]
+  "lastUpdate": "2026-02-01T06:43:53.119Z",
+  "races": []
 }
