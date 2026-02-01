@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-01-31T22:56:42.753Z",
+  "lastUpdate": "2026-02-01T03:27:58.620Z",
   "upcoming": [
     {
       "horse": "MASHA F.PS. 3 a.",
@@ -121,26 +121,6 @@
       "distance": "1.600",
       "cat": "",
       "status": "VA-P/93",
-      "lastUpdate": 1769890891996
-    },
-    {
-      "horse": "El Vegas (ire) M 3 A.",
-      "date": "31/01/2026",
-      "track": "chantilly",
-      "race": "queusse garg.",
-      "distance": "1.600",
-      "cat": "",
-      "status": "DP-P/85",
-      "lastUpdate": 1769890891996
-    },
-    {
-      "horse": "Filicudi M 3 A.",
-      "date": "31/01/2026",
-      "track": "chantilly",
-      "race": "carref. orleans",
-      "distance": "1.900",
-      "cat": "",
-      "status": "DP-P/84",
       "lastUpdate": 1769890891996
     }
   ],
