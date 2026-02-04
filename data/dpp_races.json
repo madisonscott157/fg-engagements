@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-02-04T08:36:43.238Z",
+  "lastUpdate": "2026-02-04T10:35:04.336Z",
   "races": [
     {
       "horse": "DO FOR LOVE IRE F.PS. 3 a.",
@@ -27,6 +27,20 @@
       "purse": "19.200",
       "disc": "P",
       "dist": "2.100",
+      "owner": "CHR. HEAD (S)"
+    },
+    {
+      "horse": "NO TUNE (GB) F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/QnhqdXA4MERPdXZveTZNNGVDeUNaZz09",
+      "statut": "DP-P/100",
+      "date": "06/02/2026",
+      "track": "DEAUVILLE",
+      "race": "PRIOLO",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/YWdkMGpKdDl2dCtYZklxNnFyUEprZz09",
+      "cat": "(Classe 1)",
+      "purse": "32.000",
+      "disc": "P",
+      "dist": "1.300",
       "owner": "CHR. HEAD (S)"
     }
   ]
