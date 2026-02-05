@@ -35,12 +35,19 @@ const LAST_RUN_FILE = path.join(STORE_DIR, 'last_run.json');
 const PARTANTS_FILE = path.join(STORE_DIR, 'posted_partants.json');
 const PENDING_FILE = path.join(STORE_DIR, 'pending_discord.json');
 
-// UTC hours when Discord summary should be posted
-// Default: 9 and 11 UTC = 10:35 AM and 12:35 PM Paris time (winter CET)
-// (cron fires at :35 past these hours)
-const DISCORD_POST_HOURS = process.env.DISCORD_POST_HOURS
-  ? process.env.DISCORD_POST_HOURS.split(',').map(Number)
-  : [9, 11];
+// Paris hours when Discord summary should be posted (timezone-aware, handles DST)
+const DISCORD_POST_HOURS_PARIS = [10, 12];
+
+function getParisHour() {
+  const parts = {};
+  new Intl.DateTimeFormat('en-GB', {
+    timeZone: 'Europe/Paris',
+    hour: '2-digit',
+    minute: '2-digit',
+    hour12: false,
+  }).formatToParts(new Date()).forEach(p => { parts[p.type] = p.value; });
+  return { hour: parseInt(parts.hour), minute: parseInt(parts.minute) };
+}
 
 const norm = (s) =>
   (s ?? '')
@@ -1178,17 +1185,17 @@ function chunkLines(header, lines, maxLen = 1800) {
 
   // ============ CHECK IF POSTING TIME ============
 
-  const currentHour = new Date().getUTCHours();
-  const isPostingTime = DISCORD_POST_HOURS.includes(currentHour) || FORCE_POST || MANUAL_RUN;
+  const parisTime = getParisHour();
+  const isPostingTime = DISCORD_POST_HOURS_PARIS.includes(parisTime.hour) || FORCE_POST || MANUAL_RUN;
 
   if (!isPostingTime) {
-    console.log('⏰ Not a posting hour (' + currentHour + ':00 UTC). Discord posts at: ' + DISCORD_POST_HOURS.map(h => h + ':00 UTC').join(', '));
+    console.log('⏰ Not a posting hour (' + parisTime.hour + ':' + String(parisTime.minute).padStart(2, '0') + ' Paris). Discord posts at: ' + DISCORD_POST_HOURS_PARIS.map(h => h + ':35 Paris').join(', '));
     await saveSeen(seen);
     await saveLastRun(today);
     process.exit(0);
   }
 
-  console.log('📨 Posting hour (' + currentHour + ':00 UTC) — compiling Discord summary...');
+  console.log('📨 Posting time (' + parisTime.hour + ':' + String(parisTime.minute).padStart(2, '0') + ' Paris) — compiling Discord summary...');
 
   // ============ POST ACCUMULATED CHANGES TO DISCORD ============
 
