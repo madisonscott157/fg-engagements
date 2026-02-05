@@ -1,6 +1,31 @@
 {
-  "partants": {},
+  "partants": {
+    "coco vanille f.ps. 3 a. | 07/02/2026 | deauville | nice havrais | 1.900": {
+      "horse": "COCO VANILLE F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/T3dJNW9VSFBHbVVWSXN4NFk4bWpEZz09",
+      "date": "07/02/2026",
+      "track": "DEAUVILLE",
+      "race": "NICE HAVRAIS",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/YitWWFR6MDdZRHBiTmVZdGo0RDFRQT09",
+      "cat": "(Maiden)",
+      "dist": "1.900",
+      "statut": "DP-P/109"
+    }
+  },
   "newEngagements": {},
-  "statusUpdates": {},
+  "statusUpdates": {
+    "coco vanille f.ps. 3 a. | 07/02/2026 | deauville | nice havrais | 1.900": {
+      "horse": "COCO VANILLE F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/T3dJNW9VSFBHbVVWSXN4NFk4bWpEZz09",
+      "date": "07/02/2026",
+      "track": "DEAUVILLE",
+      "race": "NICE HAVRAIS",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/YitWWFR6MDdZRHBiTmVZdGo0RDFRQT09",
+      "cat": "(Maiden)",
+      "dist": "1.900",
+      "statut": "DP-P/109",
+      "oldStatut": "PB-P/109"
+    }
+  },
   "lastPosted": "2026-02-05T09:25:50.121Z"
 }
