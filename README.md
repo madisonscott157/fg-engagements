@@ -6,24 +6,30 @@ France Galop scraper that monitors horse racing engagements and results, posting
 
 | Workflow | Schedule | Purpose |
 |----------|----------|---------|
-| **Scrape Engagements** | Every 2 hrs (6AM-8PM UTC) | Scrapes trainer engagements from France Galop |
+| **Scrape Engagements** | Every 2 hrs (6AM-8PM UTC) + 10:35 & 12:35 Paris | Scrapes trainer engagements, posts Discord twice daily |
 | **Scrape Race Results** | Every 10 min (12PM-10PM UTC) | Scrapes race results |
 | **Race Alerts** | Every 15 min (10AM-10PM UTC) | Sends Discord alerts before races start |
 | **Check Tracking Reports** | Every 5 min (12PM-11PM UTC) | Posts tracking report links after races |
 | **Build Dashboard Data** | After scrapers run | Compiles data for dashboard |
 
+### Discord Posting Schedule
+
+Engagements are scraped every 2 hours but Discord messages are batched and sent **twice daily at 10:35 AM and 12:35 PM Paris time**. This uses timezone-aware scheduling so times are correct year-round (handles DST automatically). Changes accumulate in `data/pending_discord.json` between posts.
+
 ## Files
 
 ```
-├── scrape_engagements.js    # Main engagements scraper
-├── scrape_results.js        # Race results scraper
-├── scrape_race_alerts.js    # Pre-race Discord alerts
-├── check_tracking_reports.js # Post-race tracking reports
-├── build_dashboard_data.js  # Dashboard data compiler
-├── index.html               # Dashboard UI
-├── package.json             # Locked dependencies
-├── data/                    # Scraped data (auto-updated)
-└── .github/workflows/       # GitHub Actions configs
+├── scrape_engagements.js      # Main engagements scraper + Discord batching
+├── scrape_results.js          # Race results scraper
+├── scrape_race_alerts.js      # Pre-race Discord alerts (caches post times)
+├── check_tracking_reports.js  # Post-race tracking reports (90 min window)
+├── build_dashboard_data.js    # Dashboard data compiler
+├── index.html                 # Dashboard UI
+├── package.json               # Locked dependencies
+├── data/                      # Scraped data (auto-updated)
+│   ├── pending_discord.json   # Accumulated Discord changes between posts
+│   └── ...                    # Other state files
+└── .github/workflows/         # GitHub Actions configs
 ```
 
 ## How It Works
@@ -45,35 +51,24 @@ France Galop scraper that monitors horse racing engagements and results, posting
 - `SPREADSHEET_ID` - Google Sheet ID (optional)
 - `DOC_ID` - Google Doc ID (optional)
 
-## Fixes Applied (Jan 2026)
+## Fixes Applied
 
-### Problem: Playwright Browser Mismatch
-The workflows were failing with:
-```
-browserType.launch: Executable doesn't exist at ~/.cache/ms-playwright/chromium_headless_shell-1208/...
-```
+### Feb 2026 — Discord Batching & Reliability
 
-**Cause:** No `package.json` meant Playwright updated randomly, but cached browsers didn't match.
+- **Discord batching:** Engagements scraper accumulates changes and posts to Discord twice daily (10:35 AM / 12:35 PM Paris) instead of on every scrape run
+- **Timezone-aware posting:** Uses `Intl.DateTimeFormat` with `Europe/Paris` so posting times are correct year-round regardless of DST
+- **Split concurrency groups:** Engagements, race alerts, and results/tracking workflows no longer block each other
+- **Race alerts caching:** Post times are cached in `stored_races.json` — only new races trigger a browser fetch
+- **Race alerts data preservation:** Failed post time fetches no longer overwrite previously stored data
+- **Tracking window:** Increased from 45 to 90 minutes to catch slower-to-appear tracking reports
+- **Null guard:** `filterPastRaces` no longer crashes on races missing post time data
 
-**Fix:** Added `package.json` to lock Playwright at v1.49.1.
+### Jan 2026 — Initial Stability
 
-### Problem: Git Push Conflicts
-Multiple workflows running close together would fail on `git push`.
-
-**Fix:**
-- Added `concurrency` groups so workflows queue instead of conflict
-- Added `git pull --rebase` before commits
-- Added retry loop (3 attempts) for push
-
-### Problem: Inefficient Browser Usage
-`check_tracking_reports.js` and `scrape_race_alerts.js` opened a new browser for every single request.
-
-**Fix:** Refactored to reuse a single browser instance across all requests.
-
-### Other Cleanups
-- Removed stray `scrape_results.js` from workflows folder
-- Added `.gitignore` for `node_modules/` and temp files
-- Improved error handling with try/finally blocks
+- Locked Playwright at v1.49.1 via `package.json` to fix browser cache mismatches
+- Added concurrency groups and git retry logic for push conflicts
+- Refactored browser usage to reuse single instance per run
+- Added `.gitignore`, improved error handling
 
 ## Manual Testing
 
