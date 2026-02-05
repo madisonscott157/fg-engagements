@@ -15,7 +15,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: scraper-commits
+  group: results-tracking-commits
   cancel-in-progress: false
 
 jobs:

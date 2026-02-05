@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: scraper-commits
+  group: engagements-commits
   cancel-in-progress: false
 
 jobs:
@@ -56,7 +56,7 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git pull --rebase origin main || true
-          git add data/seen.json data/dpp_races.json data/posted_partants.json data/last_run.json || true
+          git add data/seen.json data/dpp_races.json data/posted_partants.json data/last_run.json data/pending_discord.json || true
           git diff --staged --quiet || git commit -m "Update engagements data"
           for i in 1 2 3; do
             git push && break

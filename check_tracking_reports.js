@@ -89,7 +89,7 @@ async function checkForTracking(page, raceUrl) {
   console.log(`Checking ${pending.length} races for tracking reports...`);
 
   const now = Date.now();
-  const FORTY_FIVE_MINUTES = 45 * 60 * 1000;
+  const MAX_TRACKING_WAIT = 90 * 60 * 1000;
   const found = [];
   const stillPending = [];
 
@@ -103,8 +103,8 @@ async function checkForTracking(page, raceUrl) {
       continue;
     }
 
-    if (age > FORTY_FIVE_MINUTES) {
-      console.log(`⏱️  ${race.horse} (${race.date}) - exceeded 45min, removing from queue`);
+    if (age > MAX_TRACKING_WAIT) {
+      console.log(`⏱️  ${race.horse} (${race.date}) - exceeded 90min, removing from queue`);
       continue;
     }
 

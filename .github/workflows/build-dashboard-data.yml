@@ -13,7 +13,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: scraper-commits
+  group: dashboard-commits
   cancel-in-progress: false
 
 jobs:

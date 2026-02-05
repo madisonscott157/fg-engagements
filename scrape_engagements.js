@@ -33,6 +33,13 @@ const STORE_DIR = 'data';
 const STORE_FILE = path.join(STORE_DIR, 'seen.json');
 const LAST_RUN_FILE = path.join(STORE_DIR, 'last_run.json');
 const PARTANTS_FILE = path.join(STORE_DIR, 'posted_partants.json');
+const PENDING_FILE = path.join(STORE_DIR, 'pending_discord.json');
+
+// UTC hours when Discord summary should be posted
+// Default: 6 and 18 UTC = 7 AM and 7 PM Paris time (winter CET)
+const DISCORD_POST_HOURS = process.env.DISCORD_POST_HOURS
+  ? process.env.DISCORD_POST_HOURS.split(',').map(Number)
+  : [6, 18];
 
 const norm = (s) =>
   (s ?? '')
@@ -175,6 +182,19 @@ async function loadPostedPartants() {
 async function savePostedPartants(set) {
   const arr = Array.from(set).slice(-1000);
   await fs.writeFile(PARTANTS_FILE, JSON.stringify(arr, null, 2), 'utf8');
+}
+
+async function loadPending() {
+  try {
+    const txt = await fs.readFile(PENDING_FILE, 'utf8');
+    return JSON.parse(txt);
+  } catch {
+    return { partants: {}, newEngagements: {}, statusUpdates: {}, lastPosted: null };
+  }
+}
+
+async function savePending(pending) {
+  await fs.writeFile(PENDING_FILE, JSON.stringify(pending, null, 2), 'utf8');
 }
 
 async function saveDPPRaces(races) {
@@ -1109,37 +1129,114 @@ function chunkLines(header, lines, maxLen = 1800) {
     await savePostedPartants(postedPartants);
   }
   
-  // ============ DISCORD POSTING ============
-  
-  if (newRows.length === 0 && changedRows.length === 0 && declaredParticipants.length === 0) {
-    console.log('No new/changed engagements — nothing to post to Discord.');
+  // ============ ACCUMULATE PENDING DISCORD CHANGES ============
+
+  const pending = await loadPending();
+  let pendingChanged = false;
+
+  // Add declared participants (partants)
+  for (const r of declaredParticipants) {
+    const k = keyify(r);
+    pending.partants[k] = { horse: r.horse, horseUrl: r.horseUrl, date: r.date, track: r.track, race: r.race, raceUrl: r.raceUrl, cat: r.cat, dist: r.dist, statut: r.statut };
+    pendingChanged = true;
+  }
+
+  // Add new engagements
+  for (const r of newRows) {
+    const k = keyify(r);
+    // Don't add as new if already tracked as a status update
+    if (!pending.statusUpdates[k]) {
+      pending.newEngagements[k] = { horse: r.horse, horseUrl: r.horseUrl, date: r.date, track: r.track, race: r.race, raceUrl: r.raceUrl, cat: r.cat, dist: r.dist, statut: r.statut };
+      pendingChanged = true;
+    }
+  }
+
+  // Add status updates
+  for (const r of changedRows) {
+    const k = keyify(r);
+    if (pending.newEngagements[k]) {
+      // Was new this accumulation period — just update status in place
+      pending.newEngagements[k].statut = r.statut;
+    } else if (pending.statusUpdates[k]) {
+      // Already had a status update — keep original oldStatut, update to latest statut
+      pending.statusUpdates[k].statut = r.statut;
+    } else {
+      pending.statusUpdates[k] = { horse: r.horse, horseUrl: r.horseUrl, date: r.date, track: r.track, race: r.race, raceUrl: r.raceUrl, cat: r.cat, dist: r.dist, statut: r.statut, oldStatut: r.oldStatut };
+    }
+    pendingChanged = true;
+  }
+
+  if (pendingChanged) {
+    await savePending(pending);
+  }
+
+  const pendingPartantCount = Object.keys(pending.partants).length;
+  const pendingNewCount = Object.keys(pending.newEngagements).length;
+  const pendingUpdateCount = Object.keys(pending.statusUpdates).length;
+  console.log('📋 Pending Discord: ' + pendingPartantCount + ' partants, ' + pendingNewCount + ' new, ' + pendingUpdateCount + ' updates');
+
+  // ============ CHECK IF POSTING TIME ============
+
+  const currentHour = new Date().getUTCHours();
+  const hourMatch = DISCORD_POST_HOURS.includes(currentHour);
+
+  // Fallback: if last Discord post was 11+ hours ago and there are pending items, post anyway
+  // This handles GitHub Actions cron delays that push a run past the target hour
+  const lastPosted = pending.lastPosted ? new Date(pending.lastPosted).getTime() : 0;
+  const hoursSinceLastPost = (Date.now() - lastPosted) / (1000 * 60 * 60);
+  const hasPendingItems = Object.keys(pending.partants).length > 0 || Object.keys(pending.newEngagements).length > 0 || Object.keys(pending.statusUpdates).length > 0;
+  const overdueFallback = hoursSinceLastPost >= 11 && hasPendingItems;
+
+  const isPostingTime = hourMatch || overdueFallback || FORCE_POST || MANUAL_RUN;
+
+  if (!isPostingTime) {
+    console.log('⏰ Not a posting hour (' + currentHour + ':00 UTC). Discord posts at: ' + DISCORD_POST_HOURS.map(h => h + ':00 UTC').join(', '));
     await saveSeen(seen);
     await saveLastRun(today);
     process.exit(0);
   }
-  
-  const linesDPP = declaredParticipants.map(
+
+  if (overdueFallback && !hourMatch) {
+    console.log('📨 Overdue fallback — last post was ' + Math.round(hoursSinceLastPost) + 'h ago, posting now...');
+  } else {
+    console.log('📨 Posting hour (' + currentHour + ':00 UTC) — compiling Discord summary...');
+  }
+
+  // ============ POST ACCUMULATED CHANGES TO DISCORD ============
+
+  const pendingPartants = Object.values(pending.partants);
+  const pendingNew = Object.values(pending.newEngagements);
+  const pendingUpdates = Object.values(pending.statusUpdates);
+
+  if (pendingPartants.length === 0 && pendingNew.length === 0 && pendingUpdates.length === 0) {
+    console.log('📭 Posting hour but nothing pending — no Discord post needed.');
+    await saveSeen(seen);
+    await saveLastRun(today);
+    process.exit(0);
+  }
+
+  const linesDPP = pendingPartants.map(
     r => '• ' + formatLink(cleanHorseNameForDiscord(r.horse), r.horseUrl) + ' — ' + r.date + ' — ' + r.track + ' — ' + formatLink(cleanDoubleParens(r.race), r.raceUrl) + ' (' + (cleanCategory(r.cat) || '-') + ') — ' + (r.dist || '-') + ' — Statut: ' + cleanStatus(r.statut)
   );
-  
-  const linesNew = newRows.map(
+
+  const linesNew = pendingNew.map(
     r => '• ' + formatLink(cleanHorseNameForDiscord(r.horse), r.horseUrl) + ' — ' + r.date + ' — ' + r.track + ' — ' + formatLink(cleanDoubleParens(r.race), r.raceUrl) + ' (' + (cleanCategory(r.cat) || '-') + ') — ' + (r.dist || '-') + ' — Statut: ' + cleanStatus(r.statut)
   );
-  
-  const linesUpd = changedRows.map(
+
+  const linesUpd = pendingUpdates.map(
     r => '• ' + formatLink(cleanHorseNameForDiscord(r.horse), r.horseUrl) + ' — ' + r.date + ' — ' + r.track + ' — ' + formatLink(cleanDoubleParens(r.race), r.raceUrl) + ' (' + (cleanCategory(r.cat) || '-') + ') — ' + (r.dist || '-') + ' — Statut: ' + cleanStatus(r.oldStatut) + ' → ' + cleanStatus(r.statut)
   );
 
   const payloads = [];
-  
+
   if (linesDPP.length) {
     payloads.push(...chunkLines('🏇 **PARTANTS — ' + today + '**', linesDPP));
   }
-  
+
   if (linesNew.length) {
     payloads.push(...chunkLines('🆕 **Nouvelles engagements — ' + today + '**', linesNew));
   }
-  
+
   if (linesUpd.length) {
     payloads.push(...chunkLines('🔄 **Statut mis à jour — ' + today + '**', linesUpd));
   }
@@ -1148,8 +1245,8 @@ function chunkLines(header, lines, maxLen = 1800) {
     const res = await fetch(WEBHOOK, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ 
-        content, 
+      body: JSON.stringify({
+        content,
         allowed_mentions: { parse: [] },
         flags: 4  // Suppress embeds
       }),
@@ -1160,7 +1257,9 @@ function chunkLines(header, lines, maxLen = 1800) {
     }
   }
 
+  // Clear pending after successful post, record when we last posted
+  await savePending({ partants: {}, newEngagements: {}, statusUpdates: {}, lastPosted: new Date().toISOString() });
   await saveSeen(seen);
   await saveLastRun(today);
-  console.log('✅ Posted ' + declaredParticipants.length + ' declared participants + ' + newRows.length + ' new + ' + changedRows.length + ' updated engagements');
+  console.log('✅ Posted ' + pendingPartants.length + ' declared participants + ' + pendingNew.length + ' new + ' + pendingUpdates.length + ' updated engagements');
 })();

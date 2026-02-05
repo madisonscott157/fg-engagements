@@ -140,20 +140,23 @@ function parseRaceDate(dateStr) {
 function filterPastRaces(races, parisTime) {
   const today = new Date(parisTime.date);
   const currentMinutes = parisTime.hour * 60 + parisTime.minute;
-  
+
   return races.filter(race => {
     const raceDate = parseRaceDate(race.date);
     if (!raceDate) return false;
-    
+
+    // Skip races without post time data
+    if (!race.postTime) return false;
+
     // If race is on a future date, keep it
     if (raceDate > today) return true;
-    
+
     // If race is today, check if post time has passed
     if (raceDate.toDateString() === today.toDateString()) {
       const raceMinutes = race.postTime.hour * 60 + race.postTime.minute;
       return raceMinutes > currentMinutes;
     }
-    
+
     // Race is in the past
     return false;
   });
@@ -224,51 +227,68 @@ async function updateRaceData() {
     return true;
   }
 
-  // Filter to races with URLs
-  const racesToFetch = dppRaces.filter(race => {
+  // Load existing stored races to preserve already-fetched post times
+  const existingStored = await loadStoredRaces();
+  const existingByUrl = new Map();
+  for (const race of (existingStored.races || [])) {
+    if (race.raceUrl && race.postTime) {
+      existingByUrl.set(race.raceUrl, race);
+    }
+  }
+
+  // Split into races that already have post times vs need fetching
+  const alreadyHaveTimes = [];
+  const needFetching = [];
+
+  for (const race of dppRaces) {
     if (!race.raceUrl) {
       console.log(`  ⚠️  ${race.horse}: No race URL available`);
-      return false;
+      continue;
     }
-    return true;
-  });
-
-  if (racesToFetch.length === 0) {
-    console.log('ℹ️  No races with URLs to fetch');
-    await saveStoredRaces({ lastUpdate: parisTime.timestamp, races: [] });
-    return true;
+    const existing = existingByUrl.get(race.raceUrl);
+    if (existing && existing.postTime) {
+      // Keep existing post time, but merge latest horse/race data
+      alreadyHaveTimes.push({ ...race, postTime: existing.postTime });
+      console.log(`  ✓ ${race.horse}: ${existing.postTime.formatted} (cached)`);
+    } else {
+      needFetching.push(race);
+    }
   }
 
-  // Launch browser once for all races
-  const browser = await chromium.launch({ headless: true });
-  const ctx = await browser.newContext({
-    userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/120 Safari/537.36',
-  });
-  const page = await ctx.newPage();
-  page.setDefaultTimeout(30000);
+  console.log(`📋 ${alreadyHaveTimes.length} races cached, ${needFetching.length} need fetching`);
 
-  const racesWithTimes = [];
-  try {
-    for (const race of racesToFetch) {
-      console.log(`  Fetching post time for ${race.horse}...`);
-      const postTime = await getPostTime(page, race.raceUrl);
+  // Only launch browser if there are races to fetch
+  const newlyFetched = [];
+  if (needFetching.length > 0) {
+    const browser = await chromium.launch({ headless: true });
+    const ctx = await browser.newContext({
+      userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/120 Safari/537.36',
+    });
+    const page = await ctx.newPage();
+    page.setDefaultTimeout(30000);
 
-      if (postTime) {
-        racesWithTimes.push({
-          ...race,
-          postTime,
-        });
-        console.log(`  ✓ ${race.horse}: ${postTime.formatted}`);
-      } else {
-        console.log(`  ✗ ${race.horse}: Could not get post time`);
+    try {
+      for (const race of needFetching) {
+        console.log(`  Fetching post time for ${race.horse}...`);
+        const postTime = await getPostTime(page, race.raceUrl);
+
+        if (postTime) {
+          newlyFetched.push({ ...race, postTime });
+          console.log(`  ✓ ${race.horse}: ${postTime.formatted}`);
+        } else {
+          console.log(`  ✗ ${race.horse}: Could not get post time`);
+        }
       }
+    } finally {
+      await browser.close();
     }
-  } finally {
-    await browser.close();
   }
+
+  // Combine cached + newly fetched
+  const allRaces = [...alreadyHaveTimes, ...newlyFetched];
 
   // Filter out past races
-  const futureRaces = filterPastRaces(racesWithTimes, parisTime);
+  const futureRaces = filterPastRaces(allRaces, parisTime);
 
   // Save to file
   await saveStoredRaces({
@@ -276,7 +296,7 @@ async function updateRaceData() {
     races: futureRaces,
   });
 
-  console.log(`✅ Updated race data: ${futureRaces.length} future races stored`);
+  console.log(`✅ Updated race data: ${futureRaces.length} future races stored (${newlyFetched.length} newly fetched)`);
   return true;
 }
 
