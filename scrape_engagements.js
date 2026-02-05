@@ -36,10 +36,11 @@ const PARTANTS_FILE = path.join(STORE_DIR, 'posted_partants.json');
 const PENDING_FILE = path.join(STORE_DIR, 'pending_discord.json');
 
 // UTC hours when Discord summary should be posted
-// Default: 6 and 18 UTC = 7 AM and 7 PM Paris time (winter CET)
+// Default: 9 and 11 UTC = 10:35 AM and 12:35 PM Paris time (winter CET)
+// (cron fires at :35 past these hours)
 const DISCORD_POST_HOURS = process.env.DISCORD_POST_HOURS
   ? process.env.DISCORD_POST_HOURS.split(',').map(Number)
-  : [6, 18];
+  : [9, 11];
 
 const norm = (s) =>
   (s ?? '')
@@ -1178,16 +1179,7 @@ function chunkLines(header, lines, maxLen = 1800) {
   // ============ CHECK IF POSTING TIME ============
 
   const currentHour = new Date().getUTCHours();
-  const hourMatch = DISCORD_POST_HOURS.includes(currentHour);
-
-  // Fallback: if last Discord post was 11+ hours ago and there are pending items, post anyway
-  // This handles GitHub Actions cron delays that push a run past the target hour
-  const lastPosted = pending.lastPosted ? new Date(pending.lastPosted).getTime() : 0;
-  const hoursSinceLastPost = (Date.now() - lastPosted) / (1000 * 60 * 60);
-  const hasPendingItems = Object.keys(pending.partants).length > 0 || Object.keys(pending.newEngagements).length > 0 || Object.keys(pending.statusUpdates).length > 0;
-  const overdueFallback = hoursSinceLastPost >= 11 && hasPendingItems;
-
-  const isPostingTime = hourMatch || overdueFallback || FORCE_POST || MANUAL_RUN;
+  const isPostingTime = DISCORD_POST_HOURS.includes(currentHour) || FORCE_POST || MANUAL_RUN;
 
   if (!isPostingTime) {
     console.log('⏰ Not a posting hour (' + currentHour + ':00 UTC). Discord posts at: ' + DISCORD_POST_HOURS.map(h => h + ':00 UTC').join(', '));
@@ -1196,11 +1188,7 @@ function chunkLines(header, lines, maxLen = 1800) {
     process.exit(0);
   }
 
-  if (overdueFallback && !hourMatch) {
-    console.log('📨 Overdue fallback — last post was ' + Math.round(hoursSinceLastPost) + 'h ago, posting now...');
-  } else {
-    console.log('📨 Posting hour (' + currentHour + ':00 UTC) — compiling Discord summary...');
-  }
+  console.log('📨 Posting hour (' + currentHour + ':00 UTC) — compiling Discord summary...');
 
   // ============ POST ACCUMULATED CHANGES TO DISCORD ============
 
