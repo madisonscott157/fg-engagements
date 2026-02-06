@@ -16,9 +16,10 @@ const ALERTS_FILE = path.join(STORE_DIR, 'sent_alerts.json');
 const RACES_FILE = path.join(STORE_DIR, 'stored_races.json');
 const DPP_FILE = path.join(STORE_DIR, 'dpp_races.json');
 
-// Alert this many minutes before race
-// Using 35 min gives two workflow runs (at :00 and :15) a chance to catch each race
-const ALERT_MINUTES_BEFORE = 35;
+// Alert window: send alerts between these times before race
+// With workflow running every 10 min, alerts will consistently come ~20 min before
+const ALERT_WINDOW_START = 25; // Start alerting 25 min before race
+const ALERT_WINDOW_END = 15;   // Stop alerting 15 min before race (ensures time to get there)
 
 const norm = (s) =>
   (s ?? '')
@@ -343,20 +344,14 @@ async function checkAndSendAlerts() {
     }
 
     const postTime = race.postTime;
-    
-    // Calculate alert time (ALERT_MINUTES_BEFORE minutes before race)
-    let alertMinute = postTime.minute - ALERT_MINUTES_BEFORE;
-    let alertHour = postTime.hour;
-    if (alertMinute < 0) {
-      alertMinute += 60;
-      alertHour -= 1;
-    }
-
-    const alertMinutes = alertHour * 60 + alertMinute;
     const raceMinutes = postTime.hour * 60 + postTime.minute;
 
+    // Calculate alert window (between ALERT_WINDOW_START and ALERT_WINDOW_END before race)
+    const windowStartMinutes = raceMinutes - ALERT_WINDOW_START;
+    const windowEndMinutes = raceMinutes - ALERT_WINDOW_END;
+
     // Check if we're in alert window
-    if (currentMinutes >= alertMinutes && currentMinutes < raceMinutes) {
+    if (currentMinutes >= windowStartMinutes && currentMinutes < windowEndMinutes) {
       const minutesUntilRace = raceMinutes - currentMinutes;
       
       console.log(`🚨 SENDING ALERT for ${race.horse} - Race at ${postTime.formatted} (${minutesUntilRace} min)`);
