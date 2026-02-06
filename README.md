@@ -8,7 +8,7 @@ France Galop scraper that monitors horse racing engagements and results, posting
 |----------|----------|---------|
 | **Scrape Engagements** | Every 2 hrs (6AM-8PM UTC) + 10:35 & 12:35 Paris | Scrapes trainer engagements, posts Discord twice daily |
 | **Scrape Race Results** | Every 10 min (12PM-10PM UTC) | Scrapes race results |
-| **Race Alerts** | Every 15 min (10AM-10PM UTC) | Sends Discord alerts before races start |
+| **Race Alerts** | Every 10 min (10AM-10PM UTC) | Sends Discord alerts ~10 min before races |
 | **Check Tracking Reports** | Every 5 min (12PM-11PM UTC) | Posts tracking report links after races |
 | **Build Dashboard Data** | After scrapers run | Compiles data for dashboard |
 
@@ -60,6 +60,8 @@ Engagements are scraped every 2 hours but Discord messages are batched and sent 
 - **Split concurrency groups:** Engagements, race alerts, and results/tracking workflows no longer block each other
 - **Race alerts caching:** Post times are cached in `stored_races.json` — only new races trigger a browser fetch
 - **Race alerts data preservation:** Failed post time fetches no longer overwrite previously stored data
+- **Race alerts future races:** Post times now fetched for all upcoming races, not just today's
+- **Race alerts consistent timing:** Alerts sent ~10 min before race (window: 15-5 min before) with workflow running every 10 min
 - **Tracking window:** Increased from 45 to 90 minutes to catch slower-to-appear tracking reports
 - **Null guard:** `filterPastRaces` no longer crashes on races missing post time data
 
