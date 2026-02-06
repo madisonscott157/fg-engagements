@@ -81,10 +81,7 @@ function getParisTime() {
 }
 
 async function shouldUpdateRaceData() {
-  const parisTime = getParisTime();
-  const todayStr = parisTime.date.split('-').reverse().join('/'); // "2025-12-29" -> "29/12/2025"
-  
-  // Check if we have DPP races for today
+  // Check if we have DPP races that need post times fetched
   let dppRaces = [];
   try {
     const dppTxt = await fs.readFile(DPP_FILE, 'utf8');
@@ -94,16 +91,14 @@ async function shouldUpdateRaceData() {
     console.log('📋 dpp_races.json not found - nothing to update');
     return false;
   }
-  
-  // Filter to today's races only
-  const todaysDppRaces = dppRaces.filter(r => r.date === todayStr);
-  if (todaysDppRaces.length === 0) {
-    console.log(`📋 No races in dpp_races.json for today (${todayStr})`);
+
+  if (dppRaces.length === 0) {
+    console.log('📋 No races in dpp_races.json');
     return false;
   }
-  
-  console.log(`📋 Found ${todaysDppRaces.length} races for today in dpp_races.json`);
-  
+
+  console.log(`📋 Found ${dppRaces.length} DP-P races in dpp_races.json`);
+
   // Check if stored_races.json has these races with post times
   let storedRaces = [];
   try {
@@ -114,17 +109,17 @@ async function shouldUpdateRaceData() {
     console.log('📋 stored_races.json not found or empty - will update');
     return true;
   }
-  
-  // Check if all today's DPP races are in stored_races with post times
+
+  // Check if ALL DPP races are in stored_races with post times (not just today's)
   const storedUrls = new Set(storedRaces.filter(r => r.postTime).map(r => r.raceUrl));
-  const missingRaces = todaysDppRaces.filter(r => !storedUrls.has(r.raceUrl));
-  
+  const missingRaces = dppRaces.filter(r => r.raceUrl && !storedUrls.has(r.raceUrl));
+
   if (missingRaces.length > 0) {
     console.log(`📋 ${missingRaces.length} races missing post times - will update`);
     return true;
   }
-  
-  console.log('📋 All today\'s races already have post times - using stored data');
+
+  console.log('📋 All races already have post times - using stored data');
   return false;
 }
 
