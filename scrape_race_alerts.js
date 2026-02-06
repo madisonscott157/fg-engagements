@@ -17,8 +17,8 @@ const RACES_FILE = path.join(STORE_DIR, 'stored_races.json');
 const DPP_FILE = path.join(STORE_DIR, 'dpp_races.json');
 
 // Alert this many minutes before race
-// Using 20 min as requested - workflow runs every 10 min so should catch the window
-const ALERT_MINUTES_BEFORE = 20;
+// Using 35 min gives two workflow runs (at :00 and :15) a chance to catch each race
+const ALERT_MINUTES_BEFORE = 35;
 
 const norm = (s) =>
   (s ?? '')
