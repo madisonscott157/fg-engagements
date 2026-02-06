@@ -76,7 +76,7 @@ function getParisTime() {
     date: `${parts.year}-${parts.month}-${parts.day}`,
     hour: parseInt(parts.hour),
     minute: parseInt(parts.minute),
-    formatted: `${parts.hour}:${parts.minute}`,
+    formatted: `${parts.hour}:${parts.minute.padStart(2, '0')}`,
     timestamp: now.toISOString(),
   };
 }
