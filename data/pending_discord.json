@@ -1,5 +1,28 @@
 {
-  "partants": {},
+  "partants": {
+    "no tune (gb) f.ps. 3 a. | 06/02/2026 | deauville | priolo | 1.300": {
+      "horse": "NO TUNE (GB) F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/QnhqdXA4MERPdXZveTZNNGVDeUNaZz09",
+      "date": "06/02/2026",
+      "track": "DEAUVILLE",
+      "race": "PRIOLO",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/YWdkMGpKdDl2dCtYZklxNnFyUEprZz09",
+      "cat": "(Classe 1)",
+      "dist": "1.300",
+      "statut": "DP-P/100"
+    },
+    "coco vanille f.ps. 3 a. | 07/02/2026 | deauville | nice havrais | 1.900": {
+      "horse": "COCO VANILLE F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/T3dJNW9VSFBHbVVWSXN4NFk4bWpEZz09",
+      "date": "07/02/2026",
+      "track": "DEAUVILLE",
+      "race": "NICE HAVRAIS",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/YitWWFR6MDdZRHBiTmVZdGo0RDFRQT09",
+      "cat": "(Maiden)",
+      "dist": "1.900",
+      "statut": "DP-P/109"
+    }
+  },
   "newEngagements": {},
   "statusUpdates": {},
   "lastPosted": "2026-02-05T11:11:06.003Z"
