@@ -17,8 +17,8 @@ const RACES_FILE = path.join(STORE_DIR, 'stored_races.json');
 const DPP_FILE = path.join(STORE_DIR, 'dpp_races.json');
 
 // Alert window: send alerts between these times before race
-// With workflow running every 10 min, alerts will come ~10 min before (±5 min)
-const ALERT_WINDOW_START = 15; // Start alerting 15 min before race
+// GitHub Actions scheduling is unreliable (can have 30+ min gaps), so use wide window
+const ALERT_WINDOW_START = 30; // Start alerting 30 min before race
 const ALERT_WINDOW_END = 5;    // Stop alerting 5 min before race
 
 const norm = (s) =>
