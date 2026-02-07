@@ -1,5 +1,18 @@
 [
   {
+    "horse": "Coco Vanille",
+    "date": "07/02/2026",
+    "track": "DEAUVILLE",
+    "race": "",
+    "distance": "1.900",
+    "position": "4",
+    "jockey": "A. LEMAITRE",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/YitWWFR6MDdZRHBiTmVZdGo0RDFRQT09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/T3dJNW9VSFBHbVVWSXN4NFk4bWpEZz09",
+    "scrapedAt": "2026-02-07T13:53:33.941Z"
+  },
+  {
     "horse": "No Tune",
     "date": "06/02/2026",
     "track": "DEAUVILLE",
