@@ -1,6 +1,55 @@
 {
   "partants": {},
   "newEngagements": {},
-  "statusUpdates": {},
+  "statusUpdates": {
+    "house of tudor ire m.ps. 3 a. | 12/02/2026 | chantilly | rond du manege | 1.600": {
+      "horse": "HOUSE OF TUDOR IRE M.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/TytyRjNQU1o3UDhEbGF5bWdDMFJhdz09",
+      "date": "12/02/2026",
+      "track": "CHANTILLY",
+      "race": "ROND DU MANEGE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/ZHJaRFlmK2N3WnA4YnlGN2xiWFlvUT09",
+      "cat": "(Inédits)",
+      "dist": "1.600",
+      "statut": "F1-P/116",
+      "oldStatut": "VA-P/116"
+    },
+    "moi ire f.ps. 3 a. | 12/02/2026 | chantilly | gazons de coye | 1.600": {
+      "horse": "MOI IRE F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/bjBSM3NDWVpCc3NEZmRUb0NNSFVTdz09",
+      "date": "12/02/2026",
+      "track": "CHANTILLY",
+      "race": "GAZONS DE COYE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/WnV4UWxhY0dWMDVUM0dHM2tSYXEzQT09",
+      "cat": "(Inédits)",
+      "dist": "1.600",
+      "statut": "F1-P/117",
+      "oldStatut": "VA-P/117"
+    },
+    "remalard h.ps. 3 a. | 12/02/2026 | chantilly | rond du manege | 1.600": {
+      "horse": "REMALARD H.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/U2dNaVVhQ0ZmM0swVk1ZeUlPKzZiUT09",
+      "date": "12/02/2026",
+      "track": "CHANTILLY",
+      "race": "ROND DU MANEGE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/ZHJaRFlmK2N3WnA4YnlGN2xiWFlvUT09",
+      "cat": "(Inédits)",
+      "dist": "1.600",
+      "statut": "F1-P/116",
+      "oldStatut": "VA-P/116"
+    },
+    "sourdeval h.ps. 3 a. | 12/02/2026 | chantilly | rond du manege | 1.600": {
+      "horse": "SOURDEVAL H.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/SFFlN1JucGNaQ3ZuY3hQMEV2V0ZRQT09",
+      "date": "12/02/2026",
+      "track": "CHANTILLY",
+      "race": "ROND DU MANEGE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/ZHJaRFlmK2N3WnA4YnlGN2xiWFlvUT09",
+      "cat": "(Inédits)",
+      "dist": "1.600",
+      "statut": "F1-P/116",
+      "oldStatut": "VA-P/116"
+    }
+  },
   "lastPosted": "2026-02-07T09:55:48.118Z"
 }
