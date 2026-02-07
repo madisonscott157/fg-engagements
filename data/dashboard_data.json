@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-02-06T23:13:30.149Z",
+  "lastUpdate": "2026-02-07T02:48:55.149Z",
   "upcoming": [
     {
       "horse": "DO FOR LOVE IRE F.PS. 3 a.",
@@ -141,36 +141,6 @@
       "distance": "1.900",
       "cat": "",
       "status": "F1-P/108",
-      "lastUpdate": 1770409760465
-    },
-    {
-      "horse": "Ceramic (ire) F 3 A.",
-      "date": "06/02/2026",
-      "track": "deauville",
-      "race": "priolo",
-      "distance": "1.300",
-      "cat": "",
-      "status": "F1-P/100",
-      "lastUpdate": 1770409760465
-    },
-    {
-      "horse": "Masha F 3 A.",
-      "date": "06/02/2026",
-      "track": "deauville",
-      "race": "chat. olivet",
-      "distance": "1.300",
-      "cat": "",
-      "status": "F1-P/101",
-      "lastUpdate": 1770409760465
-    },
-    {
-      "horse": "No Tune (gb) F 3 A.",
-      "date": "06/02/2026",
-      "track": "deauville",
-      "race": "priolo",
-      "distance": "1.300",
-      "cat": "",
-      "status": "DP-P/100",
       "lastUpdate": 1770409760465
     }
   ],
