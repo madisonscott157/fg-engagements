@@ -1,20 +1,6 @@
 {
-  "lastUpdate": "2026-02-06T20:29:20.465Z",
+  "lastUpdate": "2026-02-07T06:37:54.079Z",
   "races": [
-    {
-      "horse": "NO TUNE (GB) F.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/QnhqdXA4MERPdXZveTZNNGVDeUNaZz09",
-      "statut": "DP-P/100",
-      "date": "06/02/2026",
-      "track": "DEAUVILLE",
-      "race": "PRIOLO",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/YWdkMGpKdDl2dCtYZklxNnFyUEprZz09",
-      "cat": "(Classe 1)",
-      "purse": "32.000",
-      "disc": "P",
-      "dist": "1.300",
-      "owner": "CHR. HEAD (S)"
-    },
     {
       "horse": "COCO VANILLE F.PS. 3 a.",
       "horseUrl": "https://www.france-galop.com/fr/cheval/T3dJNW9VSFBHbVVWSXN4NFk4bWpEZz09",
