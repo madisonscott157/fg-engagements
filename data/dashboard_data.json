@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-02-08T16:01:11.516Z",
+  "lastUpdate": "2026-02-08T16:26:44.097Z",
   "upcoming": [
     {
       "horse": "DO FOR LOVE IRE F.PS. 3 a.",
@@ -51,7 +51,7 @@
       "distance": "1.600",
       "cat": "",
       "status": "VA-P/117",
-      "lastUpdate": 1770560653670
+      "lastUpdate": 1770567992112
     },
     {
       "horse": "Francigena (gb) F 3 A.",
@@ -61,7 +61,7 @@
       "distance": "1.600",
       "cat": "",
       "status": "VA-P/117",
-      "lastUpdate": 1770560653670
+      "lastUpdate": 1770567992112
     },
     {
       "horse": "House Of Tudor M 3 A.",
@@ -71,7 +71,7 @@
       "distance": "1.600",
       "cat": "",
       "status": "F1-P/116",
-      "lastUpdate": 1770560653670
+      "lastUpdate": 1770567992112
     },
     {
       "horse": "Moi F 3 A.",
@@ -81,7 +81,7 @@
       "distance": "1.600",
       "cat": "",
       "status": "F1-P/117",
-      "lastUpdate": 1770560653670
+      "lastUpdate": 1770567992112
     },
     {
       "horse": "Remalard H 3 A.",
@@ -91,7 +91,7 @@
       "distance": "1.600",
       "cat": "",
       "status": "F1-P/116",
-      "lastUpdate": 1770560653670
+      "lastUpdate": 1770567992112
     },
     {
       "horse": "Sourdeval H 3 A.",
@@ -101,7 +101,7 @@
       "distance": "1.600",
       "cat": "",
       "status": "F1-P/116",
-      "lastUpdate": 1770560653670
+      "lastUpdate": 1770567992112
     },
     {
       "horse": "Vatican M 3 A.",
@@ -111,7 +111,7 @@
       "distance": "1.600",
       "cat": "",
       "status": "VA-P/116",
-      "lastUpdate": 1770560653670
+      "lastUpdate": 1770567992112
     }
   ],
   "results": [
