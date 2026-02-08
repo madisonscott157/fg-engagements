@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-02-07T23:16:24.132Z",
+  "lastUpdate": "2026-02-08T03:33:28.918Z",
   "upcoming": [
     {
       "horse": "DO FOR LOVE IRE F.PS. 3 a.",
@@ -111,36 +111,6 @@
       "distance": "1.600",
       "cat": "",
       "status": "VA-P/116",
-      "lastUpdate": 1770495764152
-    },
-    {
-      "horse": "Coco Vanille F 3 A.",
-      "date": "07/02/2026",
-      "track": "deauville",
-      "race": "nice havrais",
-      "distance": "1.900",
-      "cat": "",
-      "status": "DP-P/109",
-      "lastUpdate": 1770495764152
-    },
-    {
-      "horse": "Private Story F 3 A.",
-      "date": "07/02/2026",
-      "track": "deauville",
-      "race": "nice havrais",
-      "distance": "1.900",
-      "cat": "",
-      "status": "F1-P/109",
-      "lastUpdate": 1770495764152
-    },
-    {
-      "horse": "Reveur (ire) H 3 A.",
-      "date": "07/02/2026",
-      "track": "deauville",
-      "race": "sainte-adresse",
-      "distance": "1.900",
-      "cat": "",
-      "status": "F1-P/108",
       "lastUpdate": 1770495764152
     }
   ],
