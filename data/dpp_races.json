@@ -1,19 +1,4 @@
 {
-  "lastUpdate": "2026-02-07T20:22:44.152Z",
-  "races": [
-    {
-      "horse": "COCO VANILLE F.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/T3dJNW9VSFBHbVVWSXN4NFk4bWpEZz09",
-      "statut": "DP-P/109",
-      "date": "07/02/2026",
-      "track": "DEAUVILLE",
-      "race": "NICE HAVRAIS",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/YitWWFR6MDdZRHBiTmVZdGo0RDFRQT09",
-      "cat": "(Maiden)",
-      "purse": "24.700",
-      "disc": "P",
-      "dist": "1.900",
-      "owner": "CHR. HEAD (S)"
-    }
-  ]
+  "lastUpdate": "2026-02-08T06:44:24.441Z",
+  "races": []
 }
