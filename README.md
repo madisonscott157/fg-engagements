@@ -6,7 +6,7 @@ France Galop scraper that monitors horse racing engagements and results, posting
 
 | Workflow | Schedule | Purpose |
 |----------|----------|---------|
-| **Scrape Engagements** | Every 2 hrs (6AM-8PM UTC) + 10:35 & 12:35 Paris | Scrapes trainer engagements, posts Discord twice daily |
+| **Scrape Engagements** | Every 2 hrs (6AM-8PM UTC) + 10:40 & 12:40 Paris | Scrapes trainer engagements, posts Discord twice daily |
 | **Scrape Race Results** | Every 10 min (12PM-10PM UTC) | Scrapes race results |
 | **Race Alerts** | Every 10 min (10AM-10PM UTC) | Sends Discord alerts 5-30 min before races |
 | **Check Tracking Reports** | Every 5 min (12PM-11PM UTC) | Posts tracking report links after races |
@@ -14,7 +14,7 @@ France Galop scraper that monitors horse racing engagements and results, posting
 
 ### Discord Posting Schedule
 
-Engagements are scraped every 2 hours but Discord messages are batched and sent **twice daily at 10:35 AM and 12:35 PM Paris time**. This uses timezone-aware scheduling so times are correct year-round (handles DST automatically). Changes accumulate in `data/pending_discord.json` between posts.
+Engagements are scraped every 2 hours but Discord messages are batched and sent **twice daily at 10:40 AM and 12:40 PM Paris time**. This uses timezone-aware scheduling so times are correct year-round (handles DST automatically). Changes accumulate in `data/pending_discord.json` between posts.
 
 ## Files
 
