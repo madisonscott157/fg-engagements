@@ -1,51 +1,6 @@
 {
-  "partants": {
-    "francigena (gb) f.ps. 3 a. | 12/02/2026 | chantilly | gazons de coye | 1.600": {
-      "horse": "FRANCIGENA (GB) F.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/dGw1ZFExUWZvQ29oaEJUbElhbHNqdz09",
-      "date": "12/02/2026",
-      "track": "CHANTILLY",
-      "race": "GAZONS DE COYE",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/WnV4UWxhY0dWMDVUM0dHM2tSYXEzQT09",
-      "cat": "(Inédits)",
-      "dist": "1.600",
-      "statut": "DP-P/117"
-    },
-    "khozan gb m.ps. 3 a. ... (sup.) | 12/02/2026 | chantilly | rond du manege | 1.600": {
-      "horse": "KHOZAN GB M.PS. 3 a. ... (Sup.)",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/N2V4YlU3LzRHbzZUV3hTbWkzenVhdz09",
-      "date": "12/02/2026",
-      "track": "CHANTILLY",
-      "race": "ROND DU MANEGE",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/ZHJaRFlmK2N3WnA4YnlGN2xiWFlvUT09",
-      "cat": "(Inédits)",
-      "dist": "1.600",
-      "statut": "DP-P/116(Sup.)"
-    },
-    "roi du ciel (ire) h.ps. 3 a. ... (sup.) | 12/02/2026 | chantilly | max. garcia | 1.900": {
-      "horse": "ROI DU CIEL (IRE) H.PS. 3 a. ... (Sup.)",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/L2RydUlPZGxyN0Q2b3VDZGVDYTl5Zz09",
-      "date": "12/02/2026",
-      "track": "CHANTILLY",
-      "race": "MAX. GARCIA",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/Q2QxWWdGUytFekVmTG0wVWFyUFFmUT09",
-      "cat": "RECL.",
-      "dist": "1.900",
-      "statut": "DP-P/118(Sup.)"
-    },
-    "vatican m.ps. 3 a. | 12/02/2026 | chantilly | rond du manege | 1.600": {
-      "horse": "VATICAN M.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/Ly9KU0czNEJFOFRKTklMbWxpMWpkdz09",
-      "date": "12/02/2026",
-      "track": "CHANTILLY",
-      "race": "ROND DU MANEGE",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/ZHJaRFlmK2N3WnA4YnlGN2xiWFlvUT09",
-      "cat": "(Inédits)",
-      "dist": "1.600",
-      "statut": "DP-P/116"
-    }
-  },
+  "partants": {},
   "newEngagements": {},
   "statusUpdates": {},
-  "lastPosted": "2026-02-11T11:29:43.642Z"
+  "lastPosted": "2026-02-12T09:30:29.663Z"
 }
