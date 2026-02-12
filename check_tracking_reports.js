@@ -47,6 +47,17 @@ async function checkForTracking(page, raceUrl) {
     await page.goto(raceUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
     await page.waitForTimeout(1500);
 
+    // Dismiss cookie consent popup if present
+    for (const sel of [
+      'button:has-text("Tout accepter")',
+      'button:has-text("Accepter tout")',
+      'button:has-text("Accept all")',
+    ]) {
+      const b = page.locator(sel);
+      if (await b.count()) { await b.first().click().catch(()=>{}); break; }
+    }
+    await page.waitForTimeout(500);
+
     // Look for tracking report link (PDF with "tracking" or "last_times" in the URL)
     const trackingLinks = page.locator('a[href*="Tracking"], a[href*="last_times"], a:has-text("Tracking"), a:has-text("Rapport")');
 
