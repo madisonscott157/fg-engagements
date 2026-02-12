@@ -1,5 +1,57 @@
 [
   {
+    "horse": "Khozan",
+    "date": "12/02/2026",
+    "track": "CHANTILLY",
+    "race": "",
+    "distance": "1.600",
+    "position": "1",
+    "jockey": "A. LEMAITRE",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/ZHJaRFlmK2N3WnA4YnlGN2xiWFlvUT09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/N2V4YlU3LzRHbzZUV3hTbWkzenVhdz09",
+    "scrapedAt": "2026-02-12T13:38:53.863Z"
+  },
+  {
+    "horse": "Francigena",
+    "date": "12/02/2026",
+    "track": "CHANTILLY",
+    "race": "",
+    "distance": "1.600",
+    "position": "10",
+    "jockey": "A. LEMAITRE",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/WnV4UWxhY0dWMDVUM0dHM2tSYXEzQT09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/dGw1ZFExUWZvQ29oaEJUbElhbHNqdz09",
+    "scrapedAt": "2026-02-12T13:38:53.863Z"
+  },
+  {
+    "horse": "Roi Du Ciel",
+    "date": "12/02/2026",
+    "track": "CHANTILLY",
+    "race": "RECL.",
+    "distance": "1.900",
+    "position": "6",
+    "jockey": "S. DERIU",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/Q2QxWWdGUytFekVmTG0wVWFyUFFmUT09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/L2RydUlPZGxyN0Q2b3VDZGVDYTl5Zz09",
+    "scrapedAt": "2026-02-12T13:38:53.863Z"
+  },
+  {
+    "horse": "Vatican",
+    "date": "12/02/2026",
+    "track": "CHANTILLY",
+    "race": "",
+    "distance": "1.600",
+    "position": "2",
+    "jockey": "S. DERIU",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/ZHJaRFlmK2N3WnA4YnlGN2xiWFlvUT09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/Ly9KU0czNEJFOFRKTklMbWxpMWpkdz09",
+    "scrapedAt": "2026-02-12T13:38:53.862Z"
+  },
+  {
     "horse": "Coco Vanille",
     "date": "07/02/2026",
     "track": "DEAUVILLE",

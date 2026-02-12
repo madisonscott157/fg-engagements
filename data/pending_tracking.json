@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "horse": "VATICAN",
+    "date": "12/02/2026",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/ZHJaRFlmK2N3WnA4YnlGN2xiWFlvUT09",
+    "hippodrome": "CHANTILLY",
+    "addedAt": 1770903541248
+  },
+  {
+    "horse": "ROI DU CIEL",
+    "date": "12/02/2026",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/Q2QxWWdGUytFekVmTG0wVWFyUFFmUT09",
+    "hippodrome": "CHANTILLY",
+    "addedAt": 1770903541248
+  },
+  {
+    "horse": "FRANCIGENA",
+    "date": "12/02/2026",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/WnV4UWxhY0dWMDVUM0dHM2tSYXEzQT09",
+    "hippodrome": "CHANTILLY",
+    "addedAt": 1770903541248
+  },
+  {
+    "horse": "KHOZAN",
+    "date": "12/02/2026",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/ZHJaRFlmK2N3WnA4YnlGN2xiWFlvUT09",
+    "hippodrome": "CHANTILLY",
+    "addedAt": 1770903541248
+  }
+]
