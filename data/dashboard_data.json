@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-02-12T10:28:14.907Z",
+  "lastUpdate": "2026-02-12T10:41:45.348Z",
   "upcoming": [
     {
       "horse": "FRANCIGENA (GB) F.PS. 3 a.",
@@ -50,8 +50,8 @@
       "race": "chene 3 freres",
       "distance": "1.900",
       "cat": "",
-      "status": "-P/142",
-      "lastUpdate": 1770892075489
+      "status": "VA-P/142",
+      "lastUpdate": 1770892884004
     },
     {
       "horse": "Masha F 3 A.",
@@ -61,7 +61,7 @@
       "distance": "1.400",
       "cat": "",
       "status": "VA-P/169",
-      "lastUpdate": 1770892075489
+      "lastUpdate": 1770892884004
     },
     {
       "horse": "Sourdeval H 3 A.",
@@ -71,7 +71,7 @@
       "distance": "1.900",
       "cat": "",
       "status": "VA-P/132",
-      "lastUpdate": 1770892075489
+      "lastUpdate": 1770892884004
     },
     {
       "horse": "Contra Spem Spero F 3 A.",
@@ -81,7 +81,7 @@
       "distance": "1.600",
       "cat": "",
       "status": "ND-P/117",
-      "lastUpdate": 1770892075489
+      "lastUpdate": 1770892884004
     },
     {
       "horse": "Francigena (gb) F 3 A.",
@@ -91,7 +91,7 @@
       "distance": "1.600",
       "cat": "",
       "status": "DP-P/117",
-      "lastUpdate": 1770892075489
+      "lastUpdate": 1770892884004
     },
     {
       "horse": "House Of Tudor M 3 A.",
@@ -101,7 +101,7 @@
       "distance": "1.600",
       "cat": "",
       "status": "F1-P/116",
-      "lastUpdate": 1770892075489
+      "lastUpdate": 1770892884004
     },
     {
       "horse": "Moi F 3 A.",
@@ -111,7 +111,7 @@
       "distance": "1.600",
       "cat": "",
       "status": "F1-P/117",
-      "lastUpdate": 1770892075489
+      "lastUpdate": 1770892884004
     },
     {
       "horse": "Remalard H 3 A.",
@@ -121,7 +121,7 @@
       "distance": "1.600",
       "cat": "",
       "status": "F1-P/116",
-      "lastUpdate": 1770892075489
+      "lastUpdate": 1770892884004
     },
     {
       "horse": "Sourdeval H 3 A.",
@@ -131,7 +131,7 @@
       "distance": "1.600",
       "cat": "",
       "status": "F1-P/116",
-      "lastUpdate": 1770892075489
+      "lastUpdate": 1770892884004
     },
     {
       "horse": "Vatican M 3 A.",
@@ -141,7 +141,7 @@
       "distance": "1.600",
       "cat": "",
       "status": "DP-P/116",
-      "lastUpdate": 1770892075489
+      "lastUpdate": 1770892884004
     },
     {
       "horse": "Khozan M 3 A.",
@@ -151,7 +151,7 @@
       "distance": "1.600",
       "cat": "",
       "status": "DP-P/116(Sup.)",
-      "lastUpdate": 1770892075489
+      "lastUpdate": 1770892884004
     },
     {
       "horse": "Roi Du Ciel (ire) H 3 A.",
@@ -161,7 +161,7 @@
       "distance": "1.900",
       "cat": "",
       "status": "DP-P/118(Sup.)",
-      "lastUpdate": 1770892075489
+      "lastUpdate": 1770892884004
     }
   ],
   "results": [
