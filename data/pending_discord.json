@@ -1,6 +1,18 @@
 {
   "partants": {},
-  "newEngagements": {},
+  "newEngagements": {
+    "matauri queen f.ps. 3 a. | 20/02/2026 | chantilly | chene 3 freres | 1.900": {
+      "horse": "MATAURI QUEEN F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/dXhEZzBJdXdYKzl4RHdHUGZ2R0kzUT09",
+      "date": "20/02/2026",
+      "track": "CHANTILLY",
+      "race": "CHENE 3 FRERES",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/QXUrWWpMU1EzMjd5OVYrekgvTTBudz09",
+      "cat": "HAND.",
+      "dist": "1.900",
+      "statut": "-P/142"
+    }
+  },
   "statusUpdates": {},
   "lastPosted": "2026-02-12T09:30:29.663Z"
 }
