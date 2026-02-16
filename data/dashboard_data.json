@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-02-16T11:05:33.549Z",
+  "lastUpdate": "2026-02-16T11:26:24.654Z",
   "upcoming": [
     {
       "horse": "REVEUR (IRE) H.PS. 3 a. ... (Sup.)",
@@ -20,8 +20,8 @@
       "race": "kandis",
       "distance": "2.150",
       "cat": "",
-      "status": "-P/3363",
-      "lastUpdate": 1771237953794
+      "status": "VA-P/3363",
+      "lastUpdate": 1771241164493
     },
     {
       "horse": "Matauri Queen F 3 A.",
@@ -31,7 +31,7 @@
       "distance": "1.900",
       "cat": "",
       "status": "VA-P/142",
-      "lastUpdate": 1771237953794
+      "lastUpdate": 1771241164493
     },
     {
       "horse": "Masha F 3 A.",
@@ -40,8 +40,8 @@
       "race": "bois beauvil.",
       "distance": "1.400",
       "cat": "",
-      "status": "VA-P/169",
-      "lastUpdate": 1771237953794
+      "status": "PB-P/169",
+      "lastUpdate": 1771241164493
     },
     {
       "horse": "Sourdeval H 3 A.",
@@ -50,8 +50,8 @@
       "race": "gran. commelles",
       "distance": "1.900",
       "cat": "",
-      "status": "VA-P/132",
-      "lastUpdate": 1771237953794
+      "status": "PB-P/132",
+      "lastUpdate": 1771241164493
     },
     {
       "horse": "Reveur (ire) H 3 A.",
@@ -61,7 +61,7 @@
       "distance": "2.100",
       "cat": "",
       "status": "DP-P/3086(Sup.)",
-      "lastUpdate": 1771237953794
+      "lastUpdate": 1771241164493
     }
   ],
   "results": [
