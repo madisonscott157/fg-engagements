@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-02-16T07:19:14.709Z",
+  "lastUpdate": "2026-02-16T08:42:36.131Z",
   "upcoming": [
     {
       "horse": "FRANCIGENA (GB) F.PS. 3 a.",
@@ -51,7 +51,7 @@
       "distance": "1.900",
       "cat": "",
       "status": "VA-P/142",
-      "lastUpdate": 1771225143890
+      "lastUpdate": 1771231341959
     },
     {
       "horse": "Masha F 3 A.",
@@ -61,7 +61,7 @@
       "distance": "1.400",
       "cat": "",
       "status": "VA-P/169",
-      "lastUpdate": 1771225143890
+      "lastUpdate": 1771231341959
     },
     {
       "horse": "Sourdeval H 3 A.",
@@ -71,7 +71,7 @@
       "distance": "1.900",
       "cat": "",
       "status": "VA-P/132",
-      "lastUpdate": 1771225143890
+      "lastUpdate": 1771231341959
     },
     {
       "horse": "Reveur (ire) H 3 A.",
@@ -81,7 +81,7 @@
       "distance": "2.100",
       "cat": "",
       "status": "PB-P/3086(Sup.)",
-      "lastUpdate": 1771225143890
+      "lastUpdate": 1771231341959
     }
   ],
   "results": [
