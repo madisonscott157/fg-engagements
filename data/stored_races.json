@@ -1,80 +1,23 @@
 {
-  "lastUpdate": "2026-02-10T10:51:31.748Z",
+  "lastUpdate": "2026-02-16T10:43:35.115Z",
   "races": [
     {
-      "horse": "FRANCIGENA (GB) F.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/dGw1ZFExUWZvQ29oaEJUbElhbHNqdz09",
-      "statut": "DP-P/117",
-      "date": "12/02/2026",
-      "track": "CHANTILLY",
-      "race": "GAZONS DE COYE",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/WnV4UWxhY0dWMDVUM0dHM2tSYXEzQT09",
-      "cat": "(Inédits)",
-      "purse": "24.700",
+      "horse": "REVEUR (IRE) H.PS. 3 a. ... (Sup.)",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/enowTTJQV0p2ZGdhK1FuRzE4UFVPdz09",
+      "statut": "DP-P/3086(Sup.)",
+      "date": "18/02/2026",
+      "track": "PORNICHET",
+      "race": "COQUILLAGES",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/VGhIWXRTSDBqeEV3dUQ0ZWYxU1UxZz09",
+      "cat": "(Maiden)",
+      "purse": "19.200",
       "disc": "P",
-      "dist": "1.600",
+      "dist": "2.100",
       "owner": "CHR. HEAD (S)",
       "postTime": {
-        "hour": 13,
+        "hour": 17,
         "minute": 27,
-        "formatted": "13h27"
-      }
-    },
-    {
-      "horse": "KHOZAN GB M.PS. 3 a. ... (Sup.)",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/N2V4YlU3LzRHbzZUV3hTbWkzenVhdz09",
-      "statut": "DP-P/116(Sup.)",
-      "date": "12/02/2026",
-      "track": "CHANTILLY",
-      "race": "ROND DU MANEGE",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/ZHJaRFlmK2N3WnA4YnlGN2xiWFlvUT09",
-      "cat": "(Inédits)",
-      "purse": "24.700",
-      "disc": "P",
-      "dist": "1.600",
-      "owner": "CHR. HEAD (S)",
-      "postTime": {
-        "hour": 11,
-        "minute": 48,
-        "formatted": "11h48"
-      }
-    },
-    {
-      "horse": "ROI DU CIEL (IRE) H.PS. 3 a. ... (Sup.)",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/L2RydUlPZGxyN0Q2b3VDZGVDYTl5Zz09",
-      "statut": "DP-P/118(Sup.)",
-      "date": "12/02/2026",
-      "track": "CHANTILLY",
-      "race": "MAX. GARCIA",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/Q2QxWWdGUytFekVmTG0wVWFyUFFmUT09",
-      "cat": "RECL.",
-      "purse": "18.200",
-      "disc": "P",
-      "dist": "1.900",
-      "owner": "CHR. HEAD (S)",
-      "postTime": {
-        "hour": 12,
-        "minute": 54,
-        "formatted": "12h54"
-      }
-    },
-    {
-      "horse": "VATICAN M.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/Ly9KU0czNEJFOFRKTklMbWxpMWpkdz09",
-      "statut": "DP-P/116",
-      "date": "12/02/2026",
-      "track": "CHANTILLY",
-      "race": "ROND DU MANEGE",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/ZHJaRFlmK2N3WnA4YnlGN2xiWFlvUT09",
-      "cat": "(Inédits)",
-      "purse": "24.700",
-      "disc": "P",
-      "dist": "1.600",
-      "owner": "CHR. HEAD (S)",
-      "postTime": {
-        "hour": 11,
-        "minute": 48,
-        "formatted": "11h48"
+        "formatted": "17h27"
       }
     }
   ]
