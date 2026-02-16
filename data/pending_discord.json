@@ -1,6 +1,18 @@
 {
   "partants": {},
-  "newEngagements": {},
+  "newEngagements": {
+    "reveur (ire) h.ps. 3 a. | 24/02/2026 | lyon la soie | kandis | 2.150": {
+      "horse": "REVEUR (IRE) H.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/enowTTJQV0p2ZGdhK1FuRzE4UFVPdz09",
+      "date": "24/02/2026",
+      "track": "LYON LA SOIE",
+      "race": "KANDIS",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/akNVbEZaTDBub2Y5NjR6Si9QNXRsUT09",
+      "cat": "(Maiden)",
+      "dist": "2.150",
+      "statut": "-P/3363"
+    }
+  },
   "statusUpdates": {},
   "lastPosted": "2026-02-16T09:35:01.855Z"
 }
