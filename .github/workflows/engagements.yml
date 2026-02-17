@@ -71,25 +71,15 @@ jobs:
           # Commit our changes
           git commit -m "Update engagements data"
 
-          # Push with retry logic, rebasing on conflicts
+          # Push with retry logic
           for i in 1 2 3 4 5; do
             if git push origin main; then
               echo "Push succeeded"
               exit 0
             fi
-            echo "Push failed (attempt $i), rebasing and retrying..."
-            git fetch origin main
-            git rebase origin/main || {
-              echo "Rebase conflict, aborting and resetting"
-              git rebase --abort
-              git reset --soft HEAD~1
-              git stash
-              git pull origin main
-              git stash pop || true
-              git add data/seen.json data/dpp_races.json data/posted_partants.json data/last_run.json data/pending_discord.json
-              git commit -m "Update engagements data" || true
-            }
-            sleep 3
+            echo "Push failed (attempt $i), pulling and retrying..."
+            git pull --rebase origin main || git rebase --abort
+            sleep 2
           done
 
           echo "Failed to push after 5 attempts"
