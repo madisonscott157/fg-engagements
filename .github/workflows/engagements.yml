@@ -5,6 +5,12 @@ on:
     - cron: '0 6,8,10,12,14,16,18,20 * * *'
     - cron: '40 8,9,10,11 * * *'
   workflow_dispatch:
+    inputs:
+      force_post:
+        description: 'Post to Discord regardless of time'
+        required: false
+        default: 'false'
+        type: boolean
 
 permissions:
   contents: write
@@ -50,6 +56,7 @@ jobs:
           GOOGLE_SERVICE_ACCOUNT: ${{ secrets.GOOGLE_SERVICE_ACCOUNT }}
           SPREADSHEET_ID: ${{ secrets.SPREADSHEET_ID }}
           DOC_ID: ${{ secrets.DOC_ID }}
+          MANUAL_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.force_post == true }}
         run: node scrape_engagements.js
 
       - name: Commit and push data files
