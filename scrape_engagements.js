@@ -1021,14 +1021,8 @@ function chunkLines(header, lines, maxLen = 1800) {
     }
   }
 
-  let declaredParticipants = [];
-  if (isFirstRunToday) {
-    declaredParticipants = unique.filter(r => /^DP-P/i.test(r.statut));
-  } else {
-    const newDPP = newRows.filter(r => /^DP-P/i.test(r.statut));
-    const changedToDPP = changedRows.filter(r => /^DP-P/i.test(r.statut));
-    declaredParticipants = [...newDPP, ...changedToDPP];
-  }
+  // Always include ALL current DP-P horses for Discord - post daily reminder of all declared partants
+  const declaredParticipants = unique.filter(r => /^DP-P/i.test(r.statut));
   
   const allCurrentDPP = unique.filter(r => /^DP-P/i.test(r.statut));
   await saveDPPRaces(allCurrentDPP);
