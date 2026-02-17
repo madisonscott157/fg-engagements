@@ -1,4 +1,19 @@
 {
-  "lastUpdate": "2026-02-17T08:40:22.540Z",
-  "races": []
+  "lastUpdate": "2026-02-17T09:30:38.346Z",
+  "races": [
+    {
+      "horse": "REVEUR (IRE) H.PS. 3 a. ... (Sup.)",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/enowTTJQV0p2ZGdhK1FuRzE4UFVPdz09",
+      "statut": "DP-P/3086(Sup.)",
+      "date": "18/02/2026",
+      "track": "PORNICHET",
+      "race": "COQUILLAGES",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/VGhIWXRTSDBqeEV3dUQ0ZWYxU1UxZz09",
+      "cat": "(Maiden)",
+      "purse": "19.200",
+      "disc": "P",
+      "dist": "2.100",
+      "owner": "CHR. HEAD (S)"
+    }
+  ]
 }
