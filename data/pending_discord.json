@@ -1,6 +1,67 @@
 {
-  "partants": {},
-  "newEngagements": {},
-  "statusUpdates": {},
+  "partants": {
+    "sourdeval h.ps. 3 a. | 19/02/2026 | chantilly | gran. commelles | 1.900": {
+      "horse": "SOURDEVAL H.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/SFFlN1JucGNaQ3ZuY3hQMEV2V0ZRQT09",
+      "date": "19/02/2026",
+      "track": "CHANTILLY",
+      "race": "GRAN. COMMELLES",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/ZkhmTm96Ny9pRHJjRVNGRFhGbjRPdz09",
+      "cat": "(Inédits)",
+      "dist": "1.900",
+      "statut": "DP-P/132"
+    }
+  },
+  "newEngagements": {
+    "palm springs f.ps. 3 a. | 25/02/2026 | chantilly | croix ormeaux | 1.600": {
+      "horse": "PALM SPRINGS F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/SkVwTms4VUx2b3YxRmRTTWs0cklkQT09",
+      "date": "25/02/2026",
+      "track": "CHANTILLY",
+      "race": "CROIX ORMEAUX",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/Zll2VmEwVFptYWdOQitoWXdIemRwdz09",
+      "cat": "(Maiden)",
+      "dist": "1.600",
+      "statut": "VA-P/149"
+    }
+  },
+  "statusUpdates": {
+    "masha f.ps. 3 a. | 19/02/2026 | chantilly | bois beauvil. | 1.400": {
+      "horse": "MASHA F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/ZDdsRmdxYXFseFVYaU9UanlZdHRLZz09",
+      "date": "19/02/2026",
+      "track": "CHANTILLY",
+      "race": "BOIS BEAUVIL.",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/aTlCeTNSRGpQdExNczRCaytTUGZtQT09",
+      "cat": "HAND.",
+      "dist": "1.400",
+      "statut": "AP-P/169",
+      "oldStatut": "PB-P/169"
+    },
+    "sourdeval h.ps. 3 a. | 19/02/2026 | chantilly | gran. commelles | 1.900": {
+      "horse": "SOURDEVAL H.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/SFFlN1JucGNaQ3ZuY3hQMEV2V0ZRQT09",
+      "date": "19/02/2026",
+      "track": "CHANTILLY",
+      "race": "GRAN. COMMELLES",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/ZkhmTm96Ny9pRHJjRVNGRFhGbjRPdz09",
+      "cat": "(Inédits)",
+      "dist": "1.900",
+      "statut": "DP-P/132",
+      "oldStatut": "PB-P/132"
+    },
+    "matauri queen f.ps. 3 a. | 20/02/2026 | chantilly | chene 3 freres | 1.900": {
+      "horse": "MATAURI QUEEN F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/dXhEZzBJdXdYKzl4RHdHUGZ2R0kzUT09",
+      "date": "20/02/2026",
+      "track": "CHANTILLY",
+      "race": "CHENE 3 FRERES",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/QXUrWWpMU1EzMjd5OVYrekgvTTBudz09",
+      "cat": "HAND.",
+      "dist": "1.900",
+      "statut": "PB-P/142",
+      "oldStatut": "VA-P/142"
+    }
+  },
   "lastPosted": "2026-02-16T11:26:12.112Z"
 }
