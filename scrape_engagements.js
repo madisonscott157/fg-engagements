@@ -792,18 +792,20 @@ async function scrape() {
   const page = await ctx.newPage();
   page.setDefaultTimeout(60000);  // Increased to 60 seconds
 
-  // Retry page load up to 3 times
+  // Retry page load up to 5 times with increasing delays
   let loaded = false;
-  for (let attempt = 1; attempt <= 3; attempt++) {
+  for (let attempt = 1; attempt <= 5; attempt++) {
     try {
-      console.log('Loading page (attempt ' + attempt + '/3)...');
-      await page.goto(TRAINER_URL, { waitUntil: 'domcontentloaded', timeout: 60000 });
+      console.log('Loading page (attempt ' + attempt + '/5)...');
+      await page.goto(TRAINER_URL, { waitUntil: 'domcontentloaded', timeout: 90000 });
       loaded = true;
       break;
     } catch (err) {
       console.log('Attempt ' + attempt + ' failed: ' + err.message);
-      if (attempt === 3) throw err;
-      await new Promise(r => setTimeout(r, 5000));  // Wait 5 seconds before retry
+      if (attempt === 5) throw err;
+      const delay = attempt * 10000;  // 10s, 20s, 30s, 40s delays
+      console.log('Waiting ' + (delay/1000) + 's before retry...');
+      await new Promise(r => setTimeout(r, delay));
     }
   }
 
