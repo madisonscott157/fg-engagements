@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-02-16T10:43:35.115Z",
+  "lastUpdate": "2026-02-17T11:27:22.876Z",
   "races": [
     {
       "horse": "REVEUR (IRE) H.PS. 3 a. ... (Sup.)",
@@ -18,6 +18,25 @@
         "hour": 17,
         "minute": 27,
         "formatted": "17h27"
+      }
+    },
+    {
+      "horse": "SOURDEVAL H.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/SFFlN1JucGNaQ3ZuY3hQMEV2V0ZRQT09",
+      "statut": "DP-P/132",
+      "date": "19/02/2026",
+      "track": "CHANTILLY",
+      "race": "GRAN. COMMELLES",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/ZkhmTm96Ny9pRHJjRVNGRFhGbjRPdz09",
+      "cat": "(Inédits)",
+      "purse": "24.700",
+      "disc": "P",
+      "dist": "1.900",
+      "owner": "CHR. HEAD (S)",
+      "postTime": {
+        "hour": 11,
+        "minute": 42,
+        "formatted": "11h42"
       }
     }
   ]
