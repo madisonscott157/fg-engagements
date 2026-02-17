@@ -62,12 +62,35 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git pull --rebase origin main || true
-          git add data/seen_results.json data/race_history.json data/pending_tracking.json || true
-          git diff --staged --quiet || git commit -m "Update race results data"
-          for i in 1 2 3; do
-            git push && break
-            echo "Push failed, retrying in 5s..."
-            sleep 5
-            git pull --rebase origin main || true
+
+          git fetch origin main
+          git add data/seen_results.json data/race_history.json data/pending_tracking.json
+
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          git commit -m "Update race results data"
+
+          for i in 1 2 3 4 5; do
+            if git push origin main; then
+              echo "Push succeeded"
+              exit 0
+            fi
+            echo "Push failed (attempt $i), rebasing and retrying..."
+            git fetch origin main
+            git rebase origin/main || {
+              git rebase --abort
+              git reset --soft HEAD~1
+              git stash
+              git pull origin main
+              git stash pop || true
+              git add data/seen_results.json data/race_history.json data/pending_tracking.json
+              git commit -m "Update race results data" || true
+            }
+            sleep 3
           done
+
+          echo "Failed to push after 5 attempts"
+          exit 1

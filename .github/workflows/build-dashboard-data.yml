@@ -13,7 +13,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: dashboard-commits
+  group: data-file-commits
   cancel-in-progress: false
 
 jobs:
@@ -29,7 +29,7 @@ jobs:
           fetch-depth: 0
 
       - name: Pull latest changes
-        run: git pull --rebase origin main || true
+        run: git pull origin main
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -43,11 +43,41 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add data/dashboard_data.json || true
-          git diff --staged --quiet || git commit -m "Update dashboard data"
-          for i in 1 2 3; do
-            git push && break
-            echo "Push failed, retrying in 5s..."
-            sleep 5
-            git pull --rebase origin main || true
+
+          # Fetch latest changes
+          git fetch origin main
+
+          # Check if data files have changes
+          git add data/dashboard_data.json
+
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          # Commit our changes
+          git commit -m "Update dashboard data"
+
+          # Push with retry logic, rebasing on conflicts
+          for i in 1 2 3 4 5; do
+            if git push origin main; then
+              echo "Push succeeded"
+              exit 0
+            fi
+            echo "Push failed (attempt $i), rebasing and retrying..."
+            git fetch origin main
+            git rebase origin/main || {
+              echo "Rebase conflict, aborting and resetting"
+              git rebase --abort
+              git reset --soft HEAD~1
+              git stash
+              git pull origin main
+              git stash pop || true
+              git add data/dashboard_data.json
+              git commit -m "Update dashboard data" || true
+            }
+            sleep 3
           done
+
+          echo "Failed to push after 5 attempts"
+          exit 1
