@@ -1,29 +1,6 @@
 {
-  "partants": {
-    "reveur (ire) h.ps. 3 a. ... (sup.) | 18/02/2026 | pornichet | coquillages | 2.100": {
-      "horse": "REVEUR (IRE) H.PS. 3 a. ... (Sup.)",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/enowTTJQV0p2ZGdhK1FuRzE4UFVPdz09",
-      "date": "18/02/2026",
-      "track": "PORNICHET",
-      "race": "COQUILLAGES",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/VGhIWXRTSDBqeEV3dUQ0ZWYxU1UxZz09",
-      "cat": "(Maiden)",
-      "dist": "2.100",
-      "statut": "DP-P/3086(Sup.)"
-    },
-    "sourdeval h.ps. 3 a. | 19/02/2026 | chantilly | gran. commelles | 1.900": {
-      "horse": "SOURDEVAL H.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/SFFlN1JucGNaQ3ZuY3hQMEV2V0ZRQT09",
-      "date": "19/02/2026",
-      "track": "CHANTILLY",
-      "race": "GRAN. COMMELLES",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/ZkhmTm96Ny9pRHJjRVNGRFhGbjRPdz09",
-      "cat": "(Inédits)",
-      "dist": "1.900",
-      "statut": "DP-P/132"
-    }
-  },
+  "partants": {},
   "newEngagements": {},
   "statusUpdates": {},
-  "lastPosted": "2026-02-17T11:26:33.583Z"
+  "lastPosted": "2026-02-18T09:29:01.408Z"
 }
