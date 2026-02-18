@@ -1,6 +1,120 @@
 {
-  "partants": {},
-  "newEngagements": {},
-  "statusUpdates": {},
+  "partants": {
+    "matauri queen f.ps. 3 a. | 20/02/2026 | chantilly | chene 3 freres | 1.900": {
+      "horse": "MATAURI QUEEN F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/dXhEZzBJdXdYKzl4RHdHUGZ2R0kzUT09",
+      "date": "20/02/2026",
+      "track": "CHANTILLY",
+      "race": "CHENE 3 FRERES",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/QXUrWWpMU1EzMjd5OVYrekgvTTBudz09",
+      "cat": "HAND.",
+      "dist": "1.900",
+      "statut": "DP-P/142"
+    }
+  },
+  "newEngagements": {
+    "ceramic (ire) f.ps. 3 a. | 10/05/2026 | parislongchamp | essai pouliches | 1.600": {
+      "horse": "CERAMIC (IRE) F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/dlczR042azNZZ2tGRVN3a3RYY0JLZz09",
+      "date": "10/05/2026",
+      "track": "PARISLONGCHAMP",
+      "race": "ESSAI POULICHES",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/MTMvaUlBNFQ2V09UNndoVDhkOWNMdz09",
+      "cat": "GR.I",
+      "dist": "1.600",
+      "statut": "VA-P/434"
+    },
+    "do for love ire f.ps. 3 a. | 10/05/2026 | parislongchamp | essai pouliches | 1.600": {
+      "horse": "DO FOR LOVE IRE F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/akpiWVhySklCTkJNVUJBU3NxWFJPZz09",
+      "date": "10/05/2026",
+      "track": "PARISLONGCHAMP",
+      "race": "ESSAI POULICHES",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/MTMvaUlBNFQ2V09UNndoVDhkOWNMdz09",
+      "cat": "GR.I",
+      "dist": "1.600",
+      "statut": "VA-P/434"
+    },
+    "green spirit usa f.ps. 3 a. | 10/05/2026 | parislongchamp | essai pouliches | 1.600": {
+      "horse": "GREEN SPIRIT USA F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/THFzc083dzFJQkdab2FHaStib3dnZz09",
+      "date": "10/05/2026",
+      "track": "PARISLONGCHAMP",
+      "race": "ESSAI POULICHES",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/MTMvaUlBNFQ2V09UNndoVDhkOWNMdz09",
+      "cat": "GR.I",
+      "dist": "1.600",
+      "statut": "VA-P/434"
+    },
+    "nighttime m.ps. 3 a. | 10/05/2026 | parislongchamp | essai poulains | 1.600": {
+      "horse": "NIGHTTIME M.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/MzNVeWdhQUNneUxUMnlHTnU3dXR6dz09",
+      "date": "10/05/2026",
+      "track": "PARISLONGCHAMP",
+      "race": "ESSAI POULAINS",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/TnJINVNUR1d3WGlCcUM5dUpZVDZwdz09",
+      "cat": "GR.I",
+      "dist": "1.600",
+      "statut": "VA-P/433"
+    },
+    "nighttime m.ps. 3 a. | 31/05/2026 | chantilly | du jockey club | 2.100": {
+      "horse": "NIGHTTIME M.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/MzNVeWdhQUNneUxUMnlHTnU3dXR6dz09",
+      "date": "31/05/2026",
+      "track": "CHANTILLY",
+      "race": "DU JOCKEY CLUB",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/Zm16WFRHMFd4dTdTTSs5eE9CWEtqUT09",
+      "cat": "GR.I",
+      "dist": "2.100",
+      "statut": "VA-P/440"
+    },
+    "green spirit usa f.ps. 3 a. | 14/06/2026 | chantilly | diane | 2.100": {
+      "horse": "GREEN SPIRIT USA F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/THFzc083dzFJQkdab2FHaStib3dnZz09",
+      "date": "14/06/2026",
+      "track": "CHANTILLY",
+      "race": "DIANE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/STVhWEhTSUMwdmc4b2hzNmNSQjQzZz09",
+      "cat": "GR.I",
+      "dist": "2.100",
+      "statut": "VA-P/441"
+    },
+    "turbulente (ire) f.ps. 3 a. | 14/06/2026 | chantilly | diane | 2.100": {
+      "horse": "TURBULENTE (IRE) F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/S0ZsOXRHV3RrQnppa3JFRE9IenNFZz09",
+      "date": "14/06/2026",
+      "track": "CHANTILLY",
+      "race": "DIANE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/STVhWEhTSUMwdmc4b2hzNmNSQjQzZz09",
+      "cat": "GR.I",
+      "dist": "2.100",
+      "statut": "VA-P/441"
+    },
+    "proof m.ps. 3 a. | 14/07/2026 | parislongchamp | gd prix paris | 2.400": {
+      "horse": "PROOF M.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/enRjNW9OdGYrK3UyVXJFclNVbmFMZz09",
+      "date": "14/07/2026",
+      "track": "PARISLONGCHAMP",
+      "race": "GD PRIX PARIS",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/NHlpb2pPNldJbEJXTVQ0R05pSVFEdz09",
+      "cat": "GR.I",
+      "dist": "2.400",
+      "statut": "VA-P/442"
+    }
+  },
+  "statusUpdates": {
+    "matauri queen f.ps. 3 a. | 20/02/2026 | chantilly | chene 3 freres | 1.900": {
+      "horse": "MATAURI QUEEN F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/dXhEZzBJdXdYKzl4RHdHUGZ2R0kzUT09",
+      "date": "20/02/2026",
+      "track": "CHANTILLY",
+      "race": "CHENE 3 FRERES",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/QXUrWWpMU1EzMjd5OVYrekgvTTBudz09",
+      "cat": "HAND.",
+      "dist": "1.900",
+      "statut": "DP-P/142",
+      "oldStatut": "PB-P/142"
+    }
+  },
   "lastPosted": "2026-02-18T09:29:01.408Z"
 }
