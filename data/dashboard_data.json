@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-02-19T23:17:45.951Z",
+  "lastUpdate": "2026-02-20T03:09:14.038Z",
   "upcoming": [
     {
       "horse": "REVEUR (IRE) H.PS. 3 a. ... (Sup.)",
@@ -141,26 +141,6 @@
       "distance": "1.900",
       "cat": "",
       "status": "DP-P/142",
-      "lastUpdate": 1771425672401
-    },
-    {
-      "horse": "Masha F 3 A.",
-      "date": "19/02/2026",
-      "track": "chantilly",
-      "race": "bois beauvil.",
-      "distance": "1.400",
-      "cat": "",
-      "status": "AP-P/169",
-      "lastUpdate": 1771425672401
-    },
-    {
-      "horse": "Sourdeval H 3 A.",
-      "date": "19/02/2026",
-      "track": "chantilly",
-      "race": "gran. commelles",
-      "distance": "1.900",
-      "cat": "",
-      "status": "DP-P/132",
       "lastUpdate": 1771425672401
     }
   ],
