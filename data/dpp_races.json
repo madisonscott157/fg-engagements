@@ -1,4 +1,19 @@
 {
-  "lastUpdate": "2026-02-23T17:24:52.754Z",
-  "races": []
+  "lastUpdate": "2026-02-23T17:30:14.912Z",
+  "races": [
+    {
+      "horse": "PALM SPRINGS F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/SkVwTms4VUx2b3YxRmRTTWs0cklkQT09",
+      "statut": "DP-P/149",
+      "date": "25/02/2026",
+      "track": "CHANTILLY",
+      "race": "CROIX ORMEAUX",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/Zll2VmEwVFptYWdOQitoWXdIemRwdz09",
+      "cat": "(Maiden)",
+      "purse": "24.700",
+      "disc": "P",
+      "dist": "1.600",
+      "owner": "CHR. HEAD (S)"
+    }
+  ]
 }

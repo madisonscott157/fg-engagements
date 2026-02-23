@@ -1,6 +1,132 @@
 {
-  "partants": {},
-  "newEngagements": {},
-  "statusUpdates": {},
+  "partants": {
+    "palm springs f.ps. 3 a. | 25/02/2026 | chantilly | croix ormeaux | 1.600": {
+      "horse": "PALM SPRINGS F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/SkVwTms4VUx2b3YxRmRTTWs0cklkQT09",
+      "date": "25/02/2026",
+      "track": "CHANTILLY",
+      "race": "CROIX ORMEAUX",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/Zll2VmEwVFptYWdOQitoWXdIemRwdz09",
+      "cat": "(Maiden)",
+      "dist": "1.600",
+      "statut": "DP-P/149"
+    }
+  },
+  "newEngagements": {
+    "coco vanille f.ps. 3 a. | 27/02/2026 | chantilly | grande glaciere | 1.900": {
+      "horse": "COCO VANILLE F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/T3dJNW9VSFBHbVVWSXN4NFk4bWpEZz09",
+      "date": "27/02/2026",
+      "track": "CHANTILLY",
+      "race": "GRANDE GLACIERE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/ZHp4Ymc3OWFLU0pCaHhseC9rbkp5QT09",
+      "cat": "(Maiden)",
+      "dist": "1.900",
+      "statut": "VA-P/157"
+    },
+    "do for love ire f.ps. 3 a. | 27/02/2026 | chantilly | coeur princes | 1.600": {
+      "horse": "DO FOR LOVE IRE F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/akpiWVhySklCTkJNVUJBU3NxWFJPZz09",
+      "date": "27/02/2026",
+      "track": "CHANTILLY",
+      "race": "COEUR PRINCES",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/d3RwSEFjWE0wekZsWlRpenVibng3Zz09",
+      "cat": "(Classe 2)",
+      "dist": "1.600",
+      "statut": "VA-P/158"
+    },
+    "masha f.ps. 3 a. | 27/02/2026 | chantilly | chap. laurent | 1.300": {
+      "horse": "MASHA F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/ZDdsRmdxYXFseFVYaU9UanlZdHRLZz09",
+      "date": "27/02/2026",
+      "track": "CHANTILLY",
+      "race": "CHAP. LAURENT",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/c2dKOTR5NVFmNnFrY2VTeGg4blNnQT09",
+      "cat": "RECL.",
+      "dist": "1.300",
+      "statut": "VA-P/159"
+    },
+    "palm springs f.ps. 3 a. | 27/02/2026 | chantilly | grande glaciere | 1.900": {
+      "horse": "PALM SPRINGS F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/SkVwTms4VUx2b3YxRmRTTWs0cklkQT09",
+      "date": "27/02/2026",
+      "track": "CHANTILLY",
+      "race": "GRANDE GLACIERE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/ZHp4Ymc3OWFLU0pCaHhseC9rbkp5QT09",
+      "cat": "(Maiden)",
+      "dist": "1.900",
+      "statut": "VA-P/157"
+    },
+    "private story f.ps. 3 a. | 27/02/2026 | chantilly | grande glaciere | 1.900": {
+      "horse": "PRIVATE STORY F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/ZE13dDRJd1d4QlljTGQ5VldZMldrZz09",
+      "date": "27/02/2026",
+      "track": "CHANTILLY",
+      "race": "GRANDE GLACIERE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/ZHp4Ymc3OWFLU0pCaHhseC9rbkp5QT09",
+      "cat": "(Maiden)",
+      "dist": "1.900",
+      "statut": "VA-P/157"
+    },
+    "turbulente (ire) f.ps. 3 a. | 27/02/2026 | chantilly | grande glaciere | 1.900": {
+      "horse": "TURBULENTE (IRE) F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/S0ZsOXRHV3RrQnppa3JFRE9IenNFZz09",
+      "date": "27/02/2026",
+      "track": "CHANTILLY",
+      "race": "GRANDE GLACIERE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/ZHp4Ymc3OWFLU0pCaHhseC9rbkp5QT09",
+      "cat": "(Maiden)",
+      "dist": "1.900",
+      "statut": "VA-P/157"
+    },
+    "vatican m.ps. 3 a. | 27/02/2026 | chantilly | four a tuile | 1.900": {
+      "horse": "VATICAN M.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/Ly9KU0czNEJFOFRKTklMbWxpMWpkdz09",
+      "date": "27/02/2026",
+      "track": "CHANTILLY",
+      "race": "FOUR A TUILE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/STdaWjI2bi9QL3ZqNXllK2hwb01OZz09",
+      "cat": "(Maiden)",
+      "dist": "1.900",
+      "statut": "VA-P/156"
+    },
+    "turbulente (ire) f.ps. 3 a. | 03/03/2026 | chantilly | serpentine | 1.900": {
+      "horse": "TURBULENTE (IRE) F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/S0ZsOXRHV3RrQnppa3JFRE9IenNFZz09",
+      "date": "03/03/2026",
+      "track": "CHANTILLY",
+      "race": "SERPENTINE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/SHl5a3FPdWs0ZHBmQUZSWlhLdFd2UT09",
+      "cat": "(Inédits)",
+      "dist": "1.900",
+      "statut": "VA-P/165"
+    }
+  },
+  "statusUpdates": {
+    "reveur (ire) h.ps. 3 a. | 24/02/2026 | lyon la soie | kandis | 2.150": {
+      "horse": "REVEUR (IRE) H.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/enowTTJQV0p2ZGdhK1FuRzE4UFVPdz09",
+      "date": "24/02/2026",
+      "track": "LYON LA SOIE",
+      "race": "KANDIS",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/akNVbEZaTDBub2Y5NjR6Si9QNXRsUT09",
+      "cat": "(Maiden)",
+      "dist": "2.150",
+      "statut": "NV-P/3363",
+      "oldStatut": "VA-P/3363"
+    },
+    "palm springs f.ps. 3 a. | 25/02/2026 | chantilly | croix ormeaux | 1.600": {
+      "horse": "PALM SPRINGS F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/SkVwTms4VUx2b3YxRmRTTWs0cklkQT09",
+      "date": "25/02/2026",
+      "track": "CHANTILLY",
+      "race": "CROIX ORMEAUX",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/Zll2VmEwVFptYWdOQitoWXdIemRwdz09",
+      "cat": "(Maiden)",
+      "dist": "1.600",
+      "statut": "DP-P/149",
+      "oldStatut": "VA-P/149"
+    }
+  },
   "lastPosted": "2026-02-18T11:25:03.658Z"
 }
