@@ -44,7 +44,19 @@ async function savePostedTracking(set) {
 
 async function checkForTracking(page, raceUrl) {
   try {
-    await page.goto(raceUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
+    // Retry page load up to 3 times with increasing delays
+    let loaded = false;
+    for (let attempt = 1; attempt <= 3; attempt++) {
+      try {
+        await page.goto(raceUrl, { waitUntil: 'domcontentloaded', timeout: 60000 });
+        loaded = true;
+        break;
+      } catch (err) {
+        console.log(`  Attempt ${attempt}/3 failed: ${err.message}`);
+        if (attempt === 3) throw err;
+        await new Promise(r => setTimeout(r, attempt * 5000));
+      }
+    }
     await page.waitForTimeout(1500);
 
     // Dismiss cookie consent popup if present
