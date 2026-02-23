@@ -856,15 +856,38 @@ async function scrape() {
       }
       await page.waitForTimeout(1000);
 
-      // Fill in login form
-      const emailField = page.locator('input[name="email"], input[type="email"], input[name="mail"]').first();
-      const passwordField = page.locator('input[name="password"], input[type="password"]').first();
+      // Fill in login form - try multiple selectors
+      // France Galop login form uses specific input fields
+      let emailField = page.locator('#edit-mail, input[name="mail"], input[id*="mail"], input[placeholder*="mail" i]').first();
+      let passwordField = page.locator('#edit-password, input[name="password"], input[id*="password"]').first();
+
+      // Debug: log what we found
+      console.log('Email field count: ' + await emailField.count());
+      console.log('Password field count: ' + await passwordField.count());
+
+      // If specific selectors don't work, try generic ones within the login form
+      if (await emailField.count() === 0) {
+        emailField = page.locator('form input[type="text"], form input[type="email"]').first();
+        console.log('Using fallback email selector, count: ' + await emailField.count());
+      }
+      if (await passwordField.count() === 0) {
+        passwordField = page.locator('form input[type="password"]').first();
+        console.log('Using fallback password selector, count: ' + await passwordField.count());
+      }
 
       if (await emailField.count() > 0 && await passwordField.count() > 0) {
-        await emailField.fill(FG_EMAIL);
-        console.log('✓ Filled email');
-        await passwordField.fill(FG_PASSWORD);
-        console.log('✓ Filled password');
+        // Click field first, then clear, then type (more reliable than fill)
+        await emailField.click();
+        await page.waitForTimeout(300);
+        await emailField.fill('');  // Clear first
+        await emailField.type(FG_EMAIL, { delay: 50 });
+        console.log('✓ Typed email');
+
+        await passwordField.click();
+        await page.waitForTimeout(300);
+        await passwordField.fill('');  // Clear first
+        await passwordField.type(FG_PASSWORD, { delay: 50 });
+        console.log('✓ Typed password');
 
         // Try multiple methods to submit the form
         let submitted = false;
