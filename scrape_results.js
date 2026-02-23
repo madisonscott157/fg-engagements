@@ -1,5 +1,6 @@
 // Node 18+ / 20+; CommonJS. ENV: RESULTS_URL, DISCORD_WEBHOOK_RESULTS
 // Google Sheets/Docs integration: GOOGLE_SERVICE_ACCOUNT, SPREADSHEET_ID, DOC_ID
+// France Galop login: FRANCE_GALOP_EMAIL, FRANCE_GALOP_PASSWORD
 
 const { chromium } = require('playwright');
 const fs = require('fs/promises');
@@ -11,6 +12,10 @@ const WEBHOOK = process.env.DISCORD_WEBHOOK_RESULTS;
 const MANUAL_RUN = process.env.MANUAL_RUN === 'true';
 const FORCE_POST = process.env.FORCE_POST === 'true';
 
+// France Galop login credentials
+const FG_EMAIL = process.env.FRANCE_GALOP_EMAIL;
+const FG_PASSWORD = process.env.FRANCE_GALOP_PASSWORD;
+
 // Google integration
 const GOOGLE_SERVICE_ACCOUNT = process.env.GOOGLE_SERVICE_ACCOUNT;
 const SPREADSHEET_ID = process.env.SPREADSHEET_ID;
@@ -19,6 +24,10 @@ const DOC_ID = process.env.DOC_ID;
 if (!RESULTS_URL || !WEBHOOK) {
   console.error('Missing RESULTS_URL or DISCORD_WEBHOOK_RESULTS');
   process.exit(1);
+}
+
+if (!FG_EMAIL || !FG_PASSWORD) {
+  console.warn('⚠️ Missing FRANCE_GALOP_EMAIL or FRANCE_GALOP_PASSWORD - login may fail');
 }
 
 if (MANUAL_RUN) {
@@ -536,6 +545,83 @@ async function scrapeResults() {
   ]) {
     const b = page.locator(sel);
     if (await b.count()) { await b.first().click().catch(()=>{}); break; }
+  }
+
+  // Check if we hit a login page and need to authenticate
+  let pageUrl = page.url();
+  let pageTitle = await page.title();
+  console.log('Page title: ' + pageTitle);
+
+  if (pageUrl.includes('/login') || pageTitle.toLowerCase().includes('connecter') || pageTitle.toLowerCase().includes('login')) {
+    console.log('🔐 Login page detected - attempting authentication...');
+
+    if (!FG_EMAIL || !FG_PASSWORD) {
+      console.error('❌ Cannot login: FRANCE_GALOP_EMAIL or FRANCE_GALOP_PASSWORD not set');
+      await browser.close();
+      return [];
+    }
+
+    try {
+      await page.waitForTimeout(1000);
+
+      // Find the login form (Mon espace), not registration form
+      let loginForm = page.locator('form:has(button:has-text("Se connecter")):not(:has(input[name*="confirm"]))').first();
+
+      if (await loginForm.count() === 0) {
+        const allForms = page.locator('form');
+        const formCount = await allForms.count();
+        for (let i = 0; i < formCount; i++) {
+          const form = allForms.nth(i);
+          const hasConfirm = await form.locator('input[name*="confirm"]').count() > 0;
+          const hasPrenom = await form.locator('input[name*="prenom"], input[name*="first"]').count() > 0;
+          if (!hasConfirm && !hasPrenom) {
+            loginForm = form;
+            break;
+          }
+        }
+      }
+
+      const emailField = loginForm.locator('input[name="mail"], input[type="email"], input[type="text"]').first();
+      const passwordField = loginForm.locator('input[name="password"], input[type="password"]').first();
+
+      if (await emailField.count() > 0 && await passwordField.count() > 0) {
+        await emailField.click();
+        await page.waitForTimeout(200);
+        await page.keyboard.type(FG_EMAIL, { delay: 30 });
+
+        await passwordField.click();
+        await page.waitForTimeout(200);
+        await page.keyboard.type(FG_PASSWORD, { delay: 30 });
+
+        await passwordField.press('Enter');
+        await page.waitForTimeout(3000);
+
+        pageUrl = page.url();
+        pageTitle = await page.title();
+
+        if (pageUrl.includes('/login') || pageTitle.toLowerCase().includes('connecter')) {
+          console.error('❌ Login failed - still on login page');
+          await browser.close();
+          return [];
+        }
+
+        console.log('✓ Login successful!');
+
+        // Navigate to results page
+        if (!pageUrl.includes(RESULTS_URL.split('?')[0])) {
+          await page.goto(RESULTS_URL, { waitUntil: 'domcontentloaded', timeout: 60000 });
+          await page.waitForTimeout(2000);
+        }
+      } else {
+        console.error('❌ Could not find login form fields');
+        await browser.close();
+        return [];
+      }
+    } catch (err) {
+      console.error('❌ Login failed: ' + err.message);
+      await browser.close();
+      return [];
+    }
   }
 
   await page.waitForTimeout(1500);

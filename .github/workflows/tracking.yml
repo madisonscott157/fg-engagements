@@ -45,6 +45,8 @@ jobs:
       - name: Run tracking checker
         env:
           DISCORD_WEBHOOK_RESULTS: ${{ secrets.DISCORD_WEBHOOK_RESULTS }}
+          FRANCE_GALOP_EMAIL: ${{ secrets.FRANCE_GALOP_EMAIL }}
+          FRANCE_GALOP_PASSWORD: ${{ secrets.FRANCE_GALOP_PASSWORD }}
         run: node check_tracking_reports.js
 
       - name: Commit and push data files

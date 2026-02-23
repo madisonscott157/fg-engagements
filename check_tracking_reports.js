@@ -1,14 +1,21 @@
 // Node 18+ / 20+; CommonJS. ENV: DISCORD_WEBHOOK_RESULTS
+// France Galop login: FRANCE_GALOP_EMAIL, FRANCE_GALOP_PASSWORD
 
 const { chromium } = require('playwright');
 const fs = require('fs/promises');
 const path = require('path');
 
 const WEBHOOK = process.env.DISCORD_WEBHOOK_RESULTS;
+const FG_EMAIL = process.env.FRANCE_GALOP_EMAIL;
+const FG_PASSWORD = process.env.FRANCE_GALOP_PASSWORD;
 
 if (!WEBHOOK) {
   console.error('Missing DISCORD_WEBHOOK_RESULTS');
   process.exit(1);
+}
+
+if (!FG_EMAIL || !FG_PASSWORD) {
+  console.warn('⚠️ Missing FRANCE_GALOP_EMAIL or FRANCE_GALOP_PASSWORD - login may fail');
 }
 
 const STORE_DIR = 'data';
@@ -141,7 +148,49 @@ async function checkForTracking(page, raceUrl) {
       userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/120 Safari/537.36',
     });
     const page = await ctx.newPage();
-    page.setDefaultTimeout(30000);
+    page.setDefaultTimeout(60000);
+
+    // Try to log in first by visiting login page
+    try {
+      console.log('Attempting France Galop login...');
+      await page.goto('https://www.france-galop.com/fr/login', { waitUntil: 'domcontentloaded', timeout: 60000 });
+      await page.waitForTimeout(1000);
+
+      // Accept cookies
+      for (const sel of ['button:has-text("Tout accepter")', 'button:has-text("Accept all")']) {
+        const b = page.locator(sel);
+        if (await b.count()) { await b.first().click().catch(()=>{}); break; }
+      }
+
+      if (FG_EMAIL && FG_PASSWORD) {
+        // Find login form (Mon espace, not registration)
+        let loginForm = page.locator('form:has(button:has-text("Se connecter")):not(:has(input[name*="confirm"]))').first();
+        if (await loginForm.count() === 0) {
+          loginForm = page.locator('form').first();
+        }
+
+        const emailField = loginForm.locator('input[name="mail"], input[type="email"], input[type="text"]').first();
+        const passwordField = loginForm.locator('input[name="password"], input[type="password"]').first();
+
+        if (await emailField.count() > 0 && await passwordField.count() > 0) {
+          await emailField.click();
+          await page.keyboard.type(FG_EMAIL, { delay: 30 });
+          await passwordField.click();
+          await page.keyboard.type(FG_PASSWORD, { delay: 30 });
+          await passwordField.press('Enter');
+          await page.waitForTimeout(3000);
+
+          const pageUrl = page.url();
+          if (!pageUrl.includes('/login')) {
+            console.log('✓ Login successful!');
+          } else {
+            console.log('⚠️ Login may have failed, continuing anyway...');
+          }
+        }
+      }
+    } catch (err) {
+      console.log('⚠️ Login attempt failed: ' + err.message + ', continuing anyway...');
+    }
 
     try {
       for (const { race, age } of racesToCheck) {

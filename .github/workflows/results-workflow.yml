@@ -55,6 +55,8 @@ jobs:
           GOOGLE_SERVICE_ACCOUNT: ${{ secrets.GOOGLE_SERVICE_ACCOUNT }}
           SPREADSHEET_ID: ${{ secrets.SPREADSHEET_ID }}
           DOC_ID: ${{ secrets.DOC_ID }}
+          FRANCE_GALOP_EMAIL: ${{ secrets.FRANCE_GALOP_EMAIL }}
+          FRANCE_GALOP_PASSWORD: ${{ secrets.FRANCE_GALOP_PASSWORD }}
           FORCE_POST: ${{ inputs.force_post }}
         run: node scrape_results.js
 
