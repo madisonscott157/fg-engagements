@@ -856,38 +856,49 @@ async function scrape() {
       }
       await page.waitForTimeout(1000);
 
-      // Fill in login form - try multiple selectors
-      // France Galop login form uses specific input fields
-      let emailField = page.locator('#edit-mail, input[name="mail"], input[id*="mail"], input[placeholder*="mail" i]').first();
-      let passwordField = page.locator('#edit-password, input[name="password"], input[id*="password"]').first();
+      // Fill in login form - look for the login form specifically (not registration)
+      // The login form should be the first form or one with "user-login" in its id/action
+
+      // Log all forms on page for debugging
+      const allForms = page.locator('form');
+      const formCount = await allForms.count();
+      console.log('Total forms on page: ' + formCount);
+
+      // Try to find the login form specifically
+      let loginForm = page.locator('form#user-login-form, form[action*="login"], form:has(input[name="mail"]):has(input[name="password"])').first();
+      if (await loginForm.count() === 0) {
+        loginForm = allForms.first();
+        console.log('Using first form as login form');
+      } else {
+        console.log('Found specific login form');
+      }
+
+      // Find fields WITHIN the login form
+      let emailField = loginForm.locator('input[name="mail"], input[type="email"], input[type="text"]').first();
+      let passwordField = loginForm.locator('input[name="password"], input[type="password"]').first();
 
       // Debug: log what we found
-      console.log('Email field count: ' + await emailField.count());
-      console.log('Password field count: ' + await passwordField.count());
+      console.log('Email field count in form: ' + await emailField.count());
+      console.log('Password field count in form: ' + await passwordField.count());
 
-      // If specific selectors don't work, try generic ones within the login form
-      if (await emailField.count() === 0) {
-        emailField = page.locator('form input[type="text"], form input[type="email"]').first();
-        console.log('Using fallback email selector, count: ' + await emailField.count());
-      }
-      if (await passwordField.count() === 0) {
-        passwordField = page.locator('form input[type="password"]').first();
-        console.log('Using fallback password selector, count: ' + await passwordField.count());
+      // Log the input names/ids for debugging
+      if (await emailField.count() > 0) {
+        const emailName = await emailField.getAttribute('name');
+        const emailId = await emailField.getAttribute('id');
+        console.log('Email field - name: ' + emailName + ', id: ' + emailId);
       }
 
       if (await emailField.count() > 0 && await passwordField.count() > 0) {
-        // Click field first, then clear, then type (more reliable than fill)
+        // Focus and type into the fields
         await emailField.click();
-        await page.waitForTimeout(300);
-        await emailField.fill('');  // Clear first
-        await emailField.type(FG_EMAIL, { delay: 50 });
-        console.log('✓ Typed email');
+        await page.waitForTimeout(200);
+        await page.keyboard.type(FG_EMAIL, { delay: 30 });
+        console.log('✓ Typed email via keyboard');
 
         await passwordField.click();
-        await page.waitForTimeout(300);
-        await passwordField.fill('');  // Clear first
-        await passwordField.type(FG_PASSWORD, { delay: 50 });
-        console.log('✓ Typed password');
+        await page.waitForTimeout(200);
+        await page.keyboard.type(FG_PASSWORD, { delay: 30 });
+        console.log('✓ Typed password via keyboard');
 
         // Try multiple methods to submit the form
         let submitted = false;
