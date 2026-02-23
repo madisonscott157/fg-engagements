@@ -819,10 +819,27 @@ async function scrape() {
     if (await b.count()) { await b.first().click().catch(()=>{}); break; }
   }
 
-  const tab = page.locator('text=Engagements');
-  if (await tab.count()) await tab.first().click().catch(()=>{});
+  // Debug: Log page title and URL
+  const pageTitle = await page.title();
+  const pageUrl = page.url();
+  console.log('Page title: ' + pageTitle);
+  console.log('Page URL: ' + pageUrl);
 
-  await page.waitForTimeout(1500);
+  // Check if we hit a login page
+  const loginForm = page.locator('form[action*="login"], input[name="password"], .login-form');
+  if (await loginForm.count() > 0) {
+    console.log('⚠️ WARNING: Login form detected - page may require authentication');
+  }
+
+  const tab = page.locator('text=Engagements');
+  const tabCount = await tab.count();
+  console.log('Found ' + tabCount + ' Engagements tab(s)');
+  if (tabCount > 0) {
+    await tab.first().click().catch((e) => console.log('Tab click failed: ' + e.message));
+    console.log('Clicked Engagements tab');
+  }
+
+  await page.waitForTimeout(2000);
 
   const allTables = page.locator('table');
   const tableCount = await allTables.count();
@@ -831,11 +848,12 @@ async function scrape() {
   let table = null;
   for (let i = 0; i < tableCount; i++) {
     const t = allTables.nth(i);
-    const header = norm(await t.locator('thead, tr').first().innerText().catch(()=>'')); 
-    if (/Cheval/i.test(header) && /Statut/i.test(header)) { 
-      table = t; 
+    const header = norm(await t.locator('thead, tr').first().innerText().catch(()=>''));
+    console.log('Table ' + i + ' header: ' + header.substring(0, 100));
+    if (/Cheval/i.test(header) && /Statut/i.test(header)) {
+      table = t;
       console.log('✓ Found Engagements table at index ' + i);
-      break; 
+      break;
     }
   }
   if (!table) {
