@@ -871,8 +871,8 @@ async function scrape() {
           await submitBtn.click();
           console.log('✓ Clicked login button');
 
-          // Wait for navigation
-          await page.waitForTimeout(3000);
+          // Wait for navigation or response
+          await page.waitForTimeout(5000);
 
           // Check if login was successful
           pageUrl = page.url();
@@ -880,8 +880,26 @@ async function scrape() {
           console.log('After login - Page title: ' + pageTitle);
           console.log('After login - Page URL: ' + pageUrl);
 
+          // Check for CAPTCHA
+          const captcha = page.locator('.g-recaptcha, .h-captcha, [data-sitekey], iframe[src*="recaptcha"], iframe[src*="captcha"]');
+          if (await captcha.count() > 0) {
+            console.error('❌ CAPTCHA detected - cannot proceed with automated login');
+            await browser.close();
+            return [];
+          }
+
+          // Check for error messages
+          const errorMsg = page.locator('.error, .alert-danger, .form-error, .login-error, [class*="error"]');
+          if (await errorMsg.count() > 0) {
+            const errorText = await errorMsg.first().innerText().catch(() => '');
+            console.log('⚠️ Error message on page: ' + errorText.substring(0, 200));
+          }
+
           if (pageUrl.includes('/login') || pageTitle.toLowerCase().includes('connecter')) {
             console.error('❌ Login appears to have failed - still on login page');
+            // Log visible text for debugging
+            const bodyText = await page.locator('body').innerText().catch(() => '');
+            console.log('Page content preview: ' + bodyText.substring(0, 500).replace(/\n/g, ' '));
             await browser.close();
             return [];
           }
