@@ -862,70 +862,106 @@ async function scrape() {
 
       if (await emailField.count() > 0 && await passwordField.count() > 0) {
         await emailField.fill(FG_EMAIL);
+        console.log('✓ Filled email');
         await passwordField.fill(FG_PASSWORD);
-        console.log('✓ Filled login credentials');
+        console.log('✓ Filled password');
 
-        // Click submit button
-        const submitBtn = page.locator('button[type="submit"], input[type="submit"], button:has-text("Connexion"), button:has-text("Se connecter"), button:has-text("Login")').first();
-        if (await submitBtn.count() > 0) {
-          await submitBtn.click();
-          console.log('✓ Clicked login button');
+        // Try multiple methods to submit the form
+        let submitted = false;
 
-          // Wait for navigation or response
-          await page.waitForTimeout(5000);
+        // Method 1: Press Enter on password field
+        console.log('Attempting form submit via Enter key...');
+        await passwordField.press('Enter');
+        await page.waitForTimeout(2000);
 
-          // Check if login was successful
-          pageUrl = page.url();
-          pageTitle = await page.title();
-          console.log('After login - Page title: ' + pageTitle);
-          console.log('After login - Page URL: ' + pageUrl);
+        // Check if we navigated
+        let currentUrl = page.url();
+        if (!currentUrl.includes('/login')) {
+          submitted = true;
+          console.log('✓ Form submitted via Enter key');
+        }
 
-          // Check for CAPTCHA
-          const captcha = page.locator('.g-recaptcha, .h-captcha, [data-sitekey], iframe[src*="recaptcha"], iframe[src*="captcha"]');
-          if (await captcha.count() > 0) {
-            console.error('❌ CAPTCHA detected - cannot proceed with automated login');
-            await browser.close();
-            return [];
-          }
-
-          // Check for error messages
-          const errorMsg = page.locator('.error, .alert-danger, .form-error, .login-error, [class*="error"]');
-          if (await errorMsg.count() > 0) {
-            const errorText = await errorMsg.first().innerText().catch(() => '');
-            console.log('⚠️ Error message on page: ' + errorText.substring(0, 200));
-          }
-
-          if (pageUrl.includes('/login') || pageTitle.toLowerCase().includes('connecter')) {
-            console.error('❌ Login appears to have failed - still on login page');
-            // Log visible text for debugging
-            const bodyText = await page.locator('body').innerText().catch(() => '');
-            console.log('Page content preview: ' + bodyText.substring(0, 500).replace(/\n/g, ' '));
-            await browser.close();
-            return [];
-          }
-
-          console.log('✓ Login successful!');
-
-          // Navigate to trainer page if we're not already there
-          if (!pageUrl.includes('/entraineur/') && !pageUrl.includes('/trainer/')) {
-            console.log('Navigating to trainer page...');
-            await page.goto(TRAINER_URL, { waitUntil: 'domcontentloaded', timeout: 60000 });
-            await page.waitForTimeout(2000);
-
-            // Accept cookies again if needed
-            for (const sel of [
-              'button:has-text("Tout accepter")',
-              'button:has-text("Accepter tout")',
-              'button:has-text("Accept all")',
-            ]) {
-              const b = page.locator(sel);
-              if (await b.count()) { await b.first().click().catch(()=>{}); break; }
+        // Method 2: Click submit button if Enter didn't work
+        if (!submitted) {
+          console.log('Enter key did not work, trying button click...');
+          const submitBtn = page.locator('button[type="submit"], input[type="submit"], button:has-text("Connexion"), button:has-text("Se connecter")').first();
+          if (await submitBtn.count() > 0) {
+            // Use Promise.all to wait for navigation
+            try {
+              await Promise.all([
+                page.waitForNavigation({ timeout: 10000 }).catch(() => {}),
+                submitBtn.click()
+              ]);
+              console.log('✓ Clicked login button with navigation wait');
+            } catch (e) {
+              console.log('Navigation wait failed: ' + e.message);
             }
           }
-        } else {
-          console.error('❌ Could not find login submit button');
+        }
+
+        // Method 3: Try form.submit() via JavaScript
+        currentUrl = page.url();
+        if (currentUrl.includes('/login')) {
+          console.log('Button click did not work, trying JavaScript form submit...');
+          await page.evaluate(() => {
+            const form = document.querySelector('form');
+            if (form) form.submit();
+          });
+          await page.waitForTimeout(3000);
+        }
+
+        console.log('✓ Attempted form submission');
+
+        // Wait for navigation or response
+        await page.waitForTimeout(3000);
+
+        // Check if login was successful
+        pageUrl = page.url();
+        pageTitle = await page.title();
+        console.log('After login - Page title: ' + pageTitle);
+        console.log('After login - Page URL: ' + pageUrl);
+
+        // Check for CAPTCHA
+        const captcha = page.locator('.g-recaptcha, .h-captcha, [data-sitekey], iframe[src*="recaptcha"], iframe[src*="captcha"]');
+        if (await captcha.count() > 0) {
+          console.error('❌ CAPTCHA detected - cannot proceed with automated login');
           await browser.close();
           return [];
+        }
+
+        // Check for error messages
+        const errorMsg = page.locator('.error, .alert-danger, .form-error, .login-error, [class*="error"]');
+        if (await errorMsg.count() > 0) {
+          const errorText = await errorMsg.first().innerText().catch(() => '');
+          console.log('⚠️ Error message on page: ' + errorText.substring(0, 200));
+        }
+
+        if (pageUrl.includes('/login') || pageTitle.toLowerCase().includes('connecter')) {
+          console.error('❌ Login appears to have failed - still on login page');
+          // Log visible text for debugging
+          const bodyText = await page.locator('body').innerText().catch(() => '');
+          console.log('Page content preview: ' + bodyText.substring(0, 500).replace(/\n/g, ' '));
+          await browser.close();
+          return [];
+        }
+
+        console.log('✓ Login successful!');
+
+        // Navigate to trainer page if we're not already there
+        if (!pageUrl.includes('/entraineur/') && !pageUrl.includes('/trainer/')) {
+          console.log('Navigating to trainer page...');
+          await page.goto(TRAINER_URL, { waitUntil: 'domcontentloaded', timeout: 60000 });
+          await page.waitForTimeout(2000);
+
+          // Accept cookies again if needed
+          for (const sel of [
+            'button:has-text("Tout accepter")',
+            'button:has-text("Accepter tout")',
+            'button:has-text("Accept all")',
+          ]) {
+            const b = page.locator(sel);
+            if (await b.count()) { await b.first().click().catch(()=>{}); break; }
+          }
         }
       } else {
         console.error('❌ Could not find email/password fields');
