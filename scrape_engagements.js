@@ -856,21 +856,44 @@ async function scrape() {
       }
       await page.waitForTimeout(1000);
 
-      // Fill in login form - look for the login form specifically (not registration)
-      // The login form should be the first form or one with "user-login" in its id/action
+      // There are TWO forms on the page:
+      // Left: "Mon espace" = Login form (what we need)
+      // Right: "M'inscrire" = Registration form (has CAPTCHA, don't use)
+      //
+      // The login form is within a section/div containing "Mon espace" text
+      // and does NOT have the registration fields (Prénom, Nom, Confirmer)
 
-      // Log all forms on page for debugging
-      const allForms = page.locator('form');
-      const formCount = await allForms.count();
-      console.log('Total forms on page: ' + formCount);
+      // Find the "Mon espace" login section - it's the one with "Se connecter" button but no CAPTCHA
+      const loginSection = page.locator('h2:has-text("Mon espace"), h3:has-text("Mon espace"), .block-title:has-text("Mon espace")').first();
 
-      // Try to find the login form specifically
-      let loginForm = page.locator('form#user-login-form, form[action*="login"], form:has(input[name="mail"]):has(input[name="password"])').first();
+      if (await loginSection.count() > 0) {
+        console.log('Found "Mon espace" section');
+      }
+
+      // Get the parent container of "Mon espace" and find the form within it
+      // Or find form that has "Se connecter" button but doesn't have "Confirmer" field
+      let loginForm = page.locator('form:has(button:has-text("Se connecter")):not(:has(input[name*="confirm"]))').first();
+
       if (await loginForm.count() === 0) {
-        loginForm = allForms.first();
-        console.log('Using first form as login form');
+        // Fallback: find the form that's NOT the registration form
+        // Registration form has more fields (prénom, nom, confirm password)
+        const allForms = page.locator('form');
+        const formCount = await allForms.count();
+        console.log('Total forms on page: ' + formCount);
+
+        for (let i = 0; i < formCount; i++) {
+          const form = allForms.nth(i);
+          const hasConfirm = await form.locator('input[name*="confirm"], input[placeholder*="confirm" i]').count() > 0;
+          const hasPrenom = await form.locator('input[name*="prenom"], input[name*="first"]').count() > 0;
+
+          if (!hasConfirm && !hasPrenom) {
+            loginForm = form;
+            console.log('Found login form at index ' + i + ' (no confirm/prenom fields)');
+            break;
+          }
+        }
       } else {
-        console.log('Found specific login form');
+        console.log('Found login form with Se connecter button');
       }
 
       // Find fields WITHIN the login form
@@ -878,27 +901,20 @@ async function scrape() {
       let passwordField = loginForm.locator('input[name="password"], input[type="password"]').first();
 
       // Debug: log what we found
-      console.log('Email field count in form: ' + await emailField.count());
-      console.log('Password field count in form: ' + await passwordField.count());
-
-      // Log the input names/ids for debugging
-      if (await emailField.count() > 0) {
-        const emailName = await emailField.getAttribute('name');
-        const emailId = await emailField.getAttribute('id');
-        console.log('Email field - name: ' + emailName + ', id: ' + emailId);
-      }
+      console.log('Email field count in login form: ' + await emailField.count());
+      console.log('Password field count in login form: ' + await passwordField.count());
 
       if (await emailField.count() > 0 && await passwordField.count() > 0) {
         // Focus and type into the fields
         await emailField.click();
         await page.waitForTimeout(200);
         await page.keyboard.type(FG_EMAIL, { delay: 30 });
-        console.log('✓ Typed email via keyboard');
+        console.log('✓ Typed email into login form');
 
         await passwordField.click();
         await page.waitForTimeout(200);
         await page.keyboard.type(FG_PASSWORD, { delay: 30 });
-        console.log('✓ Typed password via keyboard');
+        console.log('✓ Typed password into login form');
 
         // Try multiple methods to submit the form
         let submitted = false;
