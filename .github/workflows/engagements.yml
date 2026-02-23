@@ -56,6 +56,8 @@ jobs:
           GOOGLE_SERVICE_ACCOUNT: ${{ secrets.GOOGLE_SERVICE_ACCOUNT }}
           SPREADSHEET_ID: ${{ secrets.SPREADSHEET_ID }}
           DOC_ID: ${{ secrets.DOC_ID }}
+          FRANCE_GALOP_EMAIL: ${{ secrets.FRANCE_GALOP_EMAIL }}
+          FRANCE_GALOP_PASSWORD: ${{ secrets.FRANCE_GALOP_PASSWORD }}
           MANUAL_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.force_post == true }}
         run: node scrape_engagements.js
 

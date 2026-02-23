@@ -1,5 +1,6 @@
 // Node 18+ / 20+; CommonJS. ENV: TRAINER_URL, DISCORD_WEBHOOK_URL, MANUAL_RUN (optional)
 // Google Sheets/Docs integration: GOOGLE_SERVICE_ACCOUNT, SPREADSHEET_ID, DOC_ID
+// France Galop login: FRANCE_GALOP_EMAIL, FRANCE_GALOP_PASSWORD
 
 const { chromium } = require('playwright');
 const fs = require('fs/promises');
@@ -11,6 +12,10 @@ const WEBHOOK = process.env.DISCORD_WEBHOOK_URL;
 const MANUAL_RUN = process.env.MANUAL_RUN === 'true';
 const FORCE_POST = process.env.FORCE_POST === 'true';
 
+// France Galop login credentials
+const FG_EMAIL = process.env.FRANCE_GALOP_EMAIL;
+const FG_PASSWORD = process.env.FRANCE_GALOP_PASSWORD;
+
 // Google integration
 const GOOGLE_SERVICE_ACCOUNT = process.env.GOOGLE_SERVICE_ACCOUNT;
 const SPREADSHEET_ID = process.env.SPREADSHEET_ID;
@@ -19,6 +24,10 @@ const DOC_ID = process.env.DOC_ID;
 if (!TRAINER_URL || !WEBHOOK) {
   console.error('Missing TRAINER_URL or DISCORD_WEBHOOK_URL');
   process.exit(1);
+}
+
+if (!FG_EMAIL || !FG_PASSWORD) {
+  console.warn('⚠️ Missing FRANCE_GALOP_EMAIL or FRANCE_GALOP_PASSWORD - login may fail');
 }
 
 if (MANUAL_RUN) {
@@ -820,15 +829,96 @@ async function scrape() {
   }
 
   // Debug: Log page title and URL
-  const pageTitle = await page.title();
-  const pageUrl = page.url();
+  let pageTitle = await page.title();
+  let pageUrl = page.url();
   console.log('Page title: ' + pageTitle);
   console.log('Page URL: ' + pageUrl);
 
-  // Check if we hit a login page
-  const loginForm = page.locator('form[action*="login"], input[name="password"], .login-form');
-  if (await loginForm.count() > 0) {
-    console.log('⚠️ WARNING: Login form detected - page may require authentication');
+  // Check if we hit a login page and need to authenticate
+  if (pageUrl.includes('/login') || pageTitle.toLowerCase().includes('connecter') || pageTitle.toLowerCase().includes('login')) {
+    console.log('🔐 Login page detected - attempting authentication...');
+
+    if (!FG_EMAIL || !FG_PASSWORD) {
+      console.error('❌ Cannot login: FRANCE_GALOP_EMAIL or FRANCE_GALOP_PASSWORD not set');
+      await browser.close();
+      return [];
+    }
+
+    try {
+      // Accept cookies first if present
+      for (const sel of [
+        'button:has-text("Tout accepter")',
+        'button:has-text("Accepter tout")',
+        'button:has-text("Accept all")',
+      ]) {
+        const b = page.locator(sel);
+        if (await b.count()) { await b.first().click().catch(()=>{}); break; }
+      }
+      await page.waitForTimeout(1000);
+
+      // Fill in login form
+      const emailField = page.locator('input[name="email"], input[type="email"], input[name="mail"]').first();
+      const passwordField = page.locator('input[name="password"], input[type="password"]').first();
+
+      if (await emailField.count() > 0 && await passwordField.count() > 0) {
+        await emailField.fill(FG_EMAIL);
+        await passwordField.fill(FG_PASSWORD);
+        console.log('✓ Filled login credentials');
+
+        // Click submit button
+        const submitBtn = page.locator('button[type="submit"], input[type="submit"], button:has-text("Connexion"), button:has-text("Se connecter"), button:has-text("Login")').first();
+        if (await submitBtn.count() > 0) {
+          await submitBtn.click();
+          console.log('✓ Clicked login button');
+
+          // Wait for navigation
+          await page.waitForTimeout(3000);
+
+          // Check if login was successful
+          pageUrl = page.url();
+          pageTitle = await page.title();
+          console.log('After login - Page title: ' + pageTitle);
+          console.log('After login - Page URL: ' + pageUrl);
+
+          if (pageUrl.includes('/login') || pageTitle.toLowerCase().includes('connecter')) {
+            console.error('❌ Login appears to have failed - still on login page');
+            await browser.close();
+            return [];
+          }
+
+          console.log('✓ Login successful!');
+
+          // Navigate to trainer page if we're not already there
+          if (!pageUrl.includes('/entraineur/') && !pageUrl.includes('/trainer/')) {
+            console.log('Navigating to trainer page...');
+            await page.goto(TRAINER_URL, { waitUntil: 'domcontentloaded', timeout: 60000 });
+            await page.waitForTimeout(2000);
+
+            // Accept cookies again if needed
+            for (const sel of [
+              'button:has-text("Tout accepter")',
+              'button:has-text("Accepter tout")',
+              'button:has-text("Accept all")',
+            ]) {
+              const b = page.locator(sel);
+              if (await b.count()) { await b.first().click().catch(()=>{}); break; }
+            }
+          }
+        } else {
+          console.error('❌ Could not find login submit button');
+          await browser.close();
+          return [];
+        }
+      } else {
+        console.error('❌ Could not find email/password fields');
+        await browser.close();
+        return [];
+      }
+    } catch (err) {
+      console.error('❌ Login failed: ' + err.message);
+      await browser.close();
+      return [];
+    }
   }
 
   const tab = page.locator('text=Engagements');
