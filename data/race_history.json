@@ -1,5 +1,18 @@
 [
   {
+    "horse": "Palm Springs",
+    "date": "25/02/2026",
+    "track": "CHANTILLY",
+    "race": "",
+    "distance": "1.600",
+    "position": "2",
+    "jockey": "A. LEMAITRE",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/Zll2VmEwVFptYWdOQitoWXdIemRwdz09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/SkVwTms4VUx2b3YxRmRTTWs0cklkQT09",
+    "scrapedAt": "2026-02-25T13:25:28.051Z"
+  },
+  {
     "horse": "Reveur",
     "date": "18/02/2026",
     "track": "PORNICHET",
