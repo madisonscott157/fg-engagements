@@ -1,6 +1,19 @@
 {
   "partants": {},
   "newEngagements": {},
-  "statusUpdates": {},
+  "statusUpdates": {
+    "turbulente (ire) f.ps. 3 a. | 03/03/2026 | chantilly | serpentine | 1.900": {
+      "horse": "TURBULENTE (IRE) F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/S0ZsOXRHV3RrQnppa3JFRE9IenNFZz09",
+      "date": "03/03/2026",
+      "track": "CHANTILLY",
+      "race": "SERPENTINE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/SHl5a3FPdWs0ZHBmQUZSWlhLdFd2UT09",
+      "cat": "(Inédits)",
+      "dist": "1.900",
+      "statut": "F1-P/165",
+      "oldStatut": "VA-P/165"
+    }
+  },
   "lastPosted": "2026-02-26T09:31:24.300Z"
 }
