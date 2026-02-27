@@ -1,40 +1,6 @@
 {
   "partants": {},
-  "newEngagements": {
-    "ceramic (ire) f.ps. 3 a. | 08/03/2026 | chantilly | montenica | 1.300": {
-      "horse": "CERAMIC (IRE) F.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/dlczR042azNZZ2tGRVN3a3RYY0JLZz09",
-      "date": "08/03/2026",
-      "track": "CHANTILLY",
-      "race": "MONTENICA",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/dVFreXJyU2d2cFhtTzM4MTAyTG9JQT09",
-      "cat": "(L)",
-      "dist": "1.300",
-      "statut": "-P/167"
-    },
-    "no tune (gb) f.ps. 3 a. | 08/03/2026 | chantilly | montenica | 1.300": {
-      "horse": "NO TUNE (GB) F.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/QnhqdXA4MERPdXZveTZNNGVDeUNaZz09",
-      "date": "08/03/2026",
-      "track": "CHANTILLY",
-      "race": "MONTENICA",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/dVFreXJyU2d2cFhtTzM4MTAyTG9JQT09",
-      "cat": "(L)",
-      "dist": "1.300",
-      "statut": "-P/167"
-    },
-    "reveur (ire) h.ps. 3 a. | 08/03/2026 | chantilly | m.caillault | 1.800": {
-      "horse": "REVEUR (IRE) H.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/enowTTJQV0p2ZGdhK1FuRzE4UFVPdz09",
-      "date": "08/03/2026",
-      "track": "CHANTILLY",
-      "race": "M.CAILLAULT",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/QTMwYzVTeGNMYUtRRW1oZUhBS1RKdz09",
-      "cat": "(L)",
-      "dist": "1.800",
-      "statut": "-P/168"
-    }
-  },
+  "newEngagements": {},
   "statusUpdates": {},
-  "lastPosted": "2026-02-27T09:24:59.086Z"
+  "lastPosted": "2026-02-27T11:19:46.372Z"
 }
