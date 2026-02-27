@@ -1,5 +1,57 @@
 [
   {
+    "horse": "Do For Love",
+    "date": "27/02/2026",
+    "track": "CHANTILLY",
+    "race": "",
+    "distance": "1.600",
+    "position": "6",
+    "jockey": "C. DEMURO",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/d3RwSEFjWE0wekZsWlRpenVibng3Zz09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/akpiWVhySklCTkJNVUJBU3NxWFJPZz09",
+    "scrapedAt": "2026-02-27T13:17:15.320Z"
+  },
+  {
+    "horse": "Turbulente",
+    "date": "27/02/2026",
+    "track": "CHANTILLY",
+    "race": "",
+    "distance": "1.900",
+    "position": "1",
+    "jockey": "C. DEMURO",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/ZHp4Ymc3OWFLU0pCaHhseC9rbkp5QT09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/S0ZsOXRHV3RrQnppa3JFRE9IenNFZz09",
+    "scrapedAt": "2026-02-27T13:17:15.320Z"
+  },
+  {
+    "horse": "Vatican",
+    "date": "27/02/2026",
+    "track": "CHANTILLY",
+    "race": "",
+    "distance": "1.900",
+    "position": "3",
+    "jockey": "A. LEMAITRE",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/STdaWjI2bi9QL3ZqNXllK2hwb01OZz09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/Ly9KU0czNEJFOFRKTklMbWxpMWpkdz09",
+    "scrapedAt": "2026-02-27T13:17:15.320Z"
+  },
+  {
+    "horse": "Private Story",
+    "date": "27/02/2026",
+    "track": "CHANTILLY",
+    "race": "",
+    "distance": "1.900",
+    "position": "7",
+    "jockey": "A. LEMAITRE",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/ZHp4Ymc3OWFLU0pCaHhseC9rbkp5QT09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/ZE13dDRJd1d4QlljTGQ5VldZMldrZz09",
+    "scrapedAt": "2026-02-27T13:17:15.320Z"
+  },
+  {
     "horse": "Palm Springs",
     "date": "25/02/2026",
     "track": "CHANTILLY",
