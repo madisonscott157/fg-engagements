@@ -1,51 +1,6 @@
 {
-  "partants": {
-    "do for love ire f.ps. 3 a. | 27/02/2026 | chantilly | coeur princes | 1.600": {
-      "horse": "DO FOR LOVE IRE F.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/akpiWVhySklCTkJNVUJBU3NxWFJPZz09",
-      "date": "27/02/2026",
-      "track": "CHANTILLY",
-      "race": "COEUR PRINCES",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/d3RwSEFjWE0wekZsWlRpenVibng3Zz09",
-      "cat": "(Classe 2)",
-      "dist": "1.600",
-      "statut": "DP-P/158"
-    },
-    "private story f.ps. 3 a. | 27/02/2026 | chantilly | grande glaciere | 1.900": {
-      "horse": "PRIVATE STORY F.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/ZE13dDRJd1d4QlljTGQ5VldZMldrZz09",
-      "date": "27/02/2026",
-      "track": "CHANTILLY",
-      "race": "GRANDE GLACIERE",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/ZHp4Ymc3OWFLU0pCaHhseC9rbkp5QT09",
-      "cat": "(Maiden)",
-      "dist": "1.900",
-      "statut": "DP-P/157"
-    },
-    "turbulente (ire) f.ps. 3 a. | 27/02/2026 | chantilly | grande glaciere | 1.900": {
-      "horse": "TURBULENTE (IRE) F.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/S0ZsOXRHV3RrQnppa3JFRE9IenNFZz09",
-      "date": "27/02/2026",
-      "track": "CHANTILLY",
-      "race": "GRANDE GLACIERE",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/ZHp4Ymc3OWFLU0pCaHhseC9rbkp5QT09",
-      "cat": "(Maiden)",
-      "dist": "1.900",
-      "statut": "DP-P/157"
-    },
-    "vatican m.ps. 3 a. | 27/02/2026 | chantilly | four a tuile | 1.900": {
-      "horse": "VATICAN M.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/Ly9KU0czNEJFOFRKTklMbWxpMWpkdz09",
-      "date": "27/02/2026",
-      "track": "CHANTILLY",
-      "race": "FOUR A TUILE",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/STdaWjI2bi9QL3ZqNXllK2hwb01OZz09",
-      "cat": "(Maiden)",
-      "dist": "1.900",
-      "statut": "DP-P/156"
-    }
-  },
+  "partants": {},
   "newEngagements": {},
   "statusUpdates": {},
-  "lastPosted": "2026-02-26T11:27:49.648Z"
+  "lastPosted": "2026-02-27T09:24:59.086Z"
 }
