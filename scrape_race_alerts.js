@@ -1,4 +1,5 @@
 // Node 18+ / 20+; CommonJS. ENV: DISCORD_WEBHOOK_RACE_ALERTS
+// France Galop login: FRANCE_GALOP_EMAIL, FRANCE_GALOP_PASSWORD
 
 const { chromium } = require('playwright');
 const fs = require('fs/promises');
@@ -6,9 +7,17 @@ const path = require('path');
 
 const WEBHOOK = process.env.DISCORD_WEBHOOK_RACE_ALERTS;
 
+// France Galop login credentials
+const FG_EMAIL = process.env.FRANCE_GALOP_EMAIL;
+const FG_PASSWORD = process.env.FRANCE_GALOP_PASSWORD;
+
 if (!WEBHOOK) {
   console.error('Missing DISCORD_WEBHOOK_RACE_ALERTS');
   process.exit(1);
+}
+
+if (!FG_EMAIL || !FG_PASSWORD) {
+  console.warn('⚠️ Missing FRANCE_GALOP_EMAIL or FRANCE_GALOP_PASSWORD - login may fail');
 }
 
 const STORE_DIR = 'data';
@@ -175,11 +184,107 @@ async function loadDPPRaces() {
   }
 }
 
+// Handle France Galop login if we hit the login page
+async function handleLogin(page) {
+  const pageUrl = page.url();
+  const pageTitle = await page.title();
+
+  if (!pageUrl.includes('/login') && !pageTitle.toLowerCase().includes('connecter') && !pageTitle.toLowerCase().includes('login')) {
+    return true; // Not on login page, no action needed
+  }
+
+  console.log('🔐 Login page detected - attempting authentication...');
+
+  if (!FG_EMAIL || !FG_PASSWORD) {
+    console.error('❌ Cannot login: FRANCE_GALOP_EMAIL or FRANCE_GALOP_PASSWORD not set');
+    return false;
+  }
+
+  try {
+    // Accept cookies first if present
+    for (const sel of [
+      'button:has-text("Tout accepter")',
+      'button:has-text("Accepter tout")',
+      'button:has-text("Accept all")',
+    ]) {
+      const b = page.locator(sel);
+      if (await b.count()) { await b.first().click().catch(()=>{}); break; }
+    }
+    await page.waitForTimeout(1000);
+
+    // Find the login form (Mon espace), not registration form
+    let loginForm = page.locator('form:has(button:has-text("Se connecter")):not(:has(input[name*="confirm"]))').first();
+
+    if (await loginForm.count() === 0) {
+      const allForms = page.locator('form');
+      const formCount = await allForms.count();
+
+      for (let i = 0; i < formCount; i++) {
+        const form = allForms.nth(i);
+        const hasConfirm = await form.locator('input[name*="confirm"], input[placeholder*="confirm" i]').count() > 0;
+        const hasPrenom = await form.locator('input[name*="prenom"], input[name*="first"]').count() > 0;
+
+        if (!hasConfirm && !hasPrenom) {
+          loginForm = form;
+          break;
+        }
+      }
+    }
+
+    const emailField = loginForm.locator('input[name="mail"], input[type="email"], input[type="text"]').first();
+    const passwordField = loginForm.locator('input[name="password"], input[type="password"]').first();
+
+    if (await emailField.count() > 0 && await passwordField.count() > 0) {
+      await emailField.click();
+      await page.waitForTimeout(200);
+      await page.keyboard.type(FG_EMAIL, { delay: 30 });
+
+      await passwordField.click();
+      await page.waitForTimeout(200);
+      await page.keyboard.type(FG_PASSWORD, { delay: 30 });
+
+      // Submit via Enter key
+      await passwordField.press('Enter');
+      await page.waitForTimeout(3000);
+
+      // Check if login succeeded
+      const newUrl = page.url();
+      if (newUrl.includes('/login')) {
+        console.error('❌ Login failed - still on login page');
+        return false;
+      }
+
+      console.log('✓ Login successful!');
+      return true;
+    } else {
+      console.error('❌ Could not find login form fields');
+      return false;
+    }
+  } catch (err) {
+    console.error('❌ Login failed: ' + err.message);
+    return false;
+  }
+}
+
 async function getPostTime(page, raceUrl, retries = 2) {
   for (let attempt = 1; attempt <= retries; attempt++) {
     try {
       await page.goto(raceUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
       await page.waitForTimeout(1500);
+
+      // Check if we hit login page and handle it
+      const loggedIn = await handleLogin(page);
+      if (!loggedIn) {
+        console.error('  ❌ Could not authenticate with France Galop');
+        return null;
+      }
+
+      // If we logged in, we need to navigate to the race URL again
+      const currentUrl = page.url();
+      if (!currentUrl.includes('/course/detail')) {
+        await page.goto(raceUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
+        await page.waitForTimeout(1500);
+      }
 
       const bodyText = await page.locator('body').innerText();
 

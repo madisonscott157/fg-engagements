@@ -45,6 +45,8 @@ jobs:
       - name: Run race alerts
         env:
           DISCORD_WEBHOOK_RACE_ALERTS: ${{ secrets.DISCORD_WEBHOOK_RACE_ALERTS }}
+          FRANCE_GALOP_EMAIL: ${{ secrets.FRANCE_GALOP_EMAIL }}
+          FRANCE_GALOP_PASSWORD: ${{ secrets.FRANCE_GALOP_PASSWORD }}
         run: node scrape_race_alerts.js
 
       - name: Commit and push data files
