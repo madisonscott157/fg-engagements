@@ -1,4 +1,43 @@
 {
-  "lastUpdate": "2026-02-27T23:01:59.849Z",
-  "races": []
+  "lastUpdate": "2026-03-06T10:29:37.383Z",
+  "races": [
+    {
+      "horse": "NO TUNE (GB) F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/QnhqdXA4MERPdXZveTZNNGVDeUNaZz09",
+      "statut": "DP-P/167",
+      "date": "08/03/2026",
+      "track": "CHANTILLY",
+      "race": "MONTENICA",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/dVFreXJyU2d2cFhtTzM4MTAyTG9JQT09",
+      "cat": "(L)",
+      "purse": "50.300",
+      "disc": "P",
+      "dist": "1.300",
+      "owner": "CHR. HEAD (S)",
+      "postTime": {
+        "hour": 16,
+        "minute": 7,
+        "formatted": "16h07"
+      }
+    },
+    {
+      "horse": "REVEUR (IRE) H.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/enowTTJQV0p2ZGdhK1FuRzE4UFVPdz09",
+      "statut": "DP-P/168",
+      "date": "08/03/2026",
+      "track": "CHANTILLY",
+      "race": "M.CAILLAULT",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/QTMwYzVTeGNMYUtRRW1oZUhBS1RKdz09",
+      "cat": "(L)",
+      "purse": "50.300",
+      "disc": "P",
+      "dist": "1.800",
+      "owner": "CHR. HEAD (S)",
+      "postTime": {
+        "hour": 16,
+        "minute": 42,
+        "formatted": "16h42"
+      }
+    }
+  ]
 }
