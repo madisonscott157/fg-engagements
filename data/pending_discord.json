@@ -1,55 +1,6 @@
 {
-  "partants": {
-    "coco vanille f.ps. 3 a. | 11/03/2026 | lyon la soie | f. de st laumer | 2.150": {
-      "horse": "COCO VANILLE F.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/T3dJNW9VSFBHbVVWSXN4NFk4bWpEZz09",
-      "date": "11/03/2026",
-      "track": "LYON LA SOIE",
-      "race": "F. DE ST LAUMER",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/WWhlVW51TG5obnN5Q0VXTGEyQVpyQT09",
-      "cat": "(Maiden)",
-      "dist": "2.150",
-      "statut": "DP-P/3991"
-    }
-  },
+  "partants": {},
   "newEngagements": {},
-  "statusUpdates": {
-    "coco vanille f.ps. 3 a. | 11/03/2026 | lyon la soie | f. de st laumer | 2.150": {
-      "horse": "COCO VANILLE F.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/T3dJNW9VSFBHbVVWSXN4NFk4bWpEZz09",
-      "date": "11/03/2026",
-      "track": "LYON LA SOIE",
-      "race": "F. DE ST LAUMER",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/WWhlVW51TG5obnN5Q0VXTGEyQVpyQT09",
-      "cat": "(Maiden)",
-      "dist": "2.150",
-      "statut": "DP-P/3991",
-      "oldStatut": "PB-P/3991"
-    },
-    "hottot m.ps. 3 a. | 12/03/2026 | chantilly | du lieutenant | 1.600": {
-      "horse": "HOTTOT M.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/dzNvbmQ5bytFTzloOG9mOVZyR2NEdz09",
-      "date": "12/03/2026",
-      "track": "CHANTILLY",
-      "race": "DU LIEUTENANT",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/V0xGMHVJaHdVaTg4ZFMzV25EZ2NsQT09",
-      "cat": "(Classe 2)",
-      "dist": "1.600",
-      "statut": "PB-P/206",
-      "oldStatut": "VA-P/206"
-    },
-    "masha f.ps. 3 a. | 12/03/2026 | chantilly | la goursaule | 1.600": {
-      "horse": "MASHA F.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/ZDdsRmdxYXFseFVYaU9UanlZdHRLZz09",
-      "date": "12/03/2026",
-      "track": "CHANTILLY",
-      "race": "LA GOURSAULE",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/ZVUzT3ZHV1FCWkZIbm9tT3E4N0llQT09",
-      "cat": "RECL.",
-      "dist": "1.600",
-      "statut": "PB-P/220",
-      "oldStatut": "VA-P/220"
-    }
-  },
-  "lastPosted": "2026-03-09T09:30:56.564Z"
+  "statusUpdates": {},
+  "lastPosted": "2026-03-09T11:22:27.446Z"
 }
