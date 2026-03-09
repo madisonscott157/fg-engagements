@@ -1,18 +1,6 @@
 {
-  "partants": {
-    "filicudi ire m.ps. 3 a. ... (sup.) | 10/03/2026 | saint-cloud | gris perle | 2.000": {
-      "horse": "FILICUDI IRE M.PS. 3 a. ... (Sup.)",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/S2toOEN3RVB0ZzhncEkrVWgxblUwdz09",
-      "date": "10/03/2026",
-      "track": "SAINT-CLOUD",
-      "race": "GRIS PERLE",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/TnRBbnEvQ0ZUMldjVlhTWGEwWmhwUT09",
-      "cat": "(Classe 2)",
-      "dist": "2.000",
-      "statut": "DP-P/198(Sup.)"
-    }
-  },
+  "partants": {},
   "newEngagements": {},
   "statusUpdates": {},
-  "lastPosted": "2026-03-08T09:56:22.584Z"
+  "lastPosted": "2026-03-09T09:30:56.564Z"
 }
