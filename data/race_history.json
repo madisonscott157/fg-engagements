@@ -1,5 +1,18 @@
 [
   {
+    "horse": "Filicudi",
+    "date": "10/03/2026",
+    "track": "SAINT-CLOUD",
+    "race": "",
+    "distance": "2.000",
+    "position": "8",
+    "jockey": "M. BARZALONA",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/TnRBbnEvQ0ZUMldjVlhTWGEwWmhwUT09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/S2toOEN3RVB0ZzhncEkrVWgxblUwdz09",
+    "scrapedAt": "2026-03-10T15:36:18.078Z"
+  },
+  {
     "horse": "Reveur",
     "date": "08/03/2026",
     "track": "CHANTILLY",
