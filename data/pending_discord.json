@@ -1,5 +1,28 @@
 {
-  "partants": {},
+  "partants": {
+    "filicudi ire m.ps. 3 a. ... (sup.) | 10/03/2026 | saint-cloud | gris perle | 2.000": {
+      "horse": "FILICUDI IRE M.PS. 3 a. ... (Sup.)",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/S2toOEN3RVB0ZzhncEkrVWgxblUwdz09",
+      "date": "10/03/2026",
+      "track": "SAINT-CLOUD",
+      "race": "GRIS PERLE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/TnRBbnEvQ0ZUMldjVlhTWGEwWmhwUT09",
+      "cat": "(Classe 2)",
+      "dist": "2.000",
+      "statut": "DP-P/198(Sup.)"
+    },
+    "coco vanille f.ps. 3 a. | 11/03/2026 | lyon la soie | f. de st laumer | 2.150": {
+      "horse": "COCO VANILLE F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/T3dJNW9VSFBHbVVWSXN4NFk4bWpEZz09",
+      "date": "11/03/2026",
+      "track": "LYON LA SOIE",
+      "race": "F. DE ST LAUMER",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/WWhlVW51TG5obnN5Q0VXTGEyQVpyQT09",
+      "cat": "(Maiden)",
+      "dist": "2.150",
+      "statut": "DP-P/3991"
+    }
+  },
   "newEngagements": {},
   "statusUpdates": {},
   "lastPosted": "2026-03-09T11:22:27.446Z"
