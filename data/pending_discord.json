@@ -1,6 +1,18 @@
 {
   "partants": {},
-  "newEngagements": {},
+  "newEngagements": {
+    "no tune (gb) f.ps. 3 a. | 07/04/2026 | deauville | imprudence | 1.400": {
+      "horse": "NO TUNE (GB) F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/QnhqdXA4MERPdXZveTZNNGVDeUNaZz09",
+      "date": "07/04/2026",
+      "track": "DEAUVILLE",
+      "race": "IMPRUDENCE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/L0lTUWlHRmRzOGtYZVF1Y2JmWXZtdz09",
+      "cat": "GR.III",
+      "dist": "1.400",
+      "statut": "-P/302"
+    }
+  },
   "statusUpdates": {},
   "lastPosted": "2026-03-11T09:25:39.422Z"
 }
