@@ -1,5 +1,18 @@
 [
   {
+    "horse": "Coco Vanille",
+    "date": "11/03/2026",
+    "track": "LYON LA SOIE",
+    "race": "",
+    "distance": "2.150",
+    "position": "1",
+    "jockey": "A. LEMAITRE",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/WWhlVW51TG5obnN5Q0VXTGEyQVpyQT09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/T3dJNW9VSFBHbVVWSXN4NFk4bWpEZz09",
+    "scrapedAt": "2026-03-11T18:31:13.367Z"
+  },
+  {
     "horse": "Filicudi",
     "date": "10/03/2026",
     "track": "SAINT-CLOUD",
