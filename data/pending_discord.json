@@ -1,6 +1,40 @@
 {
   "partants": {},
-  "newEngagements": {},
+  "newEngagements": {
+    "francigena (gb) f.ps. 3 a. | 20/03/2026 | le mans | de ruaudin | 1.600": {
+      "horse": "FRANCIGENA (GB) F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/dGw1ZFExUWZvQ29oaEJUbElhbHNqdz09",
+      "date": "20/03/2026",
+      "track": "LE MANS",
+      "race": "DE RUAUDIN",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/bnN6OWsyQzBIZDEwV2ZrempCaElDUT09",
+      "cat": "(Maiden)",
+      "dist": "1.600",
+      "statut": "-P/3602"
+    },
+    "sourdeval h.ps. 3 a. | 20/03/2026 | le mans | sable/sarthe | 1.600": {
+      "horse": "SOURDEVAL H.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/SFFlN1JucGNaQ3ZuY3hQMEV2V0ZRQT09",
+      "date": "20/03/2026",
+      "track": "LE MANS",
+      "race": "SABLE/SARTHE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/dFRVbTVjN2NRZ25GSWFsb2g5RnlsZz09",
+      "cat": "(Maiden)",
+      "dist": "1.600",
+      "statut": "-P/3601"
+    },
+    "vatican m.ps. 3 a. | 20/03/2026 | croise-laroche | de kergolay | 1.800": {
+      "horse": "VATICAN M.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/Ly9KU0czNEJFOFRKTklMbWxpMWpkdz09",
+      "date": "20/03/2026",
+      "track": "CROISE-LAROCHE",
+      "race": "DE KERGOLAY",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/QzJlclNGd2ovbjFjak8zV3dmMnlKZz09",
+      "cat": "(Maiden)",
+      "dist": "1.800",
+      "statut": "-P/4077"
+    }
+  },
   "statusUpdates": {},
   "lastPosted": "2026-03-12T09:27:10.861Z"
 }
