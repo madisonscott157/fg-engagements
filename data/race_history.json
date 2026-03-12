@@ -1,5 +1,18 @@
 [
   {
+    "horse": "Hottot",
+    "date": "12/03/2026",
+    "track": "CHANTILLY",
+    "race": "",
+    "distance": "1.600",
+    "position": "4",
+    "jockey": "A. LEMAITRE",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/V0xGMHVJaHdVaTg4ZFMzV25EZ2NsQT09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/dzNvbmQ5bytFTzloOG9mOVZyR2NEdz09",
+    "scrapedAt": "2026-03-12T14:29:09.818Z"
+  },
+  {
     "horse": "Coco Vanille",
     "date": "11/03/2026",
     "track": "LYON LA SOIE",
