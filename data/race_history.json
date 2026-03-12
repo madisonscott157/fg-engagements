@@ -1,5 +1,18 @@
 [
   {
+    "horse": "Masha",
+    "date": "12/03/2026",
+    "track": "CHANTILLY",
+    "race": "RECL.",
+    "distance": "1.600",
+    "position": "9",
+    "jockey": "A. LEMAITRE",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/ZVUzT3ZHV1FCWkZIbm9tT3E4N0llQT09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/ZDdsRmdxYXFseFVYaU9UanlZdHRLZz09",
+    "scrapedAt": "2026-03-12T15:35:37.537Z"
+  },
+  {
     "horse": "Hottot",
     "date": "12/03/2026",
     "track": "CHANTILLY",

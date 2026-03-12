@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "horse": "MASHA",
+    "date": "12/03/2026",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/ZVUzT3ZHV1FCWkZIbm9tT3E4N0llQT09",
+    "hippodrome": "CHANTILLY",
+    "addedAt": 1773329743504
+  }
+]
