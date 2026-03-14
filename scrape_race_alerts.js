@@ -26,8 +26,8 @@ const RACES_FILE = path.join(STORE_DIR, 'stored_races.json');
 const DPP_FILE = path.join(STORE_DIR, 'dpp_races.json');
 
 // Alert window: send alerts between these times before race
-// GitHub Actions scheduling is unreliable (can have 30+ min gaps), so use wide window
-const ALERT_WINDOW_START = 30; // Start alerting 30 min before race
+// cron-job.org triggers every 5 min with ~1s jitter, workflow takes ~2-3 min to start
+const ALERT_WINDOW_START = 20; // Start alerting 20 min before race
 const ALERT_WINDOW_END = 5;    // Stop alerting 5 min before race
 
 const norm = (s) =>
