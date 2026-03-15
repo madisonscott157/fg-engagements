@@ -1,5 +1,18 @@
 [
   {
+    "horse": "Ceramic",
+    "date": "15/03/2026",
+    "track": "SAINT-CLOUD",
+    "race": "",
+    "distance": "1.600",
+    "position": "2",
+    "jockey": "A. LEMAITRE",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/MXZtL0ZzcXhtNVRrVHlKWG1Od3BRdz09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/dlczR042azNZZ2tGRVN3a3RYY0JLZz09",
+    "scrapedAt": "2026-03-15T15:45:47.741Z"
+  },
+  {
     "horse": "Masha",
     "date": "12/03/2026",
     "track": "CHANTILLY",
