@@ -1,6 +1,29 @@
 {
   "partants": {},
-  "newEngagements": {},
+  "newEngagements": {
+    "obscure (ire) f.ps. 2 a. | 24/03/2026 | saint-cloud | du debut | 900": {
+      "horse": "OBSCURE (IRE) F.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/TGFuZS9oMjNTbU5yc2RwNTNzRjluQT09",
+      "date": "24/03/2026",
+      "track": "SAINT-CLOUD",
+      "race": "DU DEBUT",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/UTlXUE9MVGEyQzR1MDBYekRDblc3QT09",
+      "cat": "(Inédits)",
+      "dist": "900",
+      "statut": "VA-P/227"
+    },
+    "sonic m.ps. 2 a. | 24/03/2026 | saint-cloud | du debut | 900": {
+      "horse": "SONIC M.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/dE1rb1k0QldaUnNPTUlBYitxNmg0dz09",
+      "date": "24/03/2026",
+      "track": "SAINT-CLOUD",
+      "race": "DU DEBUT",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/UTlXUE9MVGEyQzR1MDBYekRDblc3QT09",
+      "cat": "(Inédits)",
+      "dist": "900",
+      "statut": "VA-P/227"
+    }
+  },
   "statusUpdates": {},
   "lastPosted": "2026-03-15T09:05:21.852Z"
 }
