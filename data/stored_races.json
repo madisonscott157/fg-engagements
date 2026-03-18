@@ -1,23 +1,61 @@
 {
-  "lastUpdate": "2026-03-13T10:31:26.300Z",
+  "lastUpdate": "2026-03-18T10:35:17.519Z",
   "races": [
     {
-      "horse": "CERAMIC (IRE) F.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/dlczR042azNZZ2tGRVN3a3RYY0JLZz09",
-      "statut": "DP-P/214",
-      "date": "15/03/2026",
-      "track": "SAINT-CLOUD",
-      "race": "LA CAMARGO",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/MXZtL0ZzcXhtNVRrVHlKWG1Od3BRdz09",
-      "cat": "(L)",
-      "purse": "50.300",
+      "horse": "FRANCIGENA (GB) F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/dGw1ZFExUWZvQ29oaEJUbElhbHNqdz09",
+      "statut": "DP-P/3602",
+      "date": "20/03/2026",
+      "track": "LE MANS",
+      "race": "DE RUAUDIN",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/bnN6OWsyQzBIZDEwV2ZrempCaElDUT09",
+      "cat": "(Maiden)",
+      "purse": "19.200",
       "disc": "P",
       "dist": "1.600",
       "owner": "CHR. HEAD (S)",
       "postTime": {
-        "hour": 16,
-        "minute": 25,
-        "formatted": "16h25"
+        "hour": 12,
+        "minute": 4,
+        "formatted": "12h04"
+      }
+    },
+    {
+      "horse": "SOURDEVAL H.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/SFFlN1JucGNaQ3ZuY3hQMEV2V0ZRQT09",
+      "statut": "DP-P/3601",
+      "date": "20/03/2026",
+      "track": "LE MANS",
+      "race": "SABLE/SARTHE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/dFRVbTVjN2NRZ25GSWFsb2g5RnlsZz09",
+      "cat": "(Maiden)",
+      "purse": "19.200",
+      "disc": "P",
+      "dist": "1.600",
+      "owner": "CHR. HEAD (S)",
+      "postTime": {
+        "hour": 11,
+        "minute": 32,
+        "formatted": "11h32"
+      }
+    },
+    {
+      "horse": "VATICAN M.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/Ly9KU0czNEJFOFRKTklMbWxpMWpkdz09",
+      "statut": "DP-P/4077",
+      "date": "20/03/2026",
+      "track": "CROISE-LAROCHE",
+      "race": "DE KERGOLAY",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/QzJlclNGd2ovbjFjak8zV3dmMnlKZz09",
+      "cat": "(Maiden)",
+      "purse": "19.200",
+      "disc": "P",
+      "dist": "1.800",
+      "owner": "CHR. HEAD (S)",
+      "postTime": {
+        "hour": 15,
+        "minute": 45,
+        "formatted": "15h45"
       }
     }
   ]
