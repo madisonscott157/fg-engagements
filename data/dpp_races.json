@@ -1,4 +1,47 @@
 {
-  "lastUpdate": "2026-03-18T09:36:00.787Z",
-  "races": []
+  "lastUpdate": "2026-03-18T10:34:21.010Z",
+  "races": [
+    {
+      "horse": "FRANCIGENA (GB) F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/dGw1ZFExUWZvQ29oaEJUbElhbHNqdz09",
+      "statut": "DP-P/3602",
+      "date": "20/03/2026",
+      "track": "LE MANS",
+      "race": "DE RUAUDIN",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/bnN6OWsyQzBIZDEwV2ZrempCaElDUT09",
+      "cat": "(Maiden)",
+      "purse": "19.200",
+      "disc": "P",
+      "dist": "1.600",
+      "owner": "CHR. HEAD (S)"
+    },
+    {
+      "horse": "SOURDEVAL H.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/SFFlN1JucGNaQ3ZuY3hQMEV2V0ZRQT09",
+      "statut": "DP-P/3601",
+      "date": "20/03/2026",
+      "track": "LE MANS",
+      "race": "SABLE/SARTHE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/dFRVbTVjN2NRZ25GSWFsb2g5RnlsZz09",
+      "cat": "(Maiden)",
+      "purse": "19.200",
+      "disc": "P",
+      "dist": "1.600",
+      "owner": "CHR. HEAD (S)"
+    },
+    {
+      "horse": "VATICAN M.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/Ly9KU0czNEJFOFRKTklMbWxpMWpkdz09",
+      "statut": "DP-P/4077",
+      "date": "20/03/2026",
+      "track": "CROISE-LAROCHE",
+      "race": "DE KERGOLAY",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/QzJlclNGd2ovbjFjak8zV3dmMnlKZz09",
+      "cat": "(Maiden)",
+      "purse": "19.200",
+      "disc": "P",
+      "dist": "1.800",
+      "owner": "CHR. HEAD (S)"
+    }
+  ]
 }
