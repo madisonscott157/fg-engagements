@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-03-18T10:35:17.519Z",
+  "lastUpdate": "2026-03-19T10:25:17.134Z",
   "races": [
     {
       "horse": "FRANCIGENA (GB) F.PS. 3 a.",
@@ -40,22 +40,22 @@
       }
     },
     {
-      "horse": "VATICAN M.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/Ly9KU0czNEJFOFRKTklMbWxpMWpkdz09",
-      "statut": "DP-P/4077",
-      "date": "20/03/2026",
-      "track": "CROISE-LAROCHE",
-      "race": "DE KERGOLAY",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/QzJlclNGd2ovbjFjak8zV3dmMnlKZz09",
-      "cat": "(Maiden)",
-      "purse": "19.200",
+      "horse": "VIVID H.PS. 4 a. ... (Sup.)",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/TzJVd3RzMVdWTVBicTdrOS9rVzc3QT09",
+      "statut": "DP-P/4006(Sup.)",
+      "date": "21/03/2026",
+      "track": "LYON LA SOIE",
+      "race": "CUSSET",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/NTdXTlZ0Z2hGVzZmY3ltQ0ZxSkxPdz09",
+      "cat": "",
+      "purse": "11.900",
       "disc": "P",
       "dist": "1.800",
       "owner": "CHR. HEAD (S)",
       "postTime": {
-        "hour": 15,
-        "minute": 45,
-        "formatted": "15h45"
+        "hour": 20,
+        "minute": 6,
+        "formatted": "20h06"
       }
     }
   ]
