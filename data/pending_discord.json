@@ -35,6 +35,19 @@
     }
   },
   "newEngagements": {},
-  "statusUpdates": {},
+  "statusUpdates": {
+    "vatican m.ps. 3 a. | 20/03/2026 | croise-laroche | de kergolay | 1.800": {
+      "horse": "VATICAN M.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/Ly9KU0czNEJFOFRKTklMbWxpMWpkdz09",
+      "date": "20/03/2026",
+      "track": "CROISE-LAROCHE",
+      "race": "DE KERGOLAY",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/QzJlclNGd2ovbjFjak8zV3dmMnlKZz09",
+      "cat": "(Maiden)",
+      "dist": "1.800",
+      "statut": "DN-P/4077",
+      "oldStatut": "DP-P/4077"
+    }
+  },
   "lastPosted": "2026-03-18T11:30:02.881Z"
 }
