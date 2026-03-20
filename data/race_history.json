@@ -1,5 +1,18 @@
 [
   {
+    "horse": "Francigena",
+    "date": "20/03/2026",
+    "track": "LE MANS",
+    "race": "",
+    "distance": "1.600",
+    "position": "11",
+    "jockey": "A. LEMAITRE",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/bnN6OWsyQzBIZDEwV2ZrempCaElDUT09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/dGw1ZFExUWZvQ29oaEJUbElhbHNqdz09",
+    "scrapedAt": "2026-03-20T11:30:31.609Z"
+  },
+  {
     "horse": "Sourdeval",
     "date": "20/03/2026",
     "track": "LE MANS",
