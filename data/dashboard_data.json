@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-03-20T11:05:38.316Z",
+  "lastUpdate": "2026-03-20T11:08:05.992Z",
   "upcoming": [
     {
       "horse": "FRANCIGENA (GB) F.PS. 3 a.",
@@ -41,7 +41,7 @@
       "distance": "2.400",
       "cat": "",
       "status": "VA-P/442",
-      "lastUpdate": 1774002880228
+      "lastUpdate": 1774004867449
     },
     {
       "horse": "Green Spirit F 3 A.",
@@ -51,7 +51,7 @@
       "distance": "2.100",
       "cat": "",
       "status": "VA-P/441",
-      "lastUpdate": 1774002880228
+      "lastUpdate": 1774004867449
     },
     {
       "horse": "Turbulente (ire) F 3 A.",
@@ -61,7 +61,7 @@
       "distance": "2.100",
       "cat": "",
       "status": "VA-P/441",
-      "lastUpdate": 1774002880228
+      "lastUpdate": 1774004867449
     },
     {
       "horse": "Nighttime M 3 A.",
@@ -71,7 +71,7 @@
       "distance": "2.100",
       "cat": "",
       "status": "VA-P/440",
-      "lastUpdate": 1774002880228
+      "lastUpdate": 1774004867449
     },
     {
       "horse": "Ceramic (ire) F 3 A.",
@@ -81,7 +81,7 @@
       "distance": "1.600",
       "cat": "",
       "status": "VA-P/434",
-      "lastUpdate": 1774002880228
+      "lastUpdate": 1774004867449
     },
     {
       "horse": "Do For Love F 3 A.",
@@ -91,7 +91,7 @@
       "distance": "1.600",
       "cat": "",
       "status": "VA-P/434",
-      "lastUpdate": 1774002880228
+      "lastUpdate": 1774004867449
     },
     {
       "horse": "Green Spirit F 3 A.",
@@ -101,7 +101,7 @@
       "distance": "1.600",
       "cat": "",
       "status": "VA-P/434",
-      "lastUpdate": 1774002880228
+      "lastUpdate": 1774004867449
     },
     {
       "horse": "Nighttime M 3 A.",
@@ -111,7 +111,7 @@
       "distance": "1.600",
       "cat": "",
       "status": "VA-P/433",
-      "lastUpdate": 1774002880228
+      "lastUpdate": 1774004867449
     },
     {
       "horse": "Turbulente (ire) F 3 A.",
@@ -121,7 +121,7 @@
       "distance": "2.100",
       "cat": "",
       "status": "VA-P/351",
-      "lastUpdate": 1774002880228
+      "lastUpdate": 1774004867449
     },
     {
       "horse": "Ceramic (ire) F 3 A.",
@@ -131,7 +131,7 @@
       "distance": "1.600",
       "cat": "",
       "status": "VA-P/326",
-      "lastUpdate": 1774002880228
+      "lastUpdate": 1774004867449
     },
     {
       "horse": "Green Spirit F 3 A.",
@@ -141,7 +141,7 @@
       "distance": "1.600",
       "cat": "",
       "status": "VA-P/326",
-      "lastUpdate": 1774002880228
+      "lastUpdate": 1774004867449
     },
     {
       "horse": "Nighttime M 3 A.",
@@ -151,7 +151,7 @@
       "distance": "1.600",
       "cat": "",
       "status": "VA-P/325",
-      "lastUpdate": 1774002880228
+      "lastUpdate": 1774004867449
     },
     {
       "horse": "No Tune (gb) F 3 A.",
@@ -161,7 +161,7 @@
       "distance": "1.400",
       "cat": "",
       "status": "VA-P/302",
-      "lastUpdate": 1774002880228
+      "lastUpdate": 1774004867449
     },
     {
       "horse": "Khozan H 3 A.",
@@ -170,8 +170,8 @@
       "race": "comrade",
       "distance": "1.400",
       "cat": "",
-      "status": "-P/263",
-      "lastUpdate": 1774002880228
+      "status": "VA-P/263",
+      "lastUpdate": 1774004867449
     },
     {
       "horse": "Vivid H 4 A.",
@@ -180,8 +180,8 @@
       "race": "amoros",
       "distance": "1.600",
       "cat": "",
-      "status": "-P/3925",
-      "lastUpdate": 1774002880228
+      "status": "VA-P/3925",
+      "lastUpdate": 1774004867449
     },
     {
       "horse": "Matauri Queen F 3 A.",
@@ -191,7 +191,7 @@
       "distance": "1.900",
       "cat": "",
       "status": "VA-P/3775",
-      "lastUpdate": 1774002880228
+      "lastUpdate": 1774004867449
     },
     {
       "horse": "Reveur (ire) H 3 A.",
@@ -201,7 +201,7 @@
       "distance": "1.900",
       "cat": "",
       "status": "VA-P/3775",
-      "lastUpdate": 1774002880228
+      "lastUpdate": 1774004867449
     },
     {
       "horse": "Filicudi M 3 A.",
@@ -211,7 +211,7 @@
       "distance": "1.900",
       "cat": "",
       "status": "VA-P/254",
-      "lastUpdate": 1774002880228
+      "lastUpdate": 1774004867449
     },
     {
       "horse": "House Of Tudor M 3 A.",
@@ -221,7 +221,7 @@
       "distance": "1.900",
       "cat": "",
       "status": "VA-P/252",
-      "lastUpdate": 1774002880228
+      "lastUpdate": 1774004867449
     },
     {
       "horse": "Mrs Thunderbolt F 3 A.",
@@ -231,7 +231,7 @@
       "distance": "1.900",
       "cat": "",
       "status": "VA-P/253",
-      "lastUpdate": 1774002880228
+      "lastUpdate": 1774004867449
     },
     {
       "horse": "Turbulente (ire) F 3 A.",
@@ -241,7 +241,7 @@
       "distance": "1.900",
       "cat": "",
       "status": "VA-P/255",
-      "lastUpdate": 1774002880228
+      "lastUpdate": 1774004867449
     },
     {
       "horse": "Reveur (ire) H 3 A.",
@@ -251,7 +251,7 @@
       "distance": "1.700",
       "cat": "",
       "status": "VA-P/3528",
-      "lastUpdate": 1774002880228
+      "lastUpdate": 1774004867449
     },
     {
       "horse": "Obscure (ire) F 2 A.",
@@ -260,8 +260,8 @@
       "race": "du debut",
       "distance": "900",
       "cat": "",
-      "status": "VA-P/227",
-      "lastUpdate": 1774002880228
+      "status": "PB-P/227",
+      "lastUpdate": 1774004867449
     },
     {
       "horse": "Sonic M 2 A.",
@@ -270,8 +270,8 @@
       "race": "du debut",
       "distance": "900",
       "cat": "",
-      "status": "VA-P/227",
-      "lastUpdate": 1774002880228
+      "status": "PB-P/227",
+      "lastUpdate": 1774004867449
     },
     {
       "horse": "Vivid H 4 A.",
@@ -281,7 +281,7 @@
       "distance": "1.800",
       "cat": "",
       "status": "DP-P/4006(Sup.)",
-      "lastUpdate": 1774002880228
+      "lastUpdate": 1774004867449
     },
     {
       "horse": "Francigena (gb) F 3 A.",
@@ -291,7 +291,7 @@
       "distance": "1.600",
       "cat": "",
       "status": "DP-P/3602",
-      "lastUpdate": 1774002880228
+      "lastUpdate": 1774004867449
     },
     {
       "horse": "Sourdeval H 3 A.",
@@ -301,7 +301,7 @@
       "distance": "1.600",
       "cat": "",
       "status": "DP-P/3601",
-      "lastUpdate": 1774002880228
+      "lastUpdate": 1774004867449
     },
     {
       "horse": "Vatican M 3 A.",
@@ -311,7 +311,7 @@
       "distance": "1.800",
       "cat": "",
       "status": "DN-P/4077",
-      "lastUpdate": 1774002880228
+      "lastUpdate": 1774004867449
     }
   ],
   "results": [
