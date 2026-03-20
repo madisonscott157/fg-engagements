@@ -1,29 +1,6 @@
 {
   "partants": {},
-  "newEngagements": {
-    "khozan gb h.ps. 3 a. | 29/03/2026 | saint-cloud | comrade | 1.400": {
-      "horse": "KHOZAN GB H.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/N2V4YlU3LzRHbzZUV3hTbWkzenVhdz09",
-      "date": "29/03/2026",
-      "track": "SAINT-CLOUD",
-      "race": "COMRADE",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/MWFkM1hLZERZZCtuSDF2d1BLa0Jidz09",
-      "cat": "(Classe 2)",
-      "dist": "1.400",
-      "statut": "-P/263"
-    },
-    "vivid h.ps. 4 a. | 29/03/2026 | cavaillon | amoros | 1.600": {
-      "horse": "VIVID H.PS. 4 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/TzJVd3RzMVdWTVBicTdrOS9rVzc3QT09",
-      "date": "29/03/2026",
-      "track": "CAVAILLON",
-      "race": "AMOROS",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/cHAva2c0UmFwMnlETDQ0Yi9OcnZEdz09",
-      "cat": "",
-      "dist": "1.600",
-      "statut": "-P/3925"
-    }
-  },
+  "newEngagements": {},
   "statusUpdates": {},
-  "lastPosted": "2026-03-20T09:23:26.827Z"
+  "lastPosted": "2026-03-20T11:07:55.979Z"
 }
