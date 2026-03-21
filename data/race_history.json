@@ -1,5 +1,18 @@
 [
   {
+    "horse": "Vivid",
+    "date": "21/03/2026",
+    "track": "LYON LA SOIE",
+    "race": "",
+    "distance": "1.800",
+    "position": "4",
+    "jockey": "S. DERIU",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/NTdXTlZ0Z2hGVzZmY3ltQ0ZxSkxPdz09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/TzJVd3RzMVdWTVBicTdrOS9rVzc3QT09",
+    "scrapedAt": "2026-03-21T19:20:26.978Z"
+  },
+  {
     "horse": "Francigena",
     "date": "20/03/2026",
     "track": "LE MANS",
