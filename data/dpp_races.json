@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-03-21T09:01:58.778Z",
+  "lastUpdate": "2026-03-21T09:57:37.715Z",
   "races": [
     {
       "horse": "VIVID H.PS. 4 a. ... (Sup.)",
@@ -13,6 +13,20 @@
       "purse": "11.900",
       "disc": "P",
       "dist": "1.800",
+      "owner": "CHR. HEAD (S)"
+    },
+    {
+      "horse": "SONIC M.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/dE1rb1k0QldaUnNPTUlBYitxNmg0dz09",
+      "statut": "DP-P/227",
+      "date": "24/03/2026",
+      "track": "SAINT-CLOUD",
+      "race": "DU DEBUT",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/UTlXUE9MVGEyQzR1MDBYekRDblc3QT09",
+      "cat": "(Inédits)",
+      "purse": "27.400",
+      "disc": "P",
+      "dist": "900",
       "owner": "CHR. HEAD (S)"
     }
   ]
