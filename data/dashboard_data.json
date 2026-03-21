@@ -1,26 +1,6 @@
 {
-  "lastUpdate": "2026-03-21T09:57:57.046Z",
+  "lastUpdate": "2026-03-21T10:01:02.575Z",
   "upcoming": [
-    {
-      "horse": "FRANCIGENA (GB) F.PS. 3 a.",
-      "date": "20/03/2026",
-      "track": "LE MANS",
-      "race": "DE RUAUDIN",
-      "distance": "1.600",
-      "cat": "(Maiden)",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/bnN6OWsyQzBIZDEwV2ZrempCaElDUT09",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/dGw1ZFExUWZvQ29oaEJUbElhbHNqdz09"
-    },
-    {
-      "horse": "SOURDEVAL H.PS. 3 a.",
-      "date": "20/03/2026",
-      "track": "LE MANS",
-      "race": "SABLE/SARTHE",
-      "distance": "1.600",
-      "cat": "(Maiden)",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/dFRVbTVjN2NRZ25GSWFsb2g5RnlsZz09",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/SFFlN1JucGNaQ3ZuY3hQMEV2V0ZRQT09"
-    },
     {
       "horse": "VIVID H.PS. 4 a. ... (Sup.)",
       "date": "21/03/2026",
@@ -30,6 +10,16 @@
       "cat": "",
       "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/NTdXTlZ0Z2hGVzZmY3ltQ0ZxSkxPdz09",
       "horseUrl": "https://www.france-galop.com/fr/cheval/TzJVd3RzMVdWTVBicTdrOS9rVzc3QT09"
+    },
+    {
+      "horse": "SONIC M.PS. 2 a.",
+      "date": "24/03/2026",
+      "track": "SAINT-CLOUD",
+      "race": "DU DEBUT",
+      "distance": "900",
+      "cat": "(Inédits)",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/UTlXUE9MVGEyQzR1MDBYekRDblc3QT09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/dE1rb1k0QldaUnNPTUlBYitxNmg0dz09"
     }
   ],
   "engagements": [
