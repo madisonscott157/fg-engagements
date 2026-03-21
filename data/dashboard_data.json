@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-03-21T19:15:47.753Z",
+  "lastUpdate": "2026-03-21T19:20:45.840Z",
   "upcoming": [
     {
       "horse": "VIVID H.PS. 4 a. ... (Sup.)",
@@ -275,6 +275,18 @@
     }
   ],
   "results": [
+    {
+      "horse": "Vivid",
+      "date": "21/03/2026",
+      "track": "LYON LA SOIE",
+      "race": "",
+      "distance": "1.800",
+      "position": "4",
+      "jockey": "S. DERIU",
+      "gain": "0",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/NTdXTlZ0Z2hGVzZmY3ltQ0ZxSkxPdz09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/TzJVd3RzMVdWTVBicTdrOS9rVzc3QT09"
+    },
     {
       "horse": "Francigena",
       "date": "20/03/2026",
