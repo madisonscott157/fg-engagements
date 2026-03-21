@@ -1,44 +1,6 @@
 {
-  "lastUpdate": "2026-03-19T10:25:17.134Z",
+  "lastUpdate": "2026-03-21T10:00:18.305Z",
   "races": [
-    {
-      "horse": "FRANCIGENA (GB) F.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/dGw1ZFExUWZvQ29oaEJUbElhbHNqdz09",
-      "statut": "DP-P/3602",
-      "date": "20/03/2026",
-      "track": "LE MANS",
-      "race": "DE RUAUDIN",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/bnN6OWsyQzBIZDEwV2ZrempCaElDUT09",
-      "cat": "(Maiden)",
-      "purse": "19.200",
-      "disc": "P",
-      "dist": "1.600",
-      "owner": "CHR. HEAD (S)",
-      "postTime": {
-        "hour": 12,
-        "minute": 4,
-        "formatted": "12h04"
-      }
-    },
-    {
-      "horse": "SOURDEVAL H.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/SFFlN1JucGNaQ3ZuY3hQMEV2V0ZRQT09",
-      "statut": "DP-P/3601",
-      "date": "20/03/2026",
-      "track": "LE MANS",
-      "race": "SABLE/SARTHE",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/dFRVbTVjN2NRZ25GSWFsb2g5RnlsZz09",
-      "cat": "(Maiden)",
-      "purse": "19.200",
-      "disc": "P",
-      "dist": "1.600",
-      "owner": "CHR. HEAD (S)",
-      "postTime": {
-        "hour": 11,
-        "minute": 32,
-        "formatted": "11h32"
-      }
-    },
     {
       "horse": "VIVID H.PS. 4 a. ... (Sup.)",
       "horseUrl": "https://www.france-galop.com/fr/cheval/TzJVd3RzMVdWTVBicTdrOS9rVzc3QT09",
@@ -56,6 +18,25 @@
         "hour": 20,
         "minute": 6,
         "formatted": "20h06"
+      }
+    },
+    {
+      "horse": "SONIC M.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/dE1rb1k0QldaUnNPTUlBYitxNmg0dz09",
+      "statut": "DP-P/227",
+      "date": "24/03/2026",
+      "track": "SAINT-CLOUD",
+      "race": "DU DEBUT",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/UTlXUE9MVGEyQzR1MDBYekRDblc3QT09",
+      "cat": "(Inédits)",
+      "purse": "27.400",
+      "disc": "P",
+      "dist": "900",
+      "owner": "CHR. HEAD (S)",
+      "postTime": {
+        "hour": 14,
+        "minute": 30,
+        "formatted": "14h30"
       }
     }
   ]
