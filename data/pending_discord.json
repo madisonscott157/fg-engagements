@@ -1,18 +1,6 @@
 {
-  "partants": {
-    "vivid h.ps. 4 a. ... (sup.) | 21/03/2026 | lyon la soie | cusset | 1.800": {
-      "horse": "VIVID H.PS. 4 a. ... (Sup.)",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/TzJVd3RzMVdWTVBicTdrOS9rVzc3QT09",
-      "date": "21/03/2026",
-      "track": "LYON LA SOIE",
-      "race": "CUSSET",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/NTdXTlZ0Z2hGVzZmY3ltQ0ZxSkxPdz09",
-      "cat": "",
-      "dist": "1.800",
-      "statut": "DP-P/4006(Sup.)"
-    }
-  },
+  "partants": {},
   "newEngagements": {},
   "statusUpdates": {},
-  "lastPosted": "2026-03-20T11:07:55.979Z"
+  "lastPosted": "2026-03-21T09:01:59.421Z"
 }
