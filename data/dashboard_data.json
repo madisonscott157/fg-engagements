@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-03-21T23:56:07.166Z",
+  "lastUpdate": "2026-03-22T00:00:48.445Z",
   "upcoming": [
     {
       "horse": "VIVID H.PS. 4 a. ... (Sup.)",
@@ -261,16 +261,6 @@
       "distance": "900",
       "cat": "",
       "status": "DP-P/227",
-      "lastUpdate": 1774124538734
-    },
-    {
-      "horse": "Vivid H 4 A.",
-      "date": "21/03/2026",
-      "track": "lyon la soie",
-      "race": "cusset",
-      "distance": "1.800",
-      "cat": "",
-      "status": "DP-P/4006(Sup.)",
       "lastUpdate": 1774124538734
     }
   ],
