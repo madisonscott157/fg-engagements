@@ -1,25 +1,6 @@
 {
-  "lastUpdate": "2026-03-21T10:00:18.305Z",
+  "lastUpdate": "2026-03-23T09:45:20.686Z",
   "races": [
-    {
-      "horse": "VIVID H.PS. 4 a. ... (Sup.)",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/TzJVd3RzMVdWTVBicTdrOS9rVzc3QT09",
-      "statut": "DP-P/4006(Sup.)",
-      "date": "21/03/2026",
-      "track": "LYON LA SOIE",
-      "race": "CUSSET",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/NTdXTlZ0Z2hGVzZmY3ltQ0ZxSkxPdz09",
-      "cat": "",
-      "purse": "11.900",
-      "disc": "P",
-      "dist": "1.800",
-      "owner": "CHR. HEAD (S)",
-      "postTime": {
-        "hour": 20,
-        "minute": 6,
-        "formatted": "20h06"
-      }
-    },
     {
       "horse": "SONIC M.PS. 2 a.",
       "horseUrl": "https://www.france-galop.com/fr/cheval/dE1rb1k0QldaUnNPTUlBYitxNmg0dz09",
@@ -37,6 +18,25 @@
         "hour": 14,
         "minute": 30,
         "formatted": "14h30"
+      }
+    },
+    {
+      "horse": "REVEUR (IRE) H.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/enowTTJQV0p2ZGdhK1FuRzE4UFVPdz09",
+      "statut": "DP-P/3528",
+      "date": "25/03/2026",
+      "track": "PORNICHET",
+      "race": "ST PATRICK",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/M0xtM2RKVitYbi9JL3lEK2hoN2ZGQT09",
+      "cat": "HAND.",
+      "purse": "19.200",
+      "disc": "P",
+      "dist": "1.700",
+      "owner": "CHR. HEAD (S)",
+      "postTime": {
+        "hour": 20,
+        "minute": 15,
+        "formatted": "20h15"
       }
     }
   ]
