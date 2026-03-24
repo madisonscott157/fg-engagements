@@ -1,5 +1,18 @@
 [
   {
+    "horse": "Sonic",
+    "date": "24/03/2026",
+    "track": "SAINT-CLOUD",
+    "race": "",
+    "distance": "900",
+    "position": "7",
+    "jockey": "A. LEMAITRE",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/UTlXUE9MVGEyQzR1MDBYekRDblc3QT09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/dE1rb1k0QldaUnNPTUlBYitxNmg0dz09",
+    "scrapedAt": "2026-03-24T13:42:49.547Z"
+  },
+  {
     "horse": "Vivid",
     "date": "21/03/2026",
     "track": "LYON LA SOIE",
