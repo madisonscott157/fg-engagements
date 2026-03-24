@@ -1,6 +1,19 @@
 {
   "partants": {},
   "newEngagements": {},
-  "statusUpdates": {},
+  "statusUpdates": {
+    "matauri queen f.ps. 3 a. | 27/03/2026 | bdx le bouscat | j. biancone | 1.900": {
+      "horse": "MATAURI QUEEN F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/dXhEZzBJdXdYKzl4RHdHUGZ2R0kzUT09",
+      "date": "27/03/2026",
+      "track": "BDX LE BOUSCAT",
+      "race": "J. BIANCONE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/cHV5THVwSnkrc3ZtVlRkMEt0Z1BXQT09",
+      "cat": "HAND.",
+      "dist": "1.900",
+      "statut": "PB-P/3775",
+      "oldStatut": "VA-P/3775"
+    }
+  },
   "lastPosted": "2026-03-24T09:37:01.199Z"
 }
