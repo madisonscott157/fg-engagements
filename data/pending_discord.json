@@ -1,6 +1,43 @@
 {
-  "partants": {},
-  "newEngagements": {},
-  "statusUpdates": {},
+  "partants": {
+    "matauri queen f.ps. 3 a. | 27/03/2026 | bdx le bouscat | j. biancone | 1.900": {
+      "horse": "MATAURI QUEEN F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/dXhEZzBJdXdYKzl4RHdHUGZ2R0kzUT09",
+      "date": "27/03/2026",
+      "track": "BDX LE BOUSCAT",
+      "race": "J. BIANCONE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/cHV5THVwSnkrc3ZtVlRkMEt0Z1BXQT09",
+      "cat": "HAND.",
+      "dist": "1.900",
+      "statut": "DP-P/3775"
+    }
+  },
+  "newEngagements": {
+    "do for love ire f.ps. 3 a. | 02/04/2026 | chantilly | des layons | 1.600": {
+      "horse": "DO FOR LOVE IRE F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/akpiWVhySklCTkJNVUJBU3NxWFJPZz09",
+      "date": "02/04/2026",
+      "track": "CHANTILLY",
+      "race": "DES LAYONS",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/M25WZVZQeXpYV3pZMjlMTDh1bDFYZz09",
+      "cat": "(Classe 2)",
+      "dist": "1.600",
+      "statut": "VA-P/275"
+    }
+  },
+  "statusUpdates": {
+    "matauri queen f.ps. 3 a. | 27/03/2026 | bdx le bouscat | j. biancone | 1.900": {
+      "horse": "MATAURI QUEEN F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/dXhEZzBJdXdYKzl4RHdHUGZ2R0kzUT09",
+      "date": "27/03/2026",
+      "track": "BDX LE BOUSCAT",
+      "race": "J. BIANCONE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/cHV5THVwSnkrc3ZtVlRkMEt0Z1BXQT09",
+      "cat": "HAND.",
+      "dist": "1.900",
+      "statut": "DP-P/3775",
+      "oldStatut": "PB-P/3775"
+    }
+  },
   "lastPosted": "2026-03-25T09:35:01.240Z"
 }
