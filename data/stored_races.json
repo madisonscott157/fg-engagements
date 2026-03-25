@@ -1,25 +1,6 @@
 {
-  "lastUpdate": "2026-03-24T09:40:19.968Z",
+  "lastUpdate": "2026-03-25T10:35:18.425Z",
   "races": [
-    {
-      "horse": "SONIC M.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/dE1rb1k0QldaUnNPTUlBYitxNmg0dz09",
-      "statut": "DP-P/227",
-      "date": "24/03/2026",
-      "track": "SAINT-CLOUD",
-      "race": "DU DEBUT",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/UTlXUE9MVGEyQzR1MDBYekRDblc3QT09",
-      "cat": "(Inédits)",
-      "purse": "27.400",
-      "disc": "P",
-      "dist": "900",
-      "owner": "CHR. HEAD (S)",
-      "postTime": {
-        "hour": 14,
-        "minute": 30,
-        "formatted": "14h30"
-      }
-    },
     {
       "horse": "REVEUR (IRE) H.PS. 3 a.",
       "horseUrl": "https://www.france-galop.com/fr/cheval/enowTTJQV0p2ZGdhK1FuRzE4UFVPdz09",
@@ -94,6 +75,25 @@
         "hour": 14,
         "minute": 30,
         "formatted": "14h30"
+      }
+    },
+    {
+      "horse": "MATAURI QUEEN F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/dXhEZzBJdXdYKzl4RHdHUGZ2R0kzUT09",
+      "statut": "DP-P/3775",
+      "date": "27/03/2026",
+      "track": "BDX LE BOUSCAT",
+      "race": "J. BIANCONE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/cHV5THVwSnkrc3ZtVlRkMEt0Z1BXQT09",
+      "cat": "HAND.",
+      "purse": "19.200",
+      "disc": "P",
+      "dist": "1.900",
+      "owner": "CHR. HEAD (S)",
+      "postTime": {
+        "hour": 14,
+        "minute": 52,
+        "formatted": "14h52"
       }
     }
   ]
