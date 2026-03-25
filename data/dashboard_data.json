@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-03-24T23:56:00.509Z",
+  "lastUpdate": "2026-03-25T00:01:06.021Z",
   "upcoming": [
     {
       "horse": "SONIC M.PS. 2 a.",
@@ -311,26 +311,6 @@
       "distance": "1.700",
       "cat": "",
       "status": "DP-P/3528",
-      "lastUpdate": 1774384664229
-    },
-    {
-      "horse": "Obscure (ire) F 2 A.",
-      "date": "24/03/2026",
-      "track": "saint-cloud",
-      "race": "du debut",
-      "distance": "900",
-      "cat": "",
-      "status": "AP-P/227",
-      "lastUpdate": 1774384664229
-    },
-    {
-      "horse": "Sonic M 2 A.",
-      "date": "24/03/2026",
-      "track": "saint-cloud",
-      "race": "du debut",
-      "distance": "900",
-      "cat": "",
-      "status": "DP-P/227",
       "lastUpdate": 1774384664229
     }
   ],
