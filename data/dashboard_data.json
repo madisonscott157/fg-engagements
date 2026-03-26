@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-03-25T23:55:43.937Z",
+  "lastUpdate": "2026-03-26T00:01:01.158Z",
   "upcoming": [
     {
       "horse": "REVEUR (IRE) H.PS. 3 a.",
@@ -311,16 +311,6 @@
       "distance": "1.900",
       "cat": "",
       "status": "F1-P/255",
-      "lastUpdate": 1774470972277
-    },
-    {
-      "horse": "Reveur (ire) H 3 A.",
-      "date": "25/03/2026",
-      "track": "pornichet",
-      "race": "st patrick",
-      "distance": "1.700",
-      "cat": "",
-      "status": "DP-P/3528",
       "lastUpdate": 1774470972277
     }
   ],
