@@ -1,5 +1,31 @@
 [
   {
+    "horse": "Turbulente",
+    "date": "26/03/2026",
+    "track": "CHANTILLY",
+    "race": "",
+    "distance": "1.900",
+    "position": "3",
+    "jockey": "A. LEMAITRE",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/Uk9kangxWXRRZkJlajYrWnZmV3h1Zz09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/S0ZsOXRHV3RrQnppa3JFRE9IenNFZz09",
+    "scrapedAt": "2026-03-26T13:48:39.931Z"
+  },
+  {
+    "horse": "Coco Vanille",
+    "date": "26/03/2026",
+    "track": "CHANTILLY",
+    "race": "",
+    "distance": "1.900",
+    "position": "7",
+    "jockey": "S. DERIU",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/Uk9kangxWXRRZkJlajYrWnZmV3h1Zz09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/T3dJNW9VSFBHbVVWSXN4NFk4bWpEZz09",
+    "scrapedAt": "2026-03-26T13:48:39.931Z"
+  },
+  {
     "horse": "Reveur",
     "date": "25/03/2026",
     "track": "PORNICHET",
