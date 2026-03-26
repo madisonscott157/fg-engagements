@@ -1,51 +1,6 @@
 {
-  "partants": {
-    "coco vanille f.ps. 3 a. ... (sup.) | 26/03/2026 | chantilly | val st georges | 1.900": {
-      "horse": "COCO VANILLE F.PS. 3 a. ... (Sup.)",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/T3dJNW9VSFBHbVVWSXN4NFk4bWpEZz09",
-      "date": "26/03/2026",
-      "track": "CHANTILLY",
-      "race": "VAL ST GEORGES",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/Uk9kangxWXRRZkJlajYrWnZmV3h1Zz09",
-      "cat": "(Classe 2)",
-      "dist": "1.900",
-      "statut": "DP-P/255(Sup.)"
-    },
-    "mrs thunderbolt f.ps. 3 a. | 26/03/2026 | chantilly | talweg | 1.900": {
-      "horse": "MRS THUNDERBOLT F.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/M2NRSmprc1NVMlBxTWY3OHg4SHh4dz09",
-      "date": "26/03/2026",
-      "track": "CHANTILLY",
-      "race": "TALWEG",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/SmtWU3R4SUcvMkc5ci9SYUh3azlqQT09",
-      "cat": "(Maiden)",
-      "dist": "1.900",
-      "statut": "DP-P/253"
-    },
-    "turbulente (ire) f.ps. 3 a. | 26/03/2026 | chantilly | val st georges | 1.900": {
-      "horse": "TURBULENTE (IRE) F.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/S0ZsOXRHV3RrQnppa3JFRE9IenNFZz09",
-      "date": "26/03/2026",
-      "track": "CHANTILLY",
-      "race": "VAL ST GEORGES",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/Uk9kangxWXRRZkJlajYrWnZmV3h1Zz09",
-      "cat": "(Classe 2)",
-      "dist": "1.900",
-      "statut": "DP-P/255"
-    },
-    "matauri queen f.ps. 3 a. | 27/03/2026 | bdx le bouscat | j. biancone | 1.900": {
-      "horse": "MATAURI QUEEN F.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/dXhEZzBJdXdYKzl4RHdHUGZ2R0kzUT09",
-      "date": "27/03/2026",
-      "track": "BDX LE BOUSCAT",
-      "race": "J. BIANCONE",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/cHV5THVwSnkrc3ZtVlRkMEt0Z1BXQT09",
-      "cat": "HAND.",
-      "dist": "1.900",
-      "statut": "DP-P/3775"
-    }
-  },
+  "partants": {},
   "newEngagements": {},
   "statusUpdates": {},
-  "lastPosted": "2026-03-25T11:26:48.803Z"
+  "lastPosted": "2026-03-26T09:47:14.671Z"
 }
