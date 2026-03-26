@@ -1,5 +1,18 @@
 [
   {
+    "horse": "Mrs Thunderbolt",
+    "date": "26/03/2026",
+    "track": "CHANTILLY",
+    "race": "",
+    "distance": "1.900",
+    "position": "10",
+    "jockey": "A. LEMAITRE",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/SmtWU3R4SUcvMkc5ci9SYUh3azlqQT09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/M2NRSmprc1NVMlBxTWY3OHg4SHh4dz09",
+    "scrapedAt": "2026-03-26T15:05:55.416Z"
+  },
+  {
     "horse": "Turbulente",
     "date": "26/03/2026",
     "track": "CHANTILLY",
