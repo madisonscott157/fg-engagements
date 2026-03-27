@@ -1,46 +1,6 @@
 {
-  "lastUpdate": "2026-03-27T10:30:13.517Z",
+  "lastUpdate": "2026-03-27T10:30:43.908Z",
   "upcoming": [
-    {
-      "horse": "REVEUR (IRE) H.PS. 3 a.",
-      "date": "25/03/2026",
-      "track": "PORNICHET",
-      "race": "ST PATRICK",
-      "distance": "1.700",
-      "cat": "HAND.",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/M0xtM2RKVitYbi9JL3lEK2hoN2ZGQT09",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/enowTTJQV0p2ZGdhK1FuRzE4UFVPdz09"
-    },
-    {
-      "horse": "COCO VANILLE F.PS. 3 a. ... (Sup.)",
-      "date": "26/03/2026",
-      "track": "CHANTILLY",
-      "race": "VAL ST GEORGES",
-      "distance": "1.900",
-      "cat": "(Classe 2)",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/Uk9kangxWXRRZkJlajYrWnZmV3h1Zz09",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/T3dJNW9VSFBHbVVWSXN4NFk4bWpEZz09"
-    },
-    {
-      "horse": "MRS THUNDERBOLT F.PS. 3 a.",
-      "date": "26/03/2026",
-      "track": "CHANTILLY",
-      "race": "TALWEG",
-      "distance": "1.900",
-      "cat": "(Maiden)",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/SmtWU3R4SUcvMkc5ci9SYUh3azlqQT09",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/M2NRSmprc1NVMlBxTWY3OHg4SHh4dz09"
-    },
-    {
-      "horse": "TURBULENTE (IRE) F.PS. 3 a.",
-      "date": "26/03/2026",
-      "track": "CHANTILLY",
-      "race": "VAL ST GEORGES",
-      "distance": "1.900",
-      "cat": "(Classe 2)",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/Uk9kangxWXRRZkJlajYrWnZmV3h1Zz09",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/S0ZsOXRHV3RrQnppa3JFRE9IenNFZz09"
-    },
     {
       "horse": "MATAURI QUEEN F.PS. 3 a.",
       "date": "27/03/2026",
@@ -50,6 +10,16 @@
       "cat": "HAND.",
       "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/cHV5THVwSnkrc3ZtVlRkMEt0Z1BXQT09",
       "horseUrl": "https://www.france-galop.com/fr/cheval/dXhEZzBJdXdYKzl4RHdHUGZ2R0kzUT09"
+    },
+    {
+      "horse": "KHOZAN GB H.PS. 3 a.",
+      "date": "29/03/2026",
+      "track": "SAINT-CLOUD",
+      "race": "COMRADE",
+      "distance": "1.400",
+      "cat": "(Classe 2)",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/MWFkM1hLZERZZCtuSDF2d1BLa0Jidz09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/N2V4YlU3LzRHbzZUV3hTbWkzenVhdz09"
     }
   ],
   "engagements": [
