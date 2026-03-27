@@ -1,31 +1,6 @@
 {
-  "partants": {
-    "khozan gb h.ps. 3 a. | 29/03/2026 | saint-cloud | comrade | 1.400": {
-      "horse": "KHOZAN GB H.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/N2V4YlU3LzRHbzZUV3hTbWkzenVhdz09",
-      "date": "29/03/2026",
-      "track": "SAINT-CLOUD",
-      "race": "COMRADE",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/MWFkM1hLZERZZCtuSDF2d1BLa0Jidz09",
-      "cat": "(Classe 2)",
-      "dist": "1.400",
-      "statut": "DP-P/263"
-    }
-  },
+  "partants": {},
   "newEngagements": {},
-  "statusUpdates": {
-    "khozan gb h.ps. 3 a. | 29/03/2026 | saint-cloud | comrade | 1.400": {
-      "horse": "KHOZAN GB H.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/N2V4YlU3LzRHbzZUV3hTbWkzenVhdz09",
-      "date": "29/03/2026",
-      "track": "SAINT-CLOUD",
-      "race": "COMRADE",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/MWFkM1hLZERZZCtuSDF2d1BLa0Jidz09",
-      "cat": "(Classe 2)",
-      "dist": "1.400",
-      "statut": "DP-P/263",
-      "oldStatut": "PB-P/263"
-    }
-  },
-  "lastPosted": "2026-03-27T09:35:50.232Z"
+  "statusUpdates": {},
+  "lastPosted": "2026-03-27T11:27:17.999Z"
 }
