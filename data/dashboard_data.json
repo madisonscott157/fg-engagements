@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-03-26T23:55:58.588Z",
+  "lastUpdate": "2026-03-27T00:01:03.327Z",
   "upcoming": [
     {
       "horse": "REVEUR (IRE) H.PS. 3 a.",
@@ -261,66 +261,6 @@
       "distance": "1.900",
       "cat": "",
       "status": "F1-P/3775",
-      "lastUpdate": 1774557236510
-    },
-    {
-      "horse": "Filicudi M 3 A.",
-      "date": "26/03/2026",
-      "track": "chantilly",
-      "race": "du chateau",
-      "distance": "1.900",
-      "cat": "",
-      "status": "F1-P/254",
-      "lastUpdate": 1774267667731
-    },
-    {
-      "horse": "House Of Tudor M 3 A.",
-      "date": "26/03/2026",
-      "track": "chantilly",
-      "race": "tandem",
-      "distance": "1.900",
-      "cat": "",
-      "status": "F1-P/252",
-      "lastUpdate": 1774557236510
-    },
-    {
-      "horse": "Mrs Thunderbolt F 3 A.",
-      "date": "26/03/2026",
-      "track": "chantilly",
-      "race": "talweg",
-      "distance": "1.900",
-      "cat": "",
-      "status": "DP-P/253",
-      "lastUpdate": 1774557236510
-    },
-    {
-      "horse": "Turbulente (ire) F 3 A.",
-      "date": "26/03/2026",
-      "track": "chantilly",
-      "race": "val st georges",
-      "distance": "1.900",
-      "cat": "",
-      "status": "DP-P/255",
-      "lastUpdate": 1774557236510
-    },
-    {
-      "horse": "Coco Vanille F 3 A.",
-      "date": "26/03/2026",
-      "track": "chantilly",
-      "race": "val st georges",
-      "distance": "1.900",
-      "cat": "",
-      "status": "DP-P/255(Sup.)",
-      "lastUpdate": 1774557236510
-    },
-    {
-      "horse": "Filicudi M 3 A.",
-      "date": "26/03/2026",
-      "track": "chantilly",
-      "race": "val st georges",
-      "distance": "1.900",
-      "cat": "",
-      "status": "F1-P/255",
       "lastUpdate": 1774557236510
     }
   ],
