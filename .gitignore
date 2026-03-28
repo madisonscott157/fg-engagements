@@ -18,4 +18,3 @@ npm-debug.log*
 .idea/
 
 # Generated
-package-lock.json

@@ -24,8 +24,22 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Cache npm dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.npm
+          key: npm-${{ runner.os }}-${{ hashFiles('package-lock.json') }}
+          restore-keys: npm-${{ runner.os }}-
+
       - name: Install dependencies
-        run: npm install
+        run: |
+          for i in 1 2 3; do
+            npm ci && exit 0
+            echo "npm ci failed (attempt $i/3), retrying in 10s..."
+            sleep 10
+          done
+          echo "npm ci failed after 3 attempts"
+          exit 1
 
       - name: Get Playwright version
         id: playwright-version
