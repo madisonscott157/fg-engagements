@@ -1,6 +1,31 @@
 {
-  "partants": {},
+  "partants": {
+    "durythme h.ps. 5 a. | 31/03/2026 | fontainebleau | bois command. | 1.100": {
+      "horse": "DURYTHME H.PS. 5 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/ck1hc3FmZTFuRU44aEVFaU4wTU9OQT09",
+      "date": "31/03/2026",
+      "track": "FONTAINEBLEAU",
+      "race": "BOIS COMMAND.",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/c0xTcHE4TnpzSDY5VkpiazJiK2UwUT09",
+      "cat": "(Classe 2)",
+      "dist": "1.100",
+      "statut": "DP-P/3698"
+    }
+  },
   "newEngagements": {},
-  "statusUpdates": {},
+  "statusUpdates": {
+    "durythme h.ps. 5 a. | 31/03/2026 | fontainebleau | bois command. | 1.100": {
+      "horse": "DURYTHME H.PS. 5 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/ck1hc3FmZTFuRU44aEVFaU4wTU9OQT09",
+      "date": "31/03/2026",
+      "track": "FONTAINEBLEAU",
+      "race": "BOIS COMMAND.",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/c0xTcHE4TnpzSDY5VkpiazJiK2UwUT09",
+      "cat": "(Classe 2)",
+      "dist": "1.100",
+      "statut": "DP-P/3698",
+      "oldStatut": "PB-P/3698"
+    }
+  },
   "lastPosted": "2026-03-28T09:08:03.553Z"
 }
