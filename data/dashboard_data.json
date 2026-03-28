@@ -1,16 +1,6 @@
 {
-  "lastUpdate": "2026-03-28T10:04:39.898Z",
+  "lastUpdate": "2026-03-28T10:06:05.028Z",
   "upcoming": [
-    {
-      "horse": "MATAURI QUEEN F.PS. 3 a.",
-      "date": "27/03/2026",
-      "track": "BDX LE BOUSCAT",
-      "race": "J. BIANCONE",
-      "distance": "1.900",
-      "cat": "HAND.",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/cHV5THVwSnkrc3ZtVlRkMEt0Z1BXQT09",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/dXhEZzBJdXdYKzl4RHdHUGZ2R0kzUT09"
-    },
     {
       "horse": "KHOZAN GB H.PS. 3 a.",
       "date": "29/03/2026",
@@ -20,6 +10,16 @@
       "cat": "(Classe 2)",
       "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/MWFkM1hLZERZZCtuSDF2d1BLa0Jidz09",
       "horseUrl": "https://www.france-galop.com/fr/cheval/N2V4YlU3LzRHbzZUV3hTbWkzenVhdz09"
+    },
+    {
+      "horse": "DURYTHME H.PS. 5 a.",
+      "date": "31/03/2026",
+      "track": "FONTAINEBLEAU",
+      "race": "BOIS COMMAND.",
+      "distance": "1.100",
+      "cat": "(Classe 2)",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/c0xTcHE4TnpzSDY5VkpiazJiK2UwUT09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/ck1hc3FmZTFuRU44aEVFaU4wTU9OQT09"
     }
   ],
   "engagements": [
