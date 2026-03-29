@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-03-29T14:01:06.425Z",
+  "lastUpdate": "2026-03-29T14:02:52.276Z",
   "upcoming": [
     {
       "horse": "KHOZAN GB H.PS. 3 a.",
@@ -215,6 +215,18 @@
     }
   ],
   "results": [
+    {
+      "horse": "Khozan",
+      "date": "29/03/2026",
+      "track": "SAINT-CLOUD",
+      "race": "",
+      "distance": "1.400",
+      "position": "9",
+      "jockey": "C. SOUMILLON",
+      "gain": "0",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/MWFkM1hLZERZZCtuSDF2d1BLa0Jidz09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/N2V4YlU3LzRHbzZUV3hTbWkzenVhdz09"
+    },
     {
       "horse": "Matauri Queen",
       "date": "27/03/2026",
