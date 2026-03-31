@@ -1,5 +1,18 @@
 [
   {
+    "horse": "Durythme",
+    "date": "31/03/2026",
+    "track": "FONTAINEBLEAU",
+    "race": "",
+    "distance": "1.100",
+    "position": "8",
+    "jockey": "S. DERIU",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/c0xTcHE4TnpzSDY5VkpiazJiK2UwUT09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/ck1hc3FmZTFuRU44aEVFaU4wTU9OQT09",
+    "scrapedAt": "2026-03-31T13:25:28.437Z"
+  },
+  {
     "horse": "Khozan",
     "date": "29/03/2026",
     "track": "SAINT-CLOUD",
