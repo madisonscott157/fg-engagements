@@ -1,19 +1,4 @@
 {
-  "lastUpdate": "2026-03-31T20:39:44.960Z",
-  "races": [
-    {
-      "horse": "DURYTHME H.PS. 5 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/ck1hc3FmZTFuRU44aEVFaU4wTU9OQT09",
-      "statut": "DP-P/3698",
-      "date": "31/03/2026",
-      "track": "FONTAINEBLEAU",
-      "race": "BOIS COMMAND.",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/c0xTcHE4TnpzSDY5VkpiazJiK2UwUT09",
-      "cat": "(Classe 2)",
-      "purse": "24.700",
-      "disc": "P",
-      "dist": "1.100",
-      "owner": "CHR. HEAD (S)"
-    }
-  ]
+  "lastUpdate": "2026-04-01T07:15:53.069Z",
+  "races": []
 }
