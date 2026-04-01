@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-03-31T23:55:59.636Z",
+  "lastUpdate": "2026-04-01T00:00:41.463Z",
   "upcoming": [
     {
       "horse": "KHOZAN GB H.PS. 3 a.",
@@ -171,16 +171,6 @@
       "distance": "1.600",
       "cat": "",
       "status": "F1-P/275",
-      "lastUpdate": 1774989584960
-    },
-    {
-      "horse": "Durythme H 5 A.",
-      "date": "31/03/2026",
-      "track": "fontainebleau",
-      "race": "bois command.",
-      "distance": "1.100",
-      "cat": "",
-      "status": "DP-P/3698",
       "lastUpdate": 1774989584960
     }
   ],
