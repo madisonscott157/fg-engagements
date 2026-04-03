@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-04-02T23:55:36.043Z",
+  "lastUpdate": "2026-04-03T00:01:03.156Z",
   "upcoming": [
     {
       "horse": "KHOZAN GB H.PS. 3 a.",
@@ -161,16 +161,6 @@
       "distance": "2.400",
       "cat": "",
       "status": "NV-P/288",
-      "lastUpdate": 1775161923727
-    },
-    {
-      "horse": "Do For Love F 3 A.",
-      "date": "02/04/2026",
-      "track": "chantilly",
-      "race": "des layons",
-      "distance": "1.600",
-      "cat": "",
-      "status": "F1-P/275",
       "lastUpdate": 1775161923727
     }
   ],
