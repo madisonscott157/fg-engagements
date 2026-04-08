@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-04-07T23:55:34.359Z",
+  "lastUpdate": "2026-04-08T00:00:39.871Z",
   "upcoming": [
     {
       "horse": "KHOZAN GB H.PS. 3 a.",
@@ -141,16 +141,6 @@
       "distance": "1.600",
       "cat": "",
       "status": "VA-P/325",
-      "lastUpdate": 1775507754894
-    },
-    {
-      "horse": "No Tune (gb) F 3 A.",
-      "date": "07/04/2026",
-      "track": "deauville",
-      "race": "imprudence",
-      "distance": "1.400",
-      "cat": "",
-      "status": "F1-P/302",
       "lastUpdate": 1775507754894
     }
   ],
