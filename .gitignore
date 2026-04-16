@@ -13,6 +13,12 @@ npm-debug.log*
 .env
 .env.local
 
+# France Galop cached session (cookies). Never commit — contains auth state.
+.fg-session.json
+
+# Local probe scripts
+.probe_ciam*.js
+
 # IDE
 .vscode/
 .idea/

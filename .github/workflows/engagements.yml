@@ -63,6 +63,13 @@ jobs:
         if: steps.playwright-cache.outputs.cache-hit != 'true'
         run: npx playwright install chromium
 
+      - name: Restore France Galop session cache
+        uses: actions/cache/restore@v4
+        with:
+          path: .fg-session.json
+          key: fg-session-v1-${{ github.run_id }}
+          restore-keys: fg-session-v1-
+
       - name: Run scraper
         env:
           TRAINER_URL: ${{ secrets.TRAINER_URL }}
@@ -74,6 +81,13 @@ jobs:
           FRANCE_GALOP_PASSWORD: ${{ secrets.FRANCE_GALOP_PASSWORD }}
           MANUAL_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.force_post == true }}
         run: node scrape_engagements.js
+
+      - name: Save France Galop session cache
+        if: always() && hashFiles('.fg-session.json') != ''
+        uses: actions/cache/save@v4
+        with:
+          path: .fg-session.json
+          key: fg-session-v1-${{ github.run_id }}
 
       - name: Commit and push data files
         run: |

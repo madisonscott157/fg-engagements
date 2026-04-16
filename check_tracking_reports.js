@@ -4,6 +4,8 @@
 const { chromium } = require('playwright');
 const fs = require('fs/promises');
 const path = require('path');
+const { ensureLoggedIn, loadSessionStorageState } = require('./lib/fg_login');
+const { sendLoginFailureAlert } = require('./lib/fg_alert');
 
 const WEBHOOK = process.env.DISCORD_WEBHOOK_RESULTS;
 const FG_EMAIL = process.env.FRANCE_GALOP_EMAIL;
@@ -144,52 +146,28 @@ async function checkForTracking(page, raceUrl) {
   // Only launch browser if we have races to check
   if (racesToCheck.length > 0) {
     const browser = await chromium.launch({ headless: true });
+    const storageState = await loadSessionStorageState();
     const ctx = await browser.newContext({
       userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/120 Safari/537.36',
+      storageState,
     });
     const page = await ctx.newPage();
     page.setDefaultTimeout(60000);
 
-    // Try to log in first by visiting login page
+    // Prime the session via /fr/login; if cached cookies are still valid,
+    // ensureLoggedIn is a no-op. Otherwise it drives the CIAM flow.
     try {
-      console.log('Attempting France Galop login...');
       await page.goto('https://www.france-galop.com/fr/login', { waitUntil: 'domcontentloaded', timeout: 60000 });
-      await page.waitForTimeout(1000);
-
-      // Accept cookies
-      for (const sel of ['button:has-text("Tout accepter")', 'button:has-text("Accept all")']) {
-        const b = page.locator(sel);
-        if (await b.count()) { await b.first().click().catch(()=>{}); break; }
-      }
-
-      if (FG_EMAIL && FG_PASSWORD) {
-        // Find login form (Mon espace, not registration)
-        let loginForm = page.locator('form:has(button:has-text("Se connecter")):not(:has(input[name*="confirm"]))').first();
-        if (await loginForm.count() === 0) {
-          loginForm = page.locator('form').first();
-        }
-
-        const emailField = loginForm.locator('input[name="mail"], input[type="email"], input[type="text"]').first();
-        const passwordField = loginForm.locator('input[name="password"], input[type="password"]').first();
-
-        if (await emailField.count() > 0 && await passwordField.count() > 0) {
-          await emailField.click();
-          await page.keyboard.type(FG_EMAIL, { delay: 30 });
-          await passwordField.click();
-          await page.keyboard.type(FG_PASSWORD, { delay: 30 });
-          await passwordField.press('Enter');
-          await page.waitForTimeout(3000);
-
-          const pageUrl = page.url();
-          if (!pageUrl.includes('/login')) {
-            console.log('✓ Login successful!');
-          } else {
-            console.log('⚠️ Login may have failed, continuing anyway...');
-          }
-        }
-      }
+      await ensureLoggedIn(page, ctx, {
+        email: FG_EMAIL,
+        password: FG_PASSWORD,
+        targetUrl: 'https://www.france-galop.com/fr',
+      });
     } catch (err) {
-      console.log('⚠️ Login attempt failed: ' + err.message + ', continuing anyway...');
+      console.error('❌ France Galop login failed: ' + err.message);
+      await sendLoginFailureAlert('check_tracking_reports', err.message, WEBHOOK);
+      await browser.close();
+      process.exit(1);
     }
 
     try {

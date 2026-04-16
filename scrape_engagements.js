@@ -6,6 +6,8 @@ const { chromium } = require('playwright');
 const fs = require('fs/promises');
 const path = require('path');
 const { google } = require('googleapis');
+const { ensureLoggedIn, loadSessionStorageState } = require('./lib/fg_login');
+const { sendLoginFailureAlert } = require('./lib/fg_alert');
 
 const TRAINER_URL = process.env.TRAINER_URL;
 const WEBHOOK = process.env.DISCORD_WEBHOOK_URL;
@@ -794,9 +796,11 @@ const sheetHyperlink = (text, url) => {
 
 async function scrape() {
   const browser = await chromium.launch({ headless: true });
+  const storageState = await loadSessionStorageState();
   const ctx = await browser.newContext({
     userAgent:
       'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/120 Safari/537.36',
+    storageState,
   });
   const page = await ctx.newPage();
   page.setDefaultTimeout(60000);  // Increased to 60 seconds
@@ -828,201 +832,23 @@ async function scrape() {
     if (await b.count()) { await b.first().click().catch(()=>{}); break; }
   }
 
-  // Debug: Log page title and URL
-  let pageTitle = await page.title();
-  let pageUrl = page.url();
-  console.log('Page title: ' + pageTitle);
-  console.log('Page URL: ' + pageUrl);
+  console.log('Page title: ' + await page.title());
+  console.log('Page URL: ' + page.url());
 
-  // Check if we hit a login page and need to authenticate
-  if (pageUrl.includes('/login') || pageTitle.toLowerCase().includes('connecter') || pageTitle.toLowerCase().includes('login')) {
-    console.log('🔐 Login page detected - attempting authentication...');
-
-    if (!FG_EMAIL || !FG_PASSWORD) {
-      console.error('❌ Cannot login: FRANCE_GALOP_EMAIL or FRANCE_GALOP_PASSWORD not set');
-      await browser.close();
-      return [];
-    }
-
-    try {
-      // Accept cookies first if present
-      for (const sel of [
-        'button:has-text("Tout accepter")',
-        'button:has-text("Accepter tout")',
-        'button:has-text("Accept all")',
-      ]) {
-        const b = page.locator(sel);
-        if (await b.count()) { await b.first().click().catch(()=>{}); break; }
-      }
-      await page.waitForTimeout(1000);
-
-      // There are TWO forms on the page:
-      // Left: "Mon espace" = Login form (what we need)
-      // Right: "M'inscrire" = Registration form (has CAPTCHA, don't use)
-      //
-      // The login form is within a section/div containing "Mon espace" text
-      // and does NOT have the registration fields (Prénom, Nom, Confirmer)
-
-      // Find the "Mon espace" login section - it's the one with "Se connecter" button but no CAPTCHA
-      const loginSection = page.locator('h2:has-text("Mon espace"), h3:has-text("Mon espace"), .block-title:has-text("Mon espace")').first();
-
-      if (await loginSection.count() > 0) {
-        console.log('Found "Mon espace" section');
-      }
-
-      // Get the parent container of "Mon espace" and find the form within it
-      // Or find form that has "Se connecter" button but doesn't have "Confirmer" field
-      let loginForm = page.locator('form:has(button:has-text("Se connecter")):not(:has(input[name*="confirm"]))').first();
-
-      if (await loginForm.count() === 0) {
-        // Fallback: find the form that's NOT the registration form
-        // Registration form has more fields (prénom, nom, confirm password)
-        const allForms = page.locator('form');
-        const formCount = await allForms.count();
-        console.log('Total forms on page: ' + formCount);
-
-        for (let i = 0; i < formCount; i++) {
-          const form = allForms.nth(i);
-          const hasConfirm = await form.locator('input[name*="confirm"], input[placeholder*="confirm" i]').count() > 0;
-          const hasPrenom = await form.locator('input[name*="prenom"], input[name*="first"]').count() > 0;
-
-          if (!hasConfirm && !hasPrenom) {
-            loginForm = form;
-            console.log('Found login form at index ' + i + ' (no confirm/prenom fields)');
-            break;
-          }
-        }
-      } else {
-        console.log('Found login form with Se connecter button');
-      }
-
-      // Find fields WITHIN the login form
-      let emailField = loginForm.locator('input[name="mail"], input[type="email"], input[type="text"]').first();
-      let passwordField = loginForm.locator('input[name="password"], input[type="password"]').first();
-
-      // Debug: log what we found
-      console.log('Email field count in login form: ' + await emailField.count());
-      console.log('Password field count in login form: ' + await passwordField.count());
-
-      if (await emailField.count() > 0 && await passwordField.count() > 0) {
-        // Focus and type into the fields
-        await emailField.click();
-        await page.waitForTimeout(200);
-        await page.keyboard.type(FG_EMAIL, { delay: 30 });
-        console.log('✓ Typed email into login form');
-
-        await passwordField.click();
-        await page.waitForTimeout(200);
-        await page.keyboard.type(FG_PASSWORD, { delay: 30 });
-        console.log('✓ Typed password into login form');
-
-        // Try multiple methods to submit the form
-        let submitted = false;
-
-        // Method 1: Press Enter on password field
-        console.log('Attempting form submit via Enter key...');
-        await passwordField.press('Enter');
-        await page.waitForTimeout(2000);
-
-        // Check if we navigated
-        let currentUrl = page.url();
-        if (!currentUrl.includes('/login')) {
-          submitted = true;
-          console.log('✓ Form submitted via Enter key');
-        }
-
-        // Method 2: Click submit button if Enter didn't work
-        if (!submitted) {
-          console.log('Enter key did not work, trying button click...');
-          const submitBtn = page.locator('button[type="submit"], input[type="submit"], button:has-text("Connexion"), button:has-text("Se connecter")').first();
-          if (await submitBtn.count() > 0) {
-            // Use Promise.all to wait for navigation
-            try {
-              await Promise.all([
-                page.waitForNavigation({ timeout: 10000 }).catch(() => {}),
-                submitBtn.click()
-              ]);
-              console.log('✓ Clicked login button with navigation wait');
-            } catch (e) {
-              console.log('Navigation wait failed: ' + e.message);
-            }
-          }
-        }
-
-        // Method 3: Try form.submit() via JavaScript
-        currentUrl = page.url();
-        if (currentUrl.includes('/login')) {
-          console.log('Button click did not work, trying JavaScript form submit...');
-          await page.evaluate(() => {
-            const form = document.querySelector('form');
-            if (form) form.submit();
-          });
-          await page.waitForTimeout(3000);
-        }
-
-        console.log('✓ Attempted form submission');
-
-        // Wait for navigation or response
-        await page.waitForTimeout(3000);
-
-        // Check if login was successful
-        pageUrl = page.url();
-        pageTitle = await page.title();
-        console.log('After login - Page title: ' + pageTitle);
-        console.log('After login - Page URL: ' + pageUrl);
-
-        // Check for CAPTCHA
-        const captcha = page.locator('.g-recaptcha, .h-captcha, [data-sitekey], iframe[src*="recaptcha"], iframe[src*="captcha"]');
-        if (await captcha.count() > 0) {
-          console.error('❌ CAPTCHA detected - cannot proceed with automated login');
-          await browser.close();
-          return [];
-        }
-
-        // Check for error messages
-        const errorMsg = page.locator('.error, .alert-danger, .form-error, .login-error, [class*="error"]');
-        if (await errorMsg.count() > 0) {
-          const errorText = await errorMsg.first().innerText().catch(() => '');
-          console.log('⚠️ Error message on page: ' + errorText.substring(0, 200));
-        }
-
-        if (pageUrl.includes('/login') || pageTitle.toLowerCase().includes('connecter')) {
-          console.error('❌ Login appears to have failed - still on login page');
-          // Log visible text for debugging
-          const bodyText = await page.locator('body').innerText().catch(() => '');
-          console.log('Page content preview: ' + bodyText.substring(0, 500).replace(/\n/g, ' '));
-          await browser.close();
-          return [];
-        }
-
-        console.log('✓ Login successful!');
-
-        // Navigate to trainer page if we're not already there
-        if (!pageUrl.includes('/entraineur/') && !pageUrl.includes('/trainer/')) {
-          console.log('Navigating to trainer page...');
-          await page.goto(TRAINER_URL, { waitUntil: 'domcontentloaded', timeout: 60000 });
-          await page.waitForTimeout(2000);
-
-          // Accept cookies again if needed
-          for (const sel of [
-            'button:has-text("Tout accepter")',
-            'button:has-text("Accepter tout")',
-            'button:has-text("Accept all")',
-          ]) {
-            const b = page.locator(sel);
-            if (await b.count()) { await b.first().click().catch(()=>{}); break; }
-          }
-        }
-      } else {
-        console.error('❌ Could not find email/password fields');
-        await browser.close();
-        return [];
-      }
-    } catch (err) {
-      console.error('❌ Login failed: ' + err.message);
-      await browser.close();
-      return [];
-    }
+  // Auth: if the trainer URL redirected to CIAM, ensureLoggedIn drives the
+  // two-step flow and navigates back to TRAINER_URL. With a cached session
+  // it's a no-op. Any failure exits loudly — CI turns red and Discord alerts.
+  try {
+    await ensureLoggedIn(page, ctx, {
+      email: FG_EMAIL,
+      password: FG_PASSWORD,
+      targetUrl: TRAINER_URL,
+    });
+  } catch (err) {
+    console.error('❌ France Galop login failed: ' + err.message);
+    await sendLoginFailureAlert('scrape_engagements', err.message, WEBHOOK);
+    await browser.close();
+    process.exit(1);
   }
 
   const tab = page.locator('text=Engagements');

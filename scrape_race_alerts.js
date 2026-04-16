@@ -4,6 +4,8 @@
 const { chromium } = require('playwright');
 const fs = require('fs/promises');
 const path = require('path');
+const { ensureLoggedIn, loadSessionStorageState } = require('./lib/fg_login');
+const { sendLoginFailureAlert } = require('./lib/fg_alert');
 
 const WEBHOOK = process.env.DISCORD_WEBHOOK_RACE_ALERTS;
 
@@ -184,102 +186,37 @@ async function loadDPPRaces() {
   }
 }
 
-// Handle France Galop login if we hit the login page
-async function handleLogin(page) {
-  const pageUrl = page.url();
-  const pageTitle = await page.title();
-
-  if (!pageUrl.includes('/login') && !pageTitle.toLowerCase().includes('connecter') && !pageTitle.toLowerCase().includes('login')) {
-    return true; // Not on login page, no action needed
-  }
-
-  console.log('🔐 Login page detected - attempting authentication...');
-
-  if (!FG_EMAIL || !FG_PASSWORD) {
-    console.error('❌ Cannot login: FRANCE_GALOP_EMAIL or FRANCE_GALOP_PASSWORD not set');
-    return false;
-  }
-
+// Defensive re-login used inside the per-race fetch loop.
+// Proactive login (and its loud alert) already ran in updateRaceData(), so
+// this path stays silent to avoid one-alert-per-race spam if a session dies
+// mid-run; the calling loop will just skip the affected race.
+async function handleLogin(page, context) {
   try {
-    // Accept cookies first if present
-    for (const sel of [
-      'button:has-text("Tout accepter")',
-      'button:has-text("Accepter tout")',
-      'button:has-text("Accept all")',
-    ]) {
-      const b = page.locator(sel);
-      if (await b.count()) { await b.first().click().catch(()=>{}); break; }
-    }
-    await page.waitForTimeout(1000);
-
-    // Find the login form (Mon espace), not registration form
-    let loginForm = page.locator('form:has(button:has-text("Se connecter")):not(:has(input[name*="confirm"]))').first();
-
-    if (await loginForm.count() === 0) {
-      const allForms = page.locator('form');
-      const formCount = await allForms.count();
-
-      for (let i = 0; i < formCount; i++) {
-        const form = allForms.nth(i);
-        const hasConfirm = await form.locator('input[name*="confirm"], input[placeholder*="confirm" i]').count() > 0;
-        const hasPrenom = await form.locator('input[name*="prenom"], input[name*="first"]').count() > 0;
-
-        if (!hasConfirm && !hasPrenom) {
-          loginForm = form;
-          break;
-        }
-      }
-    }
-
-    const emailField = loginForm.locator('input[name="mail"], input[type="email"], input[type="text"]').first();
-    const passwordField = loginForm.locator('input[name="password"], input[type="password"]').first();
-
-    if (await emailField.count() > 0 && await passwordField.count() > 0) {
-      await emailField.click();
-      await page.waitForTimeout(200);
-      await page.keyboard.type(FG_EMAIL, { delay: 30 });
-
-      await passwordField.click();
-      await page.waitForTimeout(200);
-      await page.keyboard.type(FG_PASSWORD, { delay: 30 });
-
-      // Submit via Enter key
-      await passwordField.press('Enter');
-      await page.waitForTimeout(3000);
-
-      // Check if login succeeded
-      const newUrl = page.url();
-      if (newUrl.includes('/login')) {
-        console.error('❌ Login failed - still on login page');
-        return false;
-      }
-
-      console.log('✓ Login successful!');
-      return true;
-    } else {
-      console.error('❌ Could not find login form fields');
-      return false;
-    }
+    await ensureLoggedIn(page, context, {
+      email: FG_EMAIL,
+      password: FG_PASSWORD,
+      targetUrl: page.url(),
+    });
+    return true;
   } catch (err) {
-    console.error('❌ Login failed: ' + err.message);
+    console.error('❌ Mid-run re-login failed (race skipped): ' + err.message);
     return false;
   }
 }
 
-async function getPostTime(page, raceUrl, retries = 2) {
+async function getPostTime(page, context, raceUrl, retries = 2) {
   for (let attempt = 1; attempt <= retries; attempt++) {
     try {
       await page.goto(raceUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
       await page.waitForTimeout(1500);
 
-      // Check if we hit login page and handle it
-      const loggedIn = await handleLogin(page);
+      // If the target redirected us to auth, log in once and re-fetch.
+      const loggedIn = await handleLogin(page, context);
       if (!loggedIn) {
         console.error('  ❌ Could not authenticate with France Galop');
         return null;
       }
 
-      // If we logged in, we need to navigate to the race URL again
       const currentUrl = page.url();
       if (!currentUrl.includes('/course/detail')) {
         await page.goto(raceUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
@@ -362,16 +299,34 @@ async function updateRaceData() {
   const newlyFetched = [];
   if (needFetching.length > 0) {
     const browser = await chromium.launch({ headless: true });
+    const storageState = await loadSessionStorageState();
     const ctx = await browser.newContext({
       userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/120 Safari/537.36',
+      storageState,
     });
     const page = await ctx.newPage();
     page.setDefaultTimeout(30000);
 
+    // Proactive login before the fetch loop. If this fails we don't want to
+    // spam one Discord alert per race URL — bail loudly once instead.
+    try {
+      await page.goto('https://www.france-galop.com/fr/login', { waitUntil: 'domcontentloaded', timeout: 60000 });
+      await ensureLoggedIn(page, ctx, {
+        email: FG_EMAIL,
+        password: FG_PASSWORD,
+        targetUrl: 'https://www.france-galop.com/fr',
+      });
+    } catch (err) {
+      console.error('❌ France Galop login failed: ' + err.message);
+      await sendLoginFailureAlert('scrape_race_alerts', err.message, WEBHOOK);
+      await browser.close();
+      process.exit(1);
+    }
+
     try {
       for (const race of needFetching) {
         console.log(`  Fetching post time for ${race.horse}...`);
-        const postTime = await getPostTime(page, race.raceUrl);
+        const postTime = await getPostTime(page, ctx, race.raceUrl);
 
         if (postTime) {
           newlyFetched.push({ ...race, postTime });
