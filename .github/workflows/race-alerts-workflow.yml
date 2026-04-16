@@ -60,8 +60,8 @@ jobs:
         uses: actions/cache/restore@v4
         with:
           path: .fg-session.json
-          key: fg-session-v1-${{ github.run_id }}
-          restore-keys: fg-session-v1-
+          key: fg-session-v2-${{ github.run_id }}
+          restore-keys: fg-session-v2-
 
       - name: Run race alerts
         env:
@@ -75,7 +75,7 @@ jobs:
         uses: actions/cache/save@v4
         with:
           path: .fg-session.json
-          key: fg-session-v1-${{ github.run_id }}
+          key: fg-session-v2-${{ github.run_id }}
 
       - name: Commit and push data files
         run: |
