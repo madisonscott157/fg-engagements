@@ -7,7 +7,6 @@ const fs = require('fs/promises');
 const path = require('path');
 const { google } = require('googleapis');
 const { ensureLoggedIn, loadSessionStorageState } = require('./lib/fg_login');
-const { sendLoginFailureAlert } = require('./lib/fg_alert');
 
 const TRAINER_URL = process.env.TRAINER_URL;
 const WEBHOOK = process.env.DISCORD_WEBHOOK_URL;
@@ -846,7 +845,6 @@ async function scrape() {
     });
   } catch (err) {
     console.error('❌ France Galop login failed: ' + err.message);
-    await sendLoginFailureAlert('scrape_engagements', err.message, WEBHOOK);
     await browser.close();
     process.exit(1);
   }

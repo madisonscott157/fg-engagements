@@ -5,7 +5,6 @@ const { chromium } = require('playwright');
 const fs = require('fs/promises');
 const path = require('path');
 const { ensureLoggedIn, loadSessionStorageState } = require('./lib/fg_login');
-const { sendLoginFailureAlert } = require('./lib/fg_alert');
 
 const WEBHOOK = process.env.DISCORD_WEBHOOK_RESULTS;
 const FG_EMAIL = process.env.FRANCE_GALOP_EMAIL;
@@ -165,7 +164,6 @@ async function checkForTracking(page, raceUrl) {
       });
     } catch (err) {
       console.error('❌ France Galop login failed: ' + err.message);
-      await sendLoginFailureAlert('check_tracking_reports', err.message, WEBHOOK);
       await browser.close();
       process.exit(1);
     }
