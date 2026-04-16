@@ -1,42 +1,23 @@
 {
-  "lastUpdate": "2026-03-28T10:05:16.340Z",
+  "lastUpdate": "2026-04-16T18:45:26.409Z",
   "races": [
     {
-      "horse": "KHOZAN GB H.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/N2V4YlU3LzRHbzZUV3hTbWkzenVhdz09",
-      "statut": "DP-P/263",
-      "date": "29/03/2026",
+      "horse": "TURBULENTE (IRE) F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/S0ZsOXRHV3RrQnppa3JFRE9IenNFZz09",
+      "statut": "DP-P/351",
+      "date": "17/04/2026",
       "track": "SAINT-CLOUD",
-      "race": "COMRADE",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/MWFkM1hLZERZZCtuSDF2d1BLa0Jidz09",
-      "cat": "(Classe 2)",
-      "purse": "25.600",
+      "race": "CLEOPATRE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/cDFTUDFwSFhsVHpFTkh1L0ZMeFl1dz09",
+      "cat": "GR.III",
+      "purse": "73.200",
       "disc": "P",
-      "dist": "1.400",
+      "dist": "2.100",
       "owner": "CHR. HEAD (S)",
       "postTime": {
-        "hour": 15,
-        "minute": 50,
-        "formatted": "15h50"
-      }
-    },
-    {
-      "horse": "DURYTHME H.PS. 5 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/ck1hc3FmZTFuRU44aEVFaU4wTU9OQT09",
-      "statut": "DP-P/3698",
-      "date": "31/03/2026",
-      "track": "FONTAINEBLEAU",
-      "race": "BOIS COMMAND.",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/c0xTcHE4TnpzSDY5VkpiazJiK2UwUT09",
-      "cat": "(Classe 2)",
-      "purse": "24.700",
-      "disc": "P",
-      "dist": "1.100",
-      "owner": "CHR. HEAD (S)",
-      "postTime": {
-        "hour": 15,
-        "minute": 5,
-        "formatted": "15h05"
+        "hour": 16,
+        "minute": 55,
+        "formatted": "16h55"
       }
     }
   ]
