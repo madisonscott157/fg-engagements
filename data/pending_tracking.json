@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "horse": "DO FOR LOVE",
+    "date": "16/04/2026",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/NVo5d0pYZUdHZEFqeXVtUitCMzQ1Zz09",
+    "hippodrome": "PARISLONGCHAMP",
+    "addedAt": 1776364777118
+  },
+  {
+    "horse": "NIGHTTIME",
+    "date": "12/04/2026",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/R1lIeDJBdlJyOXg3eHAwaEdSSm1Gdz09",
+    "hippodrome": "PARISLONGCHAMP",
+    "addedAt": 1776364777118
+  },
+  {
+    "horse": "CERAMIC",
+    "date": "12/04/2026",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/V0hDenAxTmVsVEtVVXQybG04MmJTUT09",
+    "hippodrome": "PARISLONGCHAMP",
+    "addedAt": 1776364777118
+  },
+  {
+    "horse": "GREEN SPIRIT",
+    "date": "12/04/2026",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/V0hDenAxTmVsVEtVVXQybG04MmJTUT09",
+    "hippodrome": "PARISLONGCHAMP",
+    "addedAt": 1776364777118
+  }
+]

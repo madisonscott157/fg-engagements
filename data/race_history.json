@@ -1,5 +1,57 @@
 [
   {
+    "horse": "Green Spirit",
+    "date": "12/04/2026",
+    "track": "PARISLONGCHAMP",
+    "race": "GR.III",
+    "distance": "1.600",
+    "position": "4",
+    "jockey": "M. GUYON",
+    "gain": "7.320",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/V0hDenAxTmVsVEtVVXQybG04MmJTUT09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/THFzc083dzFJQkdab2FHaStib3dnZz09",
+    "scrapedAt": "2026-04-16T18:39:28.072Z"
+  },
+  {
+    "horse": "Ceramic",
+    "date": "12/04/2026",
+    "track": "PARISLONGCHAMP",
+    "race": "GR.III",
+    "distance": "1.600",
+    "position": "5",
+    "jockey": "E. HARDOUIN",
+    "gain": "3.660",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/V0hDenAxTmVsVEtVVXQybG04MmJTUT09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/dlczR042azNZZ2tGRVN3a3RYY0JLZz09",
+    "scrapedAt": "2026-04-16T18:39:28.072Z"
+  },
+  {
+    "horse": "Nighttime",
+    "date": "12/04/2026",
+    "track": "PARISLONGCHAMP",
+    "race": "GR.III",
+    "distance": "1.600",
+    "position": "2",
+    "jockey": "M. GUYON",
+    "gain": "14.640",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/R1lIeDJBdlJyOXg3eHAwaEdSSm1Gdz09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/MzNVeWdhQUNneUxUMnlHTnU3dXR6dz09",
+    "scrapedAt": "2026-04-16T18:39:28.072Z"
+  },
+  {
+    "horse": "Do For Love",
+    "date": "16/04/2026",
+    "track": "PARISLONGCHAMP",
+    "race": "",
+    "distance": "1.600",
+    "position": "6",
+    "jockey": "C. DEMURO",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/NVo5d0pYZUdHZEFqeXVtUitCMzQ1Zz09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/akpiWVhySklCTkJNVUJBU3NxWFJPZz09",
+    "scrapedAt": "2026-04-16T18:39:28.071Z"
+  },
+  {
     "horse": "Durythme",
     "date": "31/03/2026",
     "track": "FONTAINEBLEAU",
