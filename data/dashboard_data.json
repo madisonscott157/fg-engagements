@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-04-17T09:14:06.232Z",
+  "lastUpdate": "2026-04-17T09:15:38.121Z",
   "upcoming": [
     {
       "horse": "TURBULENTE (IRE) F.PS. 3 a.",
@@ -10,6 +10,16 @@
       "cat": "GR.III",
       "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/cDFTUDFwSFhsVHpFTkh1L0ZMeFl1dz09",
       "horseUrl": "https://www.france-galop.com/fr/cheval/S0ZsOXRHV3RrQnppa3JFRE9IenNFZz09"
+    },
+    {
+      "horse": "REVEUR (IRE) H.PS. 3 a. ... (Sup.)",
+      "date": "20/04/2026",
+      "track": "LION D'ANGERS",
+      "race": "O. BOURGEAIS",
+      "distance": "2.000",
+      "cat": "HAND.",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/SWdCWWo1RUJLWnVyUmFvOWsxVkZHdz09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/enowTTJQV0p2ZGdhK1FuRzE4UFVPdz09"
     }
   ],
   "engagements": [
