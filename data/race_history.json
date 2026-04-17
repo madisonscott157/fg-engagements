@@ -1,5 +1,18 @@
 [
   {
+    "horse": "Turbulente",
+    "date": "17/04/2026",
+    "track": "SAINT-CLOUD",
+    "race": "GR.III",
+    "distance": "2.100",
+    "position": "5",
+    "jockey": "M. GUYON",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/cDFTUDFwSFhsVHpFTkh1L0ZMeFl1dz09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/S0ZsOXRHV3RrQnppa3JFRE9IenNFZz09",
+    "scrapedAt": "2026-04-17T15:10:32.123Z"
+  },
+  {
     "horse": "Green Spirit",
     "date": "12/04/2026",
     "track": "PARISLONGCHAMP",
