@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-04-17T07:27:00.922Z",
+  "lastUpdate": "2026-04-17T09:13:44.342Z",
   "races": [
     {
       "horse": "TURBULENTE (IRE) F.PS. 3 a.",
@@ -13,6 +13,20 @@
       "purse": "73.200",
       "disc": "P",
       "dist": "2.100",
+      "owner": "CHR. HEAD (S)"
+    },
+    {
+      "horse": "REVEUR (IRE) H.PS. 3 a. ... (Sup.)",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/enowTTJQV0p2ZGdhK1FuRzE4UFVPdz09",
+      "statut": "DP-P/3637(Sup.)",
+      "date": "20/04/2026",
+      "track": "LION D'ANGERS",
+      "race": "O. BOURGEAIS",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/SWdCWWo1RUJLWnVyUmFvOWsxVkZHdz09",
+      "cat": "HAND.",
+      "purse": "19.200",
+      "disc": "P",
+      "dist": "2.000",
       "owner": "CHR. HEAD (S)"
     }
   ]

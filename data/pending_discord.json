@@ -21,6 +21,17 @@
       "cat": "GR.III",
       "dist": "2.100",
       "statut": "DP-P/351"
+    },
+    "reveur (ire) h.ps. 3 a. ... (sup.) | 20/04/2026 | lion d'angers | o. bourgeais | 2.000": {
+      "horse": "REVEUR (IRE) H.PS. 3 a. ... (Sup.)",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/enowTTJQV0p2ZGdhK1FuRzE4UFVPdz09",
+      "date": "20/04/2026",
+      "track": "LION D'ANGERS",
+      "race": "O. BOURGEAIS",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/SWdCWWo1RUJLWnVyUmFvOWsxVkZHdz09",
+      "cat": "HAND.",
+      "dist": "2.000",
+      "statut": "DP-P/3637(Sup.)"
     }
   },
   "newEngagements": {
@@ -44,7 +55,7 @@
       "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/SWdCWWo1RUJLWnVyUmFvOWsxVkZHdz09",
       "cat": "HAND.",
       "dist": "2.000",
-      "statut": "PB-P/3637(Sup.)"
+      "statut": "DP-P/3637(Sup.)"
     },
     "no tune (gb) f.ps. 3 a. | 23/04/2026 | parislongchamp | du pont neuf | 1.400": {
       "horse": "NO TUNE (GB) F.PS. 3 a.",
