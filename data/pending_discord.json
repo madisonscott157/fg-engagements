@@ -1,6 +1,18 @@
 {
   "partants": {},
-  "newEngagements": {},
+  "newEngagements": {
+    "vivid h.ps. 4 a. | 29/04/2026 | lyon parilly | chazey sur ain | 1.600": {
+      "horse": "VIVID H.PS. 4 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/TzJVd3RzMVdWTVBicTdrOS9rVzc3QT09",
+      "date": "29/04/2026",
+      "track": "LYON PARILLY",
+      "race": "CHAZEY SUR AIN",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/MVZrQnQvYjFFd2NZOXc5MjVIQm1qQT09",
+      "cat": "(Classe 4)",
+      "dist": "1.600",
+      "statut": "-P/4065"
+    }
+  },
   "statusUpdates": {},
   "lastPosted": "2026-04-20T10:21:18.044Z"
 }
