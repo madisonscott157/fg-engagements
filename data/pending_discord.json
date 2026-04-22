@@ -1,6 +1,18 @@
 {
   "partants": {},
-  "newEngagements": {},
+  "newEngagements": {
+    "mrs thunderbolt f.ps. 3 a. | 30/04/2026 | parislongchamp | verneuil | 2.000": {
+      "horse": "MRS THUNDERBOLT F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/M2NRSmprc1NVMlBxTWY3OHg4SHh4dz09",
+      "date": "30/04/2026",
+      "track": "PARISLONGCHAMP",
+      "race": "VERNEUIL",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/UkVjc3p2UW56dE1taW9tZlB2N2NvUT09",
+      "cat": "(Maiden)",
+      "dist": "2.000",
+      "statut": "-P/397"
+    }
+  },
   "statusUpdates": {},
   "lastPosted": "2026-04-21T10:05:28.673Z"
 }
