@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-04-23T10:05:42.003Z",
+  "lastUpdate": "2026-04-23T10:09:04.806Z",
   "upcoming": [
     {
       "horse": "TURBULENTE (IRE) F.PS. 3 a.",
@@ -31,7 +31,7 @@
       "distance": "2.400",
       "cat": "",
       "status": "VA-P/442",
-      "lastUpdate": 1776936238053
+      "lastUpdate": 1776938922213
     },
     {
       "horse": "Green Spirit F 3 A.",
@@ -41,7 +41,7 @@
       "distance": "2.100",
       "cat": "",
       "status": "VA-P/441",
-      "lastUpdate": 1776936238053
+      "lastUpdate": 1776938922213
     },
     {
       "horse": "Turbulente (ire) F 3 A.",
@@ -51,7 +51,7 @@
       "distance": "2.100",
       "cat": "",
       "status": "VA-P/441",
-      "lastUpdate": 1776936238053
+      "lastUpdate": 1776938922213
     },
     {
       "horse": "Nighttime M 3 A.",
@@ -61,7 +61,7 @@
       "distance": "2.100",
       "cat": "",
       "status": "VA-P/440",
-      "lastUpdate": 1776936238053
+      "lastUpdate": 1776938922213
     },
     {
       "horse": "No Tune (gb) F 3 A.",
@@ -71,7 +71,7 @@
       "distance": "1.200",
       "cat": "",
       "status": "VA-P/446",
-      "lastUpdate": 1776936238053
+      "lastUpdate": 1776938922213
     },
     {
       "horse": "Ceramic (ire) F 3 A.",
@@ -81,7 +81,7 @@
       "distance": "1.600",
       "cat": "",
       "status": "VA-P/434",
-      "lastUpdate": 1776936238053
+      "lastUpdate": 1776938922213
     },
     {
       "horse": "Do For Love F 3 A.",
@@ -91,7 +91,7 @@
       "distance": "1.600",
       "cat": "",
       "status": "VA-P/434",
-      "lastUpdate": 1776936238053
+      "lastUpdate": 1776938922213
     },
     {
       "horse": "Green Spirit F 3 A.",
@@ -101,7 +101,7 @@
       "distance": "1.600",
       "cat": "",
       "status": "VA-P/434",
-      "lastUpdate": 1776936238053
+      "lastUpdate": 1776938922213
     },
     {
       "horse": "Nighttime M 3 A.",
@@ -111,7 +111,7 @@
       "distance": "1.600",
       "cat": "",
       "status": "VA-P/433",
-      "lastUpdate": 1776936238053
+      "lastUpdate": 1776938922213
     },
     {
       "horse": "Reveur (ire) H 3 A.",
@@ -120,8 +120,8 @@
       "race": "de beaumesnil",
       "distance": "2.000",
       "cat": "",
-      "status": "-P/407",
-      "lastUpdate": 1776936238053
+      "status": "VA-P/407",
+      "lastUpdate": 1776938922213
     },
     {
       "horse": "Vivid H 4 A.",
@@ -130,8 +130,8 @@
       "race": "i. mendizabal",
       "distance": "1.600",
       "cat": "",
-      "status": "-P/3861",
-      "lastUpdate": 1776936238053
+      "status": "NV-P/3861",
+      "lastUpdate": 1776938922213
     },
     {
       "horse": "Mrs Thunderbolt F 3 A.",
@@ -141,7 +141,7 @@
       "distance": "2.000",
       "cat": "",
       "status": "VA-P/397",
-      "lastUpdate": 1776936238053
+      "lastUpdate": 1776938922213
     },
     {
       "horse": "Vivid H 4 A.",
@@ -151,7 +151,7 @@
       "distance": "1.600",
       "cat": "",
       "status": "VA-P/4065",
-      "lastUpdate": 1776936238053
+      "lastUpdate": 1776938922213
     },
     {
       "horse": "No Tune (gb) F 3 A.",
@@ -161,7 +161,7 @@
       "distance": "1.400",
       "cat": "",
       "status": "ND-P/365",
-      "lastUpdate": 1776936238053
+      "lastUpdate": 1776938922213
     }
   ],
   "results": [
