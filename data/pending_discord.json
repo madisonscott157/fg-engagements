@@ -1,31 +1,6 @@
 {
   "partants": {},
-  "newEngagements": {
-    "vivid h.ps. 4 a. | 02/05/2026 | mar.p vivaux | trevaresse | 1.500": {
-      "horse": "VIVID H.PS. 4 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/TzJVd3RzMVdWTVBicTdrOS9rVzc3QT09",
-      "date": "02/05/2026",
-      "track": "MAR.P VIVAUX",
-      "race": "TREVARESSE",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/VTBtRFM4aGNpdVRFdUlJcEhaMjRsUT09",
-      "cat": "(Classe 4)",
-      "dist": "1.500",
-      "statut": "-P/3972"
-    }
-  },
-  "statusUpdates": {
-    "vivid h.ps. 4 a. | 29/04/2026 | lyon parilly | chazey sur ain | 1.600": {
-      "horse": "VIVID H.PS. 4 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/TzJVd3RzMVdWTVBicTdrOS9rVzc3QT09",
-      "date": "29/04/2026",
-      "track": "LYON PARILLY",
-      "race": "CHAZEY SUR AIN",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/MVZrQnQvYjFFd2NZOXc5MjVIQm1qQT09",
-      "cat": "(Classe 4)",
-      "dist": "1.600",
-      "statut": "F1-P/4065",
-      "oldStatut": "VA-P/4065"
-    }
-  },
-  "lastPosted": "2026-04-23T10:08:49.720Z"
+  "newEngagements": {},
+  "statusUpdates": {},
+  "lastPosted": "2026-04-24T10:10:43.354Z"
 }
