@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-05-01T23:55:49.537Z",
+  "lastUpdate": "2026-05-02T00:01:08.960Z",
   "upcoming": [
     {
       "horse": "TURBULENTE (IRE) F.PS. 3 a.",
@@ -151,26 +151,6 @@
       "distance": "1.500",
       "cat": "",
       "status": "NL-P/3972",
-      "lastUpdate": 1777668467493
-    },
-    {
-      "horse": "Reveur (ire) H 3 A.",
-      "date": "01/05/2026",
-      "track": "saint-cloud",
-      "race": "de beaumesnil",
-      "distance": "2.000",
-      "cat": "",
-      "status": "F1-P/407",
-      "lastUpdate": 1777668467493
-    },
-    {
-      "horse": "Vivid H 4 A.",
-      "date": "01/05/2026",
-      "track": "carcassonne",
-      "race": "i. mendizabal",
-      "distance": "1.600",
-      "cat": "",
-      "status": "NV-P/3861",
       "lastUpdate": 1777668467493
     }
   ],
