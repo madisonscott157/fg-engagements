@@ -1,6 +1,18 @@
 {
   "partants": {},
-  "newEngagements": {},
+  "newEngagements": {
+    "turbulente (ire) f.ps. 3 a. | 07/05/2026 | parislongchamp | des tertres | 1.600": {
+      "horse": "TURBULENTE (IRE) F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/S0ZsOXRHV3RrQnppa3JFRE9IenNFZz09",
+      "date": "07/05/2026",
+      "track": "PARISLONGCHAMP",
+      "race": "DES TERTRES",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/enJXZmlTSnhkRjVOVlZPcmxtT0FUZz09",
+      "cat": "(Classe 1)",
+      "dist": "1.600",
+      "statut": "ND-P/430"
+    }
+  },
   "statusUpdates": {},
   "lastPosted": "2026-05-04T10:34:48.104Z"
 }
