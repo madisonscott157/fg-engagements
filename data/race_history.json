@@ -1,5 +1,18 @@
 [
   {
+    "horse": "Sourdeval",
+    "date": "08/05/2026",
+    "track": "LYON PARILLY",
+    "race": "",
+    "distance": "1.600",
+    "position": "2",
+    "jockey": "M. GRANDIN",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/a0MyTW5ycXBQVTU0ejlsdkh6a2RLZz09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/SFFlN1JucGNaQ3ZuY3hQMEV2V0ZRQT09",
+    "scrapedAt": "2026-05-08T14:15:44.741Z"
+  },
+  {
     "horse": "Turbulente",
     "date": "17/04/2026",
     "track": "SAINT-CLOUD",
