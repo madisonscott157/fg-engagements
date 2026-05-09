@@ -32,9 +32,33 @@
       "cat": "(Classe 3)",
       "dist": "1.100",
       "statut": "DP-P/4291"
+    },
+    "durythme h.ps. 5 a. | 12/05/2026 | chantilly | de montagny | 1.200": {
+      "horse": "DURYTHME H.PS. 5 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/ck1hc3FmZTFuRU44aEVFaU4wTU9OQT09",
+      "date": "12/05/2026",
+      "track": "CHANTILLY",
+      "race": "DE MONTAGNY",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/TjU0UjJZZ05md2V1Y3ErVVNvaWpPZz09",
+      "cat": "(Classe 2)",
+      "dist": "1.200",
+      "statut": "DP-P/609"
     }
   },
   "newEngagements": {},
-  "statusUpdates": {},
+  "statusUpdates": {
+    "durythme h.ps. 5 a. | 12/05/2026 | chantilly | de montagny | 1.200": {
+      "horse": "DURYTHME H.PS. 5 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/ck1hc3FmZTFuRU44aEVFaU4wTU9OQT09",
+      "date": "12/05/2026",
+      "track": "CHANTILLY",
+      "race": "DE MONTAGNY",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/TjU0UjJZZ05md2V1Y3ErVVNvaWpPZz09",
+      "cat": "(Classe 2)",
+      "dist": "1.200",
+      "statut": "DP-P/609",
+      "oldStatut": "PB-P/609"
+    }
+  },
   "lastPosted": "2026-05-08T10:06:59.317Z"
 }
