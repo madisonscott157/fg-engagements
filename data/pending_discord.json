@@ -1,6 +1,43 @@
 {
-  "partants": {},
+  "partants": {
+    "familly f.ps. 4 a. | 14/05/2026 | lion d'angers | urban sea | 2.000": {
+      "horse": "FAMILLY F.PS. 4 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/QlNhVzZKMm1GdEN3cnhqZVl2YTI3Zz09",
+      "date": "14/05/2026",
+      "track": "LION D'ANGERS",
+      "race": "URBAN SEA",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/S1dTWCtIQ0tHMzFYSlgzaGZ5QWJqUT09",
+      "cat": "(L)",
+      "dist": "2.000",
+      "statut": "DP-P/4146"
+    }
+  },
   "newEngagements": {},
-  "statusUpdates": {},
+  "statusUpdates": {
+    "familly f.ps. 4 a. | 14/05/2026 | lion d'angers | urban sea | 2.000": {
+      "horse": "FAMILLY F.PS. 4 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/QlNhVzZKMm1GdEN3cnhqZVl2YTI3Zz09",
+      "date": "14/05/2026",
+      "track": "LION D'ANGERS",
+      "race": "URBAN SEA",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/S1dTWCtIQ0tHMzFYSlgzaGZ5QWJqUT09",
+      "cat": "(L)",
+      "dist": "2.000",
+      "statut": "DP-P/4146",
+      "oldStatut": "PB-P/4146"
+    },
+    "do for love ire f.ps. 3 a. | 16/05/2026 | dieppe | elisea | 1.400": {
+      "horse": "DO FOR LOVE IRE F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/akpiWVhySklCTkJNVUJBU3NxWFJPZz09",
+      "date": "16/05/2026",
+      "track": "DIEPPE",
+      "race": "ELISEA",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/dFBneTgyK2xBVTJ5Y0wrcCtSVTkzZz09",
+      "cat": "(Classe 2)",
+      "dist": "1.400",
+      "statut": "F1-P/4453",
+      "oldStatut": "VA-P/4453"
+    }
+  },
   "lastPosted": "2026-05-12T08:34:06.488Z"
 }
