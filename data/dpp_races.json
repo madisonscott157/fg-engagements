@@ -1,20 +1,6 @@
 {
-  "lastUpdate": "2026-05-11T21:13:36.730Z",
+  "lastUpdate": "2026-05-12T08:34:05.795Z",
   "races": [
-    {
-      "horse": "OBSCURE (IRE) F.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/TGFuZS9oMjNTbU5yc2RwNTNzRjluQT09",
-      "statut": "DP-P/4291",
-      "date": "11/05/2026",
-      "track": "NANTES",
-      "race": "BOIS JOLY",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/VmdRaXdReFkvam9GdVh0VkRhdVZSUT09",
-      "cat": "(Classe 3)",
-      "purse": "21.000",
-      "disc": "P",
-      "dist": "1.100",
-      "owner": "CHR. HEAD (S)"
-    },
     {
       "horse": "DURYTHME H.PS. 5 a.",
       "horseUrl": "https://www.france-galop.com/fr/cheval/ck1hc3FmZTFuRU44aEVFaU4wTU9OQT09",
