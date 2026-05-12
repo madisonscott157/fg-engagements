@@ -1,5 +1,18 @@
 [
   {
+    "horse": "Durythme",
+    "date": "12/05/2026",
+    "track": "CHANTILLY",
+    "race": "HAND.",
+    "distance": "1.200",
+    "position": "6",
+    "jockey": "M. GUYON",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/TjU0UjJZZ05md2V1Y3ErVVNvaWpPZz09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/ck1hc3FmZTFuRU44aEVFaU4wTU9OQT09",
+    "scrapedAt": "2026-05-12T12:11:19.188Z"
+  },
+  {
     "horse": "Obscure",
     "date": "11/05/2026",
     "track": "NANTES",
