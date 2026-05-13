@@ -1,20 +1,6 @@
 {
-  "lastUpdate": "2026-05-12T21:15:54.337Z",
+  "lastUpdate": "2026-05-13T08:39:35.930Z",
   "races": [
-    {
-      "horse": "DURYTHME H.PS. 5 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/ck1hc3FmZTFuRU44aEVFaU4wTU9OQT09",
-      "statut": "DP-P/609",
-      "date": "12/05/2026",
-      "track": "CHANTILLY",
-      "race": "DE MONTAGNY",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/TjU0UjJZZ05md2V1Y3ErVVNvaWpPZz09",
-      "cat": "(Classe 2)",
-      "purse": "50.900",
-      "disc": "P",
-      "dist": "1.200",
-      "owner": "CHR. HEAD (S)"
-    },
     {
       "horse": "FAMILLY F.PS. 4 a.",
       "horseUrl": "https://www.france-galop.com/fr/cheval/QlNhVzZKMm1GdEN3cnhqZVl2YTI3Zz09",
