@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-05-12T23:55:42.892Z",
+  "lastUpdate": "2026-05-13T00:01:05.955Z",
   "upcoming": [
     {
       "horse": "DURYTHME H.PS. 5 a.",
@@ -121,26 +121,6 @@
       "distance": "2.000",
       "cat": "",
       "status": "DP-P/4146",
-      "lastUpdate": 1778620554337
-    },
-    {
-      "horse": "Durythme H 5 A.",
-      "date": "12/05/2026",
-      "track": "chantilly",
-      "race": "de montagny",
-      "distance": "1.200",
-      "cat": "",
-      "status": "DP-P/609",
-      "lastUpdate": 1778620554337
-    },
-    {
-      "horse": "Sourdeval H 3 A.",
-      "date": "12/05/2026",
-      "track": "chantilly",
-      "race": "plessis-pom.",
-      "distance": "1.600",
-      "cat": "",
-      "status": "ND-P/611",
       "lastUpdate": 1778620554337
     }
   ],
