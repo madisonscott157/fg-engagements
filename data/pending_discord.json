@@ -1,6 +1,19 @@
 {
   "partants": {},
   "newEngagements": {},
-  "statusUpdates": {},
+  "statusUpdates": {
+    "durythme h.ps. 5 a. | 19/05/2026 | chantilly | de la theve | 1.200": {
+      "horse": "DURYTHME H.PS. 5 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/ck1hc3FmZTFuRU44aEVFaU4wTU9OQT09",
+      "date": "19/05/2026",
+      "track": "CHANTILLY",
+      "race": "DE LA THEVE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/YzBRQVBXazJWZjMrcWo4NGZxMzRuZz09",
+      "cat": "(Classe 2)",
+      "dist": "1.200",
+      "statut": "F1-P/626",
+      "oldStatut": "VA-P/626"
+    }
+  },
   "lastPosted": "2026-05-14T08:33:10.408Z"
 }
