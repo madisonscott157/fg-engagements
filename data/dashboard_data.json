@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-05-14T23:55:44.529Z",
+  "lastUpdate": "2026-05-15T00:01:12.981Z",
   "upcoming": [
     {
       "horse": "DURYTHME H.PS. 5 a.",
@@ -111,16 +111,6 @@
       "distance": "1.400",
       "cat": "",
       "status": "F1-P/4453",
-      "lastUpdate": 1778792815883
-    },
-    {
-      "horse": "Familly F 4 A.",
-      "date": "14/05/2026",
-      "track": "lion d'angers",
-      "race": "urban sea",
-      "distance": "2.000",
-      "cat": "",
-      "status": "DP-P/4146",
       "lastUpdate": 1778792815883
     }
   ],
