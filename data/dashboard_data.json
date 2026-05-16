@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-05-16T09:40:41.820Z",
+  "lastUpdate": "2026-05-16T09:46:03.139Z",
   "upcoming": [
     {
       "horse": "DURYTHME H.PS. 5 a.",
@@ -31,7 +31,7 @@
       "distance": "2.400",
       "cat": "",
       "status": "VA-P/442",
-      "lastUpdate": 1778918326017
+      "lastUpdate": 1778924741704
     },
     {
       "horse": "Green Spirit F 3 A.",
@@ -41,7 +41,7 @@
       "distance": "2.100",
       "cat": "",
       "status": "VA-P/441",
-      "lastUpdate": 1778918326017
+      "lastUpdate": 1778924741704
     },
     {
       "horse": "Turbulente (ire) F 3 A.",
@@ -51,7 +51,7 @@
       "distance": "2.100",
       "cat": "",
       "status": "VA-P/441",
-      "lastUpdate": 1778918326017
+      "lastUpdate": 1778924741704
     },
     {
       "horse": "Nighttime M 3 A.",
@@ -61,7 +61,7 @@
       "distance": "1.400",
       "cat": "",
       "status": "VA-P/468",
-      "lastUpdate": 1778918326017
+      "lastUpdate": 1778924741704
     },
     {
       "horse": "Nighttime M 3 A.",
@@ -71,7 +71,7 @@
       "distance": "2.100",
       "cat": "",
       "status": "VA-P/440",
-      "lastUpdate": 1778918326017
+      "lastUpdate": 1778924741704
     },
     {
       "horse": "Durythme H 5 A.",
@@ -81,7 +81,7 @@
       "distance": "1.400",
       "cat": "",
       "status": "VA-P/643",
-      "lastUpdate": 1778918326017
+      "lastUpdate": 1778924741704
     },
     {
       "horse": "Van Der Rohe H 3 A.",
@@ -91,7 +91,7 @@
       "distance": "2.100",
       "cat": "",
       "status": "VA-P/636",
-      "lastUpdate": 1778918326017
+      "lastUpdate": 1778924741704
     },
     {
       "horse": "No Tune (gb) F 3 A.",
@@ -101,7 +101,7 @@
       "distance": "1.200",
       "cat": "",
       "status": "ND-P/446",
-      "lastUpdate": 1778918326017
+      "lastUpdate": 1778924741704
     },
     {
       "horse": "Durythme H 5 A.",
@@ -111,7 +111,7 @@
       "distance": "1.200",
       "cat": "",
       "status": "F1-P/626",
-      "lastUpdate": 1778918326017
+      "lastUpdate": 1778924741704
     },
     {
       "horse": "Turbulente (ire) F 3 A.",
@@ -120,8 +120,8 @@
       "race": "finlande",
       "distance": "1.800",
       "cat": "",
-      "status": "PB-P/460",
-      "lastUpdate": 1778918326017
+      "status": "DP-P/460",
+      "lastUpdate": 1778924741704
     },
     {
       "horse": "Do For Love F 3 A.",
@@ -131,7 +131,7 @@
       "distance": "1.400",
       "cat": "",
       "status": "F1-P/4453",
-      "lastUpdate": 1778918326017
+      "lastUpdate": 1778924741704
     }
   ],
   "results": [
