@@ -1,23 +1,23 @@
 {
-  "lastUpdate": "2026-05-16T09:50:17.588Z",
+  "lastUpdate": "2026-05-20T09:25:21.781Z",
   "races": [
     {
-      "horse": "TURBULENTE (IRE) F.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/S0ZsOXRHV3RrQnppa3JFRE9IenNFZz09",
-      "statut": "DP-P/460",
-      "date": "19/05/2026",
-      "track": "CHANTILLY",
-      "race": "FINLANDE",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/M2dnRzNPckMzQUFTNGFkcjZuNFdjZz09",
-      "cat": "(L)",
-      "purse": "50.300",
+      "horse": "VAN DER ROHE IRE H.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/bjlFUy9hc0RxbXlTMFVnOVUvUDdUQT09",
+      "statut": "DP-P/636",
+      "date": "22/05/2026",
+      "track": "SAINT-CLOUD",
+      "race": "POT AU FEU",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/bjRSdkFBVHRnaTNzSExRbGlJdmhHQT09",
+      "cat": "(Maiden)",
+      "purse": "24.700",
       "disc": "P",
-      "dist": "1.800",
+      "dist": "2.100",
       "owner": "CHR. HEAD (S)",
       "postTime": {
-        "hour": 15,
-        "minute": 40,
-        "formatted": "15h40"
+        "hour": 14,
+        "minute": 53,
+        "formatted": "14h53"
       }
     }
   ]
