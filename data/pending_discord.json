@@ -70,6 +70,18 @@
       "dist": "2.100",
       "statut": "DP-P/636",
       "oldStatut": "VA-P/636"
+    },
+    "durythme h.ps. 5 a. | 24/05/2026 | parislongchamp | l'orangerie | 1.400": {
+      "horse": "DURYTHME H.PS. 5 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/ck1hc3FmZTFuRU44aEVFaU4wTU9OQT09",
+      "date": "24/05/2026",
+      "track": "PARISLONGCHAMP",
+      "race": "L'ORANGERIE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/K1l1WHN1YzhKTDk3K21WY3JZRlVDUT09",
+      "cat": "(Classe 2)",
+      "dist": "1.400",
+      "statut": "PB-P/643",
+      "oldStatut": "VA-P/643"
     }
   },
   "lastPosted": "2026-05-17T08:16:12.805Z"
