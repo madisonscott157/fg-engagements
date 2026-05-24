@@ -1,5 +1,18 @@
 [
   {
+    "horse": "Durythme",
+    "date": "24/05/2026",
+    "track": "PARISLONGCHAMP",
+    "race": "HAND.",
+    "distance": "1.400",
+    "position": "14",
+    "jockey": "T. PICCONE",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/K1l1WHN1YzhKTDk3K21WY3JZRlVDUT09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/ck1hc3FmZTFuRU44aEVFaU4wTU9OQT09",
+    "scrapedAt": "2026-05-24T13:40:32.281Z"
+  },
+  {
     "horse": "Van Der Rohe",
     "date": "22/05/2026",
     "track": "SAINT-CLOUD",
