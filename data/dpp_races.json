@@ -1,19 +1,4 @@
 {
-  "lastUpdate": "2026-05-24T20:50:59.130Z",
-  "races": [
-    {
-      "horse": "DURYTHME H.PS. 5 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/ck1hc3FmZTFuRU44aEVFaU4wTU9OQT09",
-      "statut": "DP-P/643",
-      "date": "24/05/2026",
-      "track": "PARISLONGCHAMP",
-      "race": "L'ORANGERIE",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/K1l1WHN1YzhKTDk3K21WY3JZRlVDUT09",
-      "cat": "(Classe 2)",
-      "purse": "50.900",
-      "disc": "P",
-      "dist": "1.400",
-      "owner": "CHR. HEAD (S)"
-    }
-  ]
+  "lastUpdate": "2026-05-25T09:58:07.043Z",
+  "races": []
 }

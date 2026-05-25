@@ -1,6 +1,19 @@
 {
   "partants": {},
   "newEngagements": {},
-  "statusUpdates": {},
+  "statusUpdates": {
+    "nighttime m.ps. 3 a. | 31/05/2026 | chantilly | du jockey club | 2.100": {
+      "horse": "NIGHTTIME M.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/MzNVeWdhQUNneUxUMnlHTnU3dXR6dz09",
+      "date": "31/05/2026",
+      "track": "CHANTILLY",
+      "race": "DU JOCKEY CLUB",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/Zm16WFRHMFd4dTdTTSs5eE9CWEtqUT09",
+      "cat": "GR.I",
+      "dist": "2.100",
+      "statut": "F1-P/440",
+      "oldStatut": "VA-P/440"
+    }
+  },
   "lastPosted": "2026-05-24T08:24:32.363Z"
 }
