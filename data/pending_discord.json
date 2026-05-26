@@ -1,6 +1,95 @@
 {
   "partants": {},
-  "newEngagements": {},
+  "newEngagements": {
+    "big money man ire m.ps. 2 a. | 31/05/2026 | chantilly | d'orgemont | 1.100": {
+      "horse": "BIG MONEY MAN IRE M.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/dUNFUytKdVBvN3N5Z1pLbVNXaWE5Zz09",
+      "date": "31/05/2026",
+      "track": "CHANTILLY",
+      "race": "D'ORGEMONT",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/c05GcVExVWFwdFdma0RhYTRWQXBjUT09",
+      "cat": "(Inédits)",
+      "dist": "1.100",
+      "statut": "-P/665"
+    },
+    "jumbotron gb h.ps. 2 a. | 31/05/2026 | chantilly | d'orgemont | 1.100": {
+      "horse": "JUMBOTRON GB H.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/SCtrcW5MRUQ3L0hyMlhPL0UvYjZoQT09",
+      "date": "31/05/2026",
+      "track": "CHANTILLY",
+      "race": "D'ORGEMONT",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/c05GcVExVWFwdFdma0RhYTRWQXBjUT09",
+      "cat": "(Inédits)",
+      "dist": "1.100",
+      "statut": "-P/665"
+    },
+    "no tune (gb) f.ps. 3 a. | 31/05/2026 | chantilly | marchand d'or | 1.200": {
+      "horse": "NO TUNE (GB) F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/QnhqdXA4MERPdXZveTZNNGVDeUNaZz09",
+      "date": "31/05/2026",
+      "track": "CHANTILLY",
+      "race": "MARCHAND D'OR",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/WVBrQ21NY3FVbm1FTlk3WWJFTlhldz09",
+      "cat": "(L)",
+      "dist": "1.200",
+      "statut": "-P/463"
+    },
+    "jumbotron gb h.ps. 2 a. | 01/06/2026 | cholet | pruniers | 1.350": {
+      "horse": "JUMBOTRON GB H.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/SCtrcW5MRUQ3L0hyMlhPL0UvYjZoQT09",
+      "date": "01/06/2026",
+      "track": "CHOLET",
+      "race": "PRUNIERS",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/RjZ5NndRdUsyM3cwWHBnZGFDVkUxZz09",
+      "cat": "(Classe 3)",
+      "dist": "1.350",
+      "statut": "-P/4381"
+    },
+    "obscure (ire) f.ps. 2 a. | 01/06/2026 | cholet | marronniers | 1.350": {
+      "horse": "OBSCURE (IRE) F.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/TGFuZS9oMjNTbU5yc2RwNTNzRjluQT09",
+      "date": "01/06/2026",
+      "track": "CHOLET",
+      "race": "MARRONNIERS",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/NVJJdmsybGZnekN1VUcwOTRSZ0I1Zz09",
+      "cat": "(Classe 3)",
+      "dist": "1.350",
+      "statut": "-P/4382"
+    },
+    "avec toi usa m.ps. 2 a. | 02/06/2026 | saint-cloud | chapeau rouge | 1.400": {
+      "horse": "AVEC TOI USA M.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/Yy9LbUNpNitKTlBqTVVHQTU1bW1yZz09",
+      "date": "02/06/2026",
+      "track": "SAINT-CLOUD",
+      "race": "CHAPEAU ROUGE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/Q3dSQVhNTFVmRmpyVUI3cnVReVZXdz09",
+      "cat": "(Inédits)",
+      "dist": "1.400",
+      "statut": "-P/668"
+    },
+    "woot woot (ire) f.ps. 2 a. | 02/06/2026 | saint-cloud | allee d'amour | 1.400": {
+      "horse": "WOOT WOOT (IRE) F.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/QU8waVhpNTN3QnVxQkQ0cUtnZFhUQT09",
+      "date": "02/06/2026",
+      "track": "SAINT-CLOUD",
+      "race": "ALLEE D'AMOUR",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/U29LNlI5Sk9wTHkweVF1K1RSZ0NSZz09",
+      "cat": "(Inédits)",
+      "dist": "1.400",
+      "statut": "-P/669"
+    },
+    "familly f.ps. 4 a. | 07/06/2026 | parislongchamp | la coupe | 2.000": {
+      "horse": "FAMILLY F.PS. 4 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/QlNhVzZKMm1GdEN3cnhqZVl2YTI3Zz09",
+      "date": "07/06/2026",
+      "track": "PARISLONGCHAMP",
+      "race": "LA COUPE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/Tmg4UnR3VzdQNEFSVjNqNjBVMlc5QT09",
+      "cat": "GR.III",
+      "dist": "2.000",
+      "statut": "-P/467"
+    }
+  },
   "statusUpdates": {
     "nighttime m.ps. 3 a. | 31/05/2026 | chantilly | du jockey club | 2.100": {
       "horse": "NIGHTTIME M.PS. 3 a.",
