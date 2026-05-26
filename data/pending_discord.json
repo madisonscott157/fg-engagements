@@ -10,7 +10,7 @@
       "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/c05GcVExVWFwdFdma0RhYTRWQXBjUT09",
       "cat": "(Inédits)",
       "dist": "1.100",
-      "statut": "-P/665"
+      "statut": "VA-P/665"
     },
     "jumbotron gb h.ps. 2 a. | 31/05/2026 | chantilly | d'orgemont | 1.100": {
       "horse": "JUMBOTRON GB H.PS. 2 a.",
@@ -21,7 +21,7 @@
       "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/c05GcVExVWFwdFdma0RhYTRWQXBjUT09",
       "cat": "(Inédits)",
       "dist": "1.100",
-      "statut": "-P/665"
+      "statut": "VA-P/665"
     },
     "no tune (gb) f.ps. 3 a. | 31/05/2026 | chantilly | marchand d'or | 1.200": {
       "horse": "NO TUNE (GB) F.PS. 3 a.",
@@ -32,7 +32,7 @@
       "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/WVBrQ21NY3FVbm1FTlk3WWJFTlhldz09",
       "cat": "(L)",
       "dist": "1.200",
-      "statut": "-P/463"
+      "statut": "VA-P/463"
     },
     "jumbotron gb h.ps. 2 a. | 01/06/2026 | cholet | pruniers | 1.350": {
       "horse": "JUMBOTRON GB H.PS. 2 a.",
@@ -43,7 +43,7 @@
       "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/RjZ5NndRdUsyM3cwWHBnZGFDVkUxZz09",
       "cat": "(Classe 3)",
       "dist": "1.350",
-      "statut": "-P/4381"
+      "statut": "VA-P/4381"
     },
     "obscure (ire) f.ps. 2 a. | 01/06/2026 | cholet | marronniers | 1.350": {
       "horse": "OBSCURE (IRE) F.PS. 2 a.",
@@ -54,7 +54,7 @@
       "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/NVJJdmsybGZnekN1VUcwOTRSZ0I1Zz09",
       "cat": "(Classe 3)",
       "dist": "1.350",
-      "statut": "-P/4382"
+      "statut": "VA-P/4382"
     },
     "avec toi usa m.ps. 2 a. | 02/06/2026 | saint-cloud | chapeau rouge | 1.400": {
       "horse": "AVEC TOI USA M.PS. 2 a.",
@@ -65,7 +65,7 @@
       "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/Q3dSQVhNTFVmRmpyVUI3cnVReVZXdz09",
       "cat": "(Inédits)",
       "dist": "1.400",
-      "statut": "-P/668"
+      "statut": "VA-P/668"
     },
     "woot woot (ire) f.ps. 2 a. | 02/06/2026 | saint-cloud | allee d'amour | 1.400": {
       "horse": "WOOT WOOT (IRE) F.PS. 2 a.",
@@ -76,7 +76,7 @@
       "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/U29LNlI5Sk9wTHkweVF1K1RSZ0NSZz09",
       "cat": "(Inédits)",
       "dist": "1.400",
-      "statut": "-P/669"
+      "statut": "VA-P/669"
     },
     "familly f.ps. 4 a. | 07/06/2026 | parislongchamp | la coupe | 2.000": {
       "horse": "FAMILLY F.PS. 4 a.",
@@ -87,7 +87,7 @@
       "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/Tmg4UnR3VzdQNEFSVjNqNjBVMlc5QT09",
       "cat": "GR.III",
       "dist": "2.000",
-      "statut": "-P/467"
+      "statut": "VA-P/467"
     }
   },
   "statusUpdates": {
@@ -102,6 +102,18 @@
       "dist": "2.100",
       "statut": "F1-P/440",
       "oldStatut": "VA-P/440"
+    },
+    "vassy h.ps. 3 a. | 29/05/2026 | saint-cloud | spinning world | 1.600": {
+      "horse": "VASSY H.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/YWRqVU5HbjA1TlFWSjBLTlNZT3RGdz09",
+      "date": "29/05/2026",
+      "track": "SAINT-CLOUD",
+      "race": "SPINNING WORLD",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/cUZ3cWdQSWF2YkhWWnV6ZHIwK3BnUT09",
+      "cat": "(Classe 2)",
+      "dist": "1.600",
+      "statut": "PB-P/658",
+      "oldStatut": "VA-P/658"
     }
   },
   "lastPosted": "2026-05-24T08:24:32.363Z"
