@@ -1,5 +1,17 @@
 {
-  "partants": {},
+  "partants": {
+    "vassy h.ps. 3 a. | 29/05/2026 | saint-cloud | spinning world | 1.600": {
+      "horse": "VASSY H.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/YWRqVU5HbjA1TlFWSjBLTlNZT3RGdz09",
+      "date": "29/05/2026",
+      "track": "SAINT-CLOUD",
+      "race": "SPINNING WORLD",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/cUZ3cWdQSWF2YkhWWnV6ZHIwK3BnUT09",
+      "cat": "(Classe 2)",
+      "dist": "1.600",
+      "statut": "DP-P/658"
+    }
+  },
   "newEngagements": {
     "big money man ire m.ps. 2 a. | 31/05/2026 | chantilly | d'orgemont | 1.100": {
       "horse": "BIG MONEY MAN IRE M.PS. 2 a.",
@@ -88,6 +100,17 @@
       "cat": "GR.III",
       "dist": "2.000",
       "statut": "VA-P/467"
+    },
+    "xtreme h.ps. 3 a. | 04/06/2026 | craon | cpt. gefflot | 1.600": {
+      "horse": "XTREME H.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/Vk5VTG9PcGdCdS9kRUxXTzY2bWxiQT09",
+      "date": "04/06/2026",
+      "track": "CRAON",
+      "race": "CPT. GEFFLOT",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/NEluSXhLOTNzRWJ3WDd0RWJOMTRnQT09",
+      "cat": "(Maiden)",
+      "dist": "1.600",
+      "statut": "VA-P/4386"
     }
   },
   "statusUpdates": {
@@ -112,7 +135,7 @@
       "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/cUZ3cWdQSWF2YkhWWnV6ZHIwK3BnUT09",
       "cat": "(Classe 2)",
       "dist": "1.600",
-      "statut": "PB-P/658",
+      "statut": "DP-P/658",
       "oldStatut": "VA-P/658"
     }
   },
