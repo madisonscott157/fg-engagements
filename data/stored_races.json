@@ -1,42 +1,23 @@
 {
-  "lastUpdate": "2026-05-22T09:00:27.378Z",
+  "lastUpdate": "2026-05-27T09:40:21.669Z",
   "races": [
     {
-      "horse": "VAN DER ROHE IRE H.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/bjlFUy9hc0RxbXlTMFVnOVUvUDdUQT09",
-      "statut": "DP-P/636",
-      "date": "22/05/2026",
+      "horse": "VASSY H.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/YWRqVU5HbjA1TlFWSjBLTlNZT3RGdz09",
+      "statut": "DP-P/658",
+      "date": "29/05/2026",
       "track": "SAINT-CLOUD",
-      "race": "POT AU FEU",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/bjRSdkFBVHRnaTNzSExRbGlJdmhHQT09",
-      "cat": "(Maiden)",
-      "purse": "24.700",
-      "disc": "P",
-      "dist": "2.100",
-      "owner": "CHR. HEAD (S)",
-      "postTime": {
-        "hour": 14,
-        "minute": 53,
-        "formatted": "14h53"
-      }
-    },
-    {
-      "horse": "DURYTHME H.PS. 5 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/ck1hc3FmZTFuRU44aEVFaU4wTU9OQT09",
-      "statut": "DP-P/643",
-      "date": "24/05/2026",
-      "track": "PARISLONGCHAMP",
-      "race": "L'ORANGERIE",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/K1l1WHN1YzhKTDk3K21WY3JZRlVDUT09",
+      "race": "SPINNING WORLD",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/cUZ3cWdQSWF2YkhWWnV6ZHIwK3BnUT09",
       "cat": "(Classe 2)",
-      "purse": "50.900",
+      "purse": "25.600",
       "disc": "P",
-      "dist": "1.400",
+      "dist": "1.600",
       "owner": "CHR. HEAD (S)",
       "postTime": {
         "hour": 15,
-        "minute": 15,
-        "formatted": "15h15"
+        "minute": 28,
+        "formatted": "15h28"
       }
     }
   ]
