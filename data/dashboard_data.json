@@ -1,25 +1,15 @@
 {
-  "lastUpdate": "2026-05-27T09:38:42.381Z",
+  "lastUpdate": "2026-05-27T09:41:11.835Z",
   "upcoming": [
     {
-      "horse": "VAN DER ROHE IRE H.PS. 3 a.",
-      "date": "22/05/2026",
+      "horse": "VASSY H.PS. 3 a.",
+      "date": "29/05/2026",
       "track": "SAINT-CLOUD",
-      "race": "POT AU FEU",
-      "distance": "2.100",
-      "cat": "(Maiden)",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/bjRSdkFBVHRnaTNzSExRbGlJdmhHQT09",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/bjlFUy9hc0RxbXlTMFVnOVUvUDdUQT09"
-    },
-    {
-      "horse": "DURYTHME H.PS. 5 a.",
-      "date": "24/05/2026",
-      "track": "PARISLONGCHAMP",
-      "race": "L'ORANGERIE",
-      "distance": "1.400",
+      "race": "SPINNING WORLD",
+      "distance": "1.600",
       "cat": "(Classe 2)",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/K1l1WHN1YzhKTDk3K21WY3JZRlVDUT09",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/ck1hc3FmZTFuRU44aEVFaU4wTU9OQT09"
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/cUZ3cWdQSWF2YkhWWnV6ZHIwK3BnUT09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/YWRqVU5HbjA1TlFWSjBLTlNZT3RGdz09"
     }
   ],
   "engagements": [
