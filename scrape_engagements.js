@@ -45,18 +45,70 @@ const LAST_RUN_FILE = path.join(STORE_DIR, 'last_run.json');
 const PARTANTS_FILE = path.join(STORE_DIR, 'posted_partants.json');
 const PENDING_FILE = path.join(STORE_DIR, 'pending_discord.json');
 
-// Paris hours when Discord summary should be posted (timezone-aware, handles DST)
-const DISCORD_POST_HOURS_PARIS = [10, 12];
+// Paris times when Discord summary should be posted (timezone-aware, handles DST).
+// Each run posts if any target has already passed today and we haven't yet posted
+// for that target — so GitHub Actions cron delays no longer cause missed posts.
+const POST_TARGETS_PARIS = [
+  { hour: 10, minute: 40 },
+  { hour: 12, minute: 40 },
+];
 
-function getParisHour() {
+function getParisDateParts(date) {
+  const d = date || new Date();
   const parts = {};
   new Intl.DateTimeFormat('en-GB', {
     timeZone: 'Europe/Paris',
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
     hour: '2-digit',
     minute: '2-digit',
     hour12: false,
-  }).formatToParts(new Date()).forEach(p => { parts[p.type] = p.value; });
-  return { hour: parseInt(parts.hour), minute: parseInt(parts.minute) };
+  }).formatToParts(d).forEach(p => { parts[p.type] = p.value; });
+  const hour = parseInt(parts.hour);
+  const minute = parseInt(parts.minute);
+  return {
+    date: parts.year + '-' + parts.month + '-' + parts.day,
+    hour,
+    minute,
+    minutesSinceMidnight: hour * 60 + minute,
+  };
+}
+
+const formatHHMM = (m) => String(Math.floor(m / 60)).padStart(2, '0') + ':' + String(m % 60).padStart(2, '0');
+
+// Decide whether to flush pending Discord posts on this run.
+// Returns { post: boolean, reason: string, target: number|null }.
+function shouldPostNow(pending, parisNow) {
+  if (FORCE_POST || MANUAL_RUN) {
+    return { post: true, reason: 'force/manual override', target: null };
+  }
+
+  const passedTargets = POST_TARGETS_PARIS
+    .map(t => t.hour * 60 + t.minute)
+    .filter(t => parisNow.minutesSinceMidnight >= t);
+
+  if (passedTargets.length === 0) {
+    return { post: false, reason: 'no target reached yet today', target: null };
+  }
+
+  const mostRecentTarget = Math.max(...passedTargets);
+
+  if (!pending.lastPosted) {
+    return { post: true, reason: 'no prior post recorded', target: mostRecentTarget };
+  }
+
+  const lastPostedParis = getParisDateParts(new Date(pending.lastPosted));
+
+  if (lastPostedParis.date < parisNow.date) {
+    return { post: true, reason: 'last post was on an earlier Paris day', target: mostRecentTarget };
+  }
+
+  if (lastPostedParis.date === parisNow.date && lastPostedParis.minutesSinceMidnight < mostRecentTarget) {
+    return { post: true, reason: 'last post today was before current target window', target: mostRecentTarget };
+  }
+
+  return { post: false, reason: 'already posted for the most recent target', target: mostRecentTarget };
 }
 
 const norm = (s) =>
@@ -1225,17 +1277,19 @@ function chunkLines(header, lines, maxLen = 1800) {
 
   // ============ CHECK IF POSTING TIME ============
 
-  const parisTime = getParisHour();
-  const isPostingTime = DISCORD_POST_HOURS_PARIS.includes(parisTime.hour) || FORCE_POST || MANUAL_RUN;
+  const parisNow = getParisDateParts();
+  const decision = shouldPostNow(pending, parisNow);
+  const nowLabel = formatHHMM(parisNow.minutesSinceMidnight) + ' Paris';
+  const targetsLabel = POST_TARGETS_PARIS.map(t => formatHHMM(t.hour * 60 + t.minute) + ' Paris').join(', ');
 
-  if (!isPostingTime) {
-    console.log('⏰ Not a posting hour (' + parisTime.hour + ':' + String(parisTime.minute).padStart(2, '0') + ' Paris). Discord posts at: ' + DISCORD_POST_HOURS_PARIS.map(h => h + ':35 Paris').join(', '));
+  if (!decision.post) {
+    console.log('⏰ Skipping Discord post (' + nowLabel + '): ' + decision.reason + '. Targets: ' + targetsLabel);
     await saveSeen(seen);
     await saveLastRun(today);
     process.exit(0);
   }
 
-  console.log('📨 Posting time (' + parisTime.hour + ':' + String(parisTime.minute).padStart(2, '0') + ' Paris) — compiling Discord summary...');
+  console.log('📨 Posting now (' + nowLabel + '): ' + decision.reason + (decision.target !== null ? ' [target ' + formatHHMM(decision.target) + ' Paris]' : '') + ' — compiling Discord summary...');
 
   // ============ POST ACCUMULATED CHANGES TO DISCORD ============
 
