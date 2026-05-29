@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-05-29T09:46:30.255Z",
+  "lastUpdate": "2026-05-29T09:50:51.747Z",
   "upcoming": [
     {
       "horse": "VASSY H.PS. 3 a.",
@@ -10,6 +10,16 @@
       "cat": "(Classe 2)",
       "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/cUZ3cWdQSWF2YkhWWnV6ZHIwK3BnUT09",
       "horseUrl": "https://www.france-galop.com/fr/cheval/YWRqVU5HbjA1TlFWSjBLTlNZT3RGdz09"
+    },
+    {
+      "horse": "NO TUNE (GB) F.PS. 3 a.",
+      "date": "31/05/2026",
+      "track": "CHANTILLY",
+      "race": "MARCHAND D'OR",
+      "distance": "1.200",
+      "cat": "(L)",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/WVBrQ21NY3FVbm1FTlk3WWJFTlhldz09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/QnhqdXA4MERPdXZveTZNNGVDeUNaZz09"
     }
   ],
   "engagements": [
