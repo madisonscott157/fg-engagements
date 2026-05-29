@@ -1,5 +1,18 @@
 [
   {
+    "horse": "Vassy",
+    "date": "29/05/2026",
+    "track": "SAINT-CLOUD",
+    "race": "",
+    "distance": "1.600",
+    "position": "5",
+    "jockey": "M. GRANDIN",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/cUZ3cWdQSWF2YkhWWnV6ZHIwK3BnUT09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/YWRqVU5HbjA1TlFWSjBLTlNZT3RGdz09",
+    "scrapedAt": "2026-05-29T13:40:46.030Z"
+  },
+  {
     "horse": "Durythme",
     "date": "24/05/2026",
     "track": "PARISLONGCHAMP",
