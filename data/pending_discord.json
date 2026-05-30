@@ -1,18 +1,6 @@
 {
-  "partants": {
-    "no tune (gb) f.ps. 3 a. | 31/05/2026 | chantilly | marchand d'or | 1.200": {
-      "horse": "NO TUNE (GB) F.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/QnhqdXA4MERPdXZveTZNNGVDeUNaZz09",
-      "date": "31/05/2026",
-      "track": "CHANTILLY",
-      "race": "MARCHAND D'OR",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/WVBrQ21NY3FVbm1FTlk3WWJFTlhldz09",
-      "cat": "(L)",
-      "dist": "1.200",
-      "statut": "DP-P/463"
-    }
-  },
+  "partants": {},
   "newEngagements": {},
   "statusUpdates": {},
-  "lastPosted": "2026-05-29T09:45:55.678Z"
+  "lastPosted": "2026-05-30T10:26:31.830Z"
 }
