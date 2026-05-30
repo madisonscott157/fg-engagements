@@ -1,20 +1,6 @@
 {
-  "lastUpdate": "2026-05-29T20:15:59.752Z",
+  "lastUpdate": "2026-05-30T08:23:40.239Z",
   "races": [
-    {
-      "horse": "VASSY H.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/YWRqVU5HbjA1TlFWSjBLTlNZT3RGdz09",
-      "statut": "DP-P/658",
-      "date": "29/05/2026",
-      "track": "SAINT-CLOUD",
-      "race": "SPINNING WORLD",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/cUZ3cWdQSWF2YkhWWnV6ZHIwK3BnUT09",
-      "cat": "(Classe 2)",
-      "purse": "25.600",
-      "disc": "P",
-      "dist": "1.600",
-      "owner": "CHR. HEAD (S)"
-    },
     {
       "horse": "NO TUNE (GB) F.PS. 3 a.",
       "horseUrl": "https://www.france-galop.com/fr/cheval/QnhqdXA4MERPdXZveTZNNGVDeUNaZz09",
