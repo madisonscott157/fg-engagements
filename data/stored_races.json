@@ -1,25 +1,6 @@
 {
-  "lastUpdate": "2026-05-30T10:30:19.437Z",
+  "lastUpdate": "2026-06-01T11:25:22.074Z",
   "races": [
-    {
-      "horse": "NO TUNE (GB) F.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/QnhqdXA4MERPdXZveTZNNGVDeUNaZz09",
-      "statut": "DP-P/463",
-      "date": "31/05/2026",
-      "track": "CHANTILLY",
-      "race": "MARCHAND D'OR",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/WVBrQ21NY3FVbm1FTlk3WWJFTlhldz09",
-      "cat": "(L)",
-      "purse": "50.300",
-      "disc": "P",
-      "dist": "1.200",
-      "owner": "CHR. HEAD (S)",
-      "postTime": {
-        "hour": 15,
-        "minute": 17,
-        "formatted": "15h17"
-      }
-    },
     {
       "horse": "AVEC TOI USA M.PS. 2 a.",
       "horseUrl": "https://www.france-galop.com/fr/cheval/Yy9LbUNpNitKTlBqTVVHQTU1bW1yZz09",
@@ -56,6 +37,25 @@
         "hour": 15,
         "minute": 40,
         "formatted": "15h40"
+      }
+    },
+    {
+      "horse": "JUMBOTRON GB H.PS. 2 a. ... (Sup.)",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/SCtrcW5MRUQ3L0hyMlhPL0UvYjZoQT09",
+      "statut": "DP-P/4540(Sup.)",
+      "date": "03/06/2026",
+      "track": "LA TESTE-BA",
+      "race": "BAROUD D'HONNEU",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/VjRrZkRFSVd1MXRXM0lKWUovckZSUT09",
+      "cat": "(Classe 3)",
+      "purse": "21.000",
+      "disc": "P",
+      "dist": "1.200",
+      "owner": "CHR. HEAD (S)",
+      "postTime": {
+        "hour": 11,
+        "minute": 51,
+        "formatted": "11h51"
       }
     }
   ]
