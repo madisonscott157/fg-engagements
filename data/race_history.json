@@ -1,5 +1,18 @@
 [
   {
+    "horse": "Avec Toi",
+    "date": "02/06/2026",
+    "track": "SAINT-CLOUD",
+    "race": "",
+    "distance": "1.400",
+    "position": "1",
+    "jockey": "M. GUYON",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/Q3dSQVhNTFVmRmpyVUI3cnVReVZXdz09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/Yy9LbUNpNitKTlBqTVVHQTU1bW1yZz09",
+    "scrapedAt": "2026-06-02T13:25:55.446Z"
+  },
+  {
     "horse": "No Tune",
     "date": "31/05/2026",
     "track": "CHANTILLY",
