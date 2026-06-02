@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-06-02T14:01:03.554Z",
+  "lastUpdate": "2026-06-02T14:06:11.129Z",
   "upcoming": [
     {
       "horse": "AVEC TOI USA M.PS. 2 a.",
@@ -215,6 +215,18 @@
     }
   ],
   "results": [
+    {
+      "horse": "Woot Woot",
+      "date": "02/06/2026",
+      "track": "SAINT-CLOUD",
+      "race": "",
+      "distance": "1.400",
+      "position": "2",
+      "jockey": "M. GRANDIN",
+      "gain": "0",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/U29LNlI5Sk9wTHkweVF1K1RSZ0NSZz09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/QU8waVhpNTN3QnVxQkQ0cUtnZFhUQT09"
+    },
     {
       "horse": "Avec Toi",
       "date": "02/06/2026",
