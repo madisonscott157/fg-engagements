@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-06-01T23:55:40.390Z",
+  "lastUpdate": "2026-06-02T00:01:11.168Z",
   "upcoming": [
     {
       "horse": "AVEC TOI USA M.PS. 2 a.",
@@ -201,26 +201,6 @@
       "distance": "1.400",
       "cat": "",
       "status": "DP-P/669",
-      "lastUpdate": 1780349317220
-    },
-    {
-      "horse": "Jumbotron H 2 A.",
-      "date": "01/06/2026",
-      "track": "cholet",
-      "race": "pruniers",
-      "distance": "1.350",
-      "cat": "",
-      "status": "ND-P/4381",
-      "lastUpdate": 1780349317220
-    },
-    {
-      "horse": "Obscure (ire) F 2 A.",
-      "date": "01/06/2026",
-      "track": "cholet",
-      "race": "marronniers",
-      "distance": "1.350",
-      "cat": "",
-      "status": "ND-P/4382",
       "lastUpdate": 1780349317220
     }
   ],
