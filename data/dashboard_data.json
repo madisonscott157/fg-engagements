@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-06-02T23:56:11.590Z",
+  "lastUpdate": "2026-06-03T00:00:41.150Z",
   "upcoming": [
     {
       "horse": "AVEC TOI USA M.PS. 2 a.",
@@ -191,26 +191,6 @@
       "distance": "1.200",
       "cat": "",
       "status": "DP-P/4540(Sup.)",
-      "lastUpdate": 1780432983369
-    },
-    {
-      "horse": "Avec Toi M 2 A.",
-      "date": "02/06/2026",
-      "track": "saint-cloud",
-      "race": "chapeau rouge",
-      "distance": "1.400",
-      "cat": "",
-      "status": "DP-P/668",
-      "lastUpdate": 1780432983369
-    },
-    {
-      "horse": "Woot Woot (ire) F 2 A.",
-      "date": "02/06/2026",
-      "track": "saint-cloud",
-      "race": "allee d'amour",
-      "distance": "1.400",
-      "cat": "",
-      "status": "DP-P/669",
       "lastUpdate": 1780432983369
     }
   ],
