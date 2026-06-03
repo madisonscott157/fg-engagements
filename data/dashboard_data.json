@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-06-03T10:01:19.764Z",
+  "lastUpdate": "2026-06-03T10:06:07.687Z",
   "upcoming": [
     {
       "horse": "AVEC TOI USA M.PS. 2 a.",
@@ -195,6 +195,18 @@
     }
   ],
   "results": [
+    {
+      "horse": "Jumbotron",
+      "date": "03/06/2026",
+      "track": "LA TESTE-BASSIN ARCACHON",
+      "race": "",
+      "distance": "1.200",
+      "position": "1",
+      "jockey": "M. GRANDIN",
+      "gain": "0",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/VjRrZkRFSVd1MXRXM0lKWUovckZSUT09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/SCtrcW5MRUQ3L0hyMlhPL0UvYjZoQT09"
+    },
     {
       "horse": "Woot Woot",
       "date": "02/06/2026",
