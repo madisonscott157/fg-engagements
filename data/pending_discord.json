@@ -33,6 +33,28 @@
       "cat": "(Inédits)",
       "dist": "1.400",
       "statut": "-P/755"
+    },
+    "isabella f.ps. 2 a. | 13/08/2026 | deauville | arq-pouliches | 1.400": {
+      "horse": "ISABELLA F.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/OHBBUnNndG5TWTNReEJSNVpES2hEQT09",
+      "date": "13/08/2026",
+      "track": "DEAUVILLE",
+      "race": "ARQ-POULICHES",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/UW5CdWVQRHRFMERRdG5YaC9TREpOQT09",
+      "cat": "(Inédits)",
+      "dist": "1.400",
+      "statut": "-P/756"
+    },
+    "woot woot (ire) f.ps. 2 a. | 13/08/2026 | deauville | arq-pouliches | 1.400": {
+      "horse": "WOOT WOOT (IRE) F.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/QU8waVhpNTN3QnVxQkQ0cUtnZFhUQT09",
+      "date": "13/08/2026",
+      "track": "DEAUVILLE",
+      "race": "ARQ-POULICHES",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/UW5CdWVQRHRFMERRdG5YaC9TREpOQT09",
+      "cat": "(Inédits)",
+      "dist": "1.400",
+      "statut": "-P/756"
     }
   },
   "statusUpdates": {},
