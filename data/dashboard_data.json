@@ -1,36 +1,6 @@
 {
-  "lastUpdate": "2026-06-03T10:52:11.205Z",
+  "lastUpdate": "2026-06-03T10:55:47.877Z",
   "upcoming": [
-    {
-      "horse": "AVEC TOI USA M.PS. 2 a.",
-      "date": "02/06/2026",
-      "track": "SAINT-CLOUD",
-      "race": "CHAPEAU ROUGE",
-      "distance": "1.400",
-      "cat": "(Inédits)",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/Q3dSQVhNTFVmRmpyVUI3cnVReVZXdz09",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/Yy9LbUNpNitKTlBqTVVHQTU1bW1yZz09"
-    },
-    {
-      "horse": "WOOT WOOT (IRE) F.PS. 2 a.",
-      "date": "02/06/2026",
-      "track": "SAINT-CLOUD",
-      "race": "ALLEE D'AMOUR",
-      "distance": "1.400",
-      "cat": "(Inédits)",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/U29LNlI5Sk9wTHkweVF1K1RSZ0NSZz09",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/QU8waVhpNTN3QnVxQkQ0cUtnZFhUQT09"
-    },
-    {
-      "horse": "JUMBOTRON GB H.PS. 2 a. ... (Sup.)",
-      "date": "03/06/2026",
-      "track": "LA TESTE-BA",
-      "race": "BAROUD D'HONNEU",
-      "distance": "1.200",
-      "cat": "(Classe 3)",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/VjRrZkRFSVd1MXRXM0lKWUovckZSUT09",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/SCtrcW5MRUQ3L0hyMlhPL0UvYjZoQT09"
-    },
     {
       "horse": "XTREME H.PS. 3 a.",
       "date": "04/06/2026",
@@ -40,6 +10,16 @@
       "cat": "(Maiden)",
       "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/NEluSXhLOTNzRWJ3WDd0RWJOMTRnQT09",
       "horseUrl": "https://www.france-galop.com/fr/cheval/Vk5VTG9PcGdCdS9kRUxXTzY2bWxiQT09"
+    },
+    {
+      "horse": "SORELINO (IRE) H.PS. 3 a.",
+      "date": "05/06/2026",
+      "track": "NANCY",
+      "race": "PORTE HERE",
+      "distance": "2.500",
+      "cat": "(Maiden)",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/OCtPZ2tZTkQyS0JxeHlUbnpNSzQ3QT09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/dGlkaVVUaGRYc2ozUnNKQm9VWXFKdz09"
     }
   ],
   "engagements": [
