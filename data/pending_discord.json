@@ -1,62 +1,6 @@
 {
   "partants": {},
-  "newEngagements": {
-    "palais byzantin m.ps. 2 a. | 13/08/2026 | deauville | arq-poulains | 1.400": {
-      "horse": "PALAIS BYZANTIN M.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/ZHhLcU9WVVFkeXUxM1dUUzlCR0J5Zz09",
-      "date": "13/08/2026",
-      "track": "DEAUVILLE",
-      "race": "ARQ-POULAINS",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/WUR5Sjc3Ni9VT2JNNVNmbytacCtUQT09",
-      "cat": "(Inédits)",
-      "dist": "1.400",
-      "statut": "-P/755"
-    },
-    "pemulwuy m.ps. 2 a. | 13/08/2026 | deauville | arq-poulains | 1.400": {
-      "horse": "PEMULWUY M.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/UitPY0V5RTNDVTdESzQ0eVFTUjdzUT09",
-      "date": "13/08/2026",
-      "track": "DEAUVILLE",
-      "race": "ARQ-POULAINS",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/WUR5Sjc3Ni9VT2JNNVNmbytacCtUQT09",
-      "cat": "(Inédits)",
-      "dist": "1.400",
-      "statut": "-P/755"
-    },
-    "tortsanlot (gb) m.ps. 2 a. | 13/08/2026 | deauville | arq-poulains | 1.400": {
-      "horse": "TORTSANLOT (GB) M.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/T2srQkxYWVcvRCs1cCtIR2FmUlczUT09",
-      "date": "13/08/2026",
-      "track": "DEAUVILLE",
-      "race": "ARQ-POULAINS",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/WUR5Sjc3Ni9VT2JNNVNmbytacCtUQT09",
-      "cat": "(Inédits)",
-      "dist": "1.400",
-      "statut": "-P/755"
-    },
-    "isabella f.ps. 2 a. | 13/08/2026 | deauville | arq-pouliches | 1.400": {
-      "horse": "ISABELLA F.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/OHBBUnNndG5TWTNReEJSNVpES2hEQT09",
-      "date": "13/08/2026",
-      "track": "DEAUVILLE",
-      "race": "ARQ-POULICHES",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/UW5CdWVQRHRFMERRdG5YaC9TREpOQT09",
-      "cat": "(Inédits)",
-      "dist": "1.400",
-      "statut": "-P/756"
-    },
-    "woot woot (ire) f.ps. 2 a. | 13/08/2026 | deauville | arq-pouliches | 1.400": {
-      "horse": "WOOT WOOT (IRE) F.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/QU8waVhpNTN3QnVxQkQ0cUtnZFhUQT09",
-      "date": "13/08/2026",
-      "track": "DEAUVILLE",
-      "race": "ARQ-POULICHES",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/UW5CdWVQRHRFMERRdG5YaC9TREpOQT09",
-      "cat": "(Inédits)",
-      "dist": "1.400",
-      "statut": "-P/756"
-    }
-  },
+  "newEngagements": {},
   "statusUpdates": {},
-  "lastPosted": "2026-06-03T10:51:52.828Z"
+  "lastPosted": "2026-06-04T09:51:16.502Z"
 }
