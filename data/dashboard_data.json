@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-06-03T23:58:34.142Z",
+  "lastUpdate": "2026-06-04T00:01:03.112Z",
   "upcoming": [
     {
       "horse": "XTREME H.PS. 3 a.",
@@ -221,16 +221,6 @@
       "distance": "1.600",
       "cat": "",
       "status": "DP-P/4386",
-      "lastUpdate": 1780519900576
-    },
-    {
-      "horse": "Jumbotron H 2 A.",
-      "date": "03/06/2026",
-      "track": "la teste-ba",
-      "race": "baroud d'honneu",
-      "distance": "1.200",
-      "cat": "",
-      "status": "DP-P/4540(Sup.)",
       "lastUpdate": 1780519900576
     }
   ],
