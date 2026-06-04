@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-06-04T12:35:43.365Z",
+  "lastUpdate": "2026-06-04T12:41:34.923Z",
   "upcoming": [
     {
       "horse": "XTREME H.PS. 3 a.",
@@ -305,6 +305,18 @@
     }
   ],
   "results": [
+    {
+      "horse": "Xtreme",
+      "date": "04/06/2026",
+      "track": "CRAON",
+      "race": "",
+      "distance": "1.600",
+      "position": "8",
+      "jockey": "S. DERIU",
+      "gain": "0",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/NEluSXhLOTNzRWJ3WDd0RWJOMTRnQT09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/Vk5VTG9PcGdCdS9kRUxXTzY2bWxiQT09"
+    },
     {
       "horse": "Jumbotron",
       "date": "03/06/2026",
