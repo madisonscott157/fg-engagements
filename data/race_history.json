@@ -1,5 +1,18 @@
 [
   {
+    "horse": "Xtreme",
+    "date": "04/06/2026",
+    "track": "CRAON",
+    "race": "",
+    "distance": "1.600",
+    "position": "8",
+    "jockey": "S. DERIU",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/NEluSXhLOTNzRWJ3WDd0RWJOMTRnQT09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/Vk5VTG9PcGdCdS9kRUxXTzY2bWxiQT09",
+    "scrapedAt": "2026-06-04T12:41:06.105Z"
+  },
+  {
     "horse": "Jumbotron",
     "date": "03/06/2026",
     "track": "LA TESTE-BASSIN ARCACHON",
