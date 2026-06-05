@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-06-05T12:06:18.552Z",
+  "lastUpdate": "2026-06-05T12:11:05.920Z",
   "upcoming": [
     {
       "horse": "SORELINO (IRE) H.PS. 3 a.",
@@ -505,6 +505,18 @@
     }
   ],
   "results": [
+    {
+      "horse": "Sorelino",
+      "date": "05/06/2026",
+      "track": "NANCY",
+      "race": "",
+      "distance": "2.500",
+      "position": "3",
+      "jockey": "E. CORALLO",
+      "gain": "0",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/OCtPZ2tZTkQyS0JxeHlUbnpNSzQ3QT09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/dGlkaVVUaGRYc2ozUnNKQm9VWXFKdz09"
+    },
     {
       "horse": "Xtreme",
       "date": "04/06/2026",
