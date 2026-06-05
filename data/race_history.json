@@ -1,5 +1,18 @@
 [
   {
+    "horse": "Sorelino",
+    "date": "05/06/2026",
+    "track": "NANCY",
+    "race": "",
+    "distance": "2.500",
+    "position": "3",
+    "jockey": "E. CORALLO",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/OCtPZ2tZTkQyS0JxeHlUbnpNSzQ3QT09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/dGlkaVVUaGRYc2ozUnNKQm9VWXFKdz09",
+    "scrapedAt": "2026-06-05T12:10:39.231Z"
+  },
+  {
     "horse": "Xtreme",
     "date": "04/06/2026",
     "track": "CRAON",
