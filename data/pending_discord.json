@@ -1,40 +1,6 @@
 {
-  "partants": {
-    "familly f.ps. 4 a. | 07/06/2026 | parislongchamp | la coupe | 2.000": {
-      "horse": "FAMILLY F.PS. 4 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/QlNhVzZKMm1GdEN3cnhqZVl2YTI3Zz09",
-      "date": "07/06/2026",
-      "track": "PARISLONGCHAMP",
-      "race": "LA COUPE",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/Tmg4UnR3VzdQNEFSVjNqNjBVMlc5QT09",
-      "cat": "GR.III",
-      "dist": "2.000",
-      "statut": "DP-P/467"
-    },
-    "nighttime m.ps. 3 a. | 07/06/2026 | parislongchamp | paul de moussac | 1.400": {
-      "horse": "NIGHTTIME M.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/MzNVeWdhQUNneUxUMnlHTnU3dXR6dz09",
-      "date": "07/06/2026",
-      "track": "PARISLONGCHAMP",
-      "race": "PAUL DE MOUSSAC",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/WVppYUNTMDVHeDlyV1QwZm5VRUUxdz09",
-      "cat": "GR.II",
-      "dist": "1.400",
-      "statut": "DP-P/468"
-    },
-    "turbulente (ire) f.ps. 3 a. | 08/06/2026 | angers | eventard | 1.600": {
-      "horse": "TURBULENTE (IRE) F.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/S0ZsOXRHV3RrQnppa3JFRE9IenNFZz09",
-      "date": "08/06/2026",
-      "track": "ANGERS",
-      "race": "EVENTARD",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/QUk1U2lMbGYrbUxIOWRXaVRBVkRqdz09",
-      "cat": "(Classe 1)",
-      "dist": "1.600",
-      "statut": "DP-P/4400"
-    }
-  },
+  "partants": {},
   "newEngagements": {},
   "statusUpdates": {},
-  "lastPosted": "2026-06-05T09:39:32.656Z"
+  "lastPosted": "2026-06-06T10:32:33.408Z"
 }
