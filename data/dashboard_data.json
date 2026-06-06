@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-06-05T23:56:02.358Z",
+  "lastUpdate": "2026-06-06T00:00:54.508Z",
   "upcoming": [
     {
       "horse": "SORELINO (IRE) H.PS. 3 a.",
@@ -481,26 +481,6 @@
       "distance": "2.400",
       "cat": "",
       "status": "F1-P/4471",
-      "lastUpdate": 1780694520849
-    },
-    {
-      "horse": "Sorelino (ire) H 3 A.",
-      "date": "05/06/2026",
-      "track": "nancy",
-      "race": "porte here",
-      "distance": "2.500",
-      "cat": "",
-      "status": "DP-P/4888",
-      "lastUpdate": 1780694520849
-    },
-    {
-      "horse": "Turbulente (ire) F 3 A.",
-      "date": "05/06/2026",
-      "track": "nancy",
-      "race": "l. ermann",
-      "distance": "1.400",
-      "cat": "",
-      "status": "NV-P/4889",
       "lastUpdate": 1780694520849
     }
   ],
