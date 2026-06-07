@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-06-07T14:37:48.982Z",
+  "lastUpdate": "2026-06-07T14:50:34.757Z",
   "upcoming": [
     {
       "horse": "SORELINO (IRE) H.PS. 3 a.",
@@ -475,6 +475,18 @@
     }
   ],
   "results": [
+    {
+      "horse": "Familly",
+      "date": "07/06/2026",
+      "track": "PARISLONGCHAMP",
+      "race": "GR.III",
+      "distance": "2.000",
+      "position": "3",
+      "jockey": "I. MENDIZABAL",
+      "gain": "0",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/Tmg4UnR3VzdQNEFSVjNqNjBVMlc5QT09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/QlNhVzZKMm1GdEN3cnhqZVl2YTI3Zz09"
+    },
     {
       "horse": "Nighttime",
       "date": "07/06/2026",
