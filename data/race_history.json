@@ -1,5 +1,18 @@
 [
   {
+    "horse": "Nighttime",
+    "date": "07/06/2026",
+    "track": "PARISLONGCHAMP",
+    "race": "GR.II",
+    "distance": "1.400",
+    "position": "1",
+    "jockey": "M. GUYON",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/WVppYUNTMDVHeDlyV1QwZm5VRUUxdz09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/MzNVeWdhQUNneUxUMnlHTnU3dXR6dz09",
+    "scrapedAt": "2026-06-07T14:05:32.642Z"
+  },
+  {
     "horse": "Sorelino",
     "date": "05/06/2026",
     "track": "NANCY",
