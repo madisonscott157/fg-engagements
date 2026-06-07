@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-06-06T23:56:17.005Z",
+  "lastUpdate": "2026-06-07T00:01:03.645Z",
   "upcoming": [
     {
       "horse": "SORELINO (IRE) H.PS. 3 a.",
@@ -471,16 +471,6 @@
       "distance": "2.000",
       "cat": "",
       "status": "DP-P/467",
-      "lastUpdate": 1780779615886
-    },
-    {
-      "horse": "Sorelino (ire) H 3 A.",
-      "date": "06/06/2026",
-      "track": "dieppe",
-      "race": "fosse mariann.",
-      "distance": "2.400",
-      "cat": "",
-      "status": "F1-P/4471",
       "lastUpdate": 1780779615886
     }
   ],
