@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-06-08T14:21:20.841Z",
+  "lastUpdate": "2026-06-08T14:26:08.856Z",
   "upcoming": [
     {
       "horse": "SORELINO (IRE) H.PS. 3 a.",
@@ -475,6 +475,18 @@
     }
   ],
   "results": [
+    {
+      "horse": "Turbulente",
+      "date": "08/06/2026",
+      "track": "ANGERS",
+      "race": "",
+      "distance": "1.600",
+      "position": "7",
+      "jockey": "E. CORALLO",
+      "gain": "0",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/QUk1U2lMbGYrbUxIOWRXaVRBVkRqdz09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/S0ZsOXRHV3RrQnppa3JFRE9IenNFZz09"
+    },
     {
       "horse": "Familly",
       "date": "07/06/2026",
