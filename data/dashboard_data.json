@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-06-07T23:56:18.869Z",
+  "lastUpdate": "2026-06-08T00:01:01.525Z",
   "upcoming": [
     {
       "horse": "SORELINO (IRE) H.PS. 3 a.",
@@ -451,26 +451,6 @@
       "distance": "1.600",
       "cat": "",
       "status": "F1-P/4400",
-      "lastUpdate": 1780866499336
-    },
-    {
-      "horse": "Nighttime M 3 A.",
-      "date": "07/06/2026",
-      "track": "parislongchamp",
-      "race": "paul de moussac",
-      "distance": "1.400",
-      "cat": "",
-      "status": "DP-P/468",
-      "lastUpdate": 1780866499336
-    },
-    {
-      "horse": "Familly F 4 A.",
-      "date": "07/06/2026",
-      "track": "parislongchamp",
-      "race": "la coupe",
-      "distance": "2.000",
-      "cat": "",
-      "status": "DP-P/467",
       "lastUpdate": 1780866499336
     }
   ],
