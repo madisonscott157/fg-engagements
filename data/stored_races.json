@@ -1,80 +1,23 @@
 {
-  "lastUpdate": "2026-06-05T09:40:18.615Z",
+  "lastUpdate": "2026-06-09T09:40:22.151Z",
   "races": [
     {
-      "horse": "SORELINO (IRE) H.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/dGlkaVVUaGRYc2ozUnNKQm9VWXFKdz09",
-      "statut": "DP-P/4888",
-      "date": "05/06/2026",
-      "track": "NANCY",
-      "race": "PORTE HERE",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/OCtPZ2tZTkQyS0JxeHlUbnpNSzQ3QT09",
+      "horse": "BASHA H.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/SlFXdG42NTZ1b1pKUk9hV0I0L0J5UT09",
+      "statut": "DP-P/4558",
+      "date": "11/06/2026",
+      "track": "LA TESTE-BA",
+      "race": "THEAULT",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/aGNNY3VKT2tMNzBPQVJHbE4xcWRUUT09",
       "cat": "(Maiden)",
       "purse": "19.200",
-      "disc": "P",
-      "dist": "2.500",
-      "owner": "CHR. HEAD (S)",
-      "postTime": {
-        "hour": 13,
-        "minute": 39,
-        "formatted": "13h39"
-      }
-    },
-    {
-      "horse": "FAMILLY F.PS. 4 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/QlNhVzZKMm1GdEN3cnhqZVl2YTI3Zz09",
-      "statut": "DP-P/467",
-      "date": "07/06/2026",
-      "track": "PARISLONGCHAMP",
-      "race": "LA COUPE",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/Tmg4UnR3VzdQNEFSVjNqNjBVMlc5QT09",
-      "cat": "GR.III",
-      "purse": "73.200",
-      "disc": "P",
-      "dist": "2.000",
-      "owner": "CHR. HEAD (S)",
-      "postTime": {
-        "hour": 16,
-        "minute": 25,
-        "formatted": "16h25"
-      }
-    },
-    {
-      "horse": "NIGHTTIME M.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/MzNVeWdhQUNneUxUMnlHTnU3dXR6dz09",
-      "statut": "DP-P/468",
-      "date": "07/06/2026",
-      "track": "PARISLONGCHAMP",
-      "race": "PAUL DE MOUSSAC",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/WVppYUNTMDVHeDlyV1QwZm5VRUUxdz09",
-      "cat": "GR.II",
-      "purse": "119.000",
-      "disc": "P",
-      "dist": "1.400",
-      "owner": "CHR. HEAD (S)",
-      "postTime": {
-        "hour": 15,
-        "minute": 50,
-        "formatted": "15h50"
-      }
-    },
-    {
-      "horse": "TURBULENTE (IRE) F.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/S0ZsOXRHV3RrQnppa3JFRE9IenNFZz09",
-      "statut": "DP-P/4400",
-      "date": "08/06/2026",
-      "track": "ANGERS",
-      "race": "EVENTARD",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/QUk1U2lMbGYrbUxIOWRXaVRBVkRqdz09",
-      "cat": "(Classe 1)",
-      "purse": "27.400",
       "disc": "P",
       "dist": "1.600",
       "owner": "CHR. HEAD (S)",
       "postTime": {
-        "hour": 16,
-        "minute": 3,
-        "formatted": "16h03"
+        "hour": 13,
+        "minute": 43,
+        "formatted": "13h43"
       }
     }
   ]
