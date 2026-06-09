@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-06-08T23:55:40.042Z",
+  "lastUpdate": "2026-06-09T00:00:30.099Z",
   "upcoming": [
     {
       "horse": "SORELINO (IRE) H.PS. 3 a.",
@@ -441,36 +441,6 @@
       "distance": "1.800",
       "cat": "",
       "status": "F1-P/4838",
-      "lastUpdate": 1780955245511
-    },
-    {
-      "horse": "Reveur (ire) H 3 A.",
-      "date": "08/06/2026",
-      "track": "toulouse",
-      "race": "boulingrin",
-      "distance": "2.000",
-      "cat": "",
-      "status": "ND-P/4553",
-      "lastUpdate": 1780955245511
-    },
-    {
-      "horse": "Turbulente (ire) F 3 A.",
-      "date": "08/06/2026",
-      "track": "angers",
-      "race": "eventard",
-      "distance": "1.600",
-      "cat": "",
-      "status": "DP-P/4400",
-      "lastUpdate": 1780955245511
-    },
-    {
-      "horse": "Vassy H 3 A.",
-      "date": "08/06/2026",
-      "track": "angers",
-      "race": "eventard",
-      "distance": "1.600",
-      "cat": "",
-      "status": "F1-P/4400",
       "lastUpdate": 1780955245511
     }
   ],
