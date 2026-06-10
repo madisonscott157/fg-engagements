@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-06-10T09:52:28.285Z",
+  "lastUpdate": "2026-06-10T09:55:55.681Z",
   "upcoming": [
     {
       "horse": "BASHA H.PS. 3 a.",
@@ -10,6 +10,26 @@
       "cat": "(Maiden)",
       "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/aGNNY3VKT2tMNzBPQVJHbE4xcWRUUT09",
       "horseUrl": "https://www.france-galop.com/fr/cheval/SlFXdG42NTZ1b1pKUk9hV0I0L0J5UT09"
+    },
+    {
+      "horse": "ALGEBRE (IRE) M.PS. 2 a.",
+      "date": "12/06/2026",
+      "track": "SAINT-CLOUD",
+      "race": "CHAT.BOUSC.",
+      "distance": "1.400",
+      "cat": "(Classe 3)",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/QmhPZnRMYi96Q2x1RGp1eGhRd0h6UT09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/cUtBR1V4ZDUrcUpEVzZTWlA0SU9sQT09"
+    },
+    {
+      "horse": "DATA (GB) F.PS. 2 a.",
+      "date": "12/06/2026",
+      "track": "SAINT-CLOUD",
+      "race": "RABLAIS",
+      "distance": "1.400",
+      "cat": "(Classe 3)",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/YWVPRFhoOXoySDd3R012Qk0welBzdz09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/cHlrZ3Y1MHRUQnRvbXVoUzlZOTMyQT09"
     }
   ],
   "engagements": [
