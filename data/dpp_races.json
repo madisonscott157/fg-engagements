@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-06-10T20:24:31.732Z",
+  "lastUpdate": "2026-06-11T10:16:44.821Z",
   "races": [
     {
       "horse": "BASHA H.PS. 3 a.",
@@ -41,6 +41,20 @@
       "purse": "27.400",
       "disc": "P",
       "dist": "1.400",
+      "owner": "CHR. HEAD (S)"
+    },
+    {
+      "horse": "GREEN SPIRIT USA F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/THFzc083dzFJQkdab2FHaStib3dnZz09",
+      "statut": "DP-P/441",
+      "date": "14/06/2026",
+      "track": "CHANTILLY",
+      "race": "DIANE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/STVhWEhTSUMwdmc4b2hzNmNSQjQzZz09",
+      "cat": "GR.I",
+      "purse": "1.000.000",
+      "disc": "P",
+      "dist": "2.100",
       "owner": "CHR. HEAD (S)"
     }
   ]
