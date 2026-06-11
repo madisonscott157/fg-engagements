@@ -1,5 +1,18 @@
 [
   {
+    "horse": "Basha",
+    "date": "11/06/2026",
+    "track": "LA TESTE-BASSIN ARCACHON",
+    "race": "",
+    "distance": "1.600",
+    "position": "2",
+    "jockey": "S. DERIU",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/aGNNY3VKT2tMNzBPQVJHbE4xcWRUUT09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/SlFXdG42NTZ1b1pKUk9hV0I0L0J5UT09",
+    "scrapedAt": "2026-06-11T12:01:00.688Z"
+  },
+  {
     "horse": "Turbulente",
     "date": "08/06/2026",
     "track": "ANGERS",
