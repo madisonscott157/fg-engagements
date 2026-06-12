@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-06-12T14:20:55.697Z",
+  "lastUpdate": "2026-06-12T14:26:38.676Z",
   "upcoming": [
     {
       "horse": "BASHA H.PS. 3 a.",
@@ -505,6 +505,18 @@
     }
   ],
   "results": [
+    {
+      "horse": "Data",
+      "date": "12/06/2026",
+      "track": "SAINT-CLOUD",
+      "race": "",
+      "distance": "1.400",
+      "position": "2",
+      "jockey": "M. GUYON",
+      "gain": "0",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/YWVPRFhoOXoySDd3R012Qk0welBzdz09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/cHlrZ3Y1MHRUQnRvbXVoUzlZOTMyQT09"
+    },
     {
       "horse": "Algebre",
       "date": "12/06/2026",
