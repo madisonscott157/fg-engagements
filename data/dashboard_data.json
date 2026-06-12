@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-06-12T14:46:00.888Z",
+  "lastUpdate": "2026-06-12T14:51:09.952Z",
   "upcoming": [
     {
       "horse": "BASHA H.PS. 3 a.",
@@ -50,8 +50,8 @@
       "race": "haras bouquetot",
       "distance": "1.600",
       "cat": "",
-      "status": "-P/759",
-      "lastUpdate": 1781265665121
+      "status": "VA-P/759",
+      "lastUpdate": 1781275833104
     },
     {
       "horse": "N. F 2 A.",
@@ -60,8 +60,8 @@
       "race": "haras bouquetot",
       "distance": "1.600",
       "cat": "",
-      "status": "-P/759",
-      "lastUpdate": 1781265665121
+      "status": "VA-P/759",
+      "lastUpdate": 1781275833104
     },
     {
       "horse": "Woot Woot (ire) F 2 A.",
@@ -70,8 +70,8 @@
       "race": "haras bouquetot",
       "distance": "1.600",
       "cat": "",
-      "status": "-P/759",
-      "lastUpdate": 1781265665121
+      "status": "VA-P/759",
+      "lastUpdate": 1781275833104
     },
     {
       "horse": "Palais Byzantin M 2 A.",
@@ -80,8 +80,8 @@
       "race": "haras bouquetot",
       "distance": "1.600",
       "cat": "",
-      "status": "-P/759",
-      "lastUpdate": 1781265665121
+      "status": "VA-P/759",
+      "lastUpdate": 1781275833104
     },
     {
       "horse": "Pemulwuy M 2 A.",
@@ -90,8 +90,8 @@
       "race": "haras bouquetot",
       "distance": "1.600",
       "cat": "",
-      "status": "-P/759",
-      "lastUpdate": 1781265665121
+      "status": "VA-P/759",
+      "lastUpdate": 1781275833104
     },
     {
       "horse": "Tortsanlot (gb) M 2 A.",
@@ -100,8 +100,8 @@
       "race": "haras bouquetot",
       "distance": "1.600",
       "cat": "",
-      "status": "-P/759",
-      "lastUpdate": 1781265665121
+      "status": "VA-P/759",
+      "lastUpdate": 1781275833104
     },
     {
       "horse": "Munch H 2 A.",
@@ -110,8 +110,8 @@
       "race": "haras bouquetot",
       "distance": "1.600",
       "cat": "",
-      "status": "-P/759",
-      "lastUpdate": 1781265665121
+      "status": "VA-P/759",
+      "lastUpdate": 1781275833104
     },
     {
       "horse": "Green Spirit F 3 A.",
@@ -121,7 +121,7 @@
       "distance": "1.600",
       "cat": "",
       "status": "VA-P/515",
-      "lastUpdate": 1781265665121
+      "lastUpdate": 1781275833104
     },
     {
       "horse": "Palais Byzantin M 2 A.",
@@ -130,8 +130,8 @@
       "race": "arq-poulains",
       "distance": "1.400",
       "cat": "",
-      "status": "-P/755",
-      "lastUpdate": 1781265665121
+      "status": "VA-P/755",
+      "lastUpdate": 1781275833104
     },
     {
       "horse": "Pemulwuy M 2 A.",
@@ -140,8 +140,8 @@
       "race": "arq-poulains",
       "distance": "1.400",
       "cat": "",
-      "status": "-P/755",
-      "lastUpdate": 1781265665121
+      "status": "VA-P/755",
+      "lastUpdate": 1781275833104
     },
     {
       "horse": "Tortsanlot (gb) M 2 A.",
@@ -150,8 +150,8 @@
       "race": "arq-poulains",
       "distance": "1.400",
       "cat": "",
-      "status": "-P/755",
-      "lastUpdate": 1781265665121
+      "status": "VA-P/755",
+      "lastUpdate": 1781275833104
     },
     {
       "horse": "Isabella F 2 A.",
@@ -160,8 +160,8 @@
       "race": "arq-pouliches",
       "distance": "1.400",
       "cat": "",
-      "status": "-P/756",
-      "lastUpdate": 1781265665121
+      "status": "VA-P/756",
+      "lastUpdate": 1781275833104
     },
     {
       "horse": "Woot Woot (ire) F 2 A.",
@@ -170,8 +170,8 @@
       "race": "arq-pouliches",
       "distance": "1.400",
       "cat": "",
-      "status": "-P/756",
-      "lastUpdate": 1781265665121
+      "status": "VA-P/756",
+      "lastUpdate": 1781275833104
     },
     {
       "horse": "N. F 2 A.",
@@ -180,8 +180,8 @@
       "race": "arq-pouliches",
       "distance": "1.400",
       "cat": "",
-      "status": "-P/756",
-      "lastUpdate": 1781265665121
+      "status": "VA-P/756",
+      "lastUpdate": 1781275833104
     },
     {
       "horse": "Palais Byzantin M 2 A.",
@@ -190,8 +190,8 @@
       "race": "arq-crit.ete",
       "distance": "1.300",
       "cat": "",
-      "status": "-P/757",
-      "lastUpdate": 1781265665121
+      "status": "VA-P/757",
+      "lastUpdate": 1781275833104
     },
     {
       "horse": "Pemulwuy M 2 A.",
@@ -200,8 +200,8 @@
       "race": "arq-crit.ete",
       "distance": "1.300",
       "cat": "",
-      "status": "-P/757",
-      "lastUpdate": 1781265665121
+      "status": "VA-P/757",
+      "lastUpdate": 1781275833104
     },
     {
       "horse": "Tortsanlot (gb) M 2 A.",
@@ -210,8 +210,8 @@
       "race": "arq-crit.ete",
       "distance": "1.300",
       "cat": "",
-      "status": "-P/757",
-      "lastUpdate": 1781265665121
+      "status": "VA-P/757",
+      "lastUpdate": 1781275833104
     },
     {
       "horse": "Isabella F 2 A.",
@@ -220,8 +220,8 @@
       "race": "arq-crit.ete",
       "distance": "1.300",
       "cat": "",
-      "status": "-P/757",
-      "lastUpdate": 1781265665121
+      "status": "VA-P/757",
+      "lastUpdate": 1781275833104
     },
     {
       "horse": "N. F 2 A.",
@@ -230,8 +230,8 @@
       "race": "arq-crit.ete",
       "distance": "1.300",
       "cat": "",
-      "status": "-P/757",
-      "lastUpdate": 1781265665121
+      "status": "VA-P/757",
+      "lastUpdate": 1781275833104
     },
     {
       "horse": "Woot Woot (ire) F 2 A.",
@@ -240,8 +240,8 @@
       "race": "arq-crit.ete",
       "distance": "1.300",
       "cat": "",
-      "status": "-P/757",
-      "lastUpdate": 1781265665121
+      "status": "VA-P/757",
+      "lastUpdate": 1781275833104
     },
     {
       "horse": "Munch H 2 A.",
@@ -250,8 +250,8 @@
       "race": "arq-poulains",
       "distance": "1.400",
       "cat": "",
-      "status": "-P/755",
-      "lastUpdate": 1781265665121
+      "status": "VA-P/755",
+      "lastUpdate": 1781275833104
     },
     {
       "horse": "Munch H 2 A.",
@@ -260,8 +260,8 @@
       "race": "arq-crit.ete",
       "distance": "1.300",
       "cat": "",
-      "status": "-P/757",
-      "lastUpdate": 1781265665121
+      "status": "VA-P/757",
+      "lastUpdate": 1781275833104
     },
     {
       "horse": "Green Spirit F 3 A.",
@@ -271,7 +271,7 @@
       "distance": "1.600",
       "cat": "",
       "status": "VA-P/499",
-      "lastUpdate": 1781265665121
+      "lastUpdate": 1781275833104
     },
     {
       "horse": "Proof M 3 A.",
@@ -281,7 +281,7 @@
       "distance": "2.400",
       "cat": "",
       "status": "VA-P/442",
-      "lastUpdate": 1781265665121
+      "lastUpdate": 1781275833104
     },
     {
       "horse": "Nighttime M 3 A.",
@@ -291,7 +291,7 @@
       "distance": "1.400",
       "cat": "",
       "status": "VA-P/488",
-      "lastUpdate": 1781265665121
+      "lastUpdate": 1781275833104
     },
     {
       "horse": "Van Der Rohe H 3 A.",
@@ -301,7 +301,7 @@
       "distance": "2.400",
       "cat": "",
       "status": "VA-P/4762",
-      "lastUpdate": 1781265665121
+      "lastUpdate": 1781275833104
     },
     {
       "horse": "No Trace F 2 A.",
@@ -311,7 +311,7 @@
       "distance": "1.400",
       "cat": "",
       "status": "VA-P/4856",
-      "lastUpdate": 1781265665121
+      "lastUpdate": 1781275833104
     },
     {
       "horse": "Tamar F 3 A.",
@@ -321,7 +321,7 @@
       "distance": "1.800",
       "cat": "",
       "status": "VA-P/4858",
-      "lastUpdate": 1781265665121
+      "lastUpdate": 1781275833104
     },
     {
       "horse": "Van Der Rohe H 3 A.",
@@ -331,7 +331,7 @@
       "distance": "2.000",
       "cat": "",
       "status": "VA-P/4693",
-      "lastUpdate": 1781265665121
+      "lastUpdate": 1781275833104
     },
     {
       "horse": "Big Money Man M 2 A.",
@@ -341,7 +341,7 @@
       "distance": "1.200",
       "cat": "",
       "status": "VA-P/718",
-      "lastUpdate": 1781265665121
+      "lastUpdate": 1781275833104
     },
     {
       "horse": "Van Der Rohe H 3 A.",
@@ -351,7 +351,7 @@
       "distance": "2.400",
       "cat": "",
       "status": "VA-P/719",
-      "lastUpdate": 1781265665121
+      "lastUpdate": 1781275833104
     },
     {
       "horse": "No Trace F 2 A.",
@@ -361,7 +361,7 @@
       "distance": "1.400",
       "cat": "",
       "status": "F1-P/4894",
-      "lastUpdate": 1781265665121
+      "lastUpdate": 1781275833104
     },
     {
       "horse": "Woot Woot (ire) F 2 A.",
@@ -371,7 +371,7 @@
       "distance": "1.400",
       "cat": "",
       "status": "F1-P/4894",
-      "lastUpdate": 1781265665121
+      "lastUpdate": 1781275833104
     },
     {
       "horse": "Green Spirit F 3 A.",
@@ -381,7 +381,7 @@
       "distance": "2.100",
       "cat": "",
       "status": "DP-P/441",
-      "lastUpdate": 1781265665121
+      "lastUpdate": 1781275833104
     },
     {
       "horse": "Turbulente (ire) F 3 A.",
@@ -391,7 +391,7 @@
       "distance": "2.100",
       "cat": "",
       "status": "F1-P/441",
-      "lastUpdate": 1781265665121
+      "lastUpdate": 1781275833104
     },
     {
       "horse": "Reveur (ire) H 3 A.",
@@ -401,7 +401,7 @@
       "distance": "1.700",
       "cat": "",
       "status": "F1-P/4406",
-      "lastUpdate": 1781265665121
+      "lastUpdate": 1781275833104
     },
     {
       "horse": "Basha H 3 A.",
@@ -411,7 +411,7 @@
       "distance": "1.600",
       "cat": "",
       "status": "F1-P/4846",
-      "lastUpdate": 1781265665121
+      "lastUpdate": 1781275833104
     },
     {
       "horse": "Tamar F 3 A.",
@@ -421,7 +421,7 @@
       "distance": "2.000",
       "cat": "",
       "status": "F1-P/4754",
-      "lastUpdate": 1781265665121
+      "lastUpdate": 1781275833104
     },
     {
       "horse": "Turbulente (ire) F 3 A.",
@@ -431,7 +431,7 @@
       "distance": "1.600",
       "cat": "",
       "status": "F1-P/4755",
-      "lastUpdate": 1781265665121
+      "lastUpdate": 1781275833104
     },
     {
       "horse": "Algebre (ire) M 2 A.",
@@ -441,7 +441,7 @@
       "distance": "1.400",
       "cat": "",
       "status": "DP-P/694",
-      "lastUpdate": 1781265665121
+      "lastUpdate": 1781275833104
     },
     {
       "horse": "Basha H 3 A.",
@@ -451,7 +451,7 @@
       "distance": "1.700",
       "cat": "",
       "status": "F1-P/4680",
-      "lastUpdate": 1781265665121
+      "lastUpdate": 1781275833104
     },
     {
       "horse": "Big Money Man M 2 A.",
@@ -461,7 +461,7 @@
       "distance": "1.200",
       "cat": "",
       "status": "ND-P/4677",
-      "lastUpdate": 1781265665121
+      "lastUpdate": 1781275833104
     },
     {
       "horse": "Data (gb) F 2 A.",
@@ -471,7 +471,7 @@
       "distance": "1.400",
       "cat": "",
       "status": "DP-P/695",
-      "lastUpdate": 1781265665121
+      "lastUpdate": 1781275833104
     },
     {
       "horse": "Jumbotron H 2 A.",
@@ -481,7 +481,7 @@
       "distance": "1.200",
       "cat": "",
       "status": "F1-P/4677",
-      "lastUpdate": 1781265665121
+      "lastUpdate": 1781275833104
     },
     {
       "horse": "No Trace F 2 A.",
@@ -491,7 +491,7 @@
       "distance": "1.400",
       "cat": "",
       "status": "F1-P/695",
-      "lastUpdate": 1781265665121
+      "lastUpdate": 1781275833104
     },
     {
       "horse": "Woot Woot (ire) F 2 A.",
@@ -501,7 +501,7 @@
       "distance": "1.400",
       "cat": "",
       "status": "F1-P/695",
-      "lastUpdate": 1781265665121
+      "lastUpdate": 1781275833104
     }
   ],
   "results": [
