@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-06-12T23:56:15.699Z",
+  "lastUpdate": "2026-06-13T00:00:55.743Z",
   "upcoming": [
     {
       "horse": "BASHA H.PS. 3 a.",
@@ -431,76 +431,6 @@
       "distance": "1.600",
       "cat": "",
       "status": "F1-P/4755",
-      "lastUpdate": 1781299722536
-    },
-    {
-      "horse": "Algebre (ire) M 2 A.",
-      "date": "12/06/2026",
-      "track": "saint-cloud",
-      "race": "chat.bousc.",
-      "distance": "1.400",
-      "cat": "",
-      "status": "DP-P/694",
-      "lastUpdate": 1781299722536
-    },
-    {
-      "horse": "Basha H 3 A.",
-      "date": "12/06/2026",
-      "track": "mar.borely",
-      "race": "pilon du roi",
-      "distance": "1.700",
-      "cat": "",
-      "status": "F1-P/4680",
-      "lastUpdate": 1781299722536
-    },
-    {
-      "horse": "Big Money Man M 2 A.",
-      "date": "12/06/2026",
-      "track": "mar.borely",
-      "race": "des cigales",
-      "distance": "1.200",
-      "cat": "",
-      "status": "ND-P/4677",
-      "lastUpdate": 1781299722536
-    },
-    {
-      "horse": "Data (gb) F 2 A.",
-      "date": "12/06/2026",
-      "track": "saint-cloud",
-      "race": "rablais",
-      "distance": "1.400",
-      "cat": "",
-      "status": "DP-P/695",
-      "lastUpdate": 1781299722536
-    },
-    {
-      "horse": "Jumbotron H 2 A.",
-      "date": "12/06/2026",
-      "track": "mar.borely",
-      "race": "des cigales",
-      "distance": "1.200",
-      "cat": "",
-      "status": "F1-P/4677",
-      "lastUpdate": 1781299722536
-    },
-    {
-      "horse": "No Trace F 2 A.",
-      "date": "12/06/2026",
-      "track": "saint-cloud",
-      "race": "rablais",
-      "distance": "1.400",
-      "cat": "",
-      "status": "F1-P/695",
-      "lastUpdate": 1781299722536
-    },
-    {
-      "horse": "Woot Woot (ire) F 2 A.",
-      "date": "12/06/2026",
-      "track": "saint-cloud",
-      "race": "rablais",
-      "distance": "1.400",
-      "cat": "",
-      "status": "F1-P/695",
       "lastUpdate": 1781299722536
     }
   ],
