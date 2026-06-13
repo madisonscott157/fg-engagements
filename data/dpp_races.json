@@ -1,34 +1,6 @@
 {
-  "lastUpdate": "2026-06-12T21:28:42.536Z",
+  "lastUpdate": "2026-06-13T08:52:55.443Z",
   "races": [
-    {
-      "horse": "ALGEBRE (IRE) M.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/cUtBR1V4ZDUrcUpEVzZTWlA0SU9sQT09",
-      "statut": "DP-P/694",
-      "date": "12/06/2026",
-      "track": "SAINT-CLOUD",
-      "race": "CHAT.BOUSC.",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/QmhPZnRMYi96Q2x1RGp1eGhRd0h6UT09",
-      "cat": "(Classe 3)",
-      "purse": "27.400",
-      "disc": "P",
-      "dist": "1.400",
-      "owner": "CHR. HEAD (S)"
-    },
-    {
-      "horse": "DATA (GB) F.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/cHlrZ3Y1MHRUQnRvbXVoUzlZOTMyQT09",
-      "statut": "DP-P/695",
-      "date": "12/06/2026",
-      "track": "SAINT-CLOUD",
-      "race": "RABLAIS",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/YWVPRFhoOXoySDd3R012Qk0welBzdz09",
-      "cat": "(Classe 3)",
-      "purse": "27.400",
-      "disc": "P",
-      "dist": "1.400",
-      "owner": "CHR. HEAD (S)"
-    },
     {
       "horse": "GREEN SPIRIT USA F.PS. 3 a.",
       "horseUrl": "https://www.france-galop.com/fr/cheval/THFzc083dzFJQkdab2FHaStib3dnZz09",
