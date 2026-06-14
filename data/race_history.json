@@ -1,5 +1,18 @@
 [
   {
+    "horse": "Green Spirit",
+    "date": "14/06/2026",
+    "track": "CHANTILLY",
+    "race": "GR.I",
+    "distance": "2.100",
+    "position": "9",
+    "jockey": "M. GUYON",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/STVhWEhTSUMwdmc4b2hzNmNSQjQzZz09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/THFzc083dzFJQkdab2FHaStib3dnZz09",
+    "scrapedAt": "2026-06-14T14:25:30.177Z"
+  },
+  {
     "horse": "Data",
     "date": "12/06/2026",
     "track": "SAINT-CLOUD",
