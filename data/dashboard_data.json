@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-06-14T23:55:46.245Z",
+  "lastUpdate": "2026-06-15T00:00:59.943Z",
   "upcoming": [
     {
       "horse": "BASHA H.PS. 3 a.",
@@ -371,36 +371,6 @@
       "distance": "1.400",
       "cat": "",
       "status": "F1-P/4894",
-      "lastUpdate": 1781471208489
-    },
-    {
-      "horse": "Green Spirit F 3 A.",
-      "date": "14/06/2026",
-      "track": "chantilly",
-      "race": "diane",
-      "distance": "2.100",
-      "cat": "",
-      "status": "DP-P/441",
-      "lastUpdate": 1781471208489
-    },
-    {
-      "horse": "Turbulente (ire) F 3 A.",
-      "date": "14/06/2026",
-      "track": "chantilly",
-      "race": "diane",
-      "distance": "2.100",
-      "cat": "",
-      "status": "F1-P/441",
-      "lastUpdate": 1781471208489
-    },
-    {
-      "horse": "Reveur (ire) H 3 A.",
-      "date": "14/06/2026",
-      "track": "la-roche-posay",
-      "race": "denis freres",
-      "distance": "1.700",
-      "cat": "",
-      "status": "F1-P/4406",
       "lastUpdate": 1781471208489
     }
   ],
