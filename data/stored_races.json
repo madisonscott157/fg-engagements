@@ -1,80 +1,42 @@
 {
-  "lastUpdate": "2026-06-11T10:21:42.049Z",
+  "lastUpdate": "2026-06-17T10:50:21.169Z",
   "races": [
     {
-      "horse": "BASHA H.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/SlFXdG42NTZ1b1pKUk9hV0I0L0J5UT09",
-      "statut": "DP-P/4558",
-      "date": "11/06/2026",
-      "track": "LA TESTE-BA",
-      "race": "THEAULT",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/aGNNY3VKT2tMNzBPQVJHbE4xcWRUUT09",
-      "cat": "(Maiden)",
-      "purse": "19.200",
-      "disc": "P",
-      "dist": "1.600",
-      "owner": "CHR. HEAD (S)",
-      "postTime": {
-        "hour": 13,
-        "minute": 43,
-        "formatted": "13h43"
-      }
-    },
-    {
-      "horse": "ALGEBRE (IRE) M.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/cUtBR1V4ZDUrcUpEVzZTWlA0SU9sQT09",
-      "statut": "DP-P/694",
-      "date": "12/06/2026",
-      "track": "SAINT-CLOUD",
-      "race": "CHAT.BOUSC.",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/QmhPZnRMYi96Q2x1RGp1eGhRd0h6UT09",
-      "cat": "(Classe 3)",
-      "purse": "27.400",
-      "disc": "P",
-      "dist": "1.400",
-      "owner": "CHR. HEAD (S)",
-      "postTime": {
-        "hour": 15,
-        "minute": 28,
-        "formatted": "15h28"
-      }
-    },
-    {
-      "horse": "DATA (GB) F.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/cHlrZ3Y1MHRUQnRvbXVoUzlZOTMyQT09",
-      "statut": "DP-P/695",
-      "date": "12/06/2026",
-      "track": "SAINT-CLOUD",
-      "race": "RABLAIS",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/YWVPRFhoOXoySDd3R012Qk0welBzdz09",
-      "cat": "(Classe 3)",
-      "purse": "27.400",
-      "disc": "P",
-      "dist": "1.400",
-      "owner": "CHR. HEAD (S)",
-      "postTime": {
-        "hour": 16,
-        "minute": 3,
-        "formatted": "16h03"
-      }
-    },
-    {
-      "horse": "GREEN SPIRIT USA F.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/THFzc083dzFJQkdab2FHaStib3dnZz09",
-      "statut": "DP-P/441",
-      "date": "14/06/2026",
+      "horse": "BIG MONEY MAN IRE M.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/dUNFUytKdVBvN3N5Z1pLbVNXaWE5Zz09",
+      "statut": "DP-P/718",
+      "date": "19/06/2026",
       "track": "CHANTILLY",
-      "race": "DIANE",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/STVhWEhTSUMwdmc4b2hzNmNSQjQzZz09",
-      "cat": "GR.I",
-      "purse": "1.000.000",
+      "race": "CX VENEURS",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/bFIyT3NwUmdaMjBuMHZoeWVDcHlDQT09",
+      "cat": "(Classe 3)",
+      "purse": "27.400",
       "disc": "P",
-      "dist": "2.100",
+      "dist": "1.200",
       "owner": "CHR. HEAD (S)",
       "postTime": {
-        "hour": 16,
+        "hour": 14,
         "minute": 5,
-        "formatted": "16h05"
+        "formatted": "14h05"
+      }
+    },
+    {
+      "horse": "VAN DER ROHE IRE H.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/bjlFUy9hc0RxbXlTMFVnOVUvUDdUQT09",
+      "statut": "DP-P/719",
+      "date": "19/06/2026",
+      "track": "CHANTILLY",
+      "race": "BOSQUET ARIANE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/aUZUVGFrMTJVQW5ucUw4aERJc3dhQT09",
+      "cat": "(Maiden)",
+      "purse": "24.700",
+      "disc": "P",
+      "dist": "2.400",
+      "owner": "CHR. HEAD (S)",
+      "postTime": {
+        "hour": 12,
+        "minute": 20,
+        "formatted": "12h20"
       }
     }
   ]
