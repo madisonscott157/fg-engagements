@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-06-18T10:16:25.035Z",
+  "lastUpdate": "2026-06-18T10:21:08.245Z",
   "upcoming": [
     {
       "horse": "BIG MONEY MAN IRE M.PS. 2 a.",
@@ -20,6 +20,36 @@
       "cat": "(Maiden)",
       "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/aUZUVGFrMTJVQW5ucUw4aERJc3dhQT09",
       "horseUrl": "https://www.france-galop.com/fr/cheval/bjlFUy9hc0RxbXlTMFVnOVUvUDdUQT09"
+    },
+    {
+      "horse": "NO TRACE GB F.PS. 2 a.",
+      "date": "20/06/2026",
+      "track": "COMPIEGNE",
+      "race": "DEMOISELLES",
+      "distance": "1.400",
+      "cat": "(Inédits)",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/aDJVZG5aQXN4ZWdOT3NQbHd2QlRldz09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/L0ZEVlhVRWVIVko0dURjU01MUUJZQT09"
+    },
+    {
+      "horse": "PALAIS BYZANTIN M.PS. 2 a. ... (Sup.)",
+      "date": "20/06/2026",
+      "track": "COMPIEGNE",
+      "race": "KARAKONTIE",
+      "distance": "1.400",
+      "cat": "(Inédits)",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/QWIrTUh1bjN4NnFRNy9QZEdZb2pzZz09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/ZHhLcU9WVVFkeXUxM1dUUzlCR0J5Zz09"
+    },
+    {
+      "horse": "TAMAR F.PS. 3 a.",
+      "date": "20/06/2026",
+      "track": "COMPIEGNE",
+      "race": "DES VESTALES",
+      "distance": "1.800",
+      "cat": "(Maiden)",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/RTl0Ull4alFhTzhOVURmQlZVclhPUT09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/ZHhreVpNSEJ4d3UxRithRUZOVUk5Zz09"
     }
   ],
   "engagements": [
