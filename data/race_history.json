@@ -1,5 +1,18 @@
 [
   {
+    "horse": "Big Money Man",
+    "date": "19/06/2026",
+    "track": "CHANTILLY",
+    "race": "",
+    "distance": "1.200",
+    "position": "9",
+    "jockey": "M. GUYON",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/bFIyT3NwUmdaMjBuMHZoeWVDcHlDQT09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/dUNFUytKdVBvN3N5Z1pLbVNXaWE5Zz09",
+    "scrapedAt": "2026-06-19T12:25:35.144Z"
+  },
+  {
     "horse": "Van Der Rohe",
     "date": "19/06/2026",
     "track": "CHANTILLY",
