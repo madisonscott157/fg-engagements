@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-06-19T10:31:06.805Z",
+  "lastUpdate": "2026-06-19T10:45:59.444Z",
   "upcoming": [
     {
       "horse": "BIG MONEY MAN IRE M.PS. 2 a.",
@@ -425,6 +425,18 @@
     }
   ],
   "results": [
+    {
+      "horse": "Van Der Rohe",
+      "date": "19/06/2026",
+      "track": "CHANTILLY",
+      "race": "",
+      "distance": "2.400",
+      "position": "6",
+      "jockey": "C. DEMURO",
+      "gain": "0",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/aUZUVGFrMTJVQW5ucUw4aERJc3dhQT09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/bjlFUy9hc0RxbXlTMFVnOVUvUDdUQT09"
+    },
     {
       "horse": "Green Spirit",
       "date": "14/06/2026",
