@@ -1,34 +1,6 @@
 {
-  "lastUpdate": "2026-06-19T21:06:31.003Z",
+  "lastUpdate": "2026-06-20T08:49:37.685Z",
   "races": [
-    {
-      "horse": "BIG MONEY MAN IRE M.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/dUNFUytKdVBvN3N5Z1pLbVNXaWE5Zz09",
-      "statut": "DP-P/718",
-      "date": "19/06/2026",
-      "track": "CHANTILLY",
-      "race": "CX VENEURS",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/bFIyT3NwUmdaMjBuMHZoeWVDcHlDQT09",
-      "cat": "(Classe 3)",
-      "purse": "27.400",
-      "disc": "P",
-      "dist": "1.200",
-      "owner": "CHR. HEAD (S)"
-    },
-    {
-      "horse": "VAN DER ROHE IRE H.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/bjlFUy9hc0RxbXlTMFVnOVUvUDdUQT09",
-      "statut": "DP-P/719",
-      "date": "19/06/2026",
-      "track": "CHANTILLY",
-      "race": "BOSQUET ARIANE",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/aUZUVGFrMTJVQW5ucUw4aERJc3dhQT09",
-      "cat": "(Maiden)",
-      "purse": "24.700",
-      "disc": "P",
-      "dist": "2.400",
-      "owner": "CHR. HEAD (S)"
-    },
     {
       "horse": "NO TRACE GB F.PS. 2 a.",
       "horseUrl": "https://www.france-galop.com/fr/cheval/L0ZEVlhVRWVIVko0dURjU01MUUJZQT09",
