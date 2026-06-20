@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-06-20T15:10:46.977Z",
+  "lastUpdate": "2026-06-20T15:16:04.223Z",
   "upcoming": [
     {
       "horse": "BIG MONEY MAN IRE M.PS. 2 a.",
@@ -405,6 +405,18 @@
     }
   ],
   "results": [
+    {
+      "horse": "Tamar",
+      "date": "20/06/2026",
+      "track": "COMPIEGNE",
+      "race": "",
+      "distance": "1.800",
+      "position": "4",
+      "jockey": "L. MABROUK",
+      "gain": "0",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/RTl0Ull4alFhTzhOVURmQlZVclhPUT09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/ZHhreVpNSEJ4d3UxRithRUZOVUk5Zz09"
+    },
     {
       "horse": "No Trace",
       "date": "20/06/2026",
