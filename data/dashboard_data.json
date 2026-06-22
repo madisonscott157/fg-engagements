@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-06-21T23:55:47.344Z",
+  "lastUpdate": "2026-06-22T00:00:25.230Z",
   "upcoming": [
     {
       "horse": "BIG MONEY MAN IRE M.PS. 2 a.",
@@ -352,16 +352,6 @@
       "cat": "",
       "status": "F1-P/4772",
       "lastUpdate": 1781903191002
-    },
-    {
-      "horse": "Van Der Rohe H 3 A.",
-      "date": "21/06/2026",
-      "track": "lyon parilly",
-      "race": "desvigne",
-      "distance": "2.400",
-      "cat": "",
-      "status": "F1-P/4762",
-      "lastUpdate": 1782076246873
     }
   ],
   "results": [
