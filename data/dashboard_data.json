@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-06-22T23:55:51.320Z",
+  "lastUpdate": "2026-06-23T00:01:15.979Z",
   "upcoming": [
     {
       "horse": "BIG MONEY MAN IRE M.PS. 2 a.",
@@ -332,26 +332,6 @@
       "cat": "",
       "status": "VA-P/4610",
       "lastUpdate": 1782160849671
-    },
-    {
-      "horse": "Jumbotron H 2 A.",
-      "date": "22/06/2026",
-      "track": "lyon parilly",
-      "race": "des iris",
-      "distance": "1.350",
-      "cat": "",
-      "status": "ND-P/4771",
-      "lastUpdate": 1782160849671
-    },
-    {
-      "horse": "Obscure (ire) F 2 A.",
-      "date": "22/06/2026",
-      "track": "lyon parilly",
-      "race": "des fleurs",
-      "distance": "1.350",
-      "cat": "",
-      "status": "F1-P/4772",
-      "lastUpdate": 1781903191002
     }
   ],
   "results": [
