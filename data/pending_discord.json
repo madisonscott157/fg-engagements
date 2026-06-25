@@ -1,18 +1,6 @@
 {
   "partants": {},
-  "newEngagements": {
-    "green spirit usa f.ps. 3 a. | 16/08/2026 | deauville | jacq. le marois | 1.600": {
-      "horse": "GREEN SPIRIT USA F.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/THFzc083dzFJQkdab2FHaStib3dnZz09",
-      "date": "16/08/2026",
-      "track": "DEAUVILLE",
-      "race": "JACQ. LE MAROIS",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/K29KUnFnMkdaQVFvM2dnbDFsNTA3Zz09",
-      "cat": "GR.I",
-      "dist": "1.600",
-      "statut": "VA-P/515"
-    }
-  },
+  "newEngagements": {},
   "statusUpdates": {},
-  "lastPosted": "2026-06-24T11:26:35.000Z"
+  "lastPosted": "2026-06-25T08:55:08.907Z"
 }
