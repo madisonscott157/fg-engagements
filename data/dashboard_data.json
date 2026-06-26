@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-06-26T16:15:56.519Z",
+  "lastUpdate": "2026-06-26T16:21:08.869Z",
   "upcoming": [
     {
       "horse": "DURYTHME H.PS. 5 a.",
@@ -415,6 +415,18 @@
     }
   ],
   "results": [
+    {
+      "horse": "Durythme",
+      "date": "26/06/2026",
+      "track": "LA TESTE-BASSIN ARCACHON",
+      "race": "HAND.",
+      "distance": "1.400",
+      "position": "8",
+      "jockey": "S. DERIU",
+      "gain": "0",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/RklUOHNhSDNuSzNHWlBsckZBQUlHQT09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/ck1hc3FmZTFuRU44aEVFaU4wTU9OQT09"
+    },
     {
       "horse": "Palais Byzantin",
       "date": "20/06/2026",
