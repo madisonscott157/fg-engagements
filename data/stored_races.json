@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-06-24T09:25:19.819Z",
+  "lastUpdate": "2026-06-26T09:00:22.694Z",
   "races": [
     {
       "horse": "DURYTHME H.PS. 5 a.",
@@ -18,6 +18,25 @@
         "hour": 17,
         "minute": 58,
         "formatted": "17h58"
+      }
+    },
+    {
+      "horse": "WOOT WOOT (IRE) F.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/QU8waVhpNTN3QnVxQkQ0cUtnZFhUQT09",
+      "statut": "DP-P/741",
+      "date": "28/06/2026",
+      "track": "SAINT-CLOUD",
+      "race": "AMBER RAMA",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/a3BBd05YelpkNkVaem50OTJGTVV5QT09",
+      "cat": "(Classe 3)",
+      "purse": "27.400",
+      "disc": "P",
+      "dist": "1.400",
+      "owner": "CHR. HEAD (S)",
+      "postTime": {
+        "hour": 14,
+        "minute": 0,
+        "formatted": "14h00"
       }
     }
   ]
