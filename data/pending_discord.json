@@ -1,5 +1,17 @@
 {
-  "partants": {},
+  "partants": {
+    "woot woot (ire) f.ps. 2 a. | 28/06/2026 | saint-cloud | amber rama | 1.400": {
+      "horse": "WOOT WOOT (IRE) F.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/QU8waVhpNTN3QnVxQkQ0cUtnZFhUQT09",
+      "date": "28/06/2026",
+      "track": "SAINT-CLOUD",
+      "race": "AMBER RAMA",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/a3BBd05YelpkNkVaem50OTJGTVV5QT09",
+      "cat": "(Classe 3)",
+      "dist": "1.400",
+      "statut": "DP-P/741"
+    }
+  },
   "newEngagements": {},
   "statusUpdates": {},
   "lastPosted": "2026-06-26T11:30:04.830Z"
