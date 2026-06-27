@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-06-26T23:55:42.378Z",
+  "lastUpdate": "2026-06-27T00:00:57.991Z",
   "upcoming": [
     {
       "horse": "DURYTHME H.PS. 5 a.",
@@ -401,16 +401,6 @@
       "distance": "1.400",
       "cat": "",
       "status": "DP-P/741",
-      "lastUpdate": 1782508508194
-    },
-    {
-      "horse": "Durythme H 5 A.",
-      "date": "26/06/2026",
-      "track": "la teste-ba",
-      "race": "a2i",
-      "distance": "1.400",
-      "cat": "",
-      "status": "DP-P/4610",
       "lastUpdate": 1782508508194
     }
   ],
