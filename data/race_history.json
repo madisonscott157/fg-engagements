@@ -1,5 +1,18 @@
 [
   {
+    "horse": "Woot Woot",
+    "date": "28/06/2026",
+    "track": "SAINT-CLOUD",
+    "race": "",
+    "distance": "1.400",
+    "position": "1",
+    "jockey": "C. SOUMILLON",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/a3BBd05YelpkNkVaem50OTJGTVV5QT09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/QU8waVhpNTN3QnVxQkQ0cUtnZFhUQT09",
+    "scrapedAt": "2026-06-28T12:20:42.844Z"
+  },
+  {
     "horse": "Durythme",
     "date": "26/06/2026",
     "track": "LA TESTE-BASSIN ARCACHON",
