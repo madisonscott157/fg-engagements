@@ -1,25 +1,15 @@
 {
-  "lastUpdate": "2026-06-29T10:49:49.221Z",
+  "lastUpdate": "2026-06-29T10:50:53.400Z",
   "upcoming": [
     {
-      "horse": "DURYTHME H.PS. 5 a.",
-      "date": "26/06/2026",
+      "horse": "JUMBOTRON GB H.PS. 2 a.",
+      "date": "01/07/2026",
       "track": "LA TESTE-BA",
-      "race": "A2I",
-      "distance": "1.400",
-      "cat": "(Classe 3)",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/RklUOHNhSDNuSzNHWlBsckZBQUlHQT09",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/ck1hc3FmZTFuRU44aEVFaU4wTU9OQT09"
-    },
-    {
-      "horse": "WOOT WOOT (IRE) F.PS. 2 a.",
-      "date": "28/06/2026",
-      "track": "SAINT-CLOUD",
-      "race": "AMBER RAMA",
-      "distance": "1.400",
-      "cat": "(Classe 3)",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/a3BBd05YelpkNkVaem50OTJGTVV5QT09",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/QU8waVhpNTN3QnVxQkQ0cUtnZFhUQT09"
+      "race": "HELLENIQUA",
+      "distance": "1.200",
+      "cat": "(Classe 2)",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/Z1JUS1FZSTJzcVRMdno3ajVNQ1Uydz09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/SCtrcW5MRUQ3L0hyMlhPL0UvYjZoQT09"
     }
   ],
   "engagements": [
