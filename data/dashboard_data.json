@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-06-28T23:55:42.667Z",
+  "lastUpdate": "2026-06-29T00:00:46.108Z",
   "upcoming": [
     {
       "horse": "DURYTHME H.PS. 5 a.",
@@ -381,26 +381,6 @@
       "distance": "1.200",
       "cat": "",
       "status": "PB-P/4624",
-      "lastUpdate": 1782680245670
-    },
-    {
-      "horse": "Data (gb) F 2 A.",
-      "date": "28/06/2026",
-      "track": "saint-cloud",
-      "race": "amber rama",
-      "distance": "1.400",
-      "cat": "",
-      "status": "F1-P/741",
-      "lastUpdate": 1782680245670
-    },
-    {
-      "horse": "Woot Woot (ire) F 2 A.",
-      "date": "28/06/2026",
-      "track": "saint-cloud",
-      "race": "amber rama",
-      "distance": "1.400",
-      "cat": "",
-      "status": "DP-P/741",
       "lastUpdate": 1782680245670
     }
   ],
