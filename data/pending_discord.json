@@ -1,6 +1,19 @@
 {
   "partants": {},
   "newEngagements": {},
-  "statusUpdates": {},
+  "statusUpdates": {
+    "resound gb f.ps. 2 a. | 13/08/2026 | deauville | arq-pouliches | 1.400": {
+      "horse": "RESOUND GB F.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/cnNLek5ldkdhM3pGZTJkWHNxSU04UT09",
+      "date": "13/08/2026",
+      "track": "DEAUVILLE",
+      "race": "ARQ-POULICHES",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/UW5CdWVQRHRFMERRdG5YaC9TREpOQT09",
+      "cat": "(Inédits)",
+      "dist": "1.400",
+      "statut": "-P/756",
+      "oldStatut": "VA-P/756"
+    }
+  },
   "lastPosted": "2026-07-01T11:40:45.745Z"
 }
