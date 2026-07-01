@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "horse": "JUMBOTRON",
+    "date": "01/07/2026",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/Z1JUS1FZSTJzcVRMdno3ajVNQ1Uydz09",
+    "hippodrome": "LA TESTE-BASSIN ARCACHON",
+    "addedAt": 1782929171251
+  }
+]
