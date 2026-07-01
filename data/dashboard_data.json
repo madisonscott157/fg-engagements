@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-07-01T18:01:19.330Z",
+  "lastUpdate": "2026-07-01T18:06:31.682Z",
   "upcoming": [
     {
       "horse": "JUMBOTRON GB H.PS. 2 a.",
@@ -445,6 +445,18 @@
     }
   ],
   "results": [
+    {
+      "horse": "Jumbotron",
+      "date": "01/07/2026",
+      "track": "LA TESTE-BASSIN ARCACHON",
+      "race": "",
+      "distance": "1.200",
+      "position": "1",
+      "jockey": "A. POUCHIN",
+      "gain": "0",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/Z1JUS1FZSTJzcVRMdno3ajVNQ1Uydz09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/SCtrcW5MRUQ3L0hyMlhPL0UvYjZoQT09"
+    },
     {
       "horse": "Woot Woot",
       "date": "28/06/2026",
