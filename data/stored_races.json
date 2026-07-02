@@ -1,23 +1,80 @@
 {
-  "lastUpdate": "2026-06-29T10:50:24.434Z",
+  "lastUpdate": "2026-07-02T08:55:17.756Z",
   "races": [
     {
-      "horse": "JUMBOTRON GB H.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/SCtrcW5MRUQ3L0hyMlhPL0UvYjZoQT09",
-      "statut": "DP-P/4624",
-      "date": "01/07/2026",
-      "track": "LA TESTE-BA",
-      "race": "HELLENIQUA",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/Z1JUS1FZSTJzcVRMdno3ajVNQ1Uydz09",
-      "cat": "(Classe 2)",
-      "purse": "24.700",
+      "horse": "ALGEBRE (IRE) M.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/cUtBR1V4ZDUrcUpEVzZTWlA0SU9sQT09",
+      "statut": "DP-P/486",
+      "date": "04/07/2026",
+      "track": "DEAUVILLE",
+      "race": "R.DE CHAMBURE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/UzR2bHZjdVVJaTVhTVhRUG1WZlBhUT09",
+      "cat": "(L)",
+      "purse": "54.900",
+      "disc": "P",
+      "dist": "1.400",
+      "owner": "CHR. HEAD (S)",
+      "postTime": {
+        "hour": 13,
+        "minute": 5,
+        "formatted": "13h05"
+      }
+    },
+    {
+      "horse": "AVEC TOI USA M.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/Yy9LbUNpNitKTlBqTVVHQTU1bW1yZz09",
+      "statut": "DP-P/486",
+      "date": "04/07/2026",
+      "track": "DEAUVILLE",
+      "race": "R.DE CHAMBURE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/UzR2bHZjdVVJaTVhTVhRUG1WZlBhUT09",
+      "cat": "(L)",
+      "purse": "54.900",
+      "disc": "P",
+      "dist": "1.400",
+      "owner": "CHR. HEAD (S)",
+      "postTime": {
+        "hour": 13,
+        "minute": 5,
+        "formatted": "13h05"
+      }
+    },
+    {
+      "horse": "CERAMIC (IRE) F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/dlczR042azNZZ2tGRVN3a3RYY0JLZz09",
+      "statut": "DP-P/484",
+      "date": "04/07/2026",
+      "track": "DEAUVILLE",
+      "race": "AMANDINE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/c1oxYlFOVHB4MmxaZlBla2xMeFgvUT09",
+      "cat": "(L)",
+      "purse": "50.300",
+      "disc": "P",
+      "dist": "1.400",
+      "owner": "CHR. HEAD (S)",
+      "postTime": {
+        "hour": 16,
+        "minute": 7,
+        "formatted": "16h07"
+      }
+    },
+    {
+      "horse": "NO TUNE (GB) F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/QnhqdXA4MERPdXZveTZNNGVDeUNaZz09",
+      "statut": "DP-P/482",
+      "date": "04/07/2026",
+      "track": "DEAUVILLE",
+      "race": "KISTENA",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/L3JMYTZzVmJkM2xUa050OWw4RTlFUT09",
+      "cat": "(L)",
+      "purse": "50.300",
       "disc": "P",
       "dist": "1.200",
       "owner": "CHR. HEAD (S)",
       "postTime": {
-        "hour": 19,
-        "minute": 51,
-        "formatted": "19h51"
+        "hour": 15,
+        "minute": 32,
+        "formatted": "15h32"
       }
     }
   ]
