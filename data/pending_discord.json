@@ -1,6 +1,31 @@
 {
   "partants": {},
   "newEngagements": {},
-  "statusUpdates": {},
+  "statusUpdates": {
+    "resound gb f.ps. 2 a. | 13/08/2026 | deauville | arq-crit.ete | 1.300": {
+      "horse": "RESOUND GB F.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/cnNLek5ldkdhM3pGZTJkWHNxSU04UT09",
+      "date": "13/08/2026",
+      "track": "DEAUVILLE",
+      "race": "ARQ-CRIT.ETE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/SGFQYXhUQ245aHppT1VNS2IvcTZOZz09",
+      "cat": "(Classe 2)",
+      "dist": "1.300",
+      "statut": "-P/757",
+      "oldStatut": "VA-P/757"
+    },
+    "resound gb f.ps. 2 a. | 03/10/2026 | parislongchamp | haras bouquetot | 1.600": {
+      "horse": "RESOUND GB F.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/cnNLek5ldkdhM3pGZTJkWHNxSU04UT09",
+      "date": "03/10/2026",
+      "track": "PARISLONGCHAMP",
+      "race": "HARAS BOUQUETOT",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/b1BTR1RrVjRONzdVSEp4Um5yQVFxZz09",
+      "cat": "(Classe 2)",
+      "dist": "1.600",
+      "statut": "-P/759",
+      "oldStatut": "VA-P/759"
+    }
+  },
   "lastPosted": "2026-07-02T11:16:37.284Z"
 }
