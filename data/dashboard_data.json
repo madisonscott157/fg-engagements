@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-07-04T11:16:13.840Z",
+  "lastUpdate": "2026-07-04T11:21:10.632Z",
   "upcoming": [
     {
       "horse": "ALGEBRE (IRE) M.PS. 2 a.",
@@ -505,6 +505,30 @@
     }
   ],
   "results": [
+    {
+      "horse": "Avec Toi",
+      "date": "04/07/2026",
+      "track": "DEAUVILLE",
+      "race": "",
+      "distance": "1.400",
+      "position": "1",
+      "jockey": "PC. BOUDOT",
+      "gain": "0",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/UzR2bHZjdVVJaTVhTVhRUG1WZlBhUT09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/Yy9LbUNpNitKTlBqTVVHQTU1bW1yZz09"
+    },
+    {
+      "horse": "Algebre",
+      "date": "04/07/2026",
+      "track": "DEAUVILLE",
+      "race": "",
+      "distance": "1.400",
+      "position": "3",
+      "jockey": "M. GUYON",
+      "gain": "0",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/UzR2bHZjdVVJaTVhTVhRUG1WZlBhUT09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/cUtBR1V4ZDUrcUpEVzZTWlA0SU9sQT09"
+    },
     {
       "horse": "Jumbotron",
       "date": "01/07/2026",
