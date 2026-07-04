@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-07-02T08:55:17.756Z",
+  "lastUpdate": "2026-07-04T10:40:28.408Z",
   "races": [
     {
       "horse": "ALGEBRE (IRE) M.PS. 2 a.",
@@ -75,6 +75,25 @@
         "hour": 15,
         "minute": 32,
         "formatted": "15h32"
+      }
+    },
+    {
+      "horse": "BASHA H.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/SlFXdG42NTZ1b1pKUk9hV0I0L0J5UT09",
+      "statut": "DP-P/4789",
+      "date": "07/07/2026",
+      "track": "AIX LES BAINS",
+      "race": "DU LAC",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/NTRHMTF5Wm1VelR4VXF5SVhtZFAyZz09",
+      "cat": "(Maiden)",
+      "purse": "15.600",
+      "disc": "P",
+      "dist": "1.800",
+      "owner": "CHR. HEAD (S)",
+      "postTime": {
+        "hour": 18,
+        "minute": 5,
+        "formatted": "18h05"
       }
     }
   ]
