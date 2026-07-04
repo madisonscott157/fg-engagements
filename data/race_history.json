@@ -1,5 +1,31 @@
 [
   {
+    "horse": "Avec Toi",
+    "date": "04/07/2026",
+    "track": "DEAUVILLE",
+    "race": "",
+    "distance": "1.400",
+    "position": "1",
+    "jockey": "PC. BOUDOT",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/UzR2bHZjdVVJaTVhTVhRUG1WZlBhUT09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/Yy9LbUNpNitKTlBqTVVHQTU1bW1yZz09",
+    "scrapedAt": "2026-07-04T11:20:40.207Z"
+  },
+  {
+    "horse": "Algebre",
+    "date": "04/07/2026",
+    "track": "DEAUVILLE",
+    "race": "",
+    "distance": "1.400",
+    "position": "3",
+    "jockey": "M. GUYON",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/UzR2bHZjdVVJaTVhTVhRUG1WZlBhUT09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/cUtBR1V4ZDUrcUpEVzZTWlA0SU9sQT09",
+    "scrapedAt": "2026-07-04T11:20:40.207Z"
+  },
+  {
     "horse": "Jumbotron",
     "date": "01/07/2026",
     "track": "LA TESTE-BASSIN ARCACHON",

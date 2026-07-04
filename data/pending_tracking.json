@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "horse": "ALGEBRE",
+    "date": "04/07/2026",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/UzR2bHZjdVVJaTVhTVhRUG1WZlBhUT09",
+    "hippodrome": "DEAUVILLE",
+    "addedAt": 1783164049210
+  },
+  {
+    "horse": "AVEC TOI",
+    "date": "04/07/2026",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/UzR2bHZjdVVJaTVhTVhRUG1WZlBhUT09",
+    "hippodrome": "DEAUVILLE",
+    "addedAt": 1783164049210
+  }
+]
