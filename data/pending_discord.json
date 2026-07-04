@@ -1,51 +1,6 @@
 {
-  "partants": {
-    "algebre (ire) m.ps. 2 a. | 04/07/2026 | deauville | r.de chambure | 1.400": {
-      "horse": "ALGEBRE (IRE) M.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/cUtBR1V4ZDUrcUpEVzZTWlA0SU9sQT09",
-      "date": "04/07/2026",
-      "track": "DEAUVILLE",
-      "race": "R.DE CHAMBURE",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/UzR2bHZjdVVJaTVhTVhRUG1WZlBhUT09",
-      "cat": "(L)",
-      "dist": "1.400",
-      "statut": "DP-P/486"
-    },
-    "avec toi usa m.ps. 2 a. | 04/07/2026 | deauville | r.de chambure | 1.400": {
-      "horse": "AVEC TOI USA M.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/Yy9LbUNpNitKTlBqTVVHQTU1bW1yZz09",
-      "date": "04/07/2026",
-      "track": "DEAUVILLE",
-      "race": "R.DE CHAMBURE",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/UzR2bHZjdVVJaTVhTVhRUG1WZlBhUT09",
-      "cat": "(L)",
-      "dist": "1.400",
-      "statut": "DP-P/486"
-    },
-    "ceramic (ire) f.ps. 3 a. | 04/07/2026 | deauville | amandine | 1.400": {
-      "horse": "CERAMIC (IRE) F.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/dlczR042azNZZ2tGRVN3a3RYY0JLZz09",
-      "date": "04/07/2026",
-      "track": "DEAUVILLE",
-      "race": "AMANDINE",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/c1oxYlFOVHB4MmxaZlBla2xMeFgvUT09",
-      "cat": "(L)",
-      "dist": "1.400",
-      "statut": "DP-P/484"
-    },
-    "no tune (gb) f.ps. 3 a. | 04/07/2026 | deauville | kistena | 1.200": {
-      "horse": "NO TUNE (GB) F.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/QnhqdXA4MERPdXZveTZNNGVDeUNaZz09",
-      "date": "04/07/2026",
-      "track": "DEAUVILLE",
-      "race": "KISTENA",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/L3JMYTZzVmJkM2xUa050OWw4RTlFUT09",
-      "cat": "(L)",
-      "dist": "1.200",
-      "statut": "DP-P/482"
-    }
-  },
+  "partants": {},
   "newEngagements": {},
   "statusUpdates": {},
-  "lastPosted": "2026-07-03T11:15:41.324Z"
+  "lastPosted": "2026-07-04T10:35:37.065Z"
 }
