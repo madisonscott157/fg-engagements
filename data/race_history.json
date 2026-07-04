@@ -1,5 +1,18 @@
 [
   {
+    "horse": "Ceramic",
+    "date": "04/07/2026",
+    "track": "DEAUVILLE",
+    "race": "",
+    "distance": "1.400",
+    "position": "4",
+    "jockey": "M. GUYON",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/c1oxYlFOVHB4MmxaZlBla2xMeFgvUT09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/dlczR042azNZZ2tGRVN3a3RYY0JLZz09",
+    "scrapedAt": "2026-07-04T14:30:41.360Z"
+  },
+  {
     "horse": "No Tune",
     "date": "04/07/2026",
     "track": "DEAUVILLE",
