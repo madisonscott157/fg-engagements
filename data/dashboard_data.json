@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-07-04T23:56:10.178Z",
+  "lastUpdate": "2026-07-05T00:01:33.345Z",
   "upcoming": [
     {
       "horse": "ALGEBRE (IRE) M.PS. 2 a.",
@@ -461,46 +461,6 @@
       "distance": "1.800",
       "cat": "",
       "status": "DP-P/4789",
-      "lastUpdate": 1783198349015
-    },
-    {
-      "horse": "Algebre (ire) M 2 A.",
-      "date": "04/07/2026",
-      "track": "deauville",
-      "race": "r.de chambure",
-      "distance": "1.400",
-      "cat": "",
-      "status": "DP-P/486",
-      "lastUpdate": 1783198349015
-    },
-    {
-      "horse": "Avec Toi M 2 A.",
-      "date": "04/07/2026",
-      "track": "deauville",
-      "race": "r.de chambure",
-      "distance": "1.400",
-      "cat": "",
-      "status": "DP-P/486",
-      "lastUpdate": 1783198349015
-    },
-    {
-      "horse": "Ceramic (ire) F 3 A.",
-      "date": "04/07/2026",
-      "track": "deauville",
-      "race": "amandine",
-      "distance": "1.400",
-      "cat": "",
-      "status": "DP-P/484",
-      "lastUpdate": 1783198349015
-    },
-    {
-      "horse": "No Tune (gb) F 3 A.",
-      "date": "04/07/2026",
-      "track": "deauville",
-      "race": "kistena",
-      "distance": "1.200",
-      "cat": "",
-      "status": "DP-P/482",
       "lastUpdate": 1783198349015
     }
   ],
