@@ -1,5 +1,18 @@
 [
   {
+    "horse": "Basha",
+    "date": "07/07/2026",
+    "track": "AIX LES BAINS",
+    "race": "",
+    "distance": "1.800",
+    "position": "1",
+    "jockey": "S. DERIU",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/NTRHMTF5Wm1VelR4VXF5SVhtZFAyZz09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/SlFXdG42NTZ1b1pKUk9hV0I0L0J5UT09",
+    "scrapedAt": "2026-07-07T16:35:26.085Z"
+  },
+  {
     "horse": "Ceramic",
     "date": "04/07/2026",
     "track": "DEAUVILLE",
