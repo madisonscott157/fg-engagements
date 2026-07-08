@@ -1,4 +1,19 @@
 {
-  "lastUpdate": "2026-07-08T08:21:39.877Z",
-  "races": []
+  "lastUpdate": "2026-07-08T10:38:23.573Z",
+  "races": [
+    {
+      "horse": "BIG MONEY MAN IRE M.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/dUNFUytKdVBvN3N5Z1pLbVNXaWE5Zz09",
+      "statut": "DP-P/5482",
+      "date": "10/07/2026",
+      "track": "COMPIEGNE",
+      "race": "DE L'AVESNOIS",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/djB2TXhrbVBxL1hoajBMNWswZmh0dz09",
+      "cat": "(Maiden)",
+      "purse": "27.400",
+      "disc": "P",
+      "dist": "1.400",
+      "owner": "CHR. HEAD (S)"
+    }
+  ]
 }
