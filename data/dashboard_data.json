@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-07-07T23:55:46.654Z",
+  "lastUpdate": "2026-07-08T00:01:07.573Z",
   "upcoming": [
     {
       "horse": "ALGEBRE (IRE) M.PS. 2 a.",
@@ -461,16 +461,6 @@
       "distance": "1.600",
       "cat": "",
       "status": "NV-P/793",
-      "lastUpdate": 1783459216702
-    },
-    {
-      "horse": "Basha H 3 A.",
-      "date": "07/07/2026",
-      "track": "aix les bains",
-      "race": "du lac",
-      "distance": "1.800",
-      "cat": "",
-      "status": "DP-P/4789",
       "lastUpdate": 1783459216702
     }
   ],
