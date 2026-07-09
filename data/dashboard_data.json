@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-07-09T09:36:16.390Z",
+  "lastUpdate": "2026-07-09T09:41:07.324Z",
   "upcoming": [
     {
       "horse": "BIG MONEY MAN IRE M.PS. 2 a.",
@@ -10,6 +10,16 @@
       "cat": "(Maiden)",
       "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/djB2TXhrbVBxL1hoajBMNWswZmh0dz09",
       "horseUrl": "https://www.france-galop.com/fr/cheval/dUNFUytKdVBvN3N5Z1pLbVNXaWE5Zz09"
+    },
+    {
+      "horse": "DATA (GB) F.PS. 2 a.",
+      "date": "11/07/2026",
+      "track": "CLAIREFONTAINE",
+      "race": "VIRUNGA",
+      "distance": "1.600",
+      "cat": "(Classe 2)",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/WlhpVmE0VFc2S1YyVkZsb3RFZWV4Zz09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/cHlrZ3Y1MHRUQnRvbXVoUzlZOTMyQT09"
     }
   ],
   "engagements": [
