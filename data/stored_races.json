@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-07-08T10:40:40.528Z",
+  "lastUpdate": "2026-07-09T09:40:44.035Z",
   "races": [
     {
       "horse": "BIG MONEY MAN IRE M.PS. 2 a.",
@@ -18,6 +18,25 @@
         "hour": 10,
         "minute": 30,
         "formatted": "10h30"
+      }
+    },
+    {
+      "horse": "DATA (GB) F.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/cHlrZ3Y1MHRUQnRvbXVoUzlZOTMyQT09",
+      "statut": "DP-P/5059",
+      "date": "11/07/2026",
+      "track": "CLAIREFONTAINE",
+      "race": "VIRUNGA",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/WlhpVmE0VFc2S1YyVkZsb3RFZWV4Zz09",
+      "cat": "(Classe 2)",
+      "purse": "31.100",
+      "disc": "P",
+      "dist": "1.600",
+      "owner": "CHR. HEAD (S)",
+      "postTime": {
+        "hour": 13,
+        "minute": 40,
+        "formatted": "13h40"
       }
     }
   ]
