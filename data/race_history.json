@@ -1,5 +1,18 @@
 [
   {
+    "horse": "Big Money Man",
+    "date": "10/07/2026",
+    "track": "COMPIEGNE",
+    "race": "",
+    "distance": "1.400",
+    "position": "1",
+    "jockey": "M. GUYON",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/djB2TXhrbVBxL1hoajBMNWswZmh0dz09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/dUNFUytKdVBvN3N5Z1pLbVNXaWE5Zz09",
+    "scrapedAt": "2026-07-10T08:51:01.368Z"
+  },
+  {
     "horse": "Basha",
     "date": "07/07/2026",
     "track": "AIX LES BAINS",
