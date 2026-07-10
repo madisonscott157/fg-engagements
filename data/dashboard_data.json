@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-07-09T23:55:44.357Z",
+  "lastUpdate": "2026-07-10T00:01:20.588Z",
   "upcoming": [
     {
       "horse": "BIG MONEY MAN IRE M.PS. 2 a.",
@@ -461,16 +461,6 @@
       "distance": "1.400",
       "cat": "",
       "status": "AP-P/5483",
-      "lastUpdate": 1783631976090
-    },
-    {
-      "horse": "Durythme H 5 A.",
-      "date": "09/07/2026",
-      "track": "parislongchamp",
-      "race": "de la huchette",
-      "distance": "1.600",
-      "cat": "",
-      "status": "NV-P/793",
       "lastUpdate": 1783631976090
     }
   ],
