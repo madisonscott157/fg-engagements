@@ -1,25 +1,6 @@
 {
-  "lastUpdate": "2026-07-09T09:40:44.035Z",
+  "lastUpdate": "2026-07-10T09:30:31.295Z",
   "races": [
-    {
-      "horse": "BIG MONEY MAN IRE M.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/dUNFUytKdVBvN3N5Z1pLbVNXaWE5Zz09",
-      "statut": "DP-P/5482",
-      "date": "10/07/2026",
-      "track": "COMPIEGNE",
-      "race": "DE L'AVESNOIS",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/djB2TXhrbVBxL1hoajBMNWswZmh0dz09",
-      "cat": "(Maiden)",
-      "purse": "27.400",
-      "disc": "P",
-      "dist": "1.400",
-      "owner": "CHR. HEAD (S)",
-      "postTime": {
-        "hour": 10,
-        "minute": 30,
-        "formatted": "10h30"
-      }
-    },
     {
       "horse": "DATA (GB) F.PS. 2 a.",
       "horseUrl": "https://www.france-galop.com/fr/cheval/cHlrZ3Y1MHRUQnRvbXVoUzlZOTMyQT09",
@@ -37,6 +18,25 @@
         "hour": 13,
         "minute": 40,
         "formatted": "13h40"
+      }
+    },
+    {
+      "horse": "NIGHTTIME M.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/MzNVeWdhQUNneUxUMnlHTnU3dXR6dz09",
+      "statut": "DP-P/488",
+      "date": "12/07/2026",
+      "track": "DEAUVILLE",
+      "race": "JEAN PRAT",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/Yk1tWWJ4ZEpqSFpjYjE4SVJyamRXZz09",
+      "cat": "GR.I",
+      "purse": "400.000",
+      "disc": "P",
+      "dist": "1.400",
+      "owner": "CHR. HEAD (S)",
+      "postTime": {
+        "hour": 16,
+        "minute": 25,
+        "formatted": "16h25"
       }
     }
   ]
