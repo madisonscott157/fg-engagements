@@ -1,29 +1,6 @@
 {
-  "partants": {
-    "data (gb) f.ps. 2 a. | 11/07/2026 | clairefontaine | virunga | 1.600": {
-      "horse": "DATA (GB) F.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/cHlrZ3Y1MHRUQnRvbXVoUzlZOTMyQT09",
-      "date": "11/07/2026",
-      "track": "CLAIREFONTAINE",
-      "race": "VIRUNGA",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/WlhpVmE0VFc2S1YyVkZsb3RFZWV4Zz09",
-      "cat": "(Classe 2)",
-      "dist": "1.600",
-      "statut": "DP-P/5059"
-    },
-    "nighttime m.ps. 3 a. | 12/07/2026 | deauville | jean prat | 1.400": {
-      "horse": "NIGHTTIME M.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/MzNVeWdhQUNneUxUMnlHTnU3dXR6dz09",
-      "date": "12/07/2026",
-      "track": "DEAUVILLE",
-      "race": "JEAN PRAT",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/Yk1tWWJ4ZEpqSFpjYjE4SVJyamRXZz09",
-      "cat": "GR.I",
-      "dist": "1.400",
-      "statut": "DP-P/488"
-    }
-  },
+  "partants": {},
   "newEngagements": {},
   "statusUpdates": {},
-  "lastPosted": "2026-07-10T09:28:05.359Z"
+  "lastPosted": "2026-07-11T09:24:08.287Z"
 }
