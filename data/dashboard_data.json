@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-07-10T23:56:05.926Z",
+  "lastUpdate": "2026-07-11T00:00:50.314Z",
   "upcoming": [
     {
       "horse": "DATA (GB) F.PS. 2 a.",
@@ -441,26 +441,6 @@
       "distance": "1.600",
       "cat": "",
       "status": "DP-P/5059",
-      "lastUpdate": 1783717393315
-    },
-    {
-      "horse": "Big Money Man M 2 A.",
-      "date": "10/07/2026",
-      "track": "compiegne",
-      "race": "de l'avesnois",
-      "distance": "1.400",
-      "cat": "",
-      "status": "DP-P/5482",
-      "lastUpdate": 1783717393315
-    },
-    {
-      "horse": "Data (gb) F 2 A.",
-      "date": "10/07/2026",
-      "track": "compiegne",
-      "race": "des naiades",
-      "distance": "1.400",
-      "cat": "",
-      "status": "AP-P/5483",
       "lastUpdate": 1783717393315
     }
   ],
