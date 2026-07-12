@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-07-11T23:56:07.752Z",
+  "lastUpdate": "2026-07-12T00:01:39.326Z",
   "upcoming": [
     {
       "horse": "DATA (GB) F.PS. 2 a.",
@@ -421,26 +421,6 @@
       "distance": "1.400",
       "cat": "",
       "status": "DP-P/488",
-      "lastUpdate": 1783802537482
-    },
-    {
-      "horse": "Algebre (ire) M 2 A.",
-      "date": "11/07/2026",
-      "track": "clairefontaine",
-      "race": "virunga",
-      "distance": "1.600",
-      "cat": "",
-      "status": "F1-P/5059",
-      "lastUpdate": 1783802537482
-    },
-    {
-      "horse": "Data (gb) F 2 A.",
-      "date": "11/07/2026",
-      "track": "clairefontaine",
-      "race": "virunga",
-      "distance": "1.600",
-      "cat": "",
-      "status": "DP-P/5059",
       "lastUpdate": 1783802537482
     }
   ],
