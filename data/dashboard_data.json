@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-07-12T23:55:43.595Z",
+  "lastUpdate": "2026-07-13T00:00:59.416Z",
   "upcoming": [
     {
       "horse": "DATA (GB) F.PS. 2 a.",
@@ -411,16 +411,6 @@
       "distance": "2.400",
       "cat": "",
       "status": "F1-P/442",
-      "lastUpdate": 1783888820129
-    },
-    {
-      "horse": "Nighttime M 3 A.",
-      "date": "12/07/2026",
-      "track": "deauville",
-      "race": "jean prat",
-      "distance": "1.400",
-      "cat": "",
-      "status": "DP-P/488",
       "lastUpdate": 1783888820129
     }
   ],
