@@ -1,29 +1,6 @@
 {
-  "partants": {
-    "proof m.ps. 3 a. | 16/07/2026 | compiegne | pelleas | 2.000": {
-      "horse": "PROOF M.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/enRjNW9OdGYrK3UyVXJFclNVbmFMZz09",
-      "date": "16/07/2026",
-      "track": "COMPIEGNE",
-      "race": "PELLEAS",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/TXNFRElwTHVVbUc3dzFCaEVMMWVhZz09",
-      "cat": "(L)",
-      "dist": "2.000",
-      "statut": "DP-P/4152"
-    },
-    "tamar f.ps. 3 a. | 16/07/2026 | compiegne | acteon | 1.800": {
-      "horse": "TAMAR F.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/ZHhreVpNSEJ4d3UxRithRUZOVUk5Zz09",
-      "date": "16/07/2026",
-      "track": "COMPIEGNE",
-      "race": "ACTEON",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/YytuZzlXWWNnOXV6aGVpa3F6TEtKdz09",
-      "cat": "(Maiden)",
-      "dist": "1.800",
-      "statut": "DP-P/5492"
-    }
-  },
+  "partants": {},
   "newEngagements": {},
   "statusUpdates": {},
-  "lastPosted": "2026-07-14T09:55:14.671Z"
+  "lastPosted": "2026-07-15T10:26:56.914Z"
 }
