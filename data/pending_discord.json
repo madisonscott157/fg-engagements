@@ -1,5 +1,17 @@
 {
-  "partants": {},
+  "partants": {
+    "familly f.ps. 4 a. ... (sup.) | 19/07/2026 | chantilly | messidor | 1.600": {
+      "horse": "FAMILLY F.PS. 4 a. ... (Sup.)",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/QlNhVzZKMm1GdEN3cnhqZVl2YTI3Zz09",
+      "date": "19/07/2026",
+      "track": "CHANTILLY",
+      "race": "MESSIDOR",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/b0g3Z0FVUHZnSEZCbWE0TWx0dEpDdz09",
+      "cat": "GR.III",
+      "dist": "1.600",
+      "statut": "DP-P/494(Sup.)"
+    }
+  },
   "newEngagements": {},
   "statusUpdates": {},
   "lastPosted": "2026-07-17T10:24:09.919Z"
