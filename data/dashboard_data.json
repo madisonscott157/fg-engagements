@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-07-19T15:50:55.727Z",
+  "lastUpdate": "2026-07-19T15:56:07.082Z",
   "upcoming": [
     {
       "horse": "FAMILLY F.PS. 4 a. ... (Sup.)",
@@ -475,6 +475,18 @@
     }
   ],
   "results": [
+    {
+      "horse": "Familly",
+      "date": "19/07/2026",
+      "track": "CHANTILLY",
+      "race": "GR.III",
+      "distance": "1.600",
+      "position": "2",
+      "jockey": "C. SOUMILLON",
+      "gain": "0",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/b0g3Z0FVUHZnSEZCbWE0TWx0dEpDdz09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/QlNhVzZKMm1GdEN3cnhqZVl2YTI3Zz09"
+    },
     {
       "horse": "Proof",
       "date": "16/07/2026",
