@@ -1,15 +1,25 @@
 {
-  "lastUpdate": "2026-07-20T17:57:24.694Z",
+  "lastUpdate": "2026-07-20T18:01:05.189Z",
   "upcoming": [
     {
-      "horse": "FAMILLY F.PS. 4 a. ... (Sup.)",
-      "date": "19/07/2026",
-      "track": "CHANTILLY",
-      "race": "MESSIDOR",
-      "distance": "1.600",
-      "cat": "GR.III",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/b0g3Z0FVUHZnSEZCbWE0TWx0dEpDdz09",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/QlNhVzZKMm1GdEN3cnhqZVl2YTI3Zz09"
+      "horse": "ALGEBRE (IRE) M.PS. 2 a.",
+      "date": "22/07/2026",
+      "track": "VICHY",
+      "race": "JVCX - JVCELLES",
+      "distance": "1.400",
+      "cat": "(L)",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/THBaTlpTR0FDSkQydURvWGRaeFYvUT09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/cUtBR1V4ZDUrcUpEVzZTWlA0SU9sQT09"
+    },
+    {
+      "horse": "PALAIS BYZANTIN M.PS. 2 a.",
+      "date": "22/07/2026",
+      "track": "VICHY",
+      "race": "JVCX - JVCELLES",
+      "distance": "1.400",
+      "cat": "(L)",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/THBaTlpTR0FDSkQydURvWGRaeFYvUT09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/ZHhLcU9WVVFkeXUxM1dUUzlCR0J5Zz09"
     }
   ],
   "engagements": [
