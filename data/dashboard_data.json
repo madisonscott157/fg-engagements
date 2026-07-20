@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-07-19T23:56:06.391Z",
+  "lastUpdate": "2026-07-20T00:01:11.035Z",
   "upcoming": [
     {
       "horse": "FAMILLY F.PS. 4 a. ... (Sup.)",
@@ -451,26 +451,6 @@
       "distance": "1.400",
       "cat": "",
       "status": "PB-P/4155",
-      "lastUpdate": 1784493667329
-    },
-    {
-      "horse": "Jumbotron H 2 A.",
-      "date": "19/07/2026",
-      "track": "chantilly",
-      "race": "robert papin",
-      "distance": "1.200",
-      "cat": "",
-      "status": "F1-P/492",
-      "lastUpdate": 1784493667329
-    },
-    {
-      "horse": "Familly F 4 A.",
-      "date": "19/07/2026",
-      "track": "chantilly",
-      "race": "messidor",
-      "distance": "1.600",
-      "cat": "",
-      "status": "DP-P/494(Sup.)",
       "lastUpdate": 1784493667329
     }
   ],
