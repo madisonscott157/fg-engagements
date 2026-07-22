@@ -1,29 +1,6 @@
 {
-  "partants": {
-    "algebre (ire) m.ps. 2 a. | 22/07/2026 | vichy | jvcx - jvcelles | 1.400": {
-      "horse": "ALGEBRE (IRE) M.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/cUtBR1V4ZDUrcUpEVzZTWlA0SU9sQT09",
-      "date": "22/07/2026",
-      "track": "VICHY",
-      "race": "JVCX - JVCELLES",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/THBaTlpTR0FDSkQydURvWGRaeFYvUT09",
-      "cat": "(L)",
-      "dist": "1.400",
-      "statut": "DP-P/4155"
-    },
-    "palais byzantin m.ps. 2 a. | 22/07/2026 | vichy | jvcx - jvcelles | 1.400": {
-      "horse": "PALAIS BYZANTIN M.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/ZHhLcU9WVVFkeXUxM1dUUzlCR0J5Zz09",
-      "date": "22/07/2026",
-      "track": "VICHY",
-      "race": "JVCX - JVCELLES",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/THBaTlpTR0FDSkQydURvWGRaeFYvUT09",
-      "cat": "(L)",
-      "dist": "1.400",
-      "statut": "DP-P/4155"
-    }
-  },
+  "partants": {},
   "newEngagements": {},
   "statusUpdates": {},
-  "lastPosted": "2026-07-21T10:47:52.121Z"
+  "lastPosted": "2026-07-22T10:49:31.795Z"
 }
