@@ -1,44 +1,6 @@
 {
-  "lastUpdate": "2026-07-22T10:50:25.218Z",
+  "lastUpdate": "2026-07-23T10:55:34.879Z",
   "races": [
-    {
-      "horse": "ALGEBRE (IRE) M.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/cUtBR1V4ZDUrcUpEVzZTWlA0SU9sQT09",
-      "statut": "DP-P/4155",
-      "date": "22/07/2026",
-      "track": "VICHY",
-      "race": "JVCX - JVCELLES",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/THBaTlpTR0FDSkQydURvWGRaeFYvUT09",
-      "cat": "(L)",
-      "purse": "54.900",
-      "disc": "P",
-      "dist": "1.400",
-      "owner": "CHR. HEAD (S)",
-      "postTime": {
-        "hour": 19,
-        "minute": 35,
-        "formatted": "19h35"
-      }
-    },
-    {
-      "horse": "PALAIS BYZANTIN M.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/ZHhLcU9WVVFkeXUxM1dUUzlCR0J5Zz09",
-      "statut": "DP-P/4155",
-      "date": "22/07/2026",
-      "track": "VICHY",
-      "race": "JVCX - JVCELLES",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/THBaTlpTR0FDSkQydURvWGRaeFYvUT09",
-      "cat": "(L)",
-      "purse": "54.900",
-      "disc": "P",
-      "dist": "1.400",
-      "owner": "CHR. HEAD (S)",
-      "postTime": {
-        "hour": 19,
-        "minute": 35,
-        "formatted": "19h35"
-      }
-    },
     {
       "horse": "DURYTHME H.PS. 5 a.",
       "horseUrl": "https://www.france-galop.com/fr/cheval/ck1hc3FmZTFuRU44aEVFaU4wTU9OQT09",
@@ -56,6 +18,25 @@
         "hour": 15,
         "minute": 28,
         "formatted": "15h28"
+      }
+    },
+    {
+      "horse": "BASHA H.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/SlFXdG42NTZ1b1pKUk9hV0I0L0J5UT09",
+      "statut": "DP-P/5397",
+      "date": "25/07/2026",
+      "track": "VICHY",
+      "race": "J. BOULARD",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/MU9lSk00TllBUUtXNnQ2RDNGY0dpdz09",
+      "cat": "(Classe 2)",
+      "purse": "20.100",
+      "disc": "P",
+      "dist": "2.000",
+      "owner": "CHR. HEAD (S)",
+      "postTime": {
+        "hour": 11,
+        "minute": 59,
+        "formatted": "11h59"
       }
     }
   ]
