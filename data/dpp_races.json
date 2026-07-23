@@ -1,34 +1,6 @@
 {
-  "lastUpdate": "2026-07-22T21:01:42.326Z",
+  "lastUpdate": "2026-07-23T08:23:30.780Z",
   "races": [
-    {
-      "horse": "ALGEBRE (IRE) M.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/cUtBR1V4ZDUrcUpEVzZTWlA0SU9sQT09",
-      "statut": "DP-P/4155",
-      "date": "22/07/2026",
-      "track": "VICHY",
-      "race": "JVCX - JVCELLES",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/THBaTlpTR0FDSkQydURvWGRaeFYvUT09",
-      "cat": "(L)",
-      "purse": "54.900",
-      "disc": "P",
-      "dist": "1.400",
-      "owner": "CHR. HEAD (S)"
-    },
-    {
-      "horse": "PALAIS BYZANTIN M.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/ZHhLcU9WVVFkeXUxM1dUUzlCR0J5Zz09",
-      "statut": "DP-P/4155",
-      "date": "22/07/2026",
-      "track": "VICHY",
-      "race": "JVCX - JVCELLES",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/THBaTlpTR0FDSkQydURvWGRaeFYvUT09",
-      "cat": "(L)",
-      "purse": "54.900",
-      "disc": "P",
-      "dist": "1.400",
-      "owner": "CHR. HEAD (S)"
-    },
     {
       "horse": "DURYTHME H.PS. 5 a.",
       "horseUrl": "https://www.france-galop.com/fr/cheval/ck1hc3FmZTFuRU44aEVFaU4wTU9OQT09",
