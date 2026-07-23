@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-07-22T23:56:11.626Z",
+  "lastUpdate": "2026-07-23T00:00:52.515Z",
   "upcoming": [
     {
       "horse": "ALGEBRE (IRE) M.PS. 2 a.",
@@ -461,36 +461,6 @@
       "distance": "1.400",
       "cat": "",
       "status": "DP-P/5395",
-      "lastUpdate": 1784754102325
-    },
-    {
-      "horse": "Familly F 4 A.",
-      "date": "22/07/2026",
-      "track": "vichy",
-      "race": "grand px vichy",
-      "distance": "2.000",
-      "cat": "",
-      "status": "F1-P/4156",
-      "lastUpdate": 1784754102325
-    },
-    {
-      "horse": "Algebre (ire) M 2 A.",
-      "date": "22/07/2026",
-      "track": "vichy",
-      "race": "jvcx - jvcelles",
-      "distance": "1.400",
-      "cat": "",
-      "status": "DP-P/4155",
-      "lastUpdate": 1784754102325
-    },
-    {
-      "horse": "Palais Byzantin M 2 A.",
-      "date": "22/07/2026",
-      "track": "vichy",
-      "race": "jvcx - jvcelles",
-      "distance": "1.400",
-      "cat": "",
-      "status": "DP-P/4155",
       "lastUpdate": 1784754102325
     }
   ],
