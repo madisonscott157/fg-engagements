@@ -1,26 +1,6 @@
 {
-  "lastUpdate": "2026-07-23T10:55:47.472Z",
+  "lastUpdate": "2026-07-23T11:01:29.791Z",
   "upcoming": [
-    {
-      "horse": "ALGEBRE (IRE) M.PS. 2 a.",
-      "date": "22/07/2026",
-      "track": "VICHY",
-      "race": "JVCX - JVCELLES",
-      "distance": "1.400",
-      "cat": "(L)",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/THBaTlpTR0FDSkQydURvWGRaeFYvUT09",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/cUtBR1V4ZDUrcUpEVzZTWlA0SU9sQT09"
-    },
-    {
-      "horse": "PALAIS BYZANTIN M.PS. 2 a.",
-      "date": "22/07/2026",
-      "track": "VICHY",
-      "race": "JVCX - JVCELLES",
-      "distance": "1.400",
-      "cat": "(L)",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/THBaTlpTR0FDSkQydURvWGRaeFYvUT09",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/ZHhLcU9WVVFkeXUxM1dUUzlCR0J5Zz09"
-    },
     {
       "horse": "DURYTHME H.PS. 5 a.",
       "date": "24/07/2026",
@@ -30,6 +10,16 @@
       "cat": "(Classe 4)",
       "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/MW9TVjZIWUhVcXk1cnI2bEl0cGVUQT09",
       "horseUrl": "https://www.france-galop.com/fr/cheval/ck1hc3FmZTFuRU44aEVFaU4wTU9OQT09"
+    },
+    {
+      "horse": "BASHA H.PS. 3 a.",
+      "date": "25/07/2026",
+      "track": "VICHY",
+      "race": "J. BOULARD",
+      "distance": "2.000",
+      "cat": "(Classe 2)",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/MU9lSk00TllBUUtXNnQ2RDNGY0dpdz09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/SlFXdG42NTZ1b1pKUk9hV0I0L0J5UT09"
     }
   ],
   "engagements": [
