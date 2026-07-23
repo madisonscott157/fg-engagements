@@ -1,18 +1,6 @@
 {
-  "partants": {
-    "durythme h.ps. 5 a. | 24/07/2026 | vichy | c. deleuze | 1.400": {
-      "horse": "DURYTHME H.PS. 5 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/ck1hc3FmZTFuRU44aEVFaU4wTU9OQT09",
-      "date": "24/07/2026",
-      "track": "VICHY",
-      "race": "C. DELEUZE",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/MW9TVjZIWUhVcXk1cnI2bEl0cGVUQT09",
-      "cat": "(Classe 4)",
-      "dist": "1.400",
-      "statut": "DP-P/5395"
-    }
-  },
+  "partants": {},
   "newEngagements": {},
   "statusUpdates": {},
-  "lastPosted": "2026-07-22T10:49:31.795Z"
+  "lastPosted": "2026-07-23T10:50:53.623Z"
 }

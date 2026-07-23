@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-07-23T08:23:30.780Z",
+  "lastUpdate": "2026-07-23T10:50:43.713Z",
   "races": [
     {
       "horse": "DURYTHME H.PS. 5 a.",
@@ -13,6 +13,20 @@
       "purse": "15.400",
       "disc": "P",
       "dist": "1.400",
+      "owner": "CHR. HEAD (S)"
+    },
+    {
+      "horse": "BASHA H.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/SlFXdG42NTZ1b1pKUk9hV0I0L0J5UT09",
+      "statut": "DP-P/5397",
+      "date": "25/07/2026",
+      "track": "VICHY",
+      "race": "J. BOULARD",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/MU9lSk00TllBUUtXNnQ2RDNGY0dpdz09",
+      "cat": "(Classe 2)",
+      "purse": "20.100",
+      "disc": "P",
+      "dist": "2.000",
       "owner": "CHR. HEAD (S)"
     }
   ]
