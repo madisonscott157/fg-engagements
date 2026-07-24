@@ -1,41 +1,6 @@
 {
-  "partants": {
-    "durythme h.ps. 5 a. | 24/07/2026 | vichy | c. deleuze | 1.400": {
-      "horse": "DURYTHME H.PS. 5 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/ck1hc3FmZTFuRU44aEVFaU4wTU9OQT09",
-      "date": "24/07/2026",
-      "track": "VICHY",
-      "race": "C. DELEUZE",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/MW9TVjZIWUhVcXk1cnI2bEl0cGVUQT09",
-      "cat": "(Classe 4)",
-      "dist": "1.400",
-      "statut": "DP-P/5395"
-    },
-    "basha h.ps. 3 a. | 25/07/2026 | vichy | j. boulard | 2.000": {
-      "horse": "BASHA H.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/SlFXdG42NTZ1b1pKUk9hV0I0L0J5UT09",
-      "date": "25/07/2026",
-      "track": "VICHY",
-      "race": "J. BOULARD",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/MU9lSk00TllBUUtXNnQ2RDNGY0dpdz09",
-      "cat": "(Classe 2)",
-      "dist": "2.000",
-      "statut": "DP-P/5397"
-    }
-  },
-  "newEngagements": {
-    "jumbotron gb h.ps. 2 a. | 26/07/2026 | mont-de-marsan | crit.du bequet | 1.200": {
-      "horse": "JUMBOTRON GB H.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/SCtrcW5MRUQ3L0hyMlhPL0UvYjZoQT09",
-      "date": "26/07/2026",
-      "track": "MONT-DE-MARSAN",
-      "race": "CRIT.DU BEQUET",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/R3E5Zjd3STdmTGhjNUFjcWNTWThYdz09",
-      "cat": "(L)",
-      "dist": "1.200",
-      "statut": "PB-P/4159"
-    }
-  },
+  "partants": {},
+  "newEngagements": {},
   "statusUpdates": {},
-  "lastPosted": "2026-07-23T10:50:53.623Z"
+  "lastPosted": "2026-07-24T10:37:11.463Z"
 }
