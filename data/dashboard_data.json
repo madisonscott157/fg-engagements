@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-07-24T10:37:34.109Z",
+  "lastUpdate": "2026-07-24T10:41:20.597Z",
   "upcoming": [
     {
       "horse": "DURYTHME H.PS. 5 a.",
@@ -20,6 +20,16 @@
       "cat": "(Classe 2)",
       "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/MU9lSk00TllBUUtXNnQ2RDNGY0dpdz09",
       "horseUrl": "https://www.france-galop.com/fr/cheval/SlFXdG42NTZ1b1pKUk9hV0I0L0J5UT09"
+    },
+    {
+      "horse": "JUMBOTRON GB H.PS. 2 a.",
+      "date": "26/07/2026",
+      "track": "MONT-DE-MARSAN",
+      "race": "CRIT.DU BEQUET",
+      "distance": "1.200",
+      "cat": "(L)",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/R3E5Zjd3STdmTGhjNUFjcWNTWThYdz09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/SCtrcW5MRUQ3L0hyMlhPL0UvYjZoQT09"
     }
   ],
   "engagements": [
