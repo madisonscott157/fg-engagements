@@ -1,5 +1,18 @@
 [
   {
+    "horse": "Durythme",
+    "date": "24/07/2026",
+    "track": "VICHY",
+    "race": "RECL.",
+    "distance": "1.400",
+    "position": "4",
+    "jockey": "M. GUYON",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/MW9TVjZIWUhVcXk1cnI2bEl0cGVUQT09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/ck1hc3FmZTFuRU44aEVFaU4wTU9OQT09",
+    "scrapedAt": "2026-07-24T13:45:34.269Z"
+  },
+  {
     "horse": "Algebre",
     "date": "22/07/2026",
     "track": "VICHY",
