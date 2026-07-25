@@ -1,20 +1,6 @@
 {
-  "lastUpdate": "2026-07-24T20:58:07.954Z",
+  "lastUpdate": "2026-07-25T08:00:47.208Z",
   "races": [
-    {
-      "horse": "DURYTHME H.PS. 5 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/ck1hc3FmZTFuRU44aEVFaU4wTU9OQT09",
-      "statut": "DP-P/5395",
-      "date": "24/07/2026",
-      "track": "VICHY",
-      "race": "C. DELEUZE",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/MW9TVjZIWUhVcXk1cnI2bEl0cGVUQT09",
-      "cat": "(Classe 4)",
-      "purse": "15.400",
-      "disc": "P",
-      "dist": "1.400",
-      "owner": "CHR. HEAD (S)"
-    },
     {
       "horse": "BASHA H.PS. 3 a.",
       "horseUrl": "https://www.france-galop.com/fr/cheval/SlFXdG42NTZ1b1pKUk9hV0I0L0J5UT09",
