@@ -1,5 +1,17 @@
 {
-  "partants": {},
+  "partants": {
+    "jumbotron gb h.ps. 2 a. | 26/07/2026 | mont-de-marsan | crit.du bequet | 1.200": {
+      "horse": "JUMBOTRON GB H.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/SCtrcW5MRUQ3L0hyMlhPL0UvYjZoQT09",
+      "date": "26/07/2026",
+      "track": "MONT-DE-MARSAN",
+      "race": "CRIT.DU BEQUET",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/R3E5Zjd3STdmTGhjNUFjcWNTWThYdz09",
+      "cat": "(L)",
+      "dist": "1.200",
+      "statut": "DP-P/4159"
+    }
+  },
   "newEngagements": {},
   "statusUpdates": {},
   "lastPosted": "2026-07-25T11:06:14.605Z"
