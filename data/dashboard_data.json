@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-07-25T23:55:54.610Z",
+  "lastUpdate": "2026-07-26T00:00:58.629Z",
   "upcoming": [
     {
       "horse": "DURYTHME H.PS. 5 a.",
@@ -461,16 +461,6 @@
       "distance": "1.200",
       "cat": "",
       "status": "DP-P/4159",
-      "lastUpdate": 1785012299893
-    },
-    {
-      "horse": "Basha H 3 A.",
-      "date": "25/07/2026",
-      "track": "vichy",
-      "race": "j. boulard",
-      "distance": "2.000",
-      "cat": "",
-      "status": "DP-P/5397",
       "lastUpdate": 1785012299893
     }
   ],
