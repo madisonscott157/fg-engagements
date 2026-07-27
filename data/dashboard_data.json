@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-07-26T23:56:16.730Z",
+  "lastUpdate": "2026-07-27T00:01:15.589Z",
   "upcoming": [
     {
       "horse": "DURYTHME H.PS. 5 a.",
@@ -441,26 +441,6 @@
       "distance": "1.600",
       "cat": "",
       "status": "VA-P/5073",
-      "lastUpdate": 1785099242635
-    },
-    {
-      "horse": "Jumbotron H 2 A.",
-      "date": "26/07/2026",
-      "track": "la teste-ba",
-      "race": "crit.du bequet",
-      "distance": "1.200",
-      "cat": "",
-      "status": "PB-P/4159",
-      "lastUpdate": 1784840304997
-    },
-    {
-      "horse": "Jumbotron H 2 A.",
-      "date": "26/07/2026",
-      "track": "mont-de-marsan",
-      "race": "crit.du bequet",
-      "distance": "1.200",
-      "cat": "",
-      "status": "DP-P/4159",
       "lastUpdate": 1785099242635
     }
   ],
