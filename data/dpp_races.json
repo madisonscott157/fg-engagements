@@ -1,19 +1,4 @@
 {
-  "lastUpdate": "2026-07-26T20:54:02.635Z",
-  "races": [
-    {
-      "horse": "JUMBOTRON GB H.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/SCtrcW5MRUQ3L0hyMlhPL0UvYjZoQT09",
-      "statut": "DP-P/4159",
-      "date": "26/07/2026",
-      "track": "MONT-DE-MARSAN",
-      "race": "CRIT.DU BEQUET",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/R3E5Zjd3STdmTGhjNUFjcWNTWThYdz09",
-      "cat": "(L)",
-      "purse": "54.900",
-      "disc": "P",
-      "dist": "1.200",
-      "owner": "CHR. HEAD (S)"
-    }
-  ]
+  "lastUpdate": "2026-07-27T09:42:12.703Z",
+  "races": []
 }
