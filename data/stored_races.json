@@ -1,61 +1,61 @@
 {
-  "lastUpdate": "2026-07-24T10:40:24.006Z",
+  "lastUpdate": "2026-07-31T08:45:26.575Z",
   "races": [
     {
-      "horse": "DURYTHME H.PS. 5 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/ck1hc3FmZTFuRU44aEVFaU4wTU9OQT09",
-      "statut": "DP-P/5395",
-      "date": "24/07/2026",
-      "track": "VICHY",
-      "race": "C. DELEUZE",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/MW9TVjZIWUhVcXk1cnI2bEl0cGVUQT09",
-      "cat": "(Classe 4)",
-      "purse": "15.400",
+      "horse": "DATA (GB) F.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/cHlrZ3Y1MHRUQnRvbXVoUzlZOTMyQT09",
+      "statut": "DP-P/496",
+      "date": "02/08/2026",
+      "track": "DEAUVILLE",
+      "race": "SIX PERFECTIONS",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/bFp6WHlhVC9GcDB0UExDL2VxSGx1dz09",
+      "cat": "GR.III",
+      "purse": "73.200",
       "disc": "P",
       "dist": "1.400",
       "owner": "CHR. HEAD (S)",
       "postTime": {
-        "hour": 15,
-        "minute": 28,
-        "formatted": "15h28"
+        "hour": 13,
+        "minute": 56,
+        "formatted": "13h56"
       }
     },
     {
-      "horse": "BASHA H.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/SlFXdG42NTZ1b1pKUk9hV0I0L0J5UT09",
-      "statut": "DP-P/5397",
-      "date": "25/07/2026",
-      "track": "VICHY",
-      "race": "J. BOULARD",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/MU9lSk00TllBUUtXNnQ2RDNGY0dpdz09",
-      "cat": "(Classe 2)",
-      "purse": "20.100",
+      "horse": "GREEN SPIRIT USA F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/THFzc083dzFJQkdab2FHaStib3dnZz09",
+      "statut": "DP-P/499",
+      "date": "02/08/2026",
+      "track": "DEAUVILLE",
+      "race": "ROTHSCHILD",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/d0Y0bmVsaHhHTlRhK2dkOHY3NXBiQT09",
+      "cat": "GR.I",
+      "purse": "300.000",
       "disc": "P",
-      "dist": "2.000",
-      "owner": "CHR. HEAD (S)",
-      "postTime": {
-        "hour": 11,
-        "minute": 59,
-        "formatted": "11h59"
-      }
-    },
-    {
-      "horse": "JUMBOTRON GB H.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/SCtrcW5MRUQ3L0hyMlhPL0UvYjZoQT09",
-      "statut": "DP-P/4159",
-      "date": "26/07/2026",
-      "track": "MONT-DE-MARSAN",
-      "race": "CRIT.DU BEQUET",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/R3E5Zjd3STdmTGhjNUFjcWNTWThYdz09",
-      "cat": "(L)",
-      "purse": "54.900",
-      "disc": "P",
-      "dist": "1.200",
+      "dist": "1.600",
       "owner": "CHR. HEAD (S)",
       "postTime": {
         "hour": 16,
-        "minute": 35,
-        "formatted": "16h35"
+        "minute": 40,
+        "formatted": "16h40"
+      }
+    },
+    {
+      "horse": "WOOT WOOT (IRE) F.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/QU8waVhpNTN3QnVxQkQ0cUtnZFhUQT09",
+      "statut": "DP-P/496",
+      "date": "02/08/2026",
+      "track": "DEAUVILLE",
+      "race": "SIX PERFECTIONS",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/bFp6WHlhVC9GcDB0UExDL2VxSGx1dz09",
+      "cat": "GR.III",
+      "purse": "73.200",
+      "disc": "P",
+      "dist": "1.400",
+      "owner": "CHR. HEAD (S)",
+      "postTime": {
+        "hour": 13,
+        "minute": 56,
+        "formatted": "13h56"
       }
     }
   ]
