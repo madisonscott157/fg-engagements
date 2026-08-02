@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-08-02T14:59:12.451Z",
+  "lastUpdate": "2026-08-02T15:01:35.449Z",
   "upcoming": [
     {
       "horse": "DATA (GB) F.PS. 2 a.",
@@ -705,6 +705,18 @@
     }
   ],
   "results": [
+    {
+      "horse": "Green Spirit",
+      "date": "02/08/2026",
+      "track": "DEAUVILLE",
+      "race": "GR.I",
+      "distance": "1.600",
+      "position": "7",
+      "jockey": "M. GUYON",
+      "gain": "0",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/d0Y0bmVsaHhHTlRhK2dkOHY3NXBiQT09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/THFzc083dzFJQkdab2FHaStib3dnZz09"
+    },
     {
       "horse": "Woot Woot",
       "date": "02/08/2026",
