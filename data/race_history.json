@@ -1,5 +1,18 @@
 [
   {
+    "horse": "Green Spirit",
+    "date": "02/08/2026",
+    "track": "DEAUVILLE",
+    "race": "GR.I",
+    "distance": "1.600",
+    "position": "7",
+    "jockey": "M. GUYON",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/d0Y0bmVsaHhHTlRhK2dkOHY3NXBiQT09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/THFzc083dzFJQkdab2FHaStib3dnZz09",
+    "scrapedAt": "2026-08-02T15:00:53.477Z"
+  },
+  {
     "horse": "Woot Woot",
     "date": "02/08/2026",
     "track": "DEAUVILLE",
