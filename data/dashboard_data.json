@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-08-02T23:56:15.276Z",
+  "lastUpdate": "2026-08-03T00:00:46.706Z",
   "upcoming": [
     {
       "horse": "DATA (GB) F.PS. 2 a.",
@@ -661,46 +661,6 @@
       "distance": "1.500",
       "cat": "",
       "status": "F1-P/817",
-      "lastUpdate": 1785703822273
-    },
-    {
-      "horse": "Green Spirit F 3 A.",
-      "date": "02/08/2026",
-      "track": "deauville",
-      "race": "rothschild",
-      "distance": "1.600",
-      "cat": "",
-      "status": "DP-P/499",
-      "lastUpdate": 1785703822273
-    },
-    {
-      "horse": "Data (gb) F 2 A.",
-      "date": "02/08/2026",
-      "track": "deauville",
-      "race": "six perfections",
-      "distance": "1.400",
-      "cat": "",
-      "status": "DP-P/496",
-      "lastUpdate": 1785703822273
-    },
-    {
-      "horse": "Jumbotron H 2 A.",
-      "date": "02/08/2026",
-      "track": "deauville",
-      "race": "de cabourg",
-      "distance": "1.200",
-      "cat": "",
-      "status": "F1-P/497",
-      "lastUpdate": 1785703822273
-    },
-    {
-      "horse": "Woot Woot (ire) F 2 A.",
-      "date": "02/08/2026",
-      "track": "deauville",
-      "race": "six perfections",
-      "distance": "1.400",
-      "cat": "",
-      "status": "DP-P/496",
       "lastUpdate": 1785703822273
     }
   ],
