@@ -1,18 +1,6 @@
 {
-  "partants": {
-    "vassy h.ps. 3 a. | 05/08/2026 | la teste-ba | d.cazenave | 2.100": {
-      "horse": "VASSY H.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/YWRqVU5HbjA1TlFWSjBLTlNZT3RGdz09",
-      "date": "05/08/2026",
-      "track": "LA TESTE-BA",
-      "race": "D.CAZENAVE",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/akJtRlVxZndMOVB5dUFSOFJrSFBvdz09",
-      "cat": "(Classe 2)",
-      "dist": "2.100",
-      "statut": "DP-P/5251"
-    }
-  },
+  "partants": {},
   "newEngagements": {},
   "statusUpdates": {},
-  "lastPosted": "2026-08-03T12:00:22.548Z"
+  "lastPosted": "2026-08-04T11:07:56.500Z"
 }
