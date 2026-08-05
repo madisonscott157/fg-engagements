@@ -1,5 +1,18 @@
 [
   {
+    "horse": "Vassy",
+    "date": "05/08/2026",
+    "track": "LA TESTE-BASSIN ARCACHON",
+    "race": "",
+    "distance": "2.100",
+    "position": "2",
+    "jockey": "I. MENDIZABAL",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/akJtRlVxZndMOVB5dUFSOFJrSFBvdz09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/YWRqVU5HbjA1TlFWSjBLTlNZT3RGdz09",
+    "scrapedAt": "2026-08-05T10:00:29.562Z"
+  },
+  {
     "horse": "Green Spirit",
     "date": "02/08/2026",
     "track": "DEAUVILLE",
