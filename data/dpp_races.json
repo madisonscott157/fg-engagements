@@ -1,19 +1,4 @@
 {
-  "lastUpdate": "2026-08-05T14:01:56.668Z",
-  "races": [
-    {
-      "horse": "VASSY H.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/YWRqVU5HbjA1TlFWSjBLTlNZT3RGdz09",
-      "statut": "DP-P/5251",
-      "date": "05/08/2026",
-      "track": "LA TESTE-BA",
-      "race": "D.CAZENAVE",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/akJtRlVxZndMOVB5dUFSOFJrSFBvdz09",
-      "cat": "(Classe 2)",
-      "purse": "20.100",
-      "disc": "P",
-      "dist": "2.100",
-      "owner": "CHR. HEAD (S)"
-    }
-  ]
+  "lastUpdate": "2026-08-05T17:24:44.549Z",
+  "races": []
 }
