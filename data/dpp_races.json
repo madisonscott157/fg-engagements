@@ -1,4 +1,19 @@
 {
-  "lastUpdate": "2026-08-06T08:28:17.662Z",
-  "races": []
+  "lastUpdate": "2026-08-06T11:05:24.696Z",
+  "races": [
+    {
+      "horse": "TORTSANLOT (GB) M.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/T2srQkxYWVcvRCs1cCtIR2FmUlczUT09",
+      "statut": "DP-P/833",
+      "date": "08/08/2026",
+      "track": "DEAUVILLE",
+      "race": "DE CREVECOEUR",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/Tk0xY1Fya3MrZnJiZDB5Z1RXeW1xUT09",
+      "cat": "(Inédits)",
+      "purse": "45.700",
+      "disc": "P",
+      "dist": "1.500",
+      "owner": "CHR. HEAD (S)"
+    }
+  ]
 }
