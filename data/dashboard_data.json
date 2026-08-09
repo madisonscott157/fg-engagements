@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-08-08T23:56:03.653Z",
+  "lastUpdate": "2026-08-09T00:00:49.562Z",
   "upcoming": [
     {
       "horse": "TORTSANLOT (GB) M.PS. 2 a.",
@@ -691,66 +691,6 @@
       "distance": "1.400",
       "cat": "",
       "status": "DP-P/5019",
-      "lastUpdate": 1786220608486
-    },
-    {
-      "horse": "Proof M 3 A.",
-      "date": "08/08/2026",
-      "track": "deauville",
-      "race": "de reux",
-      "distance": "2.500",
-      "cat": "",
-      "status": "F1-P/503",
-      "lastUpdate": 1786220608486
-    },
-    {
-      "horse": "Isabella F 2 A.",
-      "date": "08/08/2026",
-      "track": "deauville",
-      "race": "des marettes",
-      "distance": "1.500",
-      "cat": "",
-      "status": "F1-P/834",
-      "lastUpdate": 1786220608486
-    },
-    {
-      "horse": "Monsieur Charlie M 2 A.",
-      "date": "08/08/2026",
-      "track": "deauville",
-      "race": "de crevecoeur",
-      "distance": "1.500",
-      "cat": "",
-      "status": "F1-P/833",
-      "lastUpdate": 1786220608486
-    },
-    {
-      "horse": "Munch H 2 A.",
-      "date": "08/08/2026",
-      "track": "deauville",
-      "race": "de crevecoeur",
-      "distance": "1.500",
-      "cat": "",
-      "status": "F1-P/833",
-      "lastUpdate": 1786220608486
-    },
-    {
-      "horse": "Timide M 2 A.",
-      "date": "08/08/2026",
-      "track": "deauville",
-      "race": "de crevecoeur",
-      "distance": "1.500",
-      "cat": "",
-      "status": "F1-P/833",
-      "lastUpdate": 1786220608486
-    },
-    {
-      "horse": "Tortsanlot (gb) M 2 A.",
-      "date": "08/08/2026",
-      "track": "deauville",
-      "race": "de crevecoeur",
-      "distance": "1.500",
-      "cat": "",
-      "status": "DP-P/833",
       "lastUpdate": 1786220608486
     }
   ],
