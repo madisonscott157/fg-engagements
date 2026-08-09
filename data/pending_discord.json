@@ -1,51 +1,6 @@
 {
-  "partants": {
-    "no tune (gb) f.ps. 3 a. | 09/08/2026 | deauville | moonlight cloud | 1.200": {
-      "horse": "NO TUNE (GB) F.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/QnhqdXA4MERPdXZveTZNNGVDeUNaZz09",
-      "date": "09/08/2026",
-      "track": "DEAUVILLE",
-      "race": "MOONLIGHT CLOUD",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/UmdLbEpBUUdQMGc5aHViOHpSWWhkZz09",
-      "cat": "(L)",
-      "dist": "1.200",
-      "statut": "DP-P/504"
-    },
-    "palais byzantin m.ps. 2 a. | 09/08/2026 | lion d'angers | chateauneuf | 1.400": {
-      "horse": "PALAIS BYZANTIN M.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/ZHhLcU9WVVFkeXUxM1dUUzlCR0J5Zz09",
-      "date": "09/08/2026",
-      "track": "LION D'ANGERS",
-      "race": "CHATEAUNEUF",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/V09pYkVSRUNYc2hoVnpCSzczbCswUT09",
-      "cat": "(Maiden)",
-      "dist": "1.400",
-      "statut": "DP-P/5018"
-    },
-    "timide usa m.ps. 2 a. | 09/08/2026 | lion d'angers | l. carabin | 1.400": {
-      "horse": "TIMIDE USA M.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/U1ZlbVRkUTd3WlRyalU2c3ovZ2RlQT09",
-      "date": "09/08/2026",
-      "track": "LION D'ANGERS",
-      "race": "L. CARABIN",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/YlIvWWxCeFh4OEhjWHNKb1FvQTlKQT09",
-      "cat": "(Classe 2)",
-      "dist": "1.400",
-      "statut": "DP-P/5019"
-    },
-    "tamar f.ps. 3 a. | 10/08/2026 | clairefontaine | the wonder | 1.800": {
-      "horse": "TAMAR F.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/ZHhreVpNSEJ4d3UxRithRUZOVUk5Zz09",
-      "date": "10/08/2026",
-      "track": "CLAIREFONTAINE",
-      "race": "THE WONDER",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/WS9CWFg3WHU5d2pqZmtOZ3ExTlRZQT09",
-      "cat": "(Maiden)",
-      "dist": "1.800",
-      "statut": "DP-P/5097"
-    }
-  },
+  "partants": {},
   "newEngagements": {},
   "statusUpdates": {},
-  "lastPosted": "2026-08-08T09:20:39.672Z"
+  "lastPosted": "2026-08-09T09:21:12.573Z"
 }
