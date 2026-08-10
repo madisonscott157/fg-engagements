@@ -1,18 +1,6 @@
 {
-  "partants": {
-    "tamar f.ps. 3 a. | 10/08/2026 | clairefontaine | the wonder | 1.800": {
-      "horse": "TAMAR F.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/ZHhreVpNSEJ4d3UxRithRUZOVUk5Zz09",
-      "date": "10/08/2026",
-      "track": "CLAIREFONTAINE",
-      "race": "THE WONDER",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/WS9CWFg3WHU5d2pqZmtOZ3ExTlRZQT09",
-      "cat": "(Maiden)",
-      "dist": "1.800",
-      "statut": "DP-P/5097"
-    }
-  },
+  "partants": {},
   "newEngagements": {},
   "statusUpdates": {},
-  "lastPosted": "2026-08-09T09:21:12.573Z"
+  "lastPosted": "2026-08-10T09:14:50.186Z"
 }
