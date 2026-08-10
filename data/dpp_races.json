@@ -1,48 +1,6 @@
 {
-  "lastUpdate": "2026-08-09T20:26:43.068Z",
+  "lastUpdate": "2026-08-10T07:23:31.173Z",
   "races": [
-    {
-      "horse": "NO TUNE (GB) F.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/QnhqdXA4MERPdXZveTZNNGVDeUNaZz09",
-      "statut": "DP-P/504",
-      "date": "09/08/2026",
-      "track": "DEAUVILLE",
-      "race": "MOONLIGHT CLOUD",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/UmdLbEpBUUdQMGc5aHViOHpSWWhkZz09",
-      "cat": "(L)",
-      "purse": "50.300",
-      "disc": "P",
-      "dist": "1.200",
-      "owner": "CHR. HEAD (S)"
-    },
-    {
-      "horse": "PALAIS BYZANTIN M.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/ZHhLcU9WVVFkeXUxM1dUUzlCR0J5Zz09",
-      "statut": "DP-P/5018",
-      "date": "09/08/2026",
-      "track": "LION D'ANGERS",
-      "race": "CHATEAUNEUF",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/V09pYkVSRUNYc2hoVnpCSzczbCswUT09",
-      "cat": "(Maiden)",
-      "purse": "21.000",
-      "disc": "P",
-      "dist": "1.400",
-      "owner": "CHR. HEAD (S)"
-    },
-    {
-      "horse": "TIMIDE USA M.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/U1ZlbVRkUTd3WlRyalU2c3ovZ2RlQT09",
-      "statut": "DP-P/5019",
-      "date": "09/08/2026",
-      "track": "LION D'ANGERS",
-      "race": "L. CARABIN",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/YlIvWWxCeFh4OEhjWHNKb1FvQTlKQT09",
-      "cat": "(Classe 2)",
-      "purse": "24.700",
-      "disc": "P",
-      "dist": "1.400",
-      "owner": "CHR. HEAD (S)"
-    },
     {
       "horse": "TAMAR F.PS. 3 a.",
       "horseUrl": "https://www.france-galop.com/fr/cheval/ZHhreVpNSEJ4d3UxRithRUZOVUk5Zz09",
