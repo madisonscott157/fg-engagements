@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-08-09T23:55:42.820Z",
+  "lastUpdate": "2026-08-10T00:01:09.981Z",
   "upcoming": [
     {
       "horse": "TORTSANLOT (GB) M.PS. 2 a.",
@@ -611,86 +611,6 @@
       "distance": "1.800",
       "cat": "",
       "status": "DP-P/5097",
-      "lastUpdate": 1786307203068
-    },
-    {
-      "horse": "Basha H 3 A.",
-      "date": "09/08/2026",
-      "track": "deauville",
-      "race": "daphnis",
-      "distance": "1.600",
-      "cat": "",
-      "status": "ND-P/505",
-      "lastUpdate": 1786307203068
-    },
-    {
-      "horse": "No Tune (gb) F 3 A.",
-      "date": "09/08/2026",
-      "track": "deauville",
-      "race": "moonlight cloud",
-      "distance": "1.200",
-      "cat": "",
-      "status": "DP-P/504",
-      "lastUpdate": 1786307203068
-    },
-    {
-      "horse": "Palais Byzantin M 2 A.",
-      "date": "09/08/2026",
-      "track": "lion d'angers",
-      "race": "chateauneuf",
-      "distance": "1.400",
-      "cat": "",
-      "status": "DP-P/5018",
-      "lastUpdate": 1786307203068
-    },
-    {
-      "horse": "Palais Byzantin M 2 A.",
-      "date": "09/08/2026",
-      "track": "lion d'angers",
-      "race": "l. carabin",
-      "distance": "1.400",
-      "cat": "",
-      "status": "ND-P/5019",
-      "lastUpdate": 1786307203068
-    },
-    {
-      "horse": "Royally F 2 A.",
-      "date": "09/08/2026",
-      "track": "lion d'angers",
-      "race": "chateauneuf",
-      "distance": "1.400",
-      "cat": "",
-      "status": "ND-P/5018",
-      "lastUpdate": 1786307203068
-    },
-    {
-      "horse": "Royally F 2 A.",
-      "date": "09/08/2026",
-      "track": "lion d'angers",
-      "race": "l. carabin",
-      "distance": "1.400",
-      "cat": "",
-      "status": "ND-P/5019",
-      "lastUpdate": 1786307203068
-    },
-    {
-      "horse": "Timide M 2 A.",
-      "date": "09/08/2026",
-      "track": "lion d'angers",
-      "race": "chateauneuf",
-      "distance": "1.400",
-      "cat": "",
-      "status": "ND-P/5018",
-      "lastUpdate": 1786307203068
-    },
-    {
-      "horse": "Timide M 2 A.",
-      "date": "09/08/2026",
-      "track": "lion d'angers",
-      "race": "l. carabin",
-      "distance": "1.400",
-      "cat": "",
-      "status": "DP-P/5019",
       "lastUpdate": 1786307203068
     }
   ],
