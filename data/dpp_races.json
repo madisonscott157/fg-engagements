@@ -1,19 +1,4 @@
 {
-  "lastUpdate": "2026-08-10T20:37:01.323Z",
-  "races": [
-    {
-      "horse": "TAMAR F.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/ZHhreVpNSEJ4d3UxRithRUZOVUk5Zz09",
-      "statut": "DP-P/5097",
-      "date": "10/08/2026",
-      "track": "CLAIREFONTAINE",
-      "race": "THE WONDER",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/WS9CWFg3WHU5d2pqZmtOZ3ExTlRZQT09",
-      "cat": "(Maiden)",
-      "purse": "20.100",
-      "disc": "P",
-      "dist": "1.800",
-      "owner": "CHR. HEAD (S)"
-    }
-  ]
+  "lastUpdate": "2026-08-11T06:59:26.448Z",
+  "races": []
 }
