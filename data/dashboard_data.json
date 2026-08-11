@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-08-10T23:56:11.969Z",
+  "lastUpdate": "2026-08-11T00:01:09.063Z",
   "upcoming": [
     {
       "horse": "TORTSANLOT (GB) M.PS. 2 a.",
@@ -611,16 +611,6 @@
       "distance": "1.400",
       "cat": "",
       "status": "NL-P/5428",
-      "lastUpdate": 1786394221323
-    },
-    {
-      "horse": "Tamar F 3 A.",
-      "date": "10/08/2026",
-      "track": "clairefontaine",
-      "race": "the wonder",
-      "distance": "1.800",
-      "cat": "",
-      "status": "DP-P/5097",
       "lastUpdate": 1786394221323
     }
   ],
