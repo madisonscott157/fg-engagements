@@ -1,4 +1,19 @@
 {
-  "lastUpdate": "2026-08-11T06:59:26.448Z",
-  "races": []
+  "lastUpdate": "2026-08-11T08:49:04.687Z",
+  "races": [
+    {
+      "horse": "MUNCH H.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/WVFQTHcyZTYxamtmWXkvL2c3Z3oyUT09",
+      "statut": "DP-P/755",
+      "date": "13/08/2026",
+      "track": "DEAUVILLE",
+      "race": "ARQ-POULAINS",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/WUR5Sjc3Ni9VT2JNNVNmbytacCtUQT09",
+      "cat": "(Inédits)",
+      "purse": "160.000",
+      "disc": "P",
+      "dist": "1.400",
+      "owner": "CHR. HEAD (S)"
+    }
+  ]
 }
