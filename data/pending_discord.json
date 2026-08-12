@@ -1,55 +1,6 @@
 {
   "partants": {},
   "newEngagements": {},
-  "statusUpdates": {
-    "proof m.ps. 3 a. | 15/08/2026 | deauville | g. d'ornano | 2.000": {
-      "horse": "PROOF M.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/enRjNW9OdGYrK3UyVXJFclNVbmFMZz09",
-      "date": "15/08/2026",
-      "track": "DEAUVILLE",
-      "race": "G. D'ORNANO",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/YTBYNnlnb3ZoZjB1NDE5WmRDbnZoQT09",
-      "cat": "GR.II",
-      "dist": "2.000",
-      "statut": "PB-P/509",
-      "oldStatut": "VA-P/509"
-    },
-    "algebre (ire) m.ps. 2 a. | 16/08/2026 | deauville | francois boutin | 1.400": {
-      "horse": "ALGEBRE (IRE) M.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/cUtBR1V4ZDUrcUpEVzZTWlA0SU9sQT09",
-      "date": "16/08/2026",
-      "track": "DEAUVILLE",
-      "race": "FRANCOIS BOUTIN",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/M1pSam9vQUZSOWF2Rlg2UWh1RGRJZz09",
-      "cat": "GR.III",
-      "dist": "1.400",
-      "statut": "F1-P/512",
-      "oldStatut": "VA-P/512"
-    },
-    "green spirit usa f.ps. 3 a. | 16/08/2026 | deauville | jacq. le marois | 1.600": {
-      "horse": "GREEN SPIRIT USA F.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/THFzc083dzFJQkdab2FHaStib3dnZz09",
-      "date": "16/08/2026",
-      "track": "DEAUVILLE",
-      "race": "JACQ. LE MAROIS",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/K29KUnFnMkdaQVFvM2dnbDFsNTA3Zz09",
-      "cat": "GR.I",
-      "dist": "1.600",
-      "statut": "NV-P/515",
-      "oldStatut": "VA-P/515"
-    },
-    "vassy h.ps. 3 a. | 17/08/2026 | mont-de-marsan | grand prix | 2.000": {
-      "horse": "VASSY H.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/YWRqVU5HbjA1TlFWSjBLTlNZT3RGdz09",
-      "date": "17/08/2026",
-      "track": "MONT-DE-MARSAN",
-      "race": "GRAND PRIX",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/MVRUUU82RkRweXQ2anR3Q2cvRWNmUT09",
-      "cat": "(Classe 1)",
-      "dist": "2.000",
-      "statut": "F1-P/5278",
-      "oldStatut": "VA-P/5278"
-    }
-  },
-  "lastPosted": "2026-08-12T09:07:49.652Z"
+  "statusUpdates": {},
+  "lastPosted": "2026-08-12T10:57:12.837Z"
 }
