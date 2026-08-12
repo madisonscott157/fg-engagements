@@ -1,5 +1,17 @@
 {
-  "partants": {},
+  "partants": {
+    "munch h.ps. 2 a. | 13/08/2026 | deauville | arq-poulains | 1.400": {
+      "horse": "MUNCH H.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/WVFQTHcyZTYxamtmWXkvL2c3Z3oyUT09",
+      "date": "13/08/2026",
+      "track": "DEAUVILLE",
+      "race": "ARQ-POULAINS",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/WUR5Sjc3Ni9VT2JNNVNmbytacCtUQT09",
+      "cat": "(Inédits)",
+      "dist": "1.400",
+      "statut": "DP-P/755"
+    }
+  },
   "newEngagements": {},
   "statusUpdates": {},
   "lastPosted": "2026-08-11T08:49:17.756Z"
