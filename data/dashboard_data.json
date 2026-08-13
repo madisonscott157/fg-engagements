@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-08-12T23:56:05.412Z",
+  "lastUpdate": "2026-08-13T00:01:08.816Z",
   "upcoming": [
     {
       "horse": "MUNCH H.PS. 2 a.",
@@ -581,16 +581,6 @@
       "distance": "1.300",
       "cat": "",
       "status": "F1-P/757",
-      "lastUpdate": 1786567102497
-    },
-    {
-      "horse": "Royally F 2 A.",
-      "date": "12/08/2026",
-      "track": "vichy",
-      "race": "lavoine",
-      "distance": "1.400",
-      "cat": "",
-      "status": "NL-P/5428",
       "lastUpdate": 1786567102497
     }
   ],
