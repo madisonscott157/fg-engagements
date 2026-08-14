@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-08-14T07:17:54.317Z",
+  "lastUpdate": "2026-08-14T09:03:32.710Z",
   "races": [
     {
       "horse": "PROOF M.PS. 3 a.",
@@ -11,6 +11,34 @@
       "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/YTBYNnlnb3ZoZjB1NDE5WmRDbnZoQT09",
       "cat": "GR.II",
       "purse": "119.000",
+      "disc": "P",
+      "dist": "2.000",
+      "owner": "CHR. HEAD (S)"
+    },
+    {
+      "horse": "AVEC TOI USA M.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/Yy9LbUNpNitKTlBqTVVHQTU1bW1yZz09",
+      "statut": "DP-P/512",
+      "date": "16/08/2026",
+      "track": "DEAUVILLE",
+      "race": "FRANCOIS BOUTIN",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/M1pSam9vQUZSOWF2Rlg2UWh1RGRJZz09",
+      "cat": "GR.III",
+      "purse": "73.200",
+      "disc": "P",
+      "dist": "1.400",
+      "owner": "CHR. HEAD (S)"
+    },
+    {
+      "horse": "BASHA H.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/SlFXdG42NTZ1b1pKUk9hV0I0L0J5UT09",
+      "statut": "DP-P/513",
+      "date": "16/08/2026",
+      "track": "DEAUVILLE",
+      "race": "NUREYEV",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/aEdrbGdqZ1N1SEpncmJwUXdDUnJYUT09",
+      "cat": "(L)",
+      "purse": "50.300",
       "disc": "P",
       "dist": "2.000",
       "owner": "CHR. HEAD (S)"

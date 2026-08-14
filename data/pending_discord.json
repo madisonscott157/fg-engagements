@@ -1,18 +1,6 @@
 {
-  "partants": {
-    "proof m.ps. 3 a. | 15/08/2026 | deauville | g. d'ornano | 2.000": {
-      "horse": "PROOF M.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/enRjNW9OdGYrK3UyVXJFclNVbmFMZz09",
-      "date": "15/08/2026",
-      "track": "DEAUVILLE",
-      "race": "G. D'ORNANO",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/YTBYNnlnb3ZoZjB1NDE5WmRDbnZoQT09",
-      "cat": "GR.II",
-      "dist": "2.000",
-      "statut": "DP-P/509"
-    }
-  },
+  "partants": {},
   "newEngagements": {},
   "statusUpdates": {},
-  "lastPosted": "2026-08-13T10:58:18.353Z"
+  "lastPosted": "2026-08-14T09:03:47.985Z"
 }
