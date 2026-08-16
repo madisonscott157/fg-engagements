@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-08-15T23:56:06.154Z",
+  "lastUpdate": "2026-08-16T00:01:25.246Z",
   "upcoming": [
     {
       "horse": "PROOF M.PS. 3 a.",
@@ -481,16 +481,6 @@
       "distance": "2.000",
       "cat": "",
       "status": "DP-P/513",
-      "lastUpdate": 1786825033841
-    },
-    {
-      "horse": "Proof M 3 A.",
-      "date": "15/08/2026",
-      "track": "deauville",
-      "race": "g. d'ornano",
-      "distance": "2.000",
-      "cat": "",
-      "status": "DP-P/509",
       "lastUpdate": 1786825033841
     }
   ],
