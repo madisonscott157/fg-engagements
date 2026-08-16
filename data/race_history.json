@@ -1,5 +1,18 @@
 [
   {
+    "horse": "Basha",
+    "date": "16/08/2026",
+    "track": "DEAUVILLE",
+    "race": "",
+    "distance": "2.000",
+    "position": "2",
+    "jockey": "PC. BOUDOT",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/aEdrbGdqZ1N1SEpncmJwUXdDUnJYUT09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/SlFXdG42NTZ1b1pKUk9hV0I0L0J5UT09",
+    "scrapedAt": "2026-08-16T15:10:35.366Z"
+  },
+  {
     "horse": "Avec Toi",
     "date": "16/08/2026",
     "track": "DEAUVILLE",
