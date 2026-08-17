@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-08-16T23:55:47.124Z",
+  "lastUpdate": "2026-08-17T00:00:50.327Z",
   "upcoming": [
     {
       "horse": "PROOF M.PS. 3 a.",
@@ -431,56 +431,6 @@
       "distance": "2.000",
       "cat": "",
       "status": "F1-P/5278",
-      "lastUpdate": 1786911396238
-    },
-    {
-      "horse": "Green Spirit F 3 A.",
-      "date": "16/08/2026",
-      "track": "deauville",
-      "race": "jacq.le marois",
-      "distance": "1.600",
-      "cat": "",
-      "status": "VA-P/515",
-      "lastUpdate": 1782303405763
-    },
-    {
-      "horse": "Green Spirit F 3 A.",
-      "date": "16/08/2026",
-      "track": "deauville",
-      "race": "jacq. le marois",
-      "distance": "1.600",
-      "cat": "",
-      "status": "NV-P/515",
-      "lastUpdate": 1786911396238
-    },
-    {
-      "horse": "Algebre (ire) M 2 A.",
-      "date": "16/08/2026",
-      "track": "deauville",
-      "race": "francois boutin",
-      "distance": "1.400",
-      "cat": "",
-      "status": "F1-P/512",
-      "lastUpdate": 1786911396238
-    },
-    {
-      "horse": "Avec Toi M 2 A.",
-      "date": "16/08/2026",
-      "track": "deauville",
-      "race": "francois boutin",
-      "distance": "1.400",
-      "cat": "",
-      "status": "DP-P/512",
-      "lastUpdate": 1786911396238
-    },
-    {
-      "horse": "Basha H 3 A.",
-      "date": "16/08/2026",
-      "track": "deauville",
-      "race": "nureyev",
-      "distance": "2.000",
-      "cat": "",
-      "status": "DP-P/513",
       "lastUpdate": 1786911396238
     }
   ],
