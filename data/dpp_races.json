@@ -1,4 +1,33 @@
 {
-  "lastUpdate": "2026-08-19T08:31:54.727Z",
-  "races": []
+  "lastUpdate": "2026-08-19T09:08:20.567Z",
+  "races": [
+    {
+      "horse": "ASYLLA F.PS. 3 a. ... (Sup.)",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/SkQ3K0xsNE1PbWJiMkJhWCtwbHNjQT09",
+      "statut": "DP-P/5113(Sup.)",
+      "date": "21/08/2026",
+      "track": "CLAIREFONTAINE",
+      "race": "ROSELIERE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/dWQ2VHJ3YVoxaERhUG9kcERwMnhZUT09",
+      "cat": "(Maiden)",
+      "purse": "20.100",
+      "disc": "P",
+      "dist": "2.400",
+      "owner": "CHR. HEAD (S)"
+    },
+    {
+      "horse": "KHOZAN GB H.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/N2V4YlU3LzRHbzZUV3hTbWkzenVhdz09",
+      "statut": "DP-P/5114",
+      "date": "21/08/2026",
+      "track": "CLAIREFONTAINE",
+      "race": "COUR RECTANGLE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/RE9PczNIUVJwTjd2R3hxUHpLTEdpQT09",
+      "cat": "(Classe 2)",
+      "purse": "25.600",
+      "disc": "P",
+      "dist": "1.400",
+      "owner": "CHR. HEAD (S)"
+    }
+  ]
 }
