@@ -1,6 +1,103 @@
 {
   "partants": {},
   "newEngagements": {},
-  "statusUpdates": {},
+  "statusUpdates": {
+    "big money man ire m.ps. 2 a. | 22/08/2026 | deauville | criterium f.e.e | 1.600": {
+      "horse": "BIG MONEY MAN IRE M.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/dUNFUytKdVBvN3N5Z1pLbVNXaWE5Zz09",
+      "date": "22/08/2026",
+      "track": "DEAUVILLE",
+      "race": "CRITERIUM F.E.E",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/TlpDRmc1V0Y3enoraHdLNlhTN2lndz09",
+      "cat": "(R)",
+      "dist": "1.600",
+      "statut": "PB-P/516",
+      "oldStatut": "VA-P/516"
+    },
+    "royally ire f.ps. 2 a. | 22/08/2026 | deauville | la reboursiere | 1.600": {
+      "horse": "ROYALLY IRE F.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/UEFEMUZUYUlGRzhKelJHWVVlL2ZmQT09",
+      "date": "22/08/2026",
+      "track": "DEAUVILLE",
+      "race": "LA REBOURSIERE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/MUdJSWROWU1JUkVjOU83S2k2ekIrUT09",
+      "cat": "(Inédits)",
+      "dist": "1.600",
+      "statut": "PB-P/878",
+      "oldStatut": "VA-P/878"
+    },
+    "data (gb) f.ps. 2 a. | 23/08/2026 | deauville | du calvados | 1.400": {
+      "horse": "DATA (GB) F.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/cHlrZ3Y1MHRUQnRvbXVoUzlZOTMyQT09",
+      "date": "23/08/2026",
+      "track": "DEAUVILLE",
+      "race": "DU CALVADOS",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/TXlrOWhXcHBXN3V0UU9rUVdNMnkrUT09",
+      "cat": "GR.II",
+      "dist": "1.400",
+      "statut": "F1-P/518",
+      "oldStatut": "VA-P/518"
+    },
+    "familly f.ps. 4 a. | 23/08/2026 | deauville | jean romanet | 2.000": {
+      "horse": "FAMILLY F.PS. 4 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/QlNhVzZKMm1GdEN3cnhqZVl2YTI3Zz09",
+      "date": "23/08/2026",
+      "track": "DEAUVILLE",
+      "race": "JEAN ROMANET",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/S1pndDFsVkRKd2lIejF1dnNGWExLQT09",
+      "cat": "GR.I",
+      "dist": "2.000",
+      "statut": "F1-P/520",
+      "oldStatut": "VA-P/520"
+    },
+    "big money man ire m.ps. 2 a. | 19/09/2026 | chantilly | des chenes | 1.600": {
+      "horse": "BIG MONEY MAN IRE M.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/dUNFUytKdVBvN3N5Z1pLbVNXaWE5Zz09",
+      "date": "19/09/2026",
+      "track": "CHANTILLY",
+      "race": "DES CHENES",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/QmFwNGpmK0hiZStZU3h0UHg3NmJqQT09",
+      "cat": "GR.III",
+      "dist": "1.600",
+      "statut": "VA-P/541",
+      "oldStatut": "-P/541"
+    },
+    "jumbotron gb h.ps. 2 a. | 19/09/2026 | chantilly | eclipse | 1.200": {
+      "horse": "JUMBOTRON GB H.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/SCtrcW5MRUQ3L0hyMlhPL0UvYjZoQT09",
+      "date": "19/09/2026",
+      "track": "CHANTILLY",
+      "race": "ECLIPSE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/ZW40Uk1aUFZwNUoweExRV0VCL3RiQT09",
+      "cat": "GR.III",
+      "dist": "1.200",
+      "statut": "VA-P/540",
+      "oldStatut": "-P/540"
+    },
+    "munch h.ps. 2 a. | 19/09/2026 | chantilly | des chenes | 1.600": {
+      "horse": "MUNCH H.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/WVFQTHcyZTYxamtmWXkvL2c3Z3oyUT09",
+      "date": "19/09/2026",
+      "track": "CHANTILLY",
+      "race": "DES CHENES",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/QmFwNGpmK0hiZStZU3h0UHg3NmJqQT09",
+      "cat": "GR.III",
+      "dist": "1.600",
+      "statut": "VA-P/541",
+      "oldStatut": "-P/541"
+    },
+    "tortsanlot (gb) m.ps. 2 a. | 19/09/2026 | chantilly | des chenes | 1.600": {
+      "horse": "TORTSANLOT (GB) M.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/T2srQkxYWVcvRCs1cCtIR2FmUlczUT09",
+      "date": "19/09/2026",
+      "track": "CHANTILLY",
+      "race": "DES CHENES",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/QmFwNGpmK0hiZStZU3h0UHg3NmJqQT09",
+      "cat": "GR.III",
+      "dist": "1.600",
+      "statut": "VA-P/541",
+      "oldStatut": "-P/541"
+    }
+  },
   "lastPosted": "2026-08-19T09:08:39.796Z"
 }
