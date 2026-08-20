@@ -1,29 +1,6 @@
 {
-  "partants": {
-    "asylla f.ps. 3 a. ... (sup.) | 21/08/2026 | clairefontaine | roseliere | 2.400": {
-      "horse": "ASYLLA F.PS. 3 a. ... (Sup.)",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/SkQ3K0xsNE1PbWJiMkJhWCtwbHNjQT09",
-      "date": "21/08/2026",
-      "track": "CLAIREFONTAINE",
-      "race": "ROSELIERE",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/dWQ2VHJ3YVoxaERhUG9kcERwMnhZUT09",
-      "cat": "(Maiden)",
-      "dist": "2.400",
-      "statut": "DP-P/5113(Sup.)"
-    },
-    "khozan gb h.ps. 3 a. | 21/08/2026 | clairefontaine | cour rectangle | 1.400": {
-      "horse": "KHOZAN GB H.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/N2V4YlU3LzRHbzZUV3hTbWkzenVhdz09",
-      "date": "21/08/2026",
-      "track": "CLAIREFONTAINE",
-      "race": "COUR RECTANGLE",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/RE9PczNIUVJwTjd2R3hxUHpLTEdpQT09",
-      "cat": "(Classe 2)",
-      "dist": "1.400",
-      "statut": "DP-P/5114"
-    }
-  },
+  "partants": {},
   "newEngagements": {},
   "statusUpdates": {},
-  "lastPosted": "2026-08-19T10:59:32.320Z"
+  "lastPosted": "2026-08-20T09:15:53.078Z"
 }
