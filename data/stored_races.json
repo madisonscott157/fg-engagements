@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-08-20T09:20:18.551Z",
+  "lastUpdate": "2026-08-21T09:20:24.557Z",
   "races": [
     {
       "horse": "ASYLLA F.PS. 3 a. ... (Sup.)",
@@ -75,6 +75,25 @@
         "hour": 17,
         "minute": 9,
         "formatted": "17h09"
+      }
+    },
+    {
+      "horse": "WOOT WOOT (IRE) F.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/QU8waVhpNTN3QnVxQkQ0cUtnZFhUQT09",
+      "statut": "DP-P/518",
+      "date": "23/08/2026",
+      "track": "DEAUVILLE",
+      "race": "DU CALVADOS",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/TXlrOWhXcHBXN3V0UU9rUVdNMnkrUT09",
+      "cat": "GR.II",
+      "purse": "119.000",
+      "disc": "P",
+      "dist": "1.400",
+      "owner": "CHR. HEAD (S)",
+      "postTime": {
+        "hour": 13,
+        "minute": 58,
+        "formatted": "13h58"
       }
     }
   ]
