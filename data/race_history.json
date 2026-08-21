@@ -1,5 +1,18 @@
 [
   {
+    "horse": "Khozan",
+    "date": "21/08/2026",
+    "track": "CLAIREFONTAINE",
+    "race": "",
+    "distance": "1.400",
+    "position": "TB",
+    "jockey": "C. SOUMILLON",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/RE9PczNIUVJwTjd2R3hxUHpLTEdpQT09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/N2V4YlU3LzRHbzZUV3hTbWkzenVhdz09",
+    "scrapedAt": "2026-08-21T15:35:57.435Z"
+  },
+  {
     "horse": "Asylla",
     "date": "21/08/2026",
     "track": "CLAIREFONTAINE",
