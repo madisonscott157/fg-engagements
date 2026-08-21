@@ -1,6 +1,67 @@
 {
   "partants": {},
   "newEngagements": {},
-  "statusUpdates": {},
+  "statusUpdates": {
+    "house of tudor ire m.ps. 3 a. | 25/08/2026 | deauville | de criqueville | 2.000": {
+      "horse": "HOUSE OF TUDOR IRE M.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/TytyRjNQU1o3UDhEbGF5bWdDMFJhdz09",
+      "date": "25/08/2026",
+      "track": "DEAUVILLE",
+      "race": "DE CRIQUEVILLE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/dnpwS21ic0hNYkwzOVEwVFhHcXZ6dz09",
+      "cat": "(Maiden)",
+      "dist": "2.000",
+      "statut": "PB-P/890",
+      "oldStatut": "VA-P/890"
+    },
+    "ceramic (ire) f.ps. 3 a. | 26/08/2026 | la teste-ba | millkom | 1.600": {
+      "horse": "CERAMIC (IRE) F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/dlczR042azNZZ2tGRVN3a3RYY0JLZz09",
+      "date": "26/08/2026",
+      "track": "LA TESTE-BA",
+      "race": "MILLKOM",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/MjBUeTZtVGZtZGYzTWpYU2dSWHM3dz09",
+      "cat": "(L)",
+      "dist": "1.600",
+      "statut": "F1-P/4165",
+      "oldStatut": "VA-P/4165"
+    },
+    "no tune (gb) f.ps. 3 a. | 26/08/2026 | la teste-ba | millkom | 1.600": {
+      "horse": "NO TUNE (GB) F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/QnhqdXA4MERPdXZveTZNNGVDeUNaZz09",
+      "date": "26/08/2026",
+      "track": "LA TESTE-BA",
+      "race": "MILLKOM",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/MjBUeTZtVGZtZGYzTWpYU2dSWHM3dz09",
+      "cat": "(L)",
+      "dist": "1.600",
+      "statut": "F1-P/4165",
+      "oldStatut": "VA-P/4165"
+    },
+    "royally ire f.ps. 2 a. | 26/08/2026 | la teste-ba | j. besse | 1.600": {
+      "horse": "ROYALLY IRE F.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/UEFEMUZUYUlGRzhKelJHWVVlL2ZmQT09",
+      "date": "26/08/2026",
+      "track": "LA TESTE-BA",
+      "race": "J. BESSE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/SU0zbnBQSkdjR2N4VmFZRmZNMXowQT09",
+      "cat": "(Maiden)",
+      "dist": "1.600",
+      "statut": "F1-P/5308",
+      "oldStatut": "VA-P/5308"
+    },
+    "munch h.ps. 2 a. | 30/08/2026 | deauville | casino b. | 1.200": {
+      "horse": "MUNCH H.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/WVFQTHcyZTYxamtmWXkvL2c3Z3oyUT09",
+      "date": "30/08/2026",
+      "track": "DEAUVILLE",
+      "race": "CASINO B.",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/NmQvNGp4UGNDMDBSSjhFY0o3U2xqUT09",
+      "cat": "(Maiden)",
+      "dist": "1.200",
+      "statut": "VA-P/904",
+      "oldStatut": "-P/904"
+    }
+  },
   "lastPosted": "2026-08-21T09:18:37.259Z"
 }
