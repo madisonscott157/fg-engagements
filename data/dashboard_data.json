@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-08-22T15:25:55.240Z",
+  "lastUpdate": "2026-08-22T15:30:09.345Z",
   "upcoming": [
     {
       "horse": "BIG MONEY MAN IRE M.PS. 2 a.",
@@ -535,6 +535,18 @@
     }
   ],
   "results": [
+    {
+      "horse": "Royally",
+      "date": "22/08/2026",
+      "track": "DEAUVILLE",
+      "race": "",
+      "distance": "1.600",
+      "position": "6",
+      "jockey": "C. SOUMILLON",
+      "gain": "0",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/MUdJSWROWU1JUkVjOU83S2k2ekIrUT09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/UEFEMUZUYUlGRzhKelJHWVVlL2ZmQT09"
+    },
     {
       "horse": "Big Money Man",
       "date": "22/08/2026",
