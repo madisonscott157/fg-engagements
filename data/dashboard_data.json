@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-08-22T23:56:05.984Z",
+  "lastUpdate": "2026-08-23T00:01:16.530Z",
   "upcoming": [
     {
       "horse": "BIG MONEY MAN IRE M.PS. 2 a.",
@@ -491,46 +491,6 @@
       "distance": "1.400",
       "cat": "",
       "status": "DP-P/518",
-      "lastUpdate": 1787429847753
-    },
-    {
-      "horse": "Big Money Man M 2 A.",
-      "date": "22/08/2026",
-      "track": "deauville",
-      "race": "criterium f.e.e",
-      "distance": "1.600",
-      "cat": "",
-      "status": "DP-P/516",
-      "lastUpdate": 1787429847753
-    },
-    {
-      "horse": "Monsieur Charlie M 2 A.",
-      "date": "22/08/2026",
-      "track": "deauville",
-      "race": "de montaigu",
-      "distance": "1.600",
-      "cat": "",
-      "status": "F1-P/877",
-      "lastUpdate": 1787429847753
-    },
-    {
-      "horse": "Royally F 2 A.",
-      "date": "22/08/2026",
-      "track": "deauville",
-      "race": "la reboursiere",
-      "distance": "1.600",
-      "cat": "",
-      "status": "DP-P/878",
-      "lastUpdate": 1787429847753
-    },
-    {
-      "horse": "Woot Woot (ire) F 2 A.",
-      "date": "22/08/2026",
-      "track": "deauville",
-      "race": "criterium f.e.e",
-      "distance": "1.600",
-      "cat": "",
-      "status": "F1-P/516",
       "lastUpdate": 1787429847753
     }
   ],
