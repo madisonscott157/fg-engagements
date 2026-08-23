@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "horse": "WOOT WOOT",
+    "date": "23/08/2026",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/TXlrOWhXcHBXN3V0UU9rUVdNMnkrUT09",
+    "hippodrome": "DEAUVILLE",
+    "addedAt": 1787487061307
+  }
+]
