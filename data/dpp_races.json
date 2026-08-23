@@ -1,34 +1,6 @@
 {
-  "lastUpdate": "2026-08-22T20:17:27.753Z",
+  "lastUpdate": "2026-08-23T06:33:39.881Z",
   "races": [
-    {
-      "horse": "BIG MONEY MAN IRE M.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/dUNFUytKdVBvN3N5Z1pLbVNXaWE5Zz09",
-      "statut": "DP-P/516",
-      "date": "22/08/2026",
-      "track": "DEAUVILLE",
-      "race": "CRITERIUM F.E.E",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/TlpDRmc1V0Y3enoraHdLNlhTN2lndz09",
-      "cat": "(R)",
-      "purse": "130.000",
-      "disc": "P",
-      "dist": "1.600",
-      "owner": "CHR. HEAD (S)"
-    },
-    {
-      "horse": "ROYALLY IRE F.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/UEFEMUZUYUlGRzhKelJHWVVlL2ZmQT09",
-      "statut": "DP-P/878",
-      "date": "22/08/2026",
-      "track": "DEAUVILLE",
-      "race": "LA REBOURSIERE",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/MUdJSWROWU1JUkVjOU83S2k2ekIrUT09",
-      "cat": "(Inédits)",
-      "purse": "27.400",
-      "disc": "P",
-      "dist": "1.600",
-      "owner": "CHR. HEAD (S)"
-    },
     {
       "horse": "WOOT WOOT (IRE) F.PS. 2 a.",
       "horseUrl": "https://www.france-galop.com/fr/cheval/QU8waVhpNTN3QnVxQkQ0cUtnZFhUQT09",
