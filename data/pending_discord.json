@@ -1,43 +1,6 @@
 {
   "partants": {},
   "newEngagements": {},
-  "statusUpdates": {
-    "amstramgram (gb) f.ps. 2 a. | 31/08/2026 | saint-cloud | idalie | 1.300": {
-      "horse": "AMSTRAMGRAM (GB) F.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/YURGS1VITFJXUUFNdS9CdHFPOXR3QT09",
-      "date": "31/08/2026",
-      "track": "SAINT-CLOUD",
-      "race": "IDALIE",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/K2hMRXZ1UytISjZGVzNoOGx2MVMzdz09",
-      "cat": "(Inédits)",
-      "dist": "1.300",
-      "statut": "VA-P/910",
-      "oldStatut": "-P/910"
-    },
-    "champagne sunset ire f.ps. 2 a. | 31/08/2026 | saint-cloud | ravinella | 1.600": {
-      "horse": "CHAMPAGNE SUNSET IRE F.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/Q0cxODhoSmFRTDd0YVhlbXg1WmtDZz09",
-      "date": "31/08/2026",
-      "track": "SAINT-CLOUD",
-      "race": "RAVINELLA",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/cG9ndlhEd3FTL1czcGM0Z2pUTGhNQT09",
-      "cat": "(Maiden)",
-      "dist": "1.600",
-      "statut": "VA-P/912",
-      "oldStatut": "-P/912"
-    },
-    "duskwind ire f.ps. 3 a. | 01/09/2026 | chantilly | de l'hermitage | 1.600": {
-      "horse": "DUSKWIND IRE F.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/YkFCbGhuc29uZnhyenZ4YjM3cExadz09",
-      "date": "01/09/2026",
-      "track": "CHANTILLY",
-      "race": "DE L'HERMITAGE",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/aUlTeWl4bjlSb3hUWExTbi9ybDJSZz09",
-      "cat": "(Maiden)",
-      "dist": "1.600",
-      "statut": "VA-P/918",
-      "oldStatut": "-P/918"
-    }
-  },
-  "lastPosted": "2026-08-24T08:42:38.411Z"
+  "statusUpdates": {},
+  "lastPosted": "2026-08-24T11:05:10.453Z"
 }
