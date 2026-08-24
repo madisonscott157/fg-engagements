@@ -1,63 +1,6 @@
 {
-  "lastUpdate": "2026-08-22T09:05:19.457Z",
+  "lastUpdate": "2026-08-24T08:45:24.190Z",
   "races": [
-    {
-      "horse": "BIG MONEY MAN IRE M.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/dUNFUytKdVBvN3N5Z1pLbVNXaWE5Zz09",
-      "statut": "DP-P/516",
-      "date": "22/08/2026",
-      "track": "DEAUVILLE",
-      "race": "CRITERIUM F.E.E",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/TlpDRmc1V0Y3enoraHdLNlhTN2lndz09",
-      "cat": "(R)",
-      "purse": "130.000",
-      "disc": "P",
-      "dist": "1.600",
-      "owner": "CHR. HEAD (S)",
-      "postTime": {
-        "hour": 14,
-        "minute": 31,
-        "formatted": "14h31"
-      }
-    },
-    {
-      "horse": "ROYALLY IRE F.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/UEFEMUZUYUlGRzhKelJHWVVlL2ZmQT09",
-      "statut": "DP-P/878",
-      "date": "22/08/2026",
-      "track": "DEAUVILLE",
-      "race": "LA REBOURSIERE",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/MUdJSWROWU1JUkVjOU83S2k2ekIrUT09",
-      "cat": "(Inédits)",
-      "purse": "27.400",
-      "disc": "P",
-      "dist": "1.600",
-      "owner": "CHR. HEAD (S)",
-      "postTime": {
-        "hour": 17,
-        "minute": 9,
-        "formatted": "17h09"
-      }
-    },
-    {
-      "horse": "WOOT WOOT (IRE) F.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/QU8waVhpNTN3QnVxQkQ0cUtnZFhUQT09",
-      "statut": "DP-P/518",
-      "date": "23/08/2026",
-      "track": "DEAUVILLE",
-      "race": "DU CALVADOS",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/TXlrOWhXcHBXN3V0UU9rUVdNMnkrUT09",
-      "cat": "GR.II",
-      "purse": "119.000",
-      "disc": "P",
-      "dist": "1.400",
-      "owner": "CHR. HEAD (S)",
-      "postTime": {
-        "hour": 13,
-        "minute": 58,
-        "formatted": "13h58"
-      }
-    },
     {
       "horse": "HOUSE OF TUDOR IRE M.PS. 3 a.",
       "horseUrl": "https://www.france-galop.com/fr/cheval/TytyRjNQU1o3UDhEbGF5bWdDMFJhdz09",
@@ -75,6 +18,25 @@
         "hour": 17,
         "minute": 13,
         "formatted": "17h13"
+      }
+    },
+    {
+      "horse": "CHAMPAGNE SUNSET IRE F.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/Q0cxODhoSmFRTDd0YVhlbXg1WmtDZz09",
+      "statut": "DP-P/5308",
+      "date": "26/08/2026",
+      "track": "LA TESTE-BA",
+      "race": "J. BESSE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/SU0zbnBQSkdjR2N4VmFZRmZNMXowQT09",
+      "cat": "(Maiden)",
+      "purse": "21.000",
+      "disc": "P",
+      "dist": "1.600",
+      "owner": "CHR. HEAD (S)",
+      "postTime": {
+        "hour": 16,
+        "minute": 20,
+        "formatted": "16h20"
       }
     }
   ]
