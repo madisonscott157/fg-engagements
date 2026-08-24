@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-08-23T23:55:44.006Z",
+  "lastUpdate": "2026-08-24T00:01:24.574Z",
   "upcoming": [
     {
       "horse": "BIG MONEY MAN IRE M.PS. 2 a.",
@@ -461,36 +461,6 @@
       "distance": "2.000",
       "cat": "",
       "status": "DP-P/890",
-      "lastUpdate": 1787516225213
-    },
-    {
-      "horse": "Familly F 4 A.",
-      "date": "23/08/2026",
-      "track": "deauville",
-      "race": "jean romanet",
-      "distance": "2.000",
-      "cat": "",
-      "status": "F1-P/520",
-      "lastUpdate": 1787516225213
-    },
-    {
-      "horse": "Data (gb) F 2 A.",
-      "date": "23/08/2026",
-      "track": "deauville",
-      "race": "du calvados",
-      "distance": "1.400",
-      "cat": "",
-      "status": "F1-P/518",
-      "lastUpdate": 1787516225213
-    },
-    {
-      "horse": "Woot Woot (ire) F 2 A.",
-      "date": "23/08/2026",
-      "track": "deauville",
-      "race": "du calvados",
-      "distance": "1.400",
-      "cat": "",
-      "status": "DP-P/518",
       "lastUpdate": 1787516225213
     }
   ],
