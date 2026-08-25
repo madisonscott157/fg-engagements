@@ -1,5 +1,28 @@
 {
-  "partants": {},
+  "partants": {
+    "house of tudor ire m.ps. 3 a. | 25/08/2026 | deauville | de criqueville | 2.000": {
+      "horse": "HOUSE OF TUDOR IRE M.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/TytyRjNQU1o3UDhEbGF5bWdDMFJhdz09",
+      "date": "25/08/2026",
+      "track": "DEAUVILLE",
+      "race": "DE CRIQUEVILLE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/dnpwS21ic0hNYkwzOVEwVFhHcXZ6dz09",
+      "cat": "(Maiden)",
+      "dist": "2.000",
+      "statut": "DP-P/890"
+    },
+    "champagne sunset ire f.ps. 2 a. | 26/08/2026 | la teste-ba | j. besse | 1.600": {
+      "horse": "CHAMPAGNE SUNSET IRE F.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/Q0cxODhoSmFRTDd0YVhlbXg1WmtDZz09",
+      "date": "26/08/2026",
+      "track": "LA TESTE-BA",
+      "race": "J. BESSE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/SU0zbnBQSkdjR2N4VmFZRmZNMXowQT09",
+      "cat": "(Maiden)",
+      "dist": "1.600",
+      "statut": "DP-P/5308"
+    }
+  },
   "newEngagements": {},
   "statusUpdates": {},
   "lastPosted": "2026-08-24T11:05:10.453Z"
