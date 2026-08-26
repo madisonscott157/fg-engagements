@@ -1,19 +1,4 @@
 {
-  "lastUpdate": "2026-08-26T19:43:22.355Z",
-  "races": [
-    {
-      "horse": "CHAMPAGNE SUNSET IRE F.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/Q0cxODhoSmFRTDd0YVhlbXg1WmtDZz09",
-      "statut": "DP-P/5308",
-      "date": "26/08/2026",
-      "track": "LA TESTE-BA",
-      "race": "J. BESSE",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/SU0zbnBQSkdjR2N4VmFZRmZNMXowQT09",
-      "cat": "(Maiden)",
-      "purse": "21.000",
-      "disc": "P",
-      "dist": "1.600",
-      "owner": "CHR. HEAD (S)"
-    }
-  ]
+  "lastUpdate": "2026-08-26T22:41:02.864Z",
+  "races": []
 }
