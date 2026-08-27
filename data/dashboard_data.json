@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-08-26T23:51:13.303Z",
+  "lastUpdate": "2026-08-27T00:03:20.383Z",
   "upcoming": [
     {
       "horse": "HOUSE OF TUDOR IRE M.PS. 3 a.",
@@ -452,46 +452,6 @@
       "cat": "",
       "status": "VA-P/904",
       "lastUpdate": 1787784062864
-    },
-    {
-      "horse": "Ceramic (ire) F 3 A.",
-      "date": "26/08/2026",
-      "track": "la teste-ba",
-      "race": "millkom",
-      "distance": "1.600",
-      "cat": "",
-      "status": "F1-P/4165",
-      "lastUpdate": 1787773402354
-    },
-    {
-      "horse": "Champagne Sunset F 2 A.",
-      "date": "26/08/2026",
-      "track": "la teste-ba",
-      "race": "j. besse",
-      "distance": "1.600",
-      "cat": "",
-      "status": "DP-P/5308",
-      "lastUpdate": 1787773402354
-    },
-    {
-      "horse": "No Tune (gb) F 3 A.",
-      "date": "26/08/2026",
-      "track": "la teste-ba",
-      "race": "millkom",
-      "distance": "1.600",
-      "cat": "",
-      "status": "F1-P/4165",
-      "lastUpdate": 1787773402354
-    },
-    {
-      "horse": "Royally F 2 A.",
-      "date": "26/08/2026",
-      "track": "la teste-ba",
-      "race": "j. besse",
-      "distance": "1.600",
-      "cat": "",
-      "status": "F1-P/5308",
-      "lastUpdate": 1787773402354
     }
   ],
   "results": [
