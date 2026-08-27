@@ -7,6 +7,12 @@ const fs = require('fs/promises');
 const path = require('path');
 const { google } = require('googleapis');
 const { ensureLoggedIn, loadSessionStorageState } = require('./lib/fg_login');
+const { recordSuccess, handleScrapeFailure } = require('./lib/scrape_health');
+
+// Consecutive unreachable-site runs tolerated before CI goes red. This workflow
+// runs roughly hourly, so 3 misses is ~3 hours of real downtime. A skipped cycle
+// never loses a Discord post — shouldPostNow() catches up on the next good run.
+const UNREACHABLE_THRESHOLD = 3;
 
 const TRAINER_URL = process.env.TRAINER_URL;
 const WEBHOOK = process.env.DISCORD_WEBHOOK_URL;
@@ -866,7 +872,12 @@ async function scrape() {
       break;
     } catch (err) {
       console.log('Attempt ' + attempt + ' failed: ' + err.message);
-      if (attempt === 5) throw err;
+      if (attempt === 5) {
+        // Tag so the top-level handler can treat a short outage as a skipped
+        // cycle rather than a hard failure.
+        err.siteUnreachable = true;
+        throw err;
+      }
       const delay = attempt * 10000;  // 10s, 20s, 30s, 40s delays
       console.log('Waiting ' + (delay/1000) + 's before retry...');
       await new Promise(r => setTimeout(r, delay));
@@ -1082,6 +1093,9 @@ function chunkLines(header, lines, maxLen = 1800) {
   }
   
   const rows = await scrape();
+  // The site was reachable — clear any consecutive-failure streak before the
+  // run branches into its several exit paths.
+  await recordSuccess('engagements');
 
   const runSeen = new Set();
   const unique = [];
@@ -1351,4 +1365,4 @@ function chunkLines(header, lines, maxLen = 1800) {
   await saveSeen(seen);
   await saveLastRun(today);
   console.log('✅ Posted ' + pendingPartants.length + ' declared participants + ' + pendingNew.length + ' new + ' + pendingUpdates.length + ' updated engagements');
-})();
+})().catch(err => handleScrapeFailure('engagements', err, { threshold: UNREACHABLE_THRESHOLD }));

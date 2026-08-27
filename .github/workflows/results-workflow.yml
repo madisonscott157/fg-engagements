@@ -13,6 +13,7 @@ on:
 
 permissions:
   contents: write
+  actions: write   # needed to relay a dispatch to engagements.yml
 
 concurrency:
   group: results-tracking-commits
@@ -94,7 +95,7 @@ jobs:
           git config --local user.name "github-actions[bot]"
 
           git fetch origin main
-          git add data/seen_results.json data/race_history.json data/pending_tracking.json
+          git add data/seen_results.json data/race_history.json data/pending_tracking.json data/scrape_health_results.json
 
           if git diff --staged --quiet; then
             echo "No changes to commit"
@@ -115,3 +116,43 @@ jobs:
 
           echo "Failed to push after 5 attempts"
           exit 1
+
+      # GitHub's scheduled triggers are best-effort and have been dropping runs
+      # for this repo — on 2026-08-27 not one of the eight engagements crons
+      # fired. This workflow is dispatched reliably every 5 minutes, so it also
+      # acts as a heartbeat that keeps engagements running independently of cron.
+      - name: Relay dispatch to Scrape Engagements
+        if: always()
+        # Never let a relay problem turn this workflow red — the cron triggers
+        # on engagements.yml remain in place as a backup.
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # 10# forces base 10 — "08" and "09" are invalid octal and would error.
+          hour=$((10#$(date -u +%H)))
+
+          # Mirror the engagements cron window (06:00-20:59 UTC). Outside it,
+          # France Galop is in its overnight maintenance window and runs mostly
+          # fail — that is where nearly every recent failure email came from.
+          if [ "$hour" -lt 6 ] || [ "$hour" -gt 20 ]; then
+            echo "Outside the engagements window (${hour}:00 UTC) — not relaying."
+            exit 0
+          fi
+
+          last=$(gh api "repos/${GITHUB_REPOSITORY}/actions/workflows/engagements.yml/runs?per_page=1" \
+            --jq '.workflow_runs[0].run_started_at // empty')
+
+          if [ -n "$last" ]; then
+            age=$(( ( $(date -u +%s) - $(date -u -d "$last" +%s) ) / 60 ))
+            echo "Last Scrape Engagements run: ${last} (${age} min ago)"
+            if [ "$age" -lt 55 ]; then
+              echo "Ran within the last 55 minutes — not relaying."
+              exit 0
+            fi
+          else
+            echo "No prior Scrape Engagements run found."
+          fi
+
+          echo "Relaying dispatch to engagements.yml"
+          gh workflow run engagements.yml --ref main

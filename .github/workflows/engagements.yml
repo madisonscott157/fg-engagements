@@ -98,7 +98,7 @@ jobs:
           git fetch origin main
 
           # Check if data files have changes
-          git add data/seen.json data/dpp_races.json data/posted_partants.json data/last_run.json data/pending_discord.json
+          git add data/seen.json data/dpp_races.json data/posted_partants.json data/last_run.json data/pending_discord.json data/scrape_health_engagements.json
 
           if git diff --staged --quiet; then
             echo "No changes to commit"

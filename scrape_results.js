@@ -7,6 +7,11 @@ const fs = require('fs/promises');
 const path = require('path');
 const { google } = require('googleapis');
 const { ensureLoggedIn, loadSessionStorageState } = require('./lib/fg_login');
+const { recordSuccess, handleScrapeFailure } = require('./lib/scrape_health');
+
+// Consecutive unreachable-site runs tolerated before CI goes red. This workflow
+// is dispatched every 5 minutes, so 5 misses is ~25 minutes of real downtime.
+const UNREACHABLE_THRESHOLD = 5;
 
 const RESULTS_URL = process.env.RESULTS_URL;
 const WEBHOOK = process.env.DISCORD_WEBHOOK_RESULTS;
@@ -534,7 +539,12 @@ async function scrapeResults() {
       break;
     } catch (err) {
       console.log(`Attempt ${attempt} failed: ${err.message}`);
-      if (attempt === 5) throw err;
+      if (attempt === 5) {
+        // Tag so the top-level handler can treat a short outage as a skipped
+        // cycle rather than a hard failure.
+        err.siteUnreachable = true;
+        throw err;
+      }
       const delay = attempt * 10000;  // 10s, 20s, 30s, 40s delays
       console.log(`Waiting ${delay/1000}s before retry...`);
       await new Promise(r => setTimeout(r, delay));
@@ -814,6 +824,7 @@ function chunkLines(header, lines, maxLen = 1800) {
 
   await saveSeen(seen);
   await savePendingTracking(pending);
+  await recordSuccess('results');
 
   console.log(`Posted ${newResults.length} new results, ${pending.length} races queued for tracking check`);
-})();
+})().catch(err => handleScrapeFailure('results', err, { threshold: UNREACHABLE_THRESHOLD }));
