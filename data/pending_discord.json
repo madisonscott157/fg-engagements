@@ -1,6 +1,31 @@
 {
   "partants": {},
   "newEngagements": {},
-  "statusUpdates": {},
+  "statusUpdates": {
+    "tortsanlot (gb) m.ps. 2 a. | 02/09/2026 | toulouse | pompadour | 1.600": {
+      "horse": "TORTSANLOT (GB) M.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/T2srQkxYWVcvRCs1cCtIR2FmUlczUT09",
+      "date": "02/09/2026",
+      "track": "TOULOUSE",
+      "race": "POMPADOUR",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/NEF2dVRsWjdwOUExZkN1eVc5cHRIdz09",
+      "cat": "(Classe 2)",
+      "dist": "1.600",
+      "statut": "F1-P/5328",
+      "oldStatut": "VA-P/5328"
+    },
+    "timide usa m.ps. 2 a. | 05/09/2026 | craon | criterium ouest | 1.650": {
+      "horse": "TIMIDE USA M.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/U1ZlbVRkUTd3WlRyalU2c3ovZ2RlQT09",
+      "date": "05/09/2026",
+      "track": "CRAON",
+      "race": "CRITERIUM OUEST",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/eDFzZXRsT1NDVUd2aFVQRlp5K201dz09",
+      "cat": "(L)",
+      "dist": "1.650",
+      "statut": "VA-P/4166",
+      "oldStatut": "-P/4166"
+    }
+  },
   "lastPosted": "2026-08-28T08:56:40.711Z"
 }
