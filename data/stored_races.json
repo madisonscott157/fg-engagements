@@ -1,42 +1,42 @@
 {
-  "lastUpdate": "2026-08-24T08:45:24.190Z",
+  "lastUpdate": "2026-08-28T09:00:26.198Z",
   "races": [
     {
-      "horse": "HOUSE OF TUDOR IRE M.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/TytyRjNQU1o3UDhEbGF5bWdDMFJhdz09",
-      "statut": "DP-P/890",
-      "date": "25/08/2026",
+      "horse": "MUNCH H.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/WVFQTHcyZTYxamtmWXkvL2c3Z3oyUT09",
+      "statut": "DP-P/904",
+      "date": "30/08/2026",
       "track": "DEAUVILLE",
-      "race": "DE CRIQUEVILLE",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/dnpwS21ic0hNYkwzOVEwVFhHcXZ6dz09",
+      "race": "CASINO B.",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/NmQvNGp4UGNDMDBSSjhFY0o3U2xqUT09",
       "cat": "(Maiden)",
-      "purse": "20.100",
+      "purse": "27.400",
       "disc": "P",
-      "dist": "2.000",
+      "dist": "1.200",
       "owner": "CHR. HEAD (S)",
       "postTime": {
-        "hour": 17,
-        "minute": 13,
-        "formatted": "17h13"
+        "hour": 13,
+        "minute": 58,
+        "formatted": "13h58"
       }
     },
     {
-      "horse": "CHAMPAGNE SUNSET IRE F.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/Q0cxODhoSmFRTDd0YVhlbXg1WmtDZz09",
-      "statut": "DP-P/5308",
-      "date": "26/08/2026",
-      "track": "LA TESTE-BA",
-      "race": "J. BESSE",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/SU0zbnBQSkdjR2N4VmFZRmZNMXowQT09",
-      "cat": "(Maiden)",
-      "purse": "21.000",
+      "horse": "AMSTRAMGRAM (GB) F.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/YURGS1VITFJXUUFNdS9CdHFPOXR3QT09",
+      "statut": "DP-P/910",
+      "date": "31/08/2026",
+      "track": "SAINT-CLOUD",
+      "race": "IDALIE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/K2hMRXZ1UytISjZGVzNoOGx2MVMzdz09",
+      "cat": "(Inédits)",
+      "purse": "27.400",
       "disc": "P",
-      "dist": "1.600",
+      "dist": "1.300",
       "owner": "CHR. HEAD (S)",
       "postTime": {
-        "hour": 16,
-        "minute": 20,
-        "formatted": "16h20"
+        "hour": 14,
+        "minute": 30,
+        "formatted": "14h30"
       }
     }
   ]
