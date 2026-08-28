@@ -1,25 +1,25 @@
 {
-  "lastUpdate": "2026-08-28T08:56:57.789Z",
+  "lastUpdate": "2026-08-28T09:01:23.291Z",
   "upcoming": [
     {
-      "horse": "HOUSE OF TUDOR IRE M.PS. 3 a.",
-      "date": "25/08/2026",
+      "horse": "MUNCH H.PS. 2 a.",
+      "date": "30/08/2026",
       "track": "DEAUVILLE",
-      "race": "DE CRIQUEVILLE",
-      "distance": "2.000",
+      "race": "CASINO B.",
+      "distance": "1.200",
       "cat": "(Maiden)",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/dnpwS21ic0hNYkwzOVEwVFhHcXZ6dz09",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/TytyRjNQU1o3UDhEbGF5bWdDMFJhdz09"
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/NmQvNGp4UGNDMDBSSjhFY0o3U2xqUT09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/WVFQTHcyZTYxamtmWXkvL2c3Z3oyUT09"
     },
     {
-      "horse": "CHAMPAGNE SUNSET IRE F.PS. 2 a.",
-      "date": "26/08/2026",
-      "track": "LA TESTE-BA",
-      "race": "J. BESSE",
-      "distance": "1.600",
-      "cat": "(Maiden)",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/SU0zbnBQSkdjR2N4VmFZRmZNMXowQT09",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/Q0cxODhoSmFRTDd0YVhlbXg1WmtDZz09"
+      "horse": "AMSTRAMGRAM (GB) F.PS. 2 a.",
+      "date": "31/08/2026",
+      "track": "SAINT-CLOUD",
+      "race": "IDALIE",
+      "distance": "1.300",
+      "cat": "(Inédits)",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/K2hMRXZ1UytISjZGVzNoOGx2MVMzdz09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/YURGS1VITFJXUUFNdS9CdHFPOXR3QT09"
     }
   ],
   "engagements": [
