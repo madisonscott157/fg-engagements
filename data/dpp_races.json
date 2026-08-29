@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-08-29T07:56:43.200Z",
+  "lastUpdate": "2026-08-29T08:56:29.564Z",
   "races": [
     {
       "horse": "MUNCH H.PS. 2 a.",
@@ -27,6 +27,20 @@
       "purse": "27.400",
       "disc": "P",
       "dist": "1.300",
+      "owner": "CHR. HEAD (S)"
+    },
+    {
+      "horse": "DUSKWIND IRE F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/YkFCbGhuc29uZnhyenZ4YjM3cExadz09",
+      "statut": "DP-P/918",
+      "date": "01/09/2026",
+      "track": "DEAUVILLE",
+      "race": "DE L'HERMITAGE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/aUlTeWl4bjlSb3hUWExTbi9ybDJSZz09",
+      "cat": "(Maiden)",
+      "purse": "20.100",
+      "disc": "P",
+      "dist": "1.600",
       "owner": "CHR. HEAD (S)"
     }
   ]
