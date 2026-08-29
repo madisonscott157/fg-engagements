@@ -1,19 +1,6 @@
 {
   "partants": {},
   "newEngagements": {},
-  "statusUpdates": {
-    "barramundi (ire) m.ps. 2 a. | 03/09/2026 | parislongchamp | de fontenoy | 1.600": {
-      "horse": "BARRAMUNDI (IRE) M.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/TUw1V2ZQK1pYS0dsdDI3ZXJ3WXArdz09",
-      "date": "03/09/2026",
-      "track": "PARISLONGCHAMP",
-      "race": "DE FONTENOY",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/YjdnL3FSUUdONlcydkwzZG5Ed2xqZz09",
-      "cat": "(Inédits)",
-      "dist": "1.600",
-      "statut": "F1-P/925",
-      "oldStatut": "VA-P/925"
-    }
-  },
-  "lastPosted": "2026-08-29T08:56:45.535Z"
+  "statusUpdates": {},
+  "lastPosted": "2026-08-29T10:56:44.126Z"
 }
