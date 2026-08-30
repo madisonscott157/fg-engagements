@@ -1,5 +1,39 @@
 {
-  "partants": {},
+  "partants": {
+    "munch h.ps. 2 a. | 30/08/2026 | deauville | casino b. | 1.200": {
+      "horse": "MUNCH H.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/WVFQTHcyZTYxamtmWXkvL2c3Z3oyUT09",
+      "date": "30/08/2026",
+      "track": "DEAUVILLE",
+      "race": "CASINO B.",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/NmQvNGp4UGNDMDBSSjhFY0o3U2xqUT09",
+      "cat": "(Maiden)",
+      "dist": "1.200",
+      "statut": "DP-P/904"
+    },
+    "amstramgram (gb) f.ps. 2 a. | 31/08/2026 | saint-cloud | idalie | 1.300": {
+      "horse": "AMSTRAMGRAM (GB) F.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/YURGS1VITFJXUUFNdS9CdHFPOXR3QT09",
+      "date": "31/08/2026",
+      "track": "SAINT-CLOUD",
+      "race": "IDALIE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/K2hMRXZ1UytISjZGVzNoOGx2MVMzdz09",
+      "cat": "(Inédits)",
+      "dist": "1.300",
+      "statut": "DP-P/910"
+    },
+    "duskwind ire f.ps. 3 a. | 01/09/2026 | deauville | de l'hermitage | 1.600": {
+      "horse": "DUSKWIND IRE F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/YkFCbGhuc29uZnhyenZ4YjM3cExadz09",
+      "date": "01/09/2026",
+      "track": "DEAUVILLE",
+      "race": "DE L'HERMITAGE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/aUlTeWl4bjlSb3hUWExTbi9ybDJSZz09",
+      "cat": "(Maiden)",
+      "dist": "1.600",
+      "statut": "DP-P/918"
+    }
+  },
   "newEngagements": {},
   "statusUpdates": {},
   "lastPosted": "2026-08-29T10:56:44.126Z"
