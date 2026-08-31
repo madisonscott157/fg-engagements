@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-08-31T12:36:17.724Z",
+  "lastUpdate": "2026-08-31T12:41:32.255Z",
   "upcoming": [
     {
       "horse": "MUNCH H.PS. 2 a.",
@@ -505,6 +505,18 @@
     }
   ],
   "results": [
+    {
+      "horse": "Amstramgram",
+      "date": "31/08/2026",
+      "track": "SAINT-CLOUD",
+      "race": "",
+      "distance": "1.300",
+      "position": "3",
+      "jockey": "M. GUYON",
+      "gain": "0",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/K2hMRXZ1UytISjZGVzNoOGx2MVMzdz09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/YURGS1VITFJXUUFNdS9CdHFPOXR3QT09"
+    },
     {
       "horse": "Munch",
       "date": "30/08/2026",
