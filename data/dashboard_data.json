@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-08-30T23:55:45.468Z",
+  "lastUpdate": "2026-08-31T00:01:21.379Z",
   "upcoming": [
     {
       "horse": "MUNCH H.PS. 2 a.",
@@ -452,36 +452,6 @@
       "cat": "",
       "status": "F1-P/912",
       "lastUpdate": 1788128445946
-    },
-    {
-      "horse": "No Tune (gb) F 3 A.",
-      "date": "30/08/2026",
-      "track": "deauville",
-      "race": "de meautry",
-      "distance": "1.200",
-      "cat": "",
-      "status": "F1-P/521",
-      "lastUpdate": 1788123388599
-    },
-    {
-      "horse": "Proof M 3 A.",
-      "date": "30/08/2026",
-      "track": "deauville",
-      "race": "gd px deauville",
-      "distance": "2.500",
-      "cat": "",
-      "status": "F1-P/523",
-      "lastUpdate": 1788123388599
-    },
-    {
-      "horse": "Munch H 2 A.",
-      "date": "30/08/2026",
-      "track": "deauville",
-      "race": "casino b.",
-      "distance": "1.200",
-      "cat": "",
-      "status": "DP-P/904",
-      "lastUpdate": 1788123388599
     }
   ],
   "results": [
