@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-08-31T23:55:57.729Z",
+  "lastUpdate": "2026-09-01T00:00:55.697Z",
   "upcoming": [
     {
       "horse": "MUNCH H.PS. 2 a.",
@@ -482,26 +482,6 @@
       "cat": "",
       "status": "DP-P/918",
       "lastUpdate": 1788219319338
-    },
-    {
-      "horse": "Amstramgram (gb) F 2 A.",
-      "date": "31/08/2026",
-      "track": "saint-cloud",
-      "race": "idalie",
-      "distance": "1.300",
-      "cat": "",
-      "status": "DP-P/910",
-      "lastUpdate": 1788209171628
-    },
-    {
-      "horse": "Champagne Sunset F 2 A.",
-      "date": "31/08/2026",
-      "track": "saint-cloud",
-      "race": "ravinella",
-      "distance": "1.600",
-      "cat": "",
-      "status": "F1-P/912",
-      "lastUpdate": 1788209171628
     }
   ],
   "results": [
