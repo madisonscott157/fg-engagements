@@ -1,26 +1,6 @@
 {
-  "lastUpdate": "2026-09-01T08:52:27.231Z",
+  "lastUpdate": "2026-09-01T08:56:24.186Z",
   "upcoming": [
-    {
-      "horse": "MUNCH H.PS. 2 a.",
-      "date": "30/08/2026",
-      "track": "DEAUVILLE",
-      "race": "CASINO B.",
-      "distance": "1.200",
-      "cat": "(Maiden)",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/NmQvNGp4UGNDMDBSSjhFY0o3U2xqUT09",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/WVFQTHcyZTYxamtmWXkvL2c3Z3oyUT09"
-    },
-    {
-      "horse": "AMSTRAMGRAM (GB) F.PS. 2 a.",
-      "date": "31/08/2026",
-      "track": "SAINT-CLOUD",
-      "race": "IDALIE",
-      "distance": "1.300",
-      "cat": "(Inédits)",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/K2hMRXZ1UytISjZGVzNoOGx2MVMzdz09",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/YURGS1VITFJXUUFNdS9CdHFPOXR3QT09"
-    },
     {
       "horse": "DUSKWIND IRE F.PS. 3 a.",
       "date": "01/09/2026",
@@ -30,6 +10,26 @@
       "cat": "(Maiden)",
       "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/aUlTeWl4bjlSb3hUWExTbi9ybDJSZz09",
       "horseUrl": "https://www.france-galop.com/fr/cheval/YkFCbGhuc29uZnhyenZ4YjM3cExadz09"
+    },
+    {
+      "horse": "CERAMIC (IRE) F.PS. 3 a.",
+      "date": "03/09/2026",
+      "track": "PARISLONGCHAMP",
+      "race": "DE LA COCHERE",
+      "distance": "1.600",
+      "cat": "(L)",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/a1pkTkJOZWRqRDZzZUkwREs5Z3ZhUT09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/dlczR042azNZZ2tGRVN3a3RYY0JLZz09"
+    },
+    {
+      "horse": "NO TUNE (GB) F.PS. 3 a.",
+      "date": "03/09/2026",
+      "track": "PARISLONGCHAMP",
+      "race": "DE LA COCHERE",
+      "distance": "1.600",
+      "cat": "(L)",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/a1pkTkJOZWRqRDZzZUkwREs5Z3ZhUT09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/QnhqdXA4MERPdXZveTZNNGVDeUNaZz09"
     }
   ],
   "engagements": [
