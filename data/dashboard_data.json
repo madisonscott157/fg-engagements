@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-09-03T15:45:49.689Z",
+  "lastUpdate": "2026-09-03T15:51:21.298Z",
   "upcoming": [
     {
       "horse": "CERAMIC (IRE) F.PS. 3 a.",
@@ -505,6 +505,30 @@
     }
   ],
   "results": [
+    {
+      "horse": "No Tune",
+      "date": "03/09/2026",
+      "track": "PARISLONGCHAMP",
+      "race": "",
+      "distance": "1.600",
+      "position": "3",
+      "jockey": "M. BARZALONA",
+      "gain": "0",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/a1pkTkJOZWRqRDZzZUkwREs5Z3ZhUT09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/QnhqdXA4MERPdXZveTZNNGVDeUNaZz09"
+    },
+    {
+      "horse": "Ceramic",
+      "date": "03/09/2026",
+      "track": "PARISLONGCHAMP",
+      "race": "",
+      "distance": "1.600",
+      "position": "2",
+      "jockey": "C. SOUMILLON",
+      "gain": "0",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/a1pkTkJOZWRqRDZzZUkwREs5Z3ZhUT09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/dlczR042azNZZ2tGRVN3a3RYY0JLZz09"
+    },
     {
       "horse": "Duskwind",
       "date": "01/09/2026",
