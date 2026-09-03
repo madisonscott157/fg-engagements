@@ -1,5 +1,28 @@
 {
-  "partants": {},
+  "partants": {
+    "ceramic (ire) f.ps. 3 a. | 03/09/2026 | parislongchamp | de la cochere | 1.600": {
+      "horse": "CERAMIC (IRE) F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/dlczR042azNZZ2tGRVN3a3RYY0JLZz09",
+      "date": "03/09/2026",
+      "track": "PARISLONGCHAMP",
+      "race": "DE LA COCHERE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/a1pkTkJOZWRqRDZzZUkwREs5Z3ZhUT09",
+      "cat": "(L)",
+      "dist": "1.600",
+      "statut": "DP-P/526"
+    },
+    "no tune (gb) f.ps. 3 a. | 03/09/2026 | parislongchamp | de la cochere | 1.600": {
+      "horse": "NO TUNE (GB) F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/QnhqdXA4MERPdXZveTZNNGVDeUNaZz09",
+      "date": "03/09/2026",
+      "track": "PARISLONGCHAMP",
+      "race": "DE LA COCHERE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/a1pkTkJOZWRqRDZzZUkwREs5Z3ZhUT09",
+      "cat": "(L)",
+      "dist": "1.600",
+      "statut": "DP-P/526"
+    }
+  },
   "newEngagements": {},
   "statusUpdates": {},
   "lastPosted": "2026-09-02T11:31:38.529Z"
