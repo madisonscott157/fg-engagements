@@ -1,16 +1,1 @@
-[
-  {
-    "horse": "CERAMIC",
-    "date": "03/09/2026",
-    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/a1pkTkJOZWRqRDZzZUkwREs5Z3ZhUT09",
-    "hippodrome": "PARISLONGCHAMP",
-    "addedAt": 1788450651980
-  },
-  {
-    "horse": "NO TUNE",
-    "date": "03/09/2026",
-    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/a1pkTkJOZWRqRDZzZUkwREs5Z3ZhUT09",
-    "hippodrome": "PARISLONGCHAMP",
-    "addedAt": 1788450651980
-  }
-]
+[]
