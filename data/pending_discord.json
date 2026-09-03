@@ -1,6 +1,79 @@
 {
   "partants": {},
   "newEngagements": {},
-  "statusUpdates": {},
+  "statusUpdates": {
+    "avec toi usa m.ps. 2 a. | 06/09/2026 | parislongchamp | la rochette | 1.400": {
+      "horse": "AVEC TOI USA M.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/Yy9LbUNpNitKTlBqTVVHQTU1bW1yZz09",
+      "date": "06/09/2026",
+      "track": "PARISLONGCHAMP",
+      "race": "LA ROCHETTE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/U3FHaFpqeGZBWis4YS8yU1d1YmczZz09",
+      "cat": "GR.III",
+      "dist": "1.400",
+      "statut": "PB-P/530",
+      "oldStatut": "VA-P/530"
+    },
+    "data (gb) f.ps. 2 a. | 06/09/2026 | parislongchamp | d'aumale | 1.600": {
+      "horse": "DATA (GB) F.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/cHlrZ3Y1MHRUQnRvbXVoUzlZOTMyQT09",
+      "date": "06/09/2026",
+      "track": "PARISLONGCHAMP",
+      "race": "D'AUMALE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/UGdsSHZRakZhYnVHcmxMKzliS24wQT09",
+      "cat": "GR.II",
+      "dist": "1.600",
+      "statut": "PB-P/531",
+      "oldStatut": "VA-P/531"
+    },
+    "nighttime m.ps. 3 a. | 06/09/2026 | parislongchamp | moulin longcham | 1.600": {
+      "horse": "NIGHTTIME M.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/MzNVeWdhQUNneUxUMnlHTnU3dXR6dz09",
+      "date": "06/09/2026",
+      "track": "PARISLONGCHAMP",
+      "race": "MOULIN LONGCHAM",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/bEtnSE9IcE9Oc2pZTjhPTzdQb2lqdz09",
+      "cat": "GR.I",
+      "dist": "1.600",
+      "statut": "PB-P/534",
+      "oldStatut": "VA-P/534"
+    },
+    "timide usa m.ps. 2 a. | 08/09/2026 | lyon parilly | crit.de lyon | 1.600": {
+      "horse": "TIMIDE USA M.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/U1ZlbVRkUTd3WlRyalU2c3ovZ2RlQT09",
+      "date": "08/09/2026",
+      "track": "LYON PARILLY",
+      "race": "CRIT.DE LYON",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/ZWJBREppc2ErYS9mNlNsOU56ZkEydz09",
+      "cat": "(L)",
+      "dist": "1.600",
+      "statut": "F1-P/4168",
+      "oldStatut": "VA-P/4168"
+    },
+    "royally ire f.ps. 2 a. | 11/09/2026 | saint-cloud | ortie blanche | 1.400": {
+      "horse": "ROYALLY IRE F.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/UEFEMUZUYUlGRzhKelJHWVVlL2ZmQT09",
+      "date": "11/09/2026",
+      "track": "SAINT-CLOUD",
+      "race": "ORTIE BLANCHE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/WHJFa0hxaXI1bGdCUHJ2ZWZCM0lwQT09",
+      "cat": "(Maiden)",
+      "dist": "1.400",
+      "statut": "VA-P/959",
+      "oldStatut": "-P/959"
+    },
+    "tortsanlot (gb) m.ps. 2 a. | 11/09/2026 | saint-cloud | astaria | 2.000": {
+      "horse": "TORTSANLOT (GB) M.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/T2srQkxYWVcvRCs1cCtIR2FmUlczUT09",
+      "date": "11/09/2026",
+      "track": "SAINT-CLOUD",
+      "race": "ASTARIA",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/ZmhJUklsZzdvRWpaNnJoZmlucUlXQT09",
+      "cat": "(Classe 2)",
+      "dist": "2.000",
+      "statut": "VA-P/960",
+      "oldStatut": "-P/960"
+    }
+  },
   "lastPosted": "2026-09-03T09:01:52.590Z"
 }
