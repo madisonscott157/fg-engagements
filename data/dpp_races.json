@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-09-04T08:32:24.503Z",
+  "lastUpdate": "2026-09-04T09:35:43.143Z",
   "races": [
     {
       "horse": "TIMIDE USA M.PS. 2 a.",
@@ -13,6 +13,48 @@
       "purse": "54.900",
       "disc": "P",
       "dist": "1.650",
+      "owner": "CHR. HEAD (S)"
+    },
+    {
+      "horse": "AVEC TOI USA M.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/Yy9LbUNpNitKTlBqTVVHQTU1bW1yZz09",
+      "statut": "DP-P/530",
+      "date": "06/09/2026",
+      "track": "PARISLONGCHAMP",
+      "race": "LA ROCHETTE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/U3FHaFpqeGZBWis4YS8yU1d1YmczZz09",
+      "cat": "GR.III",
+      "purse": "73.200",
+      "disc": "P",
+      "dist": "1.400",
+      "owner": "CHR. HEAD (S)"
+    },
+    {
+      "horse": "DATA (GB) F.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/cHlrZ3Y1MHRUQnRvbXVoUzlZOTMyQT09",
+      "statut": "DP-P/531",
+      "date": "06/09/2026",
+      "track": "PARISLONGCHAMP",
+      "race": "D'AUMALE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/UGdsSHZRakZhYnVHcmxMKzliS24wQT09",
+      "cat": "GR.II",
+      "purse": "119.000",
+      "disc": "P",
+      "dist": "1.600",
+      "owner": "CHR. HEAD (S)"
+    },
+    {
+      "horse": "NIGHTTIME M.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/MzNVeWdhQUNneUxUMnlHTnU3dXR6dz09",
+      "statut": "DP-P/534",
+      "date": "06/09/2026",
+      "track": "PARISLONGCHAMP",
+      "race": "MOULIN LONGCHAM",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/bEtnSE9IcE9Oc2pZTjhPTzdQb2lqdz09",
+      "cat": "GR.I",
+      "purse": "800.000",
+      "disc": "P",
+      "dist": "1.600",
       "owner": "CHR. HEAD (S)"
     }
   ]
