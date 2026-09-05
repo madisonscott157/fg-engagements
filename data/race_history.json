@@ -1,5 +1,18 @@
 [
   {
+    "horse": "Timide",
+    "date": "05/09/2026",
+    "track": "CRAON",
+    "race": "",
+    "distance": "1.650",
+    "position": "8",
+    "jockey": "H. LEBOUC",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/eDFzZXRsT1NDVUd2aFVQRlp5K201dz09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/U1ZlbVRkUTd3WlRyalU2c3ovZ2RlQT09",
+    "scrapedAt": "2026-09-05T15:10:56.718Z"
+  },
+  {
     "horse": "No Tune",
     "date": "03/09/2026",
     "track": "PARISLONGCHAMP",
