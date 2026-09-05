@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-09-05T07:56:12.226Z",
+  "lastUpdate": "2026-09-05T08:51:37.785Z",
   "races": [
     {
       "horse": "TIMIDE USA M.PS. 2 a.",
@@ -53,6 +53,62 @@
       "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/bEtnSE9IcE9Oc2pZTjhPTzdQb2lqdz09",
       "cat": "GR.I",
       "purse": "800.000",
+      "disc": "P",
+      "dist": "1.600",
+      "owner": "CHR. HEAD (S)"
+    },
+    {
+      "horse": "BARRAMUNDI (IRE) M.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/TUw1V2ZQK1pYS0dsdDI3ZXJ3WXArdz09",
+      "statut": "DP-P/5475",
+      "date": "08/09/2026",
+      "track": "LYON PARILLY",
+      "race": "BRUYERES",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/WjZneUQrRkdoc1poYytiQUk1RWkwQT09",
+      "cat": "(Inédits)",
+      "purse": "21.000",
+      "disc": "P",
+      "dist": "1.600",
+      "owner": "CHR. HEAD (S)"
+    },
+    {
+      "horse": "PALAIS BYZANTIN M.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/ZHhLcU9WVVFkeXUxM1dUUzlCR0J5Zz09",
+      "statut": "DP-P/4168",
+      "date": "08/09/2026",
+      "track": "LYON PARILLY",
+      "race": "CRIT.DE LYON",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/ZWJBREppc2ErYS9mNlNsOU56ZkEydz09",
+      "cat": "(L)",
+      "purse": "54.900",
+      "disc": "P",
+      "dist": "1.600",
+      "owner": "CHR. HEAD (S)"
+    },
+    {
+      "horse": "STRATEGE (IRE) H.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/c2RML3plVCsxNEg0bWxzTGh1QnpiUT09",
+      "statut": "DP-P/5476",
+      "date": "08/09/2026",
+      "track": "LYON PARILLY",
+      "race": "MUNET",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/a2c5RjhqTHY4VUpQd3dLc1FIV0VnZz09",
+      "cat": "(Maiden)",
+      "purse": "15.600",
+      "disc": "P",
+      "dist": "1.600",
+      "owner": "CHR. HEAD (S)"
+    },
+    {
+      "horse": "VATICAN M.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/Ly9KU0czNEJFOFRKTklMbWxpMWpkdz09",
+      "statut": "DP-P/5476",
+      "date": "08/09/2026",
+      "track": "LYON PARILLY",
+      "race": "MUNET",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/a2c5RjhqTHY4VUpQd3dLc1FIV0VnZz09",
+      "cat": "(Maiden)",
+      "purse": "15.600",
       "disc": "P",
       "dist": "1.600",
       "owner": "CHR. HEAD (S)"

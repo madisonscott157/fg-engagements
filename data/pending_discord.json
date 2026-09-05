@@ -1,51 +1,6 @@
 {
-  "partants": {
-    "timide usa m.ps. 2 a. | 05/09/2026 | craon | criterium ouest | 1.650": {
-      "horse": "TIMIDE USA M.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/U1ZlbVRkUTd3WlRyalU2c3ovZ2RlQT09",
-      "date": "05/09/2026",
-      "track": "CRAON",
-      "race": "CRITERIUM OUEST",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/eDFzZXRsT1NDVUd2aFVQRlp5K201dz09",
-      "cat": "(L)",
-      "dist": "1.650",
-      "statut": "DP-P/4166"
-    },
-    "avec toi usa m.ps. 2 a. | 06/09/2026 | parislongchamp | la rochette | 1.400": {
-      "horse": "AVEC TOI USA M.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/Yy9LbUNpNitKTlBqTVVHQTU1bW1yZz09",
-      "date": "06/09/2026",
-      "track": "PARISLONGCHAMP",
-      "race": "LA ROCHETTE",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/U3FHaFpqeGZBWis4YS8yU1d1YmczZz09",
-      "cat": "GR.III",
-      "dist": "1.400",
-      "statut": "DP-P/530"
-    },
-    "data (gb) f.ps. 2 a. | 06/09/2026 | parislongchamp | d'aumale | 1.600": {
-      "horse": "DATA (GB) F.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/cHlrZ3Y1MHRUQnRvbXVoUzlZOTMyQT09",
-      "date": "06/09/2026",
-      "track": "PARISLONGCHAMP",
-      "race": "D'AUMALE",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/UGdsSHZRakZhYnVHcmxMKzliS24wQT09",
-      "cat": "GR.II",
-      "dist": "1.600",
-      "statut": "DP-P/531"
-    },
-    "nighttime m.ps. 3 a. | 06/09/2026 | parislongchamp | moulin longcham | 1.600": {
-      "horse": "NIGHTTIME M.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/MzNVeWdhQUNneUxUMnlHTnU3dXR6dz09",
-      "date": "06/09/2026",
-      "track": "PARISLONGCHAMP",
-      "race": "MOULIN LONGCHAM",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/bEtnSE9IcE9Oc2pZTjhPTzdQb2lqdz09",
-      "cat": "GR.I",
-      "dist": "1.600",
-      "statut": "DP-P/534"
-    }
-  },
+  "partants": {},
   "newEngagements": {},
   "statusUpdates": {},
-  "lastPosted": "2026-09-04T11:40:12.774Z"
+  "lastPosted": "2026-09-05T08:51:55.219Z"
 }
