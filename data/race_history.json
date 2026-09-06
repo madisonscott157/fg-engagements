@@ -1,5 +1,18 @@
 [
   {
+    "horse": "Data",
+    "date": "06/09/2026",
+    "track": "PARISLONGCHAMP",
+    "race": "GR.II",
+    "distance": "1.600",
+    "position": "3",
+    "jockey": "M. GUYON",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/UGdsSHZRakZhYnVHcmxMKzliS24wQT09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/cHlrZ3Y1MHRUQnRvbXVoUzlZOTMyQT09",
+    "scrapedAt": "2026-09-06T12:51:32.594Z"
+  },
+  {
     "horse": "Avec Toi",
     "date": "06/09/2026",
     "track": "PARISLONGCHAMP",
