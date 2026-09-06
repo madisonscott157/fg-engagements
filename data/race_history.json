@@ -1,5 +1,18 @@
 [
   {
+    "horse": "Avec Toi",
+    "date": "06/09/2026",
+    "track": "PARISLONGCHAMP",
+    "race": "GR.III",
+    "distance": "1.400",
+    "position": "1",
+    "jockey": "PC. BOUDOT",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/U3FHaFpqeGZBWis4YS8yU1d1YmczZz09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/Yy9LbUNpNitKTlBqTVVHQTU1bW1yZz09",
+    "scrapedAt": "2026-09-06T12:10:31.006Z"
+  },
+  {
     "horse": "Timide",
     "date": "05/09/2026",
     "track": "CRAON",
