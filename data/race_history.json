@@ -1,5 +1,18 @@
 [
   {
+    "horse": "Nighttime",
+    "date": "06/09/2026",
+    "track": "PARISLONGCHAMP",
+    "race": "GR.I",
+    "distance": "1.600",
+    "position": "5",
+    "jockey": "M. GUYON",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/bEtnSE9IcE9Oc2pZTjhPTzdQb2lqdz09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/MzNVeWdhQUNneUxUMnlHTnU3dXR6dz09",
+    "scrapedAt": "2026-09-06T14:50:36.042Z"
+  },
+  {
     "horse": "Data",
     "date": "06/09/2026",
     "track": "PARISLONGCHAMP",
