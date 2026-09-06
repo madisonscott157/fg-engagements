@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-09-06T12:45:46.303Z",
+  "lastUpdate": "2026-09-06T12:52:03.451Z",
   "upcoming": [
     {
       "horse": "TIMIDE USA M.PS. 2 a.",
@@ -515,6 +515,18 @@
     }
   ],
   "results": [
+    {
+      "horse": "Data",
+      "date": "06/09/2026",
+      "track": "PARISLONGCHAMP",
+      "race": "GR.II",
+      "distance": "1.600",
+      "position": "3",
+      "jockey": "M. GUYON",
+      "gain": "0",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/UGdsSHZRakZhYnVHcmxMKzliS24wQT09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/cHlrZ3Y1MHRUQnRvbXVoUzlZOTMyQT09"
+    },
     {
       "horse": "Avec Toi",
       "date": "06/09/2026",
