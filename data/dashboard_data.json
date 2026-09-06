@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-09-05T23:56:05.177Z",
+  "lastUpdate": "2026-09-06T00:05:42.575Z",
   "upcoming": [
     {
       "horse": "TIMIDE USA M.PS. 2 a.",
@@ -511,16 +511,6 @@
       "distance": "1.600",
       "cat": "",
       "status": "F1-P/531",
-      "lastUpdate": 1788645170206
-    },
-    {
-      "horse": "Timide M 2 A.",
-      "date": "05/09/2026",
-      "track": "craon",
-      "race": "criterium ouest",
-      "distance": "1.650",
-      "cat": "",
-      "status": "DP-P/4166",
       "lastUpdate": 1788645170206
     }
   ],
