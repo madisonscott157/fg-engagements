@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-09-06T23:56:25.954Z",
+  "lastUpdate": "2026-09-07T00:00:51.957Z",
   "upcoming": [
     {
       "horse": "TIMIDE USA M.PS. 2 a.",
@@ -431,86 +431,6 @@
       "distance": "1.600",
       "cat": "",
       "status": "DP-P/5476",
-      "lastUpdate": 1788725575228
-    },
-    {
-      "horse": "Green Spirit F 3 A.",
-      "date": "06/09/2026",
-      "track": "parislongchamp",
-      "race": "moulin longcham",
-      "distance": "1.600",
-      "cat": "",
-      "status": "NV-P/534",
-      "lastUpdate": 1788725575228
-    },
-    {
-      "horse": "Nighttime M 3 A.",
-      "date": "06/09/2026",
-      "track": "parislongchamp",
-      "race": "moulin longcham",
-      "distance": "1.600",
-      "cat": "",
-      "status": "DP-P/534",
-      "lastUpdate": 1788725575228
-    },
-    {
-      "horse": "Algebre (ire) M 2 A.",
-      "date": "06/09/2026",
-      "track": "parislongchamp",
-      "race": "la rochette",
-      "distance": "1.400",
-      "cat": "",
-      "status": "NV-P/530",
-      "lastUpdate": 1788725575228
-    },
-    {
-      "horse": "Avec Toi M 2 A.",
-      "date": "06/09/2026",
-      "track": "parislongchamp",
-      "race": "la rochette",
-      "distance": "1.400",
-      "cat": "",
-      "status": "DP-P/530",
-      "lastUpdate": 1788725575228
-    },
-    {
-      "horse": "Big Money Man M 2 A.",
-      "date": "06/09/2026",
-      "track": "parislongchamp",
-      "race": "la rochette",
-      "distance": "1.400",
-      "cat": "",
-      "status": "F1-P/530",
-      "lastUpdate": 1788725575228
-    },
-    {
-      "horse": "Data (gb) F 2 A.",
-      "date": "06/09/2026",
-      "track": "parislongchamp",
-      "race": "d'aumale",
-      "distance": "1.600",
-      "cat": "",
-      "status": "DP-P/531",
-      "lastUpdate": 1788725575228
-    },
-    {
-      "horse": "Proof M 3 A.",
-      "date": "06/09/2026",
-      "track": "parislongchamp",
-      "race": "niel",
-      "distance": "2.400",
-      "cat": "",
-      "status": "F1-P/529",
-      "lastUpdate": 1788725575228
-    },
-    {
-      "horse": "Woot Woot (ire) F 2 A.",
-      "date": "06/09/2026",
-      "track": "parislongchamp",
-      "race": "d'aumale",
-      "distance": "1.600",
-      "cat": "",
-      "status": "F1-P/531",
       "lastUpdate": 1788725575228
     }
   ],
