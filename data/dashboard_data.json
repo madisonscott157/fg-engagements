@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-09-08T11:46:15.093Z",
+  "lastUpdate": "2026-09-08T11:51:14.781Z",
   "upcoming": [
     {
       "horse": "BARRAMUNDI (IRE) M.PS. 2 a.",
@@ -405,6 +405,18 @@
     }
   ],
   "results": [
+    {
+      "horse": "Palais Byzantin",
+      "date": "08/09/2026",
+      "track": "LYON PARILLY",
+      "race": "",
+      "distance": "1.600",
+      "position": "5",
+      "jockey": "M. GRANDIN",
+      "gain": "0",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/ZWJBREppc2ErYS9mNlNsOU56ZkEydz09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/ZHhLcU9WVVFkeXUxM1dUUzlCR0J5Zz09"
+    },
     {
       "horse": "Stratege",
       "date": "08/09/2026",
