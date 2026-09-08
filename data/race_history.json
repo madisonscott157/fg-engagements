@@ -1,5 +1,31 @@
 [
   {
+    "horse": "Stratege",
+    "date": "08/09/2026",
+    "track": "LYON PARILLY",
+    "race": "",
+    "distance": "1.600",
+    "position": "2",
+    "jockey": "M. GUYON",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/a2c5RjhqTHY4VUpQd3dLc1FIV0VnZz09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/c2RML3plVCsxNEg0bWxzTGh1QnpiUT09",
+    "scrapedAt": "2026-09-08T11:25:35.790Z"
+  },
+  {
+    "horse": "Vatican",
+    "date": "08/09/2026",
+    "track": "LYON PARILLY",
+    "race": "",
+    "distance": "1.600",
+    "position": "4",
+    "jockey": "M. BARZALONA",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/a2c5RjhqTHY4VUpQd3dLc1FIV0VnZz09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/Ly9KU0czNEJFOFRKTklMbWxpMWpkdz09",
+    "scrapedAt": "2026-09-08T11:25:35.790Z"
+  },
+  {
     "horse": "Barramundi",
     "date": "08/09/2026",
     "track": "LYON PARILLY",
