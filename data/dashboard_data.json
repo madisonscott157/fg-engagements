@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-09-08T10:36:02.267Z",
+  "lastUpdate": "2026-09-08T10:41:09.146Z",
   "upcoming": [
     {
       "horse": "BARRAMUNDI (IRE) M.PS. 2 a.",
@@ -405,6 +405,18 @@
     }
   ],
   "results": [
+    {
+      "horse": "Barramundi",
+      "date": "08/09/2026",
+      "track": "LYON PARILLY",
+      "race": "",
+      "distance": "1.600",
+      "position": "5",
+      "jockey": "M. GUYON",
+      "gain": "0",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/WjZneUQrRkdoc1poYytiQUk1RWkwQT09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/TUw1V2ZQK1pYS0dsdDI3ZXJ3WXArdz09"
+    },
     {
       "horse": "Nighttime",
       "date": "06/09/2026",
