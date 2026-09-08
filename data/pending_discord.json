@@ -1,6 +1,31 @@
 {
   "partants": {},
   "newEngagements": {},
-  "statusUpdates": {},
+  "statusUpdates": {
+    "royally ire f.ps. 2 a. | 11/09/2026 | saint-cloud | ortie blanche | 1.400": {
+      "horse": "ROYALLY IRE F.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/UEFEMUZUYUlGRzhKelJHWVVlL2ZmQT09",
+      "date": "11/09/2026",
+      "track": "SAINT-CLOUD",
+      "race": "ORTIE BLANCHE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/WHJFa0hxaXI1bGdCUHJ2ZWZCM0lwQT09",
+      "cat": "(Maiden)",
+      "dist": "1.400",
+      "statut": "PB-P/959",
+      "oldStatut": "VA-P/959"
+    },
+    "tortsanlot (gb) m.ps. 2 a. | 11/09/2026 | saint-cloud | astaria | 2.000": {
+      "horse": "TORTSANLOT (GB) M.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/T2srQkxYWVcvRCs1cCtIR2FmUlczUT09",
+      "date": "11/09/2026",
+      "track": "SAINT-CLOUD",
+      "race": "ASTARIA",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/ZmhJUklsZzdvRWpaNnJoZmlucUlXQT09",
+      "cat": "(Classe 2)",
+      "dist": "2.000",
+      "statut": "PB-P/960",
+      "oldStatut": "VA-P/960"
+    }
+  },
   "lastPosted": "2026-09-08T08:57:13.686Z"
 }
