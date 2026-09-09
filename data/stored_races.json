@@ -1,82 +1,6 @@
 {
-  "lastUpdate": "2026-09-08T09:00:26.575Z",
+  "lastUpdate": "2026-09-09T09:00:26.746Z",
   "races": [
-    {
-      "horse": "BARRAMUNDI (IRE) M.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/TUw1V2ZQK1pYS0dsdDI3ZXJ3WXArdz09",
-      "statut": "DP-P/5475",
-      "date": "08/09/2026",
-      "track": "LYON PARILLY",
-      "race": "BRUYERES",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/WjZneUQrRkdoc1poYytiQUk1RWkwQT09",
-      "cat": "(Inédits)",
-      "purse": "21.000",
-      "disc": "P",
-      "dist": "1.600",
-      "owner": "CHR. HEAD (S)",
-      "postTime": {
-        "hour": 11,
-        "minute": 51,
-        "formatted": "11h51"
-      }
-    },
-    {
-      "horse": "PALAIS BYZANTIN M.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/ZHhLcU9WVVFkeXUxM1dUUzlCR0J5Zz09",
-      "statut": "DP-P/4168",
-      "date": "08/09/2026",
-      "track": "LYON PARILLY",
-      "race": "CRIT.DE LYON",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/ZWJBREppc2ErYS9mNlNsOU56ZkEydz09",
-      "cat": "(L)",
-      "purse": "54.900",
-      "disc": "P",
-      "dist": "1.600",
-      "owner": "CHR. HEAD (S)",
-      "postTime": {
-        "hour": 12,
-        "minute": 55,
-        "formatted": "12h55"
-      }
-    },
-    {
-      "horse": "STRATEGE (IRE) H.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/c2RML3plVCsxNEg0bWxzTGh1QnpiUT09",
-      "statut": "DP-P/5476",
-      "date": "08/09/2026",
-      "track": "LYON PARILLY",
-      "race": "MUNET",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/a2c5RjhqTHY4VUpQd3dLc1FIV0VnZz09",
-      "cat": "(Maiden)",
-      "purse": "15.600",
-      "disc": "P",
-      "dist": "1.600",
-      "owner": "CHR. HEAD (S)",
-      "postTime": {
-        "hour": 12,
-        "minute": 23,
-        "formatted": "12h23"
-      }
-    },
-    {
-      "horse": "VATICAN M.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/Ly9KU0czNEJFOFRKTklMbWxpMWpkdz09",
-      "statut": "DP-P/5476",
-      "date": "08/09/2026",
-      "track": "LYON PARILLY",
-      "race": "MUNET",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/a2c5RjhqTHY4VUpQd3dLc1FIV0VnZz09",
-      "cat": "(Maiden)",
-      "purse": "15.600",
-      "disc": "P",
-      "dist": "1.600",
-      "owner": "CHR. HEAD (S)",
-      "postTime": {
-        "hour": 12,
-        "minute": 23,
-        "formatted": "12h23"
-      }
-    },
     {
       "horse": "VASSY H.PS. 3 a.",
       "horseUrl": "https://www.france-galop.com/fr/cheval/YWRqVU5HbjA1TlFWSjBLTlNZT3RGdz09",
@@ -94,6 +18,44 @@
         "hour": 15,
         "minute": 5,
         "formatted": "15h05"
+      }
+    },
+    {
+      "horse": "ROYALLY IRE F.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/UEFEMUZUYUlGRzhKelJHWVVlL2ZmQT09",
+      "statut": "DP-P/959",
+      "date": "11/09/2026",
+      "track": "SAINT-CLOUD",
+      "race": "ORTIE BLANCHE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/WHJFa0hxaXI1bGdCUHJ2ZWZCM0lwQT09",
+      "cat": "(Maiden)",
+      "purse": "27.400",
+      "disc": "P",
+      "dist": "1.400",
+      "owner": "CHR. HEAD (S)",
+      "postTime": {
+        "hour": 13,
+        "minute": 43,
+        "formatted": "13h43"
+      }
+    },
+    {
+      "horse": "TORTSANLOT (GB) M.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/T2srQkxYWVcvRCs1cCtIR2FmUlczUT09",
+      "statut": "DP-P/960",
+      "date": "11/09/2026",
+      "track": "SAINT-CLOUD",
+      "race": "ASTARIA",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/ZmhJUklsZzdvRWpaNnJoZmlucUlXQT09",
+      "cat": "(Classe 2)",
+      "purse": "31.100",
+      "disc": "P",
+      "dist": "2.000",
+      "owner": "CHR. HEAD (S)",
+      "postTime": {
+        "hour": 13,
+        "minute": 7,
+        "formatted": "13h07"
       }
     }
   ]
