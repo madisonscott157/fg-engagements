@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-09-08T23:56:15.645Z",
+  "lastUpdate": "2026-09-09T00:00:55.103Z",
   "upcoming": [
     {
       "horse": "BARRAMUNDI (IRE) M.PS. 2 a.",
@@ -352,56 +352,6 @@
       "cat": "",
       "status": "DP-P/953",
       "lastUpdate": 1788905975268
-    },
-    {
-      "horse": "Barramundi (ire) M 2 A.",
-      "date": "08/09/2026",
-      "track": "lyon parilly",
-      "race": "bruyeres",
-      "distance": "1.600",
-      "cat": "",
-      "status": "DP-P/5475",
-      "lastUpdate": 1788898280225
-    },
-    {
-      "horse": "Palais Byzantin M 2 A.",
-      "date": "08/09/2026",
-      "track": "lyon parilly",
-      "race": "crit.de lyon",
-      "distance": "1.600",
-      "cat": "",
-      "status": "DP-P/4168",
-      "lastUpdate": 1788898280225
-    },
-    {
-      "horse": "Stratege (ire) H 3 A.",
-      "date": "08/09/2026",
-      "track": "lyon parilly",
-      "race": "munet",
-      "distance": "1.600",
-      "cat": "",
-      "status": "DP-P/5476",
-      "lastUpdate": 1788898280225
-    },
-    {
-      "horse": "Timide M 2 A.",
-      "date": "08/09/2026",
-      "track": "lyon parilly",
-      "race": "crit.de lyon",
-      "distance": "1.600",
-      "cat": "",
-      "status": "F1-P/4168",
-      "lastUpdate": 1788697138366
-    },
-    {
-      "horse": "Vatican M 3 A.",
-      "date": "08/09/2026",
-      "track": "lyon parilly",
-      "race": "munet",
-      "distance": "1.600",
-      "cat": "",
-      "status": "DP-P/5476",
-      "lastUpdate": 1788898280225
     }
   ],
   "results": [
