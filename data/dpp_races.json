@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-09-09T07:56:39.252Z",
+  "lastUpdate": "2026-09-09T08:56:30.385Z",
   "races": [
     {
       "horse": "VASSY H.PS. 3 a.",
@@ -11,6 +11,34 @@
       "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/cit5RU5ZSU85Rm1JYjNpdnljamlvUT09",
       "cat": "(Classe 2)",
       "purse": "25.600",
+      "disc": "P",
+      "dist": "2.000",
+      "owner": "CHR. HEAD (S)"
+    },
+    {
+      "horse": "ROYALLY IRE F.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/UEFEMUZUYUlGRzhKelJHWVVlL2ZmQT09",
+      "statut": "DP-P/959",
+      "date": "11/09/2026",
+      "track": "SAINT-CLOUD",
+      "race": "ORTIE BLANCHE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/WHJFa0hxaXI1bGdCUHJ2ZWZCM0lwQT09",
+      "cat": "(Maiden)",
+      "purse": "27.400",
+      "disc": "P",
+      "dist": "1.400",
+      "owner": "CHR. HEAD (S)"
+    },
+    {
+      "horse": "TORTSANLOT (GB) M.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/T2srQkxYWVcvRCs1cCtIR2FmUlczUT09",
+      "statut": "DP-P/960",
+      "date": "11/09/2026",
+      "track": "SAINT-CLOUD",
+      "race": "ASTARIA",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/ZmhJUklsZzdvRWpaNnJoZmlucUlXQT09",
+      "cat": "(Classe 2)",
+      "purse": "31.100",
       "disc": "P",
       "dist": "2.000",
       "owner": "CHR. HEAD (S)"
