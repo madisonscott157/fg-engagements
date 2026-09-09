@@ -1,6 +1,67 @@
 {
   "partants": {},
   "newEngagements": {},
-  "statusUpdates": {},
+  "statusUpdates": {
+    "nighttime m.ps. 3 a. | 13/09/2026 | parislongchamp | du pin | 1.400": {
+      "horse": "NIGHTTIME M.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/MzNVeWdhQUNneUxUMnlHTnU3dXR6dz09",
+      "date": "13/09/2026",
+      "track": "PARISLONGCHAMP",
+      "race": "DU PIN",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/RTJKR2RaWTlKVHFMdzhNVE96czRtUT09",
+      "cat": "GR.III",
+      "dist": "1.400",
+      "statut": "F1-P/537",
+      "oldStatut": "VA-P/537"
+    },
+    "house of tudor ire m.ps. 3 a. | 17/09/2026 | croise-laroche | bondues | 1.800": {
+      "horse": "HOUSE OF TUDOR IRE M.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/TytyRjNQU1o3UDhEbGF5bWdDMFJhdz09",
+      "date": "17/09/2026",
+      "track": "CROISE-LAROCHE",
+      "race": "BONDUES",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/djRIRHpOajlhTWFwTTZGWDlsL0F2Zz09",
+      "cat": "RECL.",
+      "dist": "1.800",
+      "statut": "VA-P/6074",
+      "oldStatut": "-P/6074"
+    },
+    "amstramgram (gb) f.ps. 2 a. | 10/10/2026 | chantilly | criterium de ml | 1.200": {
+      "horse": "AMSTRAMGRAM (GB) F.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/YURGS1VITFJXUUFNdS9CdHFPOXR3QT09",
+      "date": "10/10/2026",
+      "track": "CHANTILLY",
+      "race": "CRITERIUM DE ML",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/emd3K3h6WlkvYzNoa3Q5Y0ZUeFI2Zz09",
+      "cat": "GR.II",
+      "dist": "1.200",
+      "statut": "VA-P/559",
+      "oldStatut": "-P/559"
+    },
+    "big money man ire m.ps. 2 a. | 25/10/2026 | saint-cloud | criterium int. | 1.600": {
+      "horse": "BIG MONEY MAN IRE M.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/dUNFUytKdVBvN3N5Z1pLbVNXaWE5Zz09",
+      "date": "25/10/2026",
+      "track": "SAINT-CLOUD",
+      "race": "CRITERIUM INT.",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/SHAvSlE1RmxJYzFoQ3RqUjRZZndndz09",
+      "cat": "GR.I",
+      "dist": "1.600",
+      "statut": "VA-P/565",
+      "oldStatut": "-P/565"
+    },
+    "tortsanlot (gb) m.ps. 2 a. | 25/10/2026 | saint-cloud | crit. st-cloud | 2.000": {
+      "horse": "TORTSANLOT (GB) M.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/T2srQkxYWVcvRCs1cCtIR2FmUlczUT09",
+      "date": "25/10/2026",
+      "track": "SAINT-CLOUD",
+      "race": "CRIT. ST-CLOUD",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/S0lvQk5jOGV4OVg2aWIvd002VlNrUT09",
+      "cat": "GR.I",
+      "dist": "2.000",
+      "statut": "VA-P/566",
+      "oldStatut": "-P/566"
+    }
+  },
   "lastPosted": "2026-09-09T08:56:43.507Z"
 }
