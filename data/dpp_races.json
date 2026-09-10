@@ -1,20 +1,6 @@
 {
-  "lastUpdate": "2026-09-10T20:46:32.097Z",
+  "lastUpdate": "2026-09-10T22:13:30.827Z",
   "races": [
-    {
-      "horse": "VASSY H.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/YWRqVU5HbjA1TlFWSjBLTlNZT3RGdz09",
-      "statut": "DP-P/953",
-      "date": "10/09/2026",
-      "track": "PARISLONGCHAMP",
-      "race": "LORMOY",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/cit5RU5ZSU85Rm1JYjNpdnljamlvUT09",
-      "cat": "(Classe 2)",
-      "purse": "25.600",
-      "disc": "P",
-      "dist": "2.000",
-      "owner": "CHR. HEAD (S)"
-    },
     {
       "horse": "ROYALLY IRE F.PS. 2 a.",
       "horseUrl": "https://www.france-galop.com/fr/cheval/UEFEMUZUYUlGRzhKelJHWVVlL2ZmQT09",
