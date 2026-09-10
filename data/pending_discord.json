@@ -1,31 +1,6 @@
 {
   "partants": {},
-  "newEngagements": {
-    "house of tudor ire m.ps. 3 a. ... (sup.) | 14/09/2026 | salon provence | vaison-romaine | 2.000": {
-      "horse": "HOUSE OF TUDOR IRE M.PS. 3 a. ... (Sup.)",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/TytyRjNQU1o3UDhEbGF5bWdDMFJhdz09",
-      "date": "14/09/2026",
-      "track": "SALON PROVENCE",
-      "race": "VAISON-ROMAINE",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/ZkIwRWpQbnRNa240RVYxdno4VUNXUT09",
-      "cat": "RECL.",
-      "dist": "2.000",
-      "statut": "PB-P/5890(Sup.)"
-    }
-  },
-  "statusUpdates": {
-    "proof m.ps. 3 a. | 13/09/2026 | parislongchamp | prince d'orange | 2.000": {
-      "horse": "PROOF M.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/enRjNW9OdGYrK3UyVXJFclNVbmFMZz09",
-      "date": "13/09/2026",
-      "track": "PARISLONGCHAMP",
-      "race": "PRINCE D'ORANGE",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/Q0lDZWZFWHhSRXFNajdkRXNMbFJyQT09",
-      "cat": "GR.III",
-      "dist": "2.000",
-      "statut": "ND-P/538",
-      "oldStatut": "VA-P/538"
-    }
-  },
-  "lastPosted": "2026-09-10T09:01:22.846Z"
+  "newEngagements": {},
+  "statusUpdates": {},
+  "lastPosted": "2026-09-10T11:26:39.830Z"
 }
