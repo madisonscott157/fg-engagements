@@ -1,40 +1,6 @@
 {
-  "partants": {
-    "vassy h.ps. 3 a. | 10/09/2026 | parislongchamp | lormoy | 2.000": {
-      "horse": "VASSY H.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/YWRqVU5HbjA1TlFWSjBLTlNZT3RGdz09",
-      "date": "10/09/2026",
-      "track": "PARISLONGCHAMP",
-      "race": "LORMOY",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/cit5RU5ZSU85Rm1JYjNpdnljamlvUT09",
-      "cat": "(Classe 2)",
-      "dist": "2.000",
-      "statut": "DP-P/953"
-    },
-    "royally ire f.ps. 2 a. | 11/09/2026 | saint-cloud | ortie blanche | 1.400": {
-      "horse": "ROYALLY IRE F.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/UEFEMUZUYUlGRzhKelJHWVVlL2ZmQT09",
-      "date": "11/09/2026",
-      "track": "SAINT-CLOUD",
-      "race": "ORTIE BLANCHE",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/WHJFa0hxaXI1bGdCUHJ2ZWZCM0lwQT09",
-      "cat": "(Maiden)",
-      "dist": "1.400",
-      "statut": "DP-P/959"
-    },
-    "tortsanlot (gb) m.ps. 2 a. | 11/09/2026 | saint-cloud | astaria | 2.000": {
-      "horse": "TORTSANLOT (GB) M.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/T2srQkxYWVcvRCs1cCtIR2FmUlczUT09",
-      "date": "11/09/2026",
-      "track": "SAINT-CLOUD",
-      "race": "ASTARIA",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/ZmhJUklsZzdvRWpaNnJoZmlucUlXQT09",
-      "cat": "(Classe 2)",
-      "dist": "2.000",
-      "statut": "DP-P/960"
-    }
-  },
+  "partants": {},
   "newEngagements": {},
   "statusUpdates": {},
-  "lastPosted": "2026-09-09T10:41:33.371Z"
+  "lastPosted": "2026-09-10T09:01:22.846Z"
 }
