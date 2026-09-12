@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-09-11T23:56:09.714Z",
+  "lastUpdate": "2026-09-12T00:00:55.019Z",
   "upcoming": [
     {
       "horse": "ROYALLY IRE F.PS. 2 a.",
@@ -362,26 +362,6 @@
       "cat": "",
       "status": "ND-P/538",
       "lastUpdate": 1789164695922
-    },
-    {
-      "horse": "Royally F 2 A.",
-      "date": "11/09/2026",
-      "track": "saint-cloud",
-      "race": "ortie blanche",
-      "distance": "1.400",
-      "cat": "",
-      "status": "DP-P/959",
-      "lastUpdate": 1789159888967
-    },
-    {
-      "horse": "Tortsanlot (gb) M 2 A.",
-      "date": "11/09/2026",
-      "track": "saint-cloud",
-      "race": "astaria",
-      "distance": "2.000",
-      "cat": "",
-      "status": "DP-P/960",
-      "lastUpdate": 1789159888967
     }
   ],
   "results": [
