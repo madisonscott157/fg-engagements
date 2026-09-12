@@ -1,6 +1,19 @@
 {
   "partants": {},
   "newEngagements": {},
-  "statusUpdates": {},
+  "statusUpdates": {
+    "house of tudor ire m.ps. 3 a. | 17/09/2026 | dieppe | bondues | 1.800": {
+      "horse": "HOUSE OF TUDOR IRE M.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/TytyRjNQU1o3UDhEbGF5bWdDMFJhdz09",
+      "date": "17/09/2026",
+      "track": "DIEPPE",
+      "race": "BONDUES",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/djRIRHpOajlhTWFwTTZGWDlsL0F2Zz09",
+      "cat": "RECL.",
+      "dist": "1.800",
+      "statut": "F1-P/6074",
+      "oldStatut": "VA-P/6074"
+    }
+  },
   "lastPosted": "2026-09-12T09:01:20.361Z"
 }
