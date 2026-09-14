@@ -1,5 +1,18 @@
 [
   {
+    "horse": "House Of Tudor",
+    "date": "14/09/2026",
+    "track": "SALON-DE-PROVENCE",
+    "race": "RECL.",
+    "distance": "2.000",
+    "position": "1",
+    "jockey": "A. POUCHIN",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/ZkIwRWpQbnRNa240RVYxdno4VUNXUT09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/TytyRjNQU1o3UDhEbGF5bWdDMFJhdz09",
+    "scrapedAt": "2026-09-14T12:30:32.346Z"
+  },
+  {
     "horse": "Royally",
     "date": "11/09/2026",
     "track": "SAINT-CLOUD",
