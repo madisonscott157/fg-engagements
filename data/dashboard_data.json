@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-09-13T23:55:44.550Z",
+  "lastUpdate": "2026-09-14T00:00:54.191Z",
   "upcoming": [
     {
       "horse": "ROYALLY IRE F.PS. 2 a.",
@@ -342,26 +342,6 @@
       "cat": "",
       "status": "DP-P/5890(Sup.)",
       "lastUpdate": 1789337003056
-    },
-    {
-      "horse": "Nighttime M 3 A.",
-      "date": "13/09/2026",
-      "track": "parislongchamp",
-      "race": "du pin",
-      "distance": "1.400",
-      "cat": "",
-      "status": "F1-P/537",
-      "lastUpdate": 1789331183222
-    },
-    {
-      "horse": "Proof M 3 A.",
-      "date": "13/09/2026",
-      "track": "parislongchamp",
-      "race": "prince d'orange",
-      "distance": "2.000",
-      "cat": "",
-      "status": "ND-P/538",
-      "lastUpdate": 1789331183222
     }
   ],
   "results": [
