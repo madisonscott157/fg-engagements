@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-09-14T12:26:02.414Z",
+  "lastUpdate": "2026-09-14T12:31:11.589Z",
   "upcoming": [
     {
       "horse": "ROYALLY IRE F.PS. 2 a.",
@@ -345,6 +345,18 @@
     }
   ],
   "results": [
+    {
+      "horse": "House Of Tudor",
+      "date": "14/09/2026",
+      "track": "SALON-DE-PROVENCE",
+      "race": "RECL.",
+      "distance": "2.000",
+      "position": "1",
+      "jockey": "A. POUCHIN",
+      "gain": "0",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/ZkIwRWpQbnRNa240RVYxdno4VUNXUT09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/TytyRjNQU1o3UDhEbGF5bWdDMFJhdz09"
+    },
     {
       "horse": "Royally",
       "date": "11/09/2026",
