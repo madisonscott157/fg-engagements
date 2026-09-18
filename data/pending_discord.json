@@ -1,31 +1,6 @@
 {
   "partants": {},
-  "newEngagements": {
-    "vatican m.ps. 3 a. ... (sup.) | 22/09/2026 | vichy | puy guillaume | 1.600": {
-      "horse": "VATICAN M.PS. 3 a. ... (Sup.)",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/Ly9KU0czNEJFOFRKTklMbWxpMWpkdz09",
-      "date": "22/09/2026",
-      "track": "VICHY",
-      "race": "PUY GUILLAUME",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/UHh1bEx2ODZYbXVnM1h5TURKRWZiUT09",
-      "cat": "(Maiden)",
-      "dist": "1.600",
-      "statut": "PB-P/5994(Sup.)"
-    }
-  },
-  "statusUpdates": {
-    "asylla f.ps. 3 a. | 27/09/2026 | amiens | stade licorne | 2.200": {
-      "horse": "ASYLLA F.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/SkQ3K0xsNE1PbWJiMkJhWCtwbHNjQT09",
-      "date": "27/09/2026",
-      "track": "AMIENS",
-      "race": "STADE LICORNE",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/TmdvZE0yMDJzTFRhckd5YmdtWk1VUT09",
-      "cat": "(Maiden)",
-      "dist": "2.200",
-      "statut": "VA-P/6090",
-      "oldStatut": "-P/6090"
-    }
-  },
-  "lastPosted": "2026-09-18T09:01:24.630Z"
+  "newEngagements": {},
+  "statusUpdates": {},
+  "lastPosted": "2026-09-18T11:26:24.388Z"
 }
