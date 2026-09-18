@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-09-17T23:56:17.278Z",
+  "lastUpdate": "2026-09-18T00:01:19.517Z",
   "upcoming": [
     {
       "horse": "ROYALLY IRE F.PS. 2 a.",
@@ -331,26 +331,6 @@
       "distance": "1.600",
       "cat": "",
       "status": "F1-P/541",
-      "lastUpdate": 1789678486484
-    },
-    {
-      "horse": "House Of Tudor M 3 A.",
-      "date": "17/09/2026",
-      "track": "croise-laroche",
-      "race": "bondues",
-      "distance": "1.800",
-      "cat": "",
-      "status": "VA-P/6074",
-      "lastUpdate": 1789134960923
-    },
-    {
-      "horse": "House Of Tudor M 3 A.",
-      "date": "17/09/2026",
-      "track": "dieppe",
-      "race": "bondues",
-      "distance": "1.800",
-      "cat": "",
-      "status": "F1-P/6074",
       "lastUpdate": 1789678486484
     }
   ],
