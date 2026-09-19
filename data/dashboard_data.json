@@ -1,35 +1,15 @@
 {
-  "lastUpdate": "2026-09-19T08:57:04.539Z",
+  "lastUpdate": "2026-09-19T09:01:14.878Z",
   "upcoming": [
     {
-      "horse": "ROYALLY IRE F.PS. 2 a.",
-      "date": "11/09/2026",
-      "track": "SAINT-CLOUD",
-      "race": "ORTIE BLANCHE",
-      "distance": "1.400",
+      "horse": "VATICAN M.PS. 3 a. ... (Sup.)",
+      "date": "22/09/2026",
+      "track": "VICHY",
+      "race": "PUY GUILLAUME",
+      "distance": "1.600",
       "cat": "(Maiden)",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/WHJFa0hxaXI1bGdCUHJ2ZWZCM0lwQT09",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/UEFEMUZUYUlGRzhKelJHWVVlL2ZmQT09"
-    },
-    {
-      "horse": "TORTSANLOT (GB) M.PS. 2 a.",
-      "date": "11/09/2026",
-      "track": "SAINT-CLOUD",
-      "race": "ASTARIA",
-      "distance": "2.000",
-      "cat": "(Classe 2)",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/ZmhJUklsZzdvRWpaNnJoZmlucUlXQT09",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/T2srQkxYWVcvRCs1cCtIR2FmUlczUT09"
-    },
-    {
-      "horse": "HOUSE OF TUDOR IRE M.PS. 3 a. ... (Sup.)",
-      "date": "14/09/2026",
-      "track": "SALON PROVENCE",
-      "race": "VAISON-ROMAINE",
-      "distance": "2.000",
-      "cat": "RECL.",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/ZkIwRWpQbnRNa240RVYxdno4VUNXUT09",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/TytyRjNQU1o3UDhEbGF5bWdDMFJhdz09"
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/UHh1bEx2ODZYbXVnM1h5TURKRWZiUT09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/Ly9KU0czNEJFOFRKTklMbWxpMWpkdz09"
     }
   ],
   "engagements": [
