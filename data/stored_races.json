@@ -1,61 +1,23 @@
 {
-  "lastUpdate": "2026-09-11T08:55:18.317Z",
+  "lastUpdate": "2026-09-19T09:00:29.798Z",
   "races": [
     {
-      "horse": "ROYALLY IRE F.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/UEFEMUZUYUlGRzhKelJHWVVlL2ZmQT09",
-      "statut": "DP-P/959",
-      "date": "11/09/2026",
-      "track": "SAINT-CLOUD",
-      "race": "ORTIE BLANCHE",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/WHJFa0hxaXI1bGdCUHJ2ZWZCM0lwQT09",
+      "horse": "VATICAN M.PS. 3 a. ... (Sup.)",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/Ly9KU0czNEJFOFRKTklMbWxpMWpkdz09",
+      "statut": "DP-P/5994(Sup.)",
+      "date": "22/09/2026",
+      "track": "VICHY",
+      "race": "PUY GUILLAUME",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/UHh1bEx2ODZYbXVnM1h5TURKRWZiUT09",
       "cat": "(Maiden)",
-      "purse": "27.400",
+      "purse": "15.600",
       "disc": "P",
-      "dist": "1.400",
+      "dist": "1.600",
       "owner": "CHR. HEAD (S)",
       "postTime": {
-        "hour": 13,
+        "hour": 19,
         "minute": 43,
-        "formatted": "13h43"
-      }
-    },
-    {
-      "horse": "TORTSANLOT (GB) M.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/T2srQkxYWVcvRCs1cCtIR2FmUlczUT09",
-      "statut": "DP-P/960",
-      "date": "11/09/2026",
-      "track": "SAINT-CLOUD",
-      "race": "ASTARIA",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/ZmhJUklsZzdvRWpaNnJoZmlucUlXQT09",
-      "cat": "(Classe 2)",
-      "purse": "31.100",
-      "disc": "P",
-      "dist": "2.000",
-      "owner": "CHR. HEAD (S)",
-      "postTime": {
-        "hour": 13,
-        "minute": 7,
-        "formatted": "13h07"
-      }
-    },
-    {
-      "horse": "HOUSE OF TUDOR IRE M.PS. 3 a. ... (Sup.)",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/TytyRjNQU1o3UDhEbGF5bWdDMFJhdz09",
-      "statut": "DP-P/5890(Sup.)",
-      "date": "14/09/2026",
-      "track": "SALON PROVENCE",
-      "race": "VAISON-ROMAINE",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/ZkIwRWpQbnRNa240RVYxdno4VUNXUT09",
-      "cat": "RECL.",
-      "purse": "11.500",
-      "disc": "P",
-      "dist": "2.000",
-      "owner": "CHR. HEAD (S)",
-      "postTime": {
-        "hour": 14,
-        "minute": 12,
-        "formatted": "14h12"
+        "formatted": "19h43"
       }
     }
   ]
