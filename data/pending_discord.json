@@ -1,6 +1,91 @@
 {
   "partants": {},
-  "newEngagements": {},
-  "statusUpdates": {},
+  "newEngagements": {
+    "champagne sunset ire f.ps. 2 a. ... (sup.) | 29/09/2026 | chantilly | la troublerie | 1.800": {
+      "horse": "CHAMPAGNE SUNSET IRE F.PS. 2 a. ... (Sup.)",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/Q0cxODhoSmFRTDd0YVhlbXg1WmtDZz09",
+      "date": "29/09/2026",
+      "track": "CHANTILLY",
+      "race": "LA TROUBLERIE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/S3NCL3BaazlJclNoNTV6Y0ErQmpBQT09",
+      "cat": "(Maiden)",
+      "dist": "1.800",
+      "statut": "PB-P/1011(Sup.)"
+    }
+  },
+  "statusUpdates": {
+    "alias h.ps. 2 a. | 29/09/2026 | chantilly | de villebon | 1.600": {
+      "horse": "ALIAS H.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/cnZGRVlGZGRBWGVjQkVjdGFubFM0UT09",
+      "date": "29/09/2026",
+      "track": "CHANTILLY",
+      "race": "DE VILLEBON",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/Sm11NnF4ZzZBNGZPREgwWlN3S3o4Zz09",
+      "cat": "(Inédits)",
+      "dist": "1.600",
+      "statut": "PB-P/1008",
+      "oldStatut": "VA-P/1008"
+    },
+    "barramundi (ire) m.ps. 2 a. | 29/09/2026 | chantilly | de vineuil | 1.800": {
+      "horse": "BARRAMUNDI (IRE) M.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/TUw1V2ZQK1pYS0dsdDI3ZXJ3WXArdz09",
+      "date": "29/09/2026",
+      "track": "CHANTILLY",
+      "race": "DE VINEUIL",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/Z3BtQkU1MDJDZk5DN3BORys5R09hUT09",
+      "cat": "(Maiden)",
+      "dist": "1.800",
+      "statut": "PB-P/1010",
+      "oldStatut": "VA-P/1010"
+    },
+    "merci mille fois ire m.ps. 2 a. | 29/09/2026 | chantilly | de villebon | 1.600": {
+      "horse": "MERCI MILLE FOIS IRE M.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/YWdBaUsrYThtcnZCL0NLaUxpeXp5QT09",
+      "date": "29/09/2026",
+      "track": "CHANTILLY",
+      "race": "DE VILLEBON",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/Sm11NnF4ZzZBNGZPREgwWlN3S3o4Zz09",
+      "cat": "(Inédits)",
+      "dist": "1.600",
+      "statut": "ND-P/1008",
+      "oldStatut": "VA-P/1008"
+    },
+    "monsieur charlie ire m.ps. 2 a. | 29/09/2026 | chantilly | de villebon | 1.600": {
+      "horse": "MONSIEUR CHARLIE IRE M.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/VHdXSzhzcVJMQ1ZpN2hNVjNJTGpiUT09",
+      "date": "29/09/2026",
+      "track": "CHANTILLY",
+      "race": "DE VILLEBON",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/Sm11NnF4ZzZBNGZPREgwWlN3S3o4Zz09",
+      "cat": "(Inédits)",
+      "dist": "1.600",
+      "statut": "PB-P/1008",
+      "oldStatut": "VA-P/1008"
+    },
+    "barramundi (ire) m.ps. 2 a. | 30/09/2026 | toulouse | ch. narbonnais | 2.000": {
+      "horse": "BARRAMUNDI (IRE) M.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/TUw1V2ZQK1pYS0dsdDI3ZXJ3WXArdz09",
+      "date": "30/09/2026",
+      "track": "TOULOUSE",
+      "race": "CH. NARBONNAIS",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/blpTUmwyd2NEM2dyT3BTV05MazJBZz09",
+      "cat": "(Maiden)",
+      "dist": "2.000",
+      "statut": "F1-P/5797",
+      "oldStatut": "VA-P/5797"
+    },
+    "royally ire f.ps. 2 a. | 04/10/2026 | nimes | des arenes | 1.200": {
+      "horse": "ROYALLY IRE F.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/UEFEMUZUYUlGRzhKelJHWVVlL2ZmQT09",
+      "date": "04/10/2026",
+      "track": "NIMES",
+      "race": "DES ARENES",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/dDlZcUZwR0NyZ3dOT1Y5Zk5CMzBiUT09",
+      "cat": "(Maiden)",
+      "dist": "1.200",
+      "statut": "VA-P/5911",
+      "oldStatut": "-P/5911"
+    }
+  },
   "lastPosted": "2026-09-25T08:51:53.186Z"
 }
