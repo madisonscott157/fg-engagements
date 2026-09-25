@@ -1,23 +1,23 @@
 {
-  "lastUpdate": "2026-09-19T09:00:29.798Z",
+  "lastUpdate": "2026-09-25T08:55:23.642Z",
   "races": [
     {
-      "horse": "VATICAN M.PS. 3 a. ... (Sup.)",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/Ly9KU0czNEJFOFRKTklMbWxpMWpkdz09",
-      "statut": "DP-P/5994(Sup.)",
-      "date": "22/09/2026",
-      "track": "VICHY",
-      "race": "PUY GUILLAUME",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/UHh1bEx2ODZYbXVnM1h5TURKRWZiUT09",
+      "horse": "ASYLLA F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/SkQ3K0xsNE1PbWJiMkJhWCtwbHNjQT09",
+      "statut": "DP-P/6090",
+      "date": "27/09/2026",
+      "track": "AMIENS",
+      "race": "STADE LICORNE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/TmdvZE0yMDJzTFRhckd5YmdtWk1VUT09",
       "cat": "(Maiden)",
       "purse": "15.600",
       "disc": "P",
-      "dist": "1.600",
+      "dist": "2.200",
       "owner": "CHR. HEAD (S)",
       "postTime": {
-        "hour": 19,
-        "minute": 43,
-        "formatted": "19h43"
+        "hour": 17,
+        "minute": 52,
+        "formatted": "17h52"
       }
     }
   ]
