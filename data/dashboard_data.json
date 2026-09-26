@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-09-26T08:55:49.534Z",
+  "lastUpdate": "2026-09-26T09:01:52.841Z",
   "upcoming": [
     {
       "horse": "ASYLLA F.PS. 3 a.",
@@ -10,6 +10,46 @@
       "cat": "(Maiden)",
       "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/TmdvZE0yMDJzTFRhckd5YmdtWk1VUT09",
       "horseUrl": "https://www.france-galop.com/fr/cheval/SkQ3K0xsNE1PbWJiMkJhWCtwbHNjQT09"
+    },
+    {
+      "horse": "ALIAS H.PS. 2 a.",
+      "date": "29/09/2026",
+      "track": "CHANTILLY",
+      "race": "DE VILLEBON",
+      "distance": "1.600",
+      "cat": "(Inédits)",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/Sm11NnF4ZzZBNGZPREgwWlN3S3o4Zz09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/cnZGRVlGZGRBWGVjQkVjdGFubFM0UT09"
+    },
+    {
+      "horse": "BARRAMUNDI (IRE) M.PS. 2 a.",
+      "date": "29/09/2026",
+      "track": "CHANTILLY",
+      "race": "DE VINEUIL",
+      "distance": "1.800",
+      "cat": "(Maiden)",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/Z3BtQkU1MDJDZk5DN3BORys5R09hUT09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/TUw1V2ZQK1pYS0dsdDI3ZXJ3WXArdz09"
+    },
+    {
+      "horse": "CHAMPAGNE SUNSET IRE F.PS. 2 a. ... (Sup.)",
+      "date": "29/09/2026",
+      "track": "CHANTILLY",
+      "race": "LA TROUBLERIE",
+      "distance": "1.800",
+      "cat": "(Maiden)",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/S3NCL3BaazlJclNoNTV6Y0ErQmpBQT09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/Q0cxODhoSmFRTDd0YVhlbXg1WmtDZz09"
+    },
+    {
+      "horse": "MONSIEUR CHARLIE IRE M.PS. 2 a.",
+      "date": "29/09/2026",
+      "track": "CHANTILLY",
+      "race": "DE VILLEBON",
+      "distance": "1.600",
+      "cat": "(Inédits)",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/Sm11NnF4ZzZBNGZPREgwWlN3S3o4Zz09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/VHdXSzhzcVJMQ1ZpN2hNVjNJTGpiUT09"
     }
   ],
   "engagements": [
