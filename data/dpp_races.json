@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-09-28T08:56:55.520Z",
+  "lastUpdate": "2026-09-28T09:56:32.363Z",
   "races": [
     {
       "horse": "ALIAS H.PS. 2 a.",
@@ -23,20 +23,6 @@
       "track": "CHANTILLY",
       "race": "DE VINEUIL",
       "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/Z3BtQkU1MDJDZk5DN3BORys5R09hUT09",
-      "cat": "(Maiden)",
-      "purse": "27.400",
-      "disc": "P",
-      "dist": "1.800",
-      "owner": "CHR. HEAD (S)"
-    },
-    {
-      "horse": "CHAMPAGNE SUNSET IRE F.PS. 2 a. ... (Sup.)",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/Q0cxODhoSmFRTDd0YVhlbXg1WmtDZz09",
-      "statut": "DP-P/1011(Sup.)",
-      "date": "29/09/2026",
-      "track": "CHANTILLY",
-      "race": "LA TROUBLERIE",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/S3NCL3BaazlJclNoNTV6Y0ErQmpBQT09",
       "cat": "(Maiden)",
       "purse": "27.400",
       "disc": "P",

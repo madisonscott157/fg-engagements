@@ -1,6 +1,53 @@
 {
   "partants": {},
-  "newEngagements": {},
-  "statusUpdates": {},
+  "newEngagements": {
+    "alias h.ps. 2 a. | 05/10/2026 | le mans | reine berengere | 1.400": {
+      "horse": "ALIAS H.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/cnZGRVlGZGRBWGVjQkVjdGFubFM0UT09",
+      "date": "05/10/2026",
+      "track": "LE MANS",
+      "race": "REINE BERENGERE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/eWVaRkpKcjJUWFFMSlFtV0xYMktvdz09",
+      "cat": "(Classe 2)",
+      "dist": "1.400",
+      "statut": "VA-P/5675"
+    },
+    "munch h.ps. 2 a. | 06/10/2026 | lyon parilly | de cuisery | 1.600": {
+      "horse": "MUNCH H.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/WVFQTHcyZTYxamtmWXkvL2c3Z3oyUT09",
+      "date": "06/10/2026",
+      "track": "LYON PARILLY",
+      "race": "DE CUISERY",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/eitLZUZKTk42L2c4M0tOdmk2UDNFQT09",
+      "cat": "(Maiden)",
+      "dist": "1.600",
+      "statut": "VA-P/6014"
+    },
+    "vassy h.ps. 3 a. | 06/10/2026 | lyon parilly | oumnaz | 2.200": {
+      "horse": "VASSY H.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/YWRqVU5HbjA1TlFWSjBLTlNZT3RGdz09",
+      "date": "06/10/2026",
+      "track": "LYON PARILLY",
+      "race": "OUMNAZ",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/blM0MUN3ZVdSZVdHeFhSUjZGQkhiUT09",
+      "cat": "(Classe 2)",
+      "dist": "2.200",
+      "statut": "VA-P/6018"
+    }
+  },
+  "statusUpdates": {
+    "champagne sunset ire f.ps. 2 a. ... (sup.) | 29/09/2026 | chantilly | la troublerie | 1.800": {
+      "horse": "CHAMPAGNE SUNSET IRE F.PS. 2 a. ... (Sup.)",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/Q0cxODhoSmFRTDd0YVhlbXg1WmtDZz09",
+      "date": "29/09/2026",
+      "track": "CHANTILLY",
+      "race": "LA TROUBLERIE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/S3NCL3BaazlJclNoNTV6Y0ErQmpBQT09",
+      "cat": "(Maiden)",
+      "dist": "1.800",
+      "statut": "DN-P/1011(Sup.)",
+      "oldStatut": "DP-P/1011(Sup.)"
+    }
+  },
   "lastPosted": "2026-09-28T08:56:55.971Z"
 }
