@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-09-29T12:50:51.912Z",
+  "lastUpdate": "2026-09-29T12:56:56.910Z",
   "upcoming": [
     {
       "horse": "ASYLLA F.PS. 3 a.",
@@ -435,6 +435,30 @@
     }
   ],
   "results": [
+    {
+      "horse": "Monsieur Charlie",
+      "date": "29/09/2026",
+      "track": "CHANTILLY",
+      "race": "",
+      "distance": "1.600",
+      "position": "4",
+      "jockey": "PC. BOUDOT",
+      "gain": "0",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/Sm11NnF4ZzZBNGZPREgwWlN3S3o4Zz09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/VHdXSzhzcVJMQ1ZpN2hNVjNJTGpiUT09"
+    },
+    {
+      "horse": "Alias",
+      "date": "29/09/2026",
+      "track": "CHANTILLY",
+      "race": "",
+      "distance": "1.600",
+      "position": "2",
+      "jockey": "C. SOUMILLON",
+      "gain": "0",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/Sm11NnF4ZzZBNGZPREgwWlN3S3o4Zz09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/cnZGRVlGZGRBWGVjQkVjdGFubFM0UT09"
+    },
     {
       "horse": "Asylla",
       "date": "27/09/2026",
