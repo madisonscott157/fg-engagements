@@ -1,99 +1,61 @@
 {
-  "lastUpdate": "2026-09-26T08:55:16.449Z",
+  "lastUpdate": "2026-09-30T08:50:22.004Z",
   "races": [
     {
-      "horse": "ASYLLA F.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/SkQ3K0xsNE1PbWJiMkJhWCtwbHNjQT09",
-      "statut": "DP-P/6090",
-      "date": "27/09/2026",
-      "track": "AMIENS",
-      "race": "STADE LICORNE",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/TmdvZE0yMDJzTFRhckd5YmdtWk1VUT09",
-      "cat": "(Maiden)",
-      "purse": "15.600",
+      "horse": "CERAMIC (IRE) F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/dlczR042azNZZ2tGRVN3a3RYY0JLZz09",
+      "statut": "DP-P/544",
+      "date": "02/10/2026",
+      "track": "SAINT-CLOUD",
+      "race": "CORONATION",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/U2RldVROUCtvZXJvckhBcnVGU1VxQT09",
+      "cat": "(L)",
+      "purse": "47.600",
       "disc": "P",
-      "dist": "2.200",
+      "dist": "1.600",
       "owner": "CHR. HEAD (S)",
       "postTime": {
         "hour": 17,
-        "minute": 52,
-        "formatted": "17h52"
+        "minute": 14,
+        "formatted": "17h14"
       }
     },
     {
-      "horse": "ALIAS H.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/cnZGRVlGZGRBWGVjQkVjdGFubFM0UT09",
-      "statut": "DP-P/1008",
-      "date": "29/09/2026",
-      "track": "CHANTILLY",
-      "race": "DE VILLEBON",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/Sm11NnF4ZzZBNGZPREgwWlN3S3o4Zz09",
-      "cat": "(Inédits)",
-      "purse": "45.700",
+      "horse": "NO TUNE (GB) F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/QnhqdXA4MERPdXZveTZNNGVDeUNaZz09",
+      "statut": "DP-P/545",
+      "date": "02/10/2026",
+      "track": "SAINT-CLOUD",
+      "race": "MATCHEM",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/QTNOeDQ2T2FMRklXQW1URnFJN3EyQT09",
+      "cat": "(L)",
+      "purse": "50.300",
       "disc": "P",
-      "dist": "1.600",
-      "owner": "CHR. HEAD (S)",
-      "postTime": {
-        "hour": 14,
-        "minute": 30,
-        "formatted": "14h30"
-      }
-    },
-    {
-      "horse": "BARRAMUNDI (IRE) M.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/TUw1V2ZQK1pYS0dsdDI3ZXJ3WXArdz09",
-      "statut": "DP-P/1010",
-      "date": "29/09/2026",
-      "track": "CHANTILLY",
-      "race": "DE VINEUIL",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/Z3BtQkU1MDJDZk5DN3BORys5R09hUT09",
-      "cat": "(Maiden)",
-      "purse": "27.400",
-      "disc": "P",
-      "dist": "1.800",
+      "dist": "1.400",
       "owner": "CHR. HEAD (S)",
       "postTime": {
         "hour": 16,
-        "minute": 50,
-        "formatted": "16h50"
+        "minute": 3,
+        "formatted": "16h03"
       }
     },
     {
-      "horse": "CHAMPAGNE SUNSET IRE F.PS. 2 a. ... (Sup.)",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/Q0cxODhoSmFRTDd0YVhlbXg1WmtDZz09",
-      "statut": "DP-P/1011(Sup.)",
-      "date": "29/09/2026",
-      "track": "CHANTILLY",
-      "race": "LA TROUBLERIE",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/S3NCL3BaazlJclNoNTV6Y0ErQmpBQT09",
-      "cat": "(Maiden)",
-      "purse": "27.400",
+      "horse": "TORTSANLOT (GB) M.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/T2srQkxYWVcvRCs1cCtIR2FmUlczUT09",
+      "statut": "DP-P/546",
+      "date": "02/10/2026",
+      "track": "SAINT-CLOUD",
+      "race": "DE CONDE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/N3RycGd1V3UxVFB2NjNyOW4yS1FwZz09",
+      "cat": "GR.III",
+      "purse": "73.200",
       "disc": "P",
-      "dist": "1.800",
+      "dist": "2.000",
       "owner": "CHR. HEAD (S)",
       "postTime": {
-        "hour": 18,
-        "minute": 0,
-        "formatted": "18h00"
-      }
-    },
-    {
-      "horse": "MONSIEUR CHARLIE IRE M.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/VHdXSzhzcVJMQ1ZpN2hNVjNJTGpiUT09",
-      "statut": "DP-P/1008",
-      "date": "29/09/2026",
-      "track": "CHANTILLY",
-      "race": "DE VILLEBON",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/Sm11NnF4ZzZBNGZPREgwWlN3S3o4Zz09",
-      "cat": "(Inédits)",
-      "purse": "45.700",
-      "disc": "P",
-      "dist": "1.600",
-      "owner": "CHR. HEAD (S)",
-      "postTime": {
-        "hour": 14,
-        "minute": 30,
-        "formatted": "14h30"
+        "hour": 13,
+        "minute": 43,
+        "formatted": "13h43"
       }
     }
   ]
