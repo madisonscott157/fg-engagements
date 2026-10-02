@@ -1,5 +1,39 @@
 {
-  "partants": {},
+  "partants": {
+    "ceramic (ire) f.ps. 3 a. | 02/10/2026 | saint-cloud | coronation | 1.600": {
+      "horse": "CERAMIC (IRE) F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/dlczR042azNZZ2tGRVN3a3RYY0JLZz09",
+      "date": "02/10/2026",
+      "track": "SAINT-CLOUD",
+      "race": "CORONATION",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/U2RldVROUCtvZXJvckhBcnVGU1VxQT09",
+      "cat": "(L)",
+      "dist": "1.600",
+      "statut": "DP-P/544"
+    },
+    "no tune (gb) f.ps. 3 a. | 02/10/2026 | saint-cloud | matchem | 1.400": {
+      "horse": "NO TUNE (GB) F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/QnhqdXA4MERPdXZveTZNNGVDeUNaZz09",
+      "date": "02/10/2026",
+      "track": "SAINT-CLOUD",
+      "race": "MATCHEM",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/QTNOeDQ2T2FMRklXQW1URnFJN3EyQT09",
+      "cat": "(L)",
+      "dist": "1.400",
+      "statut": "DP-P/545"
+    },
+    "tortsanlot (gb) m.ps. 2 a. | 02/10/2026 | saint-cloud | de conde | 2.000": {
+      "horse": "TORTSANLOT (GB) M.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/T2srQkxYWVcvRCs1cCtIR2FmUlczUT09",
+      "date": "02/10/2026",
+      "track": "SAINT-CLOUD",
+      "race": "DE CONDE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/N3RycGd1V3UxVFB2NjNyOW4yS1FwZz09",
+      "cat": "GR.III",
+      "dist": "2.000",
+      "statut": "DP-P/546"
+    }
+  },
   "newEngagements": {},
   "statusUpdates": {
     "avec toi usa m.ps. 2 a. | 04/10/2026 | parislongchamp | j-l lagardere | 1.400": {
