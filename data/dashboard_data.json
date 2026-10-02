@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-10-02T09:52:22.128Z",
+  "lastUpdate": "2026-10-02T09:56:11.157Z",
   "upcoming": [
     {
       "horse": "CERAMIC (IRE) F.PS. 3 a.",
@@ -70,6 +70,16 @@
       "cat": "GR.I",
       "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/eG84NHIyL2Z6YUlQbytLejZHdklxQT09",
       "horseUrl": "https://www.france-galop.com/fr/cheval/MzNVeWdhQUNneUxUMnlHTnU3dXR6dz09"
+    },
+    {
+      "horse": "ROYALLY IRE F.PS. 2 a.",
+      "date": "04/10/2026",
+      "track": "NIMES",
+      "race": "DES ARENES",
+      "distance": "1.200",
+      "cat": "(Maiden)",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/dDlZcUZwR0NyZ3dOT1Y5Zk5CMzBiUT09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/UEFEMUZUYUlGRzhKelJHWVVlL2ZmQT09"
     }
   ],
   "engagements": [
