@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-10-02T15:36:25.798Z",
+  "lastUpdate": "2026-10-02T15:41:40.188Z",
   "upcoming": [
     {
       "horse": "CERAMIC (IRE) F.PS. 3 a.",
@@ -475,6 +475,18 @@
     }
   ],
   "results": [
+    {
+      "horse": "Ceramic",
+      "date": "02/10/2026",
+      "track": "SAINT-CLOUD",
+      "race": "",
+      "distance": "1.600",
+      "position": "9",
+      "jockey": "M. GUYON",
+      "gain": "0",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/U2RldVROUCtvZXJvckhBcnVGU1VxQT09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/dlczR042azNZZ2tGRVN3a3RYY0JLZz09"
+    },
     {
       "horse": "No Tune",
       "date": "02/10/2026",
