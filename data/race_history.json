@@ -1,5 +1,18 @@
 [
   {
+    "horse": "Ceramic",
+    "date": "02/10/2026",
+    "track": "SAINT-CLOUD",
+    "race": "",
+    "distance": "1.600",
+    "position": "9",
+    "jockey": "M. GUYON",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/U2RldVROUCtvZXJvckhBcnVGU1VxQT09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/dlczR042azNZZ2tGRVN3a3RYY0JLZz09",
+    "scrapedAt": "2026-10-02T15:40:56.194Z"
+  },
+  {
     "horse": "No Tune",
     "date": "02/10/2026",
     "track": "SAINT-CLOUD",
