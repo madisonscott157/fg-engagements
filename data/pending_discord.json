@@ -1,6 +1,89 @@
 {
-  "partants": {},
-  "newEngagements": {},
-  "statusUpdates": {},
+  "partants": {
+    "royally ire f.ps. 2 a. | 04/10/2026 | nimes | des arenes | 1.200": {
+      "horse": "ROYALLY IRE F.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/UEFEMUZUYUlGRzhKelJHWVVlL2ZmQT09",
+      "date": "04/10/2026",
+      "track": "NIMES",
+      "race": "DES ARENES",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/dDlZcUZwR0NyZ3dOT1Y5Zk5CMzBiUT09",
+      "cat": "(Maiden)",
+      "dist": "1.200",
+      "statut": "DP-P/5911"
+    }
+  },
+  "newEngagements": {
+    "basha h.ps. 3 a. | 10/10/2026 | chantilly | le fabuleux | 1.800": {
+      "horse": "BASHA H.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/SlFXdG42NTZ1b1pKUk9hV0I0L0J5UT09",
+      "date": "10/10/2026",
+      "track": "CHANTILLY",
+      "race": "LE FABULEUX",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/SzJPUkNXc1ZVOE55Vk1XUEZXb0ZPZz09",
+      "cat": "(L)",
+      "dist": "1.800",
+      "statut": "VA-P/560"
+    },
+    "champagne sunset ire f.ps. 2 a. | 10/10/2026 | chantilly | la forterelle | 1.600": {
+      "horse": "CHAMPAGNE SUNSET IRE F.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/Q0cxODhoSmFRTDd0YVhlbXg1WmtDZz09",
+      "date": "10/10/2026",
+      "track": "CHANTILLY",
+      "race": "LA FORTERELLE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/Zi9jM1JGbytvcU5yMEN2K0lkRXdvdz09",
+      "cat": "(Maiden)",
+      "dist": "1.600",
+      "statut": "VA-P/1037"
+    },
+    "royally ire f.ps. 2 a. | 11/10/2026 | niort | niort breche | 1.400": {
+      "horse": "ROYALLY IRE F.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/UEFEMUZUYUlGRzhKelJHWVVlL2ZmQT09",
+      "date": "11/10/2026",
+      "track": "NIORT",
+      "race": "NIORT BRECHE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/azIrd0pLYmc0WVhOK3BYU0wxTGxZdz09",
+      "cat": "(Maiden)",
+      "dist": "1.400",
+      "statut": "VA-P/5594"
+    }
+  },
+  "statusUpdates": {
+    "royally ire f.ps. 2 a. | 04/10/2026 | nimes | des arenes | 1.200": {
+      "horse": "ROYALLY IRE F.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/UEFEMUZUYUlGRzhKelJHWVVlL2ZmQT09",
+      "date": "04/10/2026",
+      "track": "NIMES",
+      "race": "DES ARENES",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/dDlZcUZwR0NyZ3dOT1Y5Zk5CMzBiUT09",
+      "cat": "(Maiden)",
+      "dist": "1.200",
+      "statut": "DP-P/5911",
+      "oldStatut": "PB-P/5911"
+    },
+    "munch h.ps. 2 a. | 06/10/2026 | lyon parilly | de cuisery | 1.600": {
+      "horse": "MUNCH H.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/WVFQTHcyZTYxamtmWXkvL2c3Z3oyUT09",
+      "date": "06/10/2026",
+      "track": "LYON PARILLY",
+      "race": "DE CUISERY",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/eitLZUZKTk42L2c4M0tOdmk2UDNFQT09",
+      "cat": "(Maiden)",
+      "dist": "1.600",
+      "statut": "PB-P/6014",
+      "oldStatut": "VA-P/6014"
+    },
+    "vassy h.ps. 3 a. | 06/10/2026 | lyon parilly | oumnaz | 2.200": {
+      "horse": "VASSY H.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/YWRqVU5HbjA1TlFWSjBLTlNZT3RGdz09",
+      "date": "06/10/2026",
+      "track": "LYON PARILLY",
+      "race": "OUMNAZ",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/blM0MUN3ZVdSZVdHeFhSUjZGQkhiUT09",
+      "cat": "(Classe 2)",
+      "dist": "2.200",
+      "statut": "PB-P/6018",
+      "oldStatut": "VA-P/6018"
+    }
+  },
   "lastPosted": "2026-10-02T08:51:56.623Z"
 }
