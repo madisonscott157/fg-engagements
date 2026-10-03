@@ -1,6 +1,19 @@
 {
   "partants": {},
   "newEngagements": {},
-  "statusUpdates": {},
+  "statusUpdates": {
+    "royally ire f.ps. 2 a. | 07/10/2026 | chantilly | terroirs france | 1.400": {
+      "horse": "ROYALLY IRE F.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/UEFEMUZUYUlGRzhKelJHWVVlL2ZmQT09",
+      "date": "07/10/2026",
+      "track": "CHANTILLY",
+      "race": "TERROIRS FRANCE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/dGtKOXVEVmZTM21hQVVscVAxK3BQZz09",
+      "cat": "(Maiden)",
+      "dist": "1.400",
+      "statut": "ND-P/1021",
+      "oldStatut": "VA-P/1021"
+    }
+  },
   "lastPosted": "2026-10-03T08:56:19.454Z"
 }
