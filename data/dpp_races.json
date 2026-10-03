@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-10-03T07:56:30.765Z",
+  "lastUpdate": "2026-10-03T08:56:05.783Z",
   "races": [
     {
       "horse": "AVEC TOI USA M.PS. 2 a.",
@@ -69,6 +69,34 @@
       "purse": "11.000",
       "disc": "P",
       "dist": "1.200",
+      "owner": "CHR. HEAD (S)"
+    },
+    {
+      "horse": "MUNCH H.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/WVFQTHcyZTYxamtmWXkvL2c3Z3oyUT09",
+      "statut": "DP-P/6014",
+      "date": "06/10/2026",
+      "track": "LYON PARILLY",
+      "race": "DE CUISERY",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/eitLZUZKTk42L2c4M0tOdmk2UDNFQT09",
+      "cat": "(Maiden)",
+      "purse": "21.000",
+      "disc": "P",
+      "dist": "1.600",
+      "owner": "CHR. HEAD (S)"
+    },
+    {
+      "horse": "VASSY H.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/YWRqVU5HbjA1TlFWSjBLTlNZT3RGdz09",
+      "statut": "DP-P/6018",
+      "date": "06/10/2026",
+      "track": "LYON PARILLY",
+      "race": "OUMNAZ",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/blM0MUN3ZVdSZVdHeFhSUjZGQkhiUT09",
+      "cat": "(Classe 2)",
+      "purse": "20.100",
+      "disc": "P",
+      "dist": "2.200",
       "owner": "CHR. HEAD (S)"
     }
   ]
