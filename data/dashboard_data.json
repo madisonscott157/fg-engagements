@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-10-03T23:56:09.467Z",
+  "lastUpdate": "2026-10-04T00:00:54.331Z",
   "upcoming": [
     {
       "horse": "AVEC TOI USA M.PS. 2 a.",
@@ -322,106 +322,6 @@
       "cat": "",
       "status": "DP-P/5911",
       "lastUpdate": 1791067073612
-    },
-    {
-      "horse": "Isabella F 2 A.",
-      "date": "03/10/2026",
-      "track": "parislongchamp",
-      "race": "haras bouquetot",
-      "distance": "1.600",
-      "cat": "",
-      "status": "NV-P/759",
-      "lastUpdate": 1791060984262
-    },
-    {
-      "horse": "N. F 2 A.",
-      "date": "03/10/2026",
-      "track": "parislongchamp",
-      "race": "haras bouquetot",
-      "distance": "1.600",
-      "cat": "",
-      "status": "VA-P/759",
-      "lastUpdate": 1782250915960
-    },
-    {
-      "horse": "Woot Woot (ire) F 2 A.",
-      "date": "03/10/2026",
-      "track": "parislongchamp",
-      "race": "haras bouquetot",
-      "distance": "1.600",
-      "cat": "",
-      "status": "F1-P/759",
-      "lastUpdate": 1791060984262
-    },
-    {
-      "horse": "Palais Byzantin M 2 A.",
-      "date": "03/10/2026",
-      "track": "parislongchamp",
-      "race": "haras bouquetot",
-      "distance": "1.600",
-      "cat": "",
-      "status": "NV-P/759",
-      "lastUpdate": 1791060984262
-    },
-    {
-      "horse": "Pemulwuy M 2 A.",
-      "date": "03/10/2026",
-      "track": "parislongchamp",
-      "race": "haras bouquetot",
-      "distance": "1.600",
-      "cat": "",
-      "status": "F1-P/759",
-      "lastUpdate": 1791060984262
-    },
-    {
-      "horse": "Tortsanlot (gb) M 2 A.",
-      "date": "03/10/2026",
-      "track": "parislongchamp",
-      "race": "haras bouquetot",
-      "distance": "1.600",
-      "cat": "",
-      "status": "F1-P/759",
-      "lastUpdate": 1791060984262
-    },
-    {
-      "horse": "Munch H 2 A.",
-      "date": "03/10/2026",
-      "track": "parislongchamp",
-      "race": "haras bouquetot",
-      "distance": "1.600",
-      "cat": "",
-      "status": "F1-P/759",
-      "lastUpdate": 1791060984262
-    },
-    {
-      "horse": "Resound F 2 A.",
-      "date": "03/10/2026",
-      "track": "parislongchamp",
-      "race": "haras bouquetot",
-      "distance": "1.600",
-      "cat": "",
-      "status": "NV-P/759",
-      "lastUpdate": 1791060984262
-    },
-    {
-      "horse": "Green Spirit F 3 A.",
-      "date": "03/10/2026",
-      "track": "parislongchamp",
-      "race": "d.wildenstein",
-      "distance": "1.600",
-      "cat": "",
-      "status": "NV-P/552",
-      "lastUpdate": 1791060984262
-    },
-    {
-      "horse": "Proof M 3 A.",
-      "date": "03/10/2026",
-      "track": "parislongchamp",
-      "race": "dollar",
-      "distance": "1.950",
-      "cat": "",
-      "status": "ND-P/551",
-      "lastUpdate": 1791060984262
     }
   ],
   "results": [
