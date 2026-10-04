@@ -1,5 +1,18 @@
 [
   {
+    "horse": "Royally",
+    "date": "04/10/2026",
+    "track": "NIMES",
+    "race": "",
+    "distance": "1.200",
+    "position": "1",
+    "jockey": "S. DERIU",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/dDlZcUZwR0NyZ3dOT1Y5Zk5CMzBiUT09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/UEFEMUZUYUlGRzhKelJHWVVlL2ZmQT09",
+    "scrapedAt": "2026-10-04T12:50:53.568Z"
+  },
+  {
     "horse": "Avec Toi",
     "date": "04/10/2026",
     "track": "PARISLONGCHAMP",
