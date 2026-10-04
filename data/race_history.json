@@ -1,5 +1,18 @@
 [
   {
+    "horse": "Data",
+    "date": "04/10/2026",
+    "track": "PARISLONGCHAMP",
+    "race": "GR.I",
+    "distance": "1.600",
+    "position": "2",
+    "jockey": "PC. BOUDOT",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/UUZQd01sMWVkL3hhbjJhL3lMSUQvZz09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/cHlrZ3Y1MHRUQnRvbXVoUzlZOTMyQT09",
+    "scrapedAt": "2026-10-04T11:50:52.104Z"
+  },
+  {
     "horse": "Ceramic",
     "date": "02/10/2026",
     "track": "SAINT-CLOUD",
