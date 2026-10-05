@@ -1,5 +1,28 @@
 {
-  "partants": {},
+  "partants": {
+    "munch h.ps. 2 a. | 06/10/2026 | lyon parilly | de cuisery | 1.600": {
+      "horse": "MUNCH H.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/WVFQTHcyZTYxamtmWXkvL2c3Z3oyUT09",
+      "date": "06/10/2026",
+      "track": "LYON PARILLY",
+      "race": "DE CUISERY",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/eitLZUZKTk42L2c4M0tOdmk2UDNFQT09",
+      "cat": "(Maiden)",
+      "dist": "1.600",
+      "statut": "DP-P/6014"
+    },
+    "vassy h.ps. 3 a. | 06/10/2026 | lyon parilly | oumnaz | 2.200": {
+      "horse": "VASSY H.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/YWRqVU5HbjA1TlFWSjBLTlNZT3RGdz09",
+      "date": "06/10/2026",
+      "track": "LYON PARILLY",
+      "race": "OUMNAZ",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/blM0MUN3ZVdSZVdHeFhSUjZGQkhiUT09",
+      "cat": "(Classe 2)",
+      "dist": "2.200",
+      "statut": "DP-P/6018"
+    }
+  },
   "newEngagements": {},
   "statusUpdates": {},
   "lastPosted": "2026-10-04T09:01:08.738Z"
