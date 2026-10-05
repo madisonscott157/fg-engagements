@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-10-04T23:56:08.240Z",
+  "lastUpdate": "2026-10-05T00:00:50.855Z",
   "upcoming": [
     {
       "horse": "AVEC TOI USA M.PS. 2 a.",
@@ -221,106 +221,6 @@
       "distance": "1.400",
       "cat": "",
       "status": "F1-P/5675",
-      "lastUpdate": 1791146964714
-    },
-    {
-      "horse": "Algebre (ire) M 2 A.",
-      "date": "04/10/2026",
-      "track": "parislongchamp",
-      "race": "j-l lagardere",
-      "distance": "1.400",
-      "cat": "",
-      "status": "NV-P/553",
-      "lastUpdate": 1791146964714
-    },
-    {
-      "horse": "Avec Toi M 2 A.",
-      "date": "04/10/2026",
-      "track": "parislongchamp",
-      "race": "j-l lagardere",
-      "distance": "1.400",
-      "cat": "",
-      "status": "DP-P/553",
-      "lastUpdate": 1791146964714
-    },
-    {
-      "horse": "Big Money Man M 2 A.",
-      "date": "04/10/2026",
-      "track": "parislongchamp",
-      "race": "j-l lagardere",
-      "distance": "1.400",
-      "cat": "",
-      "status": "DP-P/553",
-      "lastUpdate": 1791146964714
-    },
-    {
-      "horse": "Data (gb) F 2 A.",
-      "date": "04/10/2026",
-      "track": "parislongchamp",
-      "race": "marcel boussac",
-      "distance": "1.600",
-      "cat": "",
-      "status": "DP-P/554",
-      "lastUpdate": 1791146964714
-    },
-    {
-      "horse": "Familly F 4 A.",
-      "date": "04/10/2026",
-      "track": "parislongchamp",
-      "race": "de l'opera",
-      "distance": "2.000",
-      "cat": "",
-      "status": "F1-P/556",
-      "lastUpdate": 1791146964714
-    },
-    {
-      "horse": "Green Spirit F 3 A.",
-      "date": "04/10/2026",
-      "track": "parislongchamp",
-      "race": "de la foret",
-      "distance": "1.400",
-      "cat": "",
-      "status": "NV-P/558",
-      "lastUpdate": 1791146964714
-    },
-    {
-      "horse": "Isabella F 2 A.",
-      "date": "04/10/2026",
-      "track": "parislongchamp",
-      "race": "marcel boussac",
-      "distance": "1.600",
-      "cat": "",
-      "status": "NV-P/554",
-      "lastUpdate": 1791146964714
-    },
-    {
-      "horse": "Nighttime M 3 A.",
-      "date": "04/10/2026",
-      "track": "parislongchamp",
-      "race": "de la foret",
-      "distance": "1.400",
-      "cat": "",
-      "status": "DP-P/558",
-      "lastUpdate": 1791146964714
-    },
-    {
-      "horse": "Woot Woot (ire) F 2 A.",
-      "date": "04/10/2026",
-      "track": "parislongchamp",
-      "race": "marcel boussac",
-      "distance": "1.600",
-      "cat": "",
-      "status": "F1-P/554",
-      "lastUpdate": 1791146964714
-    },
-    {
-      "horse": "Royally F 2 A.",
-      "date": "04/10/2026",
-      "track": "nimes",
-      "race": "des arenes",
-      "distance": "1.200",
-      "cat": "",
-      "status": "DP-P/5911",
       "lastUpdate": 1791146964714
     }
   ],
