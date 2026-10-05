@@ -1,31 +1,6 @@
 {
   "partants": {},
   "newEngagements": {},
-  "statusUpdates": {
-    "munch h.ps. 2 a. | 08/10/2026 | bdx le bouscat | montesquieu | 1.600": {
-      "horse": "MUNCH H.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/WVFQTHcyZTYxamtmWXkvL2c3Z3oyUT09",
-      "date": "08/10/2026",
-      "track": "BDX LE BOUSCAT",
-      "race": "MONTESQUIEU",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/NWZsbHdOWHpFU1hoTyszUDd5ZENmQT09",
-      "cat": "(Maiden)",
-      "dist": "1.600",
-      "statut": "ND-P/5814",
-      "oldStatut": "VA-P/5814"
-    },
-    "hottot h.ps. 3 a. | 13/10/2026 | parislongchamp | champ de mars | 1.950": {
-      "horse": "HOTTOT H.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/dzNvbmQ5bytFTzloOG9mOVZyR2NEdz09",
-      "date": "13/10/2026",
-      "track": "PARISLONGCHAMP",
-      "race": "CHAMP DE MARS",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/d0R4QXVSRWMvdFZIcFA2c2M2TjNUQT09",
-      "cat": "(Classe 2)",
-      "dist": "1.950",
-      "statut": "VA-P/1042",
-      "oldStatut": "-P/1042"
-    }
-  },
-  "lastPosted": "2026-10-05T08:51:20.977Z"
+  "statusUpdates": {},
+  "lastPosted": "2026-10-05T10:46:31.959Z"
 }
