@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-10-05T23:56:26.428Z",
+  "lastUpdate": "2026-10-06T00:01:21.285Z",
   "upcoming": [
     {
       "horse": "AVEC TOI USA M.PS. 2 a.",
@@ -221,16 +221,6 @@
       "distance": "2.200",
       "cat": "",
       "status": "DP-P/6018",
-      "lastUpdate": 1791235247350
-    },
-    {
-      "horse": "Alias H 2 A.",
-      "date": "05/10/2026",
-      "track": "le mans",
-      "race": "reine berengere",
-      "distance": "1.400",
-      "cat": "",
-      "status": "F1-P/5675",
       "lastUpdate": 1791235247350
     }
   ],
