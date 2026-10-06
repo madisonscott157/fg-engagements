@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-10-06T10:10:59.234Z",
+  "lastUpdate": "2026-10-06T10:16:15.103Z",
   "upcoming": [
     {
       "horse": "AVEC TOI USA M.PS. 2 a.",
@@ -245,6 +245,18 @@
     }
   ],
   "results": [
+    {
+      "horse": "Munch",
+      "date": "06/10/2026",
+      "track": "LYON PARILLY",
+      "race": "",
+      "distance": "1.600",
+      "position": "3",
+      "jockey": "PC. BOUDOT",
+      "gain": "0",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/eitLZUZKTk42L2c4M0tOdmk2UDNFQT09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/WVFQTHcyZTYxamtmWXkvL2c3Z3oyUT09"
+    },
     {
       "horse": "Vassy",
       "date": "06/10/2026",
