@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-10-07T09:46:18.590Z",
+  "lastUpdate": "2026-10-07T09:52:28.203Z",
   "upcoming": [
     {
       "horse": "DUSKWIND IRE F.PS. 3 a.",
@@ -30,8 +30,8 @@
       "race": "fille de l'air",
       "distance": "2.100",
       "cat": "",
-      "status": "-P/4184",
-      "lastUpdate": 1791363390462
+      "status": "VA-P/4184",
+      "lastUpdate": 1791366692695
     },
     {
       "horse": "Big Money Man M 2 A.",
@@ -41,7 +41,7 @@
       "distance": "1.600",
       "cat": "",
       "status": "VA-P/565",
-      "lastUpdate": 1791363390462
+      "lastUpdate": 1791366692695
     },
     {
       "horse": "Tortsanlot (gb) M 2 A.",
@@ -51,7 +51,7 @@
       "distance": "2.000",
       "cat": "",
       "status": "VA-P/566",
-      "lastUpdate": 1791363390462
+      "lastUpdate": 1791366692695
     },
     {
       "horse": "Tamar F 3 A.",
@@ -60,8 +60,8 @@
       "race": "ch. coup foudre",
       "distance": "1.800",
       "cat": "",
-      "status": "-P/1062",
-      "lastUpdate": 1791363390462
+      "status": "VA-P/1062",
+      "lastUpdate": 1791366692695
     },
     {
       "horse": "House Of Tudor M 3 A.",
@@ -71,7 +71,7 @@
       "distance": "2.500",
       "cat": "",
       "status": "VA-P/1052",
-      "lastUpdate": 1791363390462
+      "lastUpdate": 1791366692694
     },
     {
       "horse": "House Of Tudor M 3 A.",
@@ -81,7 +81,7 @@
       "distance": "2.400",
       "cat": "",
       "status": "VA-P/1053",
-      "lastUpdate": 1791363390462
+      "lastUpdate": 1791366692694
     },
     {
       "horse": "Hottot H 3 A.",
@@ -91,7 +91,7 @@
       "distance": "1.950",
       "cat": "",
       "status": "VA-P/1042",
-      "lastUpdate": 1791363390462
+      "lastUpdate": 1791366692694
     },
     {
       "horse": "Royally F 2 A.",
@@ -110,8 +110,8 @@
       "race": "niort breche",
       "distance": "1.700",
       "cat": "",
-      "status": "VA-P/5594",
-      "lastUpdate": 1791363390462
+      "status": "NV-P/5594",
+      "lastUpdate": 1791366692694
     },
     {
       "horse": "Amstramgram (gb) F 2 A.",
@@ -121,7 +121,7 @@
       "distance": "1.200",
       "cat": "",
       "status": "F1-P/559",
-      "lastUpdate": 1791363390462
+      "lastUpdate": 1791366692694
     },
     {
       "horse": "Jumbotron H 2 A.",
@@ -131,7 +131,7 @@
       "distance": "1.200",
       "cat": "",
       "status": "F1-P/559",
-      "lastUpdate": 1791363390462
+      "lastUpdate": 1791366692694
     },
     {
       "horse": "Basha H 3 A.",
@@ -140,8 +140,8 @@
       "race": "le fabuleux",
       "distance": "1.800",
       "cat": "",
-      "status": "VA-P/560",
-      "lastUpdate": 1791363390462
+      "status": "PB-P/560",
+      "lastUpdate": 1791366692694
     },
     {
       "horse": "Champagne Sunset F 2 A.",
@@ -150,8 +150,8 @@
       "race": "la forterelle",
       "distance": "1.600",
       "cat": "",
-      "status": "VA-P/1037",
-      "lastUpdate": 1791363390462
+      "status": "PB-P/1037",
+      "lastUpdate": 1791366692694
     },
     {
       "horse": "Duskwind F 3 A.",
@@ -161,7 +161,7 @@
       "distance": "1.800",
       "cat": "",
       "status": "DP-P/6106",
-      "lastUpdate": 1791363390462
+      "lastUpdate": 1791366692694
     },
     {
       "horse": "Merci Mille Fois M 2 A.",
@@ -171,7 +171,7 @@
       "distance": "2.000",
       "cat": "",
       "status": "DP-P/6103",
-      "lastUpdate": 1791363390462
+      "lastUpdate": 1791366692694
     },
     {
       "horse": "Hottot H 3 A.",
@@ -181,7 +181,7 @@
       "distance": "2.000",
       "cat": "",
       "status": "NV-P/1028",
-      "lastUpdate": 1791363390462
+      "lastUpdate": 1791366692694
     },
     {
       "horse": "Munch H 2 A.",
@@ -191,7 +191,7 @@
       "distance": "1.600",
       "cat": "",
       "status": "ND-P/5814",
-      "lastUpdate": 1791363390462
+      "lastUpdate": 1791366692694
     },
     {
       "horse": "Royally F 2 A.",
@@ -201,7 +201,7 @@
       "distance": "1.400",
       "cat": "",
       "status": "ND-P/1021",
-      "lastUpdate": 1791363390462
+      "lastUpdate": 1791366692694
     }
   ],
   "results": [
