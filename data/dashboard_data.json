@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-10-06T23:55:56.737Z",
+  "lastUpdate": "2026-10-07T00:01:25.697Z",
   "upcoming": [
     {
       "horse": "AVEC TOI USA M.PS. 2 a.",
@@ -232,26 +232,6 @@
       "cat": "",
       "status": "ND-P/1021",
       "lastUpdate": 1791329507043
-    },
-    {
-      "horse": "Munch H 2 A.",
-      "date": "06/10/2026",
-      "track": "lyon parilly",
-      "race": "de cuisery",
-      "distance": "1.600",
-      "cat": "",
-      "status": "DP-P/6014",
-      "lastUpdate": 1791317763616
-    },
-    {
-      "horse": "Vassy H 3 A.",
-      "date": "06/10/2026",
-      "track": "lyon parilly",
-      "race": "oumnaz",
-      "distance": "2.200",
-      "cat": "",
-      "status": "DP-P/6018",
-      "lastUpdate": 1791317763616
     }
   ],
   "results": [
