@@ -1,43 +1,6 @@
 {
   "partants": {},
   "newEngagements": {},
-  "statusUpdates": {
-    "hottot h.ps. 3 a. | 13/10/2026 | parislongchamp | champ de mars | 1.950": {
-      "horse": "HOTTOT H.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/dzNvbmQ5bytFTzloOG9mOVZyR2NEdz09",
-      "date": "13/10/2026",
-      "track": "PARISLONGCHAMP",
-      "race": "CHAMP DE MARS",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/d0R4QXVSRWMvdFZIcFA2c2M2TjNUQT09",
-      "cat": "(Classe 2)",
-      "dist": "1.950",
-      "statut": "PB-P/1042",
-      "oldStatut": "VA-P/1042"
-    },
-    "ceramic (ire) f.ps. 3 a. | 18/10/2026 | parislongchamp | de saint-cyr | 1.400": {
-      "horse": "CERAMIC (IRE) F.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/dlczR042azNZZ2tGRVN3a3RYY0JLZz09",
-      "date": "18/10/2026",
-      "track": "PARISLONGCHAMP",
-      "race": "DE SAINT-CYR",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/QzNzUTdqKzArMHNJN256Y1BUZU12UT09",
-      "cat": "(L)",
-      "dist": "1.400",
-      "statut": "VA-P/563",
-      "oldStatut": "-P/563"
-    },
-    "soutter m.ps. 3 a. | 18/10/2026 | divonne | jeunes | 2.000": {
-      "horse": "SOUTTER M.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/dXdndHlCQ2NkZ0oxWVgwQ2ZHRHdmQT09",
-      "date": "18/10/2026",
-      "track": "DIVONNE",
-      "race": "JEUNES",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/ZUVKT1hsaHZPc1NoVktsVHpYVzJrQT09",
-      "cat": "RECL.",
-      "dist": "2.000",
-      "statut": "VA-P/6036",
-      "oldStatut": "-P/6036"
-    }
-  },
-  "lastPosted": "2026-10-09T08:56:36.679Z"
+  "statusUpdates": {},
+  "lastPosted": "2026-10-09T10:46:30.915Z"
 }
