@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-10-09T12:00:56.515Z",
+  "lastUpdate": "2026-10-09T12:06:35.198Z",
   "upcoming": [
     {
       "horse": "DUSKWIND IRE F.PS. 3 a.",
@@ -235,6 +235,18 @@
     }
   ],
   "results": [
+    {
+      "horse": "Merci Mille Fois",
+      "date": "09/10/2026",
+      "track": "COMPIEGNE",
+      "race": "",
+      "distance": "2.000",
+      "position": "1",
+      "jockey": "PC. BOUDOT",
+      "gain": "0",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/NWpFTnA2WVdsNUxuSWhKUkZUWFVLZz09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/YWdBaUsrYThtcnZCL0NLaUxpeXp5QT09"
+    },
     {
       "horse": "Munch",
       "date": "06/10/2026",
