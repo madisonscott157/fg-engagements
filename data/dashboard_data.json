@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-10-09T13:45:53.429Z",
+  "lastUpdate": "2026-10-09T13:51:26.535Z",
   "upcoming": [
     {
       "horse": "DUSKWIND IRE F.PS. 3 a.",
@@ -235,6 +235,18 @@
     }
   ],
   "results": [
+    {
+      "horse": "Duskwind",
+      "date": "09/10/2026",
+      "track": "COMPIEGNE",
+      "race": "",
+      "distance": "1.800",
+      "position": "11",
+      "jockey": "S. DERIU",
+      "gain": "0",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/WUkzU2dlUHRtc21vU3RBTVlFenM4Zz09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/YkFCbGhuc29uZnhyenZ4YjM3cExadz09"
+    },
     {
       "horse": "Merci Mille Fois",
       "date": "09/10/2026",
