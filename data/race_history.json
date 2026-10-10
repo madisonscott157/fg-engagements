@@ -1,5 +1,18 @@
 [
   {
+    "horse": "Champagne Sunset",
+    "date": "10/10/2026",
+    "track": "CHANTILLY",
+    "race": "",
+    "distance": "1.600",
+    "position": "4",
+    "jockey": "M. GUYON",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/Zi9jM1JGbytvcU5yMEN2K0lkRXdvdz09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/Q0cxODhoSmFRTDd0YVhlbXg1WmtDZz09",
+    "scrapedAt": "2026-10-10T13:10:54.956Z"
+  },
+  {
     "horse": "Duskwind",
     "date": "09/10/2026",
     "track": "COMPIEGNE",
