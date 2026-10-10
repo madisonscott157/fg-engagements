@@ -1,31 +1,6 @@
 {
   "partants": {},
   "newEngagements": {},
-  "statusUpdates": {
-    "house of tudor ire m.ps. 3 a. | 14/10/2026 | saint-cloud | tornado | 2.500": {
-      "horse": "HOUSE OF TUDOR IRE M.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/TytyRjNQU1o3UDhEbGF5bWdDMFJhdz09",
-      "date": "14/10/2026",
-      "track": "SAINT-CLOUD",
-      "race": "TORNADO",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/T3hlSWd1bDBjNDZWM25PYnBZZFc0Zz09",
-      "cat": "(Classe 2)",
-      "dist": "2.500",
-      "statut": "ND-P/1052",
-      "oldStatut": "VA-P/1052"
-    },
-    "house of tudor ire m.ps. 3 a. | 14/10/2026 | saint-cloud | m. larraun | 2.400": {
-      "horse": "HOUSE OF TUDOR IRE M.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/TytyRjNQU1o3UDhEbGF5bWdDMFJhdz09",
-      "date": "14/10/2026",
-      "track": "SAINT-CLOUD",
-      "race": "M. LARRAUN",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/eGxZQUR4blpBaDZLUGtCdGtmOUxsUT09",
-      "cat": "RECL.",
-      "dist": "2.400",
-      "statut": "PB-P/1053",
-      "oldStatut": "VA-P/1053"
-    }
-  },
-  "lastPosted": "2026-10-10T08:51:47.975Z"
+  "statusUpdates": {},
+  "lastPosted": "2026-10-10T10:46:09.803Z"
 }
