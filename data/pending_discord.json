@@ -1,5 +1,28 @@
 {
-  "partants": {},
+  "partants": {
+    "basha h.ps. 3 a. | 10/10/2026 | chantilly | le fabuleux | 1.800": {
+      "horse": "BASHA H.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/SlFXdG42NTZ1b1pKUk9hV0I0L0J5UT09",
+      "date": "10/10/2026",
+      "track": "CHANTILLY",
+      "race": "LE FABULEUX",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/SzJPUkNXc1ZVOE55Vk1XUEZXb0ZPZz09",
+      "cat": "(L)",
+      "dist": "1.800",
+      "statut": "DP-P/560"
+    },
+    "champagne sunset ire f.ps. 2 a. | 10/10/2026 | chantilly | la forterelle | 1.600": {
+      "horse": "CHAMPAGNE SUNSET IRE F.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/Q0cxODhoSmFRTDd0YVhlbXg1WmtDZz09",
+      "date": "10/10/2026",
+      "track": "CHANTILLY",
+      "race": "LA FORTERELLE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/Zi9jM1JGbytvcU5yMEN2K0lkRXdvdz09",
+      "cat": "(Maiden)",
+      "dist": "1.600",
+      "statut": "DP-P/1037"
+    }
+  },
   "newEngagements": {},
   "statusUpdates": {},
   "lastPosted": "2026-10-09T10:46:30.915Z"
