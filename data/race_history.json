@@ -1,5 +1,18 @@
 [
   {
+    "horse": "Basha",
+    "date": "10/10/2026",
+    "track": "CHANTILLY",
+    "race": "",
+    "distance": "1.800",
+    "position": "5",
+    "jockey": "C. DEMURO",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/SzJPUkNXc1ZVOE55Vk1XUEZXb0ZPZz09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/SlFXdG42NTZ1b1pKUk9hV0I0L0J5UT09",
+    "scrapedAt": "2026-10-10T15:35:54.754Z"
+  },
+  {
     "horse": "Champagne Sunset",
     "date": "10/10/2026",
     "track": "CHANTILLY",
