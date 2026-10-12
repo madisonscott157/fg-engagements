@@ -1,44 +1,6 @@
 {
-  "lastUpdate": "2026-10-10T08:55:20.557Z",
+  "lastUpdate": "2026-10-12T09:00:27.196Z",
   "races": [
-    {
-      "horse": "BASHA H.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/SlFXdG42NTZ1b1pKUk9hV0I0L0J5UT09",
-      "statut": "DP-P/560",
-      "date": "10/10/2026",
-      "track": "CHANTILLY",
-      "race": "LE FABULEUX",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/SzJPUkNXc1ZVOE55Vk1XUEZXb0ZPZz09",
-      "cat": "(L)",
-      "purse": "50.300",
-      "disc": "P",
-      "dist": "1.800",
-      "owner": "CHR. HEAD (S)",
-      "postTime": {
-        "hour": 17,
-        "minute": 17,
-        "formatted": "17h17"
-      }
-    },
-    {
-      "horse": "CHAMPAGNE SUNSET IRE F.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/Q0cxODhoSmFRTDd0YVhlbXg1WmtDZz09",
-      "statut": "DP-P/1037",
-      "date": "10/10/2026",
-      "track": "CHANTILLY",
-      "race": "LA FORTERELLE",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/Zi9jM1JGbytvcU5yMEN2K0lkRXdvdz09",
-      "cat": "(Maiden)",
-      "purse": "27.400",
-      "disc": "P",
-      "dist": "1.600",
-      "owner": "CHR. HEAD (S)",
-      "postTime": {
-        "hour": 14,
-        "minute": 50,
-        "formatted": "14h50"
-      }
-    },
     {
       "horse": "HOTTOT H.PS. 3 a.",
       "horseUrl": "https://www.france-galop.com/fr/cheval/dzNvbmQ5bytFTzloOG9mOVZyR2NEdz09",
@@ -56,6 +18,25 @@
         "hour": 14,
         "minute": 30,
         "formatted": "14h30"
+      }
+    },
+    {
+      "horse": "HOUSE OF TUDOR IRE M.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/TytyRjNQU1o3UDhEbGF5bWdDMFJhdz09",
+      "statut": "DP-P/1053",
+      "date": "14/10/2026",
+      "track": "SAINT-CLOUD",
+      "race": "M. LARRAUN",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/eGxZQUR4blpBaDZLUGtCdGtmOUxsUT09",
+      "cat": "RECL.",
+      "purse": "22.100",
+      "disc": "P",
+      "dist": "2.400",
+      "owner": "CHR. HEAD (S)",
+      "postTime": {
+        "hour": 13,
+        "minute": 27,
+        "formatted": "13h27"
       }
     }
   ]
