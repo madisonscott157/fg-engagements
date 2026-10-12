@@ -1,26 +1,6 @@
 {
-  "lastUpdate": "2026-10-12T08:57:08.754Z",
+  "lastUpdate": "2026-10-12T09:01:03.655Z",
   "upcoming": [
-    {
-      "horse": "BASHA H.PS. 3 a.",
-      "date": "10/10/2026",
-      "track": "CHANTILLY",
-      "race": "LE FABULEUX",
-      "distance": "1.800",
-      "cat": "(L)",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/SzJPUkNXc1ZVOE55Vk1XUEZXb0ZPZz09",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/SlFXdG42NTZ1b1pKUk9hV0I0L0J5UT09"
-    },
-    {
-      "horse": "CHAMPAGNE SUNSET IRE F.PS. 2 a.",
-      "date": "10/10/2026",
-      "track": "CHANTILLY",
-      "race": "LA FORTERELLE",
-      "distance": "1.600",
-      "cat": "(Maiden)",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/Zi9jM1JGbytvcU5yMEN2K0lkRXdvdz09",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/Q0cxODhoSmFRTDd0YVhlbXg1WmtDZz09"
-    },
     {
       "horse": "HOTTOT H.PS. 3 a.",
       "date": "13/10/2026",
@@ -30,6 +10,16 @@
       "cat": "(Classe 2)",
       "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/d0R4QXVSRWMvdFZIcFA2c2M2TjNUQT09",
       "horseUrl": "https://www.france-galop.com/fr/cheval/dzNvbmQ5bytFTzloOG9mOVZyR2NEdz09"
+    },
+    {
+      "horse": "HOUSE OF TUDOR IRE M.PS. 3 a.",
+      "date": "14/10/2026",
+      "track": "SAINT-CLOUD",
+      "race": "M. LARRAUN",
+      "distance": "2.400",
+      "cat": "RECL.",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/eGxZQUR4blpBaDZLUGtCdGtmOUxsUT09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/TytyRjNQU1o3UDhEbGF5bWdDMFJhdz09"
     }
   ],
   "engagements": [
