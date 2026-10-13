@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-10-13T12:45:58.125Z",
+  "lastUpdate": "2026-10-13T12:51:10.875Z",
   "upcoming": [
     {
       "horse": "HOTTOT H.PS. 3 a.",
@@ -175,6 +175,18 @@
     }
   ],
   "results": [
+    {
+      "horse": "Hottot",
+      "date": "13/10/2026",
+      "track": "PARISLONGCHAMP",
+      "race": "",
+      "distance": "1.950",
+      "position": "7",
+      "jockey": "C. SOUMILLON",
+      "gain": "0",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/d0R4QXVSRWMvdFZIcFA2c2M2TjNUQT09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/dzNvbmQ5bytFTzloOG9mOVZyR2NEdz09"
+    },
     {
       "horse": "Basha",
       "date": "10/10/2026",
