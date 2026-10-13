@@ -1,6 +1,43 @@
 {
   "partants": {},
   "newEngagements": {},
-  "statusUpdates": {},
+  "statusUpdates": {
+    "asylla f.ps. 3 a. | 16/10/2026 | toulouse | st-orens | 2.400": {
+      "horse": "ASYLLA F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/SkQ3K0xsNE1PbWJiMkJhWCtwbHNjQT09",
+      "date": "16/10/2026",
+      "track": "TOULOUSE",
+      "race": "ST-ORENS",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/VTJTT2FDektwMnVsRzRqN3lFN3c5Zz09",
+      "cat": "HAND.",
+      "dist": "2.400",
+      "statut": "ND-P/5830",
+      "oldStatut": "VA-P/5830"
+    },
+    "soutter m.ps. 3 a. | 16/10/2026 | fontainebleau | des bouleaux | 1.600": {
+      "horse": "SOUTTER M.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/dXdndHlCQ2NkZ0oxWVgwQ2ZHRHdmQT09",
+      "date": "16/10/2026",
+      "track": "FONTAINEBLEAU",
+      "race": "DES BOULEAUX",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/RWlXeEFXUkdvL1h1SjRwL3pnNkJ1Zz09",
+      "cat": "RECL.",
+      "dist": "1.600",
+      "statut": "PB-P/5560",
+      "oldStatut": "VA-P/5560"
+    },
+    "no tune (gb) f.ps. 3 a. | 26/10/2026 | chantilly | seine-et-oise | 1.200": {
+      "horse": "NO TUNE (GB) F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/QnhqdXA4MERPdXZveTZNNGVDeUNaZz09",
+      "date": "26/10/2026",
+      "track": "CHANTILLY",
+      "race": "SEINE-ET-OISE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/WCtLc1FRcEp1aUphR1F5Z0NadWEwZz09",
+      "cat": "GR.III",
+      "dist": "1.200",
+      "statut": "VA-P/571",
+      "oldStatut": "-P/571"
+    }
+  },
   "lastPosted": "2026-10-13T08:51:22.651Z"
 }
