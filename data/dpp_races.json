@@ -1,20 +1,6 @@
 {
-  "lastUpdate": "2026-10-13T20:01:55.230Z",
+  "lastUpdate": "2026-10-14T06:01:08.658Z",
   "races": [
-    {
-      "horse": "HOTTOT H.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/dzNvbmQ5bytFTzloOG9mOVZyR2NEdz09",
-      "statut": "DP-P/1042",
-      "date": "13/10/2026",
-      "track": "PARISLONGCHAMP",
-      "race": "CHAMP DE MARS",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/d0R4QXVSRWMvdFZIcFA2c2M2TjNUQT09",
-      "cat": "(Classe 2)",
-      "purse": "25.600",
-      "disc": "P",
-      "dist": "1.950",
-      "owner": "CHR. HEAD (S)"
-    },
     {
       "horse": "HOUSE OF TUDOR IRE M.PS. 3 a.",
       "horseUrl": "https://www.france-galop.com/fr/cheval/TytyRjNQU1o3UDhEbGF5bWdDMFJhdz09",
