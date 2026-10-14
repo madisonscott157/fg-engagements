@@ -1,5 +1,18 @@
 [
   {
+    "horse": "House Of Tudor",
+    "date": "14/10/2026",
+    "track": "SAINT-CLOUD",
+    "race": "RECL.",
+    "distance": "2.400",
+    "position": "1",
+    "jockey": "L. MABROUK",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/eGxZQUR4blpBaDZLUGtCdGtmOUxsUT09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/TytyRjNQU1o3UDhEbGF5bWdDMFJhdz09",
+    "scrapedAt": "2026-10-14T11:40:27.758Z"
+  },
+  {
     "horse": "Hottot",
     "date": "13/10/2026",
     "track": "PARISLONGCHAMP",
