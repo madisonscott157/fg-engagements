@@ -1,18 +1,6 @@
 {
-  "partants": {
-    "soutter m.ps. 3 a. | 16/10/2026 | fontainebleau | des bouleaux | 1.600": {
-      "horse": "SOUTTER M.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/dXdndHlCQ2NkZ0oxWVgwQ2ZHRHdmQT09",
-      "date": "16/10/2026",
-      "track": "FONTAINEBLEAU",
-      "race": "DES BOULEAUX",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/RWlXeEFXUkdvL1h1SjRwL3pnNkJ1Zz09",
-      "cat": "RECL.",
-      "dist": "1.600",
-      "statut": "DP-P/5560"
-    }
-  },
+  "partants": {},
   "newEngagements": {},
   "statusUpdates": {},
-  "lastPosted": "2026-10-14T11:01:33.639Z"
+  "lastPosted": "2026-10-15T08:56:31.528Z"
 }
