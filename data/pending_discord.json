@@ -1,55 +1,6 @@
 {
   "partants": {},
   "newEngagements": {},
-  "statusUpdates": {
-    "ceramic (ire) f.ps. 3 a. | 18/10/2026 | parislongchamp | de saint-cyr | 1.400": {
-      "horse": "CERAMIC (IRE) F.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/dlczR042azNZZ2tGRVN3a3RYY0JLZz09",
-      "date": "18/10/2026",
-      "track": "PARISLONGCHAMP",
-      "race": "DE SAINT-CYR",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/QzNzUTdqKzArMHNJN256Y1BUZU12UT09",
-      "cat": "(L)",
-      "dist": "1.400",
-      "statut": "PB-P/563",
-      "oldStatut": "VA-P/563"
-    },
-    "alias h.ps. 2 a. | 19/10/2026 | deauville | habitat | 1.900": {
-      "horse": "ALIAS H.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/cnZGRVlGZGRBWGVjQkVjdGFubFM0UT09",
-      "date": "19/10/2026",
-      "track": "DEAUVILLE",
-      "race": "HABITAT",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/ZzhibU9CNU5lQkJhM1c1Nm9kUzlLZz09",
-      "cat": "(Classe 2)",
-      "dist": "1.900",
-      "statut": "PB-P/1073",
-      "oldStatut": "VA-P/1073"
-    },
-    "asylla f.ps. 3 a. | 20/10/2026 | clairefontaine | des equidays | 2.400": {
-      "horse": "ASYLLA F.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/SkQ3K0xsNE1PbWJiMkJhWCtwbHNjQT09",
-      "date": "20/10/2026",
-      "track": "CLAIREFONTAINE",
-      "race": "DES EQUIDAYS",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/S0NKNzVyRVVuZVFoWFZBRWVicjhTQT09",
-      "cat": "HAND.",
-      "dist": "2.400",
-      "statut": "F1-P/5718",
-      "oldStatut": "VA-P/5718"
-    },
-    "alias h.ps. 2 a. | 23/10/2026 | lyon la soie | haras de poujux | 1.800": {
-      "horse": "ALIAS H.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/cnZGRVlGZGRBWGVjQkVjdGFubFM0UT09",
-      "date": "23/10/2026",
-      "track": "LYON LA SOIE",
-      "race": "HARAS DE POUJUX",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/ZE1YZ1AvY3FYTUxBV1RJU0RrYTd6UT09",
-      "cat": "(Maiden)",
-      "dist": "1.800",
-      "statut": "VA-P/6040",
-      "oldStatut": "-P/6040"
-    }
-  },
-  "lastPosted": "2026-10-15T08:56:31.528Z"
+  "statusUpdates": {},
+  "lastPosted": "2026-10-15T10:46:26.285Z"
 }
