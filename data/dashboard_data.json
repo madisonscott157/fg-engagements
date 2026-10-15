@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-10-14T23:55:55.306Z",
+  "lastUpdate": "2026-10-15T00:01:05.477Z",
   "upcoming": [
     {
       "horse": "HOUSE OF TUDOR IRE M.PS. 3 a.",
@@ -191,26 +191,6 @@
       "distance": "1.800",
       "cat": "",
       "status": "ND-P/1062",
-      "lastUpdate": 1792012469879
-    },
-    {
-      "horse": "House Of Tudor M 3 A.",
-      "date": "14/10/2026",
-      "track": "saint-cloud",
-      "race": "tornado",
-      "distance": "2.500",
-      "cat": "",
-      "status": "ND-P/1052",
-      "lastUpdate": 1792012469879
-    },
-    {
-      "horse": "House Of Tudor M 3 A.",
-      "date": "14/10/2026",
-      "track": "saint-cloud",
-      "race": "m. larraun",
-      "distance": "2.400",
-      "cat": "",
-      "status": "DP-P/1053",
       "lastUpdate": 1792012469879
     }
   ],
