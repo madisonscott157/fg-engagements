@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-10-15T23:56:08.481Z",
+  "lastUpdate": "2026-10-16T00:00:58.498Z",
   "upcoming": [
     {
       "horse": "HOUSE OF TUDOR IRE M.PS. 3 a.",
@@ -191,16 +191,6 @@
       "distance": "1.600",
       "cat": "",
       "status": "DP-P/5560",
-      "lastUpdate": 1792097562174
-    },
-    {
-      "horse": "Tamar F 3 A.",
-      "date": "15/10/2026",
-      "track": "chantilly",
-      "race": "ch. coup foudre",
-      "distance": "1.800",
-      "cat": "",
-      "status": "ND-P/1062",
       "lastUpdate": 1792097562174
     }
   ],
