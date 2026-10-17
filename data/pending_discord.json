@@ -1,6 +1,19 @@
 {
   "partants": {},
   "newEngagements": {},
-  "statusUpdates": {},
+  "statusUpdates": {
+    "champagne sunset ire f.ps. 2 a. | 22/10/2026 | deauville | d'argentan | 1.500": {
+      "horse": "CHAMPAGNE SUNSET IRE F.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/Q0cxODhoSmFRTDd0YVhlbXg1WmtDZz09",
+      "date": "22/10/2026",
+      "track": "DEAUVILLE",
+      "race": "D'ARGENTAN",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/SlFBTXVweFlsaWo3RzJ2VFBHeElyUT09",
+      "cat": "(Maiden)",
+      "dist": "1.500",
+      "statut": "F1-P/1088",
+      "oldStatut": "VA-P/1088"
+    }
+  },
   "lastPosted": "2026-10-17T09:01:27.452Z"
 }
