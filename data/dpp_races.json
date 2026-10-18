@@ -1,25 +1,6 @@
 {
-  "lastUpdate": "2026-10-18T20:21:30.983Z",
+  "lastUpdate": "2026-10-18T22:11:38.759Z",
   "races": [
-    {
-      "horse": "CERAMIC (IRE) F.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/dlczR042azNZZ2tGRVN3a3RYY0JLZz09",
-      "statut": "DP-P/563",
-      "date": "18/10/2026",
-      "track": "PARISLONGCHAMP",
-      "race": "DE SAINT-CYR",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/QzNzUTdqKzArMHNJN256Y1BUZU12UT09",
-      "cat": "(L)",
-      "purse": "50.300",
-      "disc": "P",
-      "dist": "1.400",
-      "owner": "CHR. HEAD (S)",
-      "postTime": {
-        "hour": 17,
-        "minute": 0,
-        "formatted": "17h00"
-      }
-    },
     {
       "horse": "ALIAS H.PS. 2 a.",
       "horseUrl": "https://www.france-galop.com/fr/cheval/cnZGRVlGZGRBWGVjQkVjdGFubFM0UT09",
