@@ -50,6 +50,8 @@ const STORE_FILE = path.join(STORE_DIR, 'seen.json');
 const LAST_RUN_FILE = path.join(STORE_DIR, 'last_run.json');
 const PARTANTS_FILE = path.join(STORE_DIR, 'posted_partants.json');
 const PENDING_FILE = path.join(STORE_DIR, 'pending_discord.json');
+// Owned by scrape_race_alerts.js; read here only as a cache of race post times.
+const STORED_RACES_FILE = path.join(STORE_DIR, 'stored_races.json');
 
 // Paris times when Discord summary should be posted (timezone-aware, handles DST).
 // Each run posts if any target has already passed today and we haven't yet posted
@@ -1059,8 +1061,60 @@ async function scrape() {
   
   console.log('Scraped ' + out.length + ' valid engagements (skipped ' + skippedCount + ' invalid/empty rows)');
 
+  await attachPostTimes(page, out);
+
   await browser.close();
   return out;
+}
+
+// ============ RACE POST TIMES (Paris local time, as shown on france-galop.com) ============
+
+// Map raceUrl -> { hour, minute, formatted } from the race-alerts cache.
+async function loadCachedPostTimes() {
+  const map = new Map();
+  try {
+    const data = JSON.parse(await fs.readFile(STORED_RACES_FILE, 'utf8'));
+    for (const r of data.races || []) {
+      if (r.raceUrl && r.postTime) map.set(r.raceUrl, r.postTime);
+    }
+  } catch (err) {
+    if (err.code !== 'ENOENT') console.log('Could not read stored_races.json: ' + err.message);
+  }
+  return map;
+}
+
+// Same parsing as scrape_race_alerts.js getPostTime(). Best-effort: returns null on any failure.
+async function fetchPostTime(page, raceUrl) {
+  try {
+    await page.goto(raceUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
+    await page.waitForTimeout(1500);
+    if (!page.url().includes('/course/detail')) return null;
+    const bodyText = await page.locator('body').innerText();
+    const m = bodyText.match(/(?:Départ|Depart|Post|Heure)?\s*:?\s*(\d{1,2})[h:](\d{2})/i);
+    if (!m) return null;
+    const hour = parseInt(m[1]);
+    const minute = parseInt(m[2]);
+    return { hour, minute, formatted: hour + 'h' + String(minute).padStart(2, '0') };
+  } catch (err) {
+    console.log('  ⚠️ Post time fetch failed for ' + raceUrl + ': ' + err.message);
+    return null;
+  }
+}
+
+// Attach postTime to declared participants (DP-P) so the Discord post can show it.
+async function attachPostTimes(page, rows) {
+  const dpp = rows.filter(r => /^DP-P/i.test(r.statut) && r.raceUrl);
+  if (!dpp.length) return;
+  const cache = await loadCachedPostTimes();
+  for (const r of dpp) {
+    if (!cache.has(r.raceUrl)) {
+      const t = await fetchPostTime(page, r.raceUrl);
+      console.log('  ' + (t ? '✓' : '✗') + ' Post time ' + r.horse + ': ' + (t ? t.formatted : 'not found'));
+      cache.set(r.raceUrl, t);
+    }
+    const t = cache.get(r.raceUrl);
+    if (t) r.postTime = t;
+  }
 }
 
 function chunkLines(header, lines, maxLen = 1800) {
@@ -1251,7 +1305,7 @@ function chunkLines(header, lines, maxLen = 1800) {
   // Add declared participants (partants)
   for (const r of declaredParticipants) {
     const k = keyify(r);
-    pending.partants[k] = { horse: r.horse, horseUrl: r.horseUrl, date: r.date, track: r.track, race: r.race, raceUrl: r.raceUrl, cat: r.cat, dist: r.dist, statut: r.statut };
+    pending.partants[k] = { horse: r.horse, horseUrl: r.horseUrl, date: r.date, postTime: r.postTime || null, track: r.track, race: r.race, raceUrl: r.raceUrl, cat: r.cat, dist: r.dist, statut: r.statut };
     pendingChanged = true;
   }
 
@@ -1318,8 +1372,15 @@ function chunkLines(header, lines, maxLen = 1800) {
     process.exit(0);
   }
 
+  // Partants queued before their time was known: fall back to the race-alerts cache.
+  const cachedPostTimes = await loadCachedPostTimes();
+  const partantTime = (r) => {
+    const t = r.postTime || cachedPostTimes.get(r.raceUrl);
+    return t ? ' — ' + t.formatted : '';
+  };
+
   const linesDPP = pendingPartants.map(
-    r => '• ' + formatLink(cleanHorseNameForDiscord(r.horse), r.horseUrl) + ' — ' + r.date + ' — ' + r.track + ' — ' + formatLink(cleanDoubleParens(r.race), r.raceUrl) + ' (' + (cleanCategory(r.cat) || '-') + ') — ' + (r.dist || '-') + ' — Statut: ' + cleanStatus(r.statut)
+    r => '• ' + formatLink(cleanHorseNameForDiscord(r.horse), r.horseUrl) + ' — ' + r.date + partantTime(r) + ' — ' + r.track + ' — ' + formatLink(cleanDoubleParens(r.race), r.raceUrl) + ' (' + (cleanCategory(r.cat) || '-') + ') — ' + (r.dist || '-') + ' — Statut: ' + cleanStatus(r.statut)
   );
 
   const linesNew = pendingNew.map(
