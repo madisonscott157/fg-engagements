@@ -1,39 +1,6 @@
 {
-  "partants": {
-    "alias h.ps. 2 a. | 19/10/2026 | deauville | habitat | 1.900": {
-      "horse": "ALIAS H.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/cnZGRVlGZGRBWGVjQkVjdGFubFM0UT09",
-      "date": "19/10/2026",
-      "postTime": {
-        "hour": 14,
-        "minute": 30,
-        "formatted": "14h30"
-      },
-      "track": "DEAUVILLE",
-      "race": "HABITAT",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/ZzhibU9CNU5lQkJhM1c1Nm9kUzlLZz09",
-      "cat": "(Classe 2)",
-      "dist": "1.900",
-      "statut": "DP-P/1073"
-    },
-    "vatican m.ps. 3 a. | 20/10/2026 | clairefontaine | couture bardin | 1.600": {
-      "horse": "VATICAN M.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/Ly9KU0czNEJFOFRKTklMbWxpMWpkdz09",
-      "date": "20/10/2026",
-      "postTime": {
-        "hour": 16,
-        "minute": 15,
-        "formatted": "16h15"
-      },
-      "track": "CLAIREFONTAINE",
-      "race": "COUTURE BARDIN",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/WmhqQXRLY09vUnpsbU9hNHg0UVpMdz09",
-      "cat": "(Maiden)",
-      "dist": "1.600",
-      "statut": "DP-P/5721"
-    }
-  },
+  "partants": {},
   "newEngagements": {},
   "statusUpdates": {},
-  "lastPosted": "2026-10-18T09:01:31.801Z"
+  "lastPosted": "2026-10-19T08:56:49.568Z"
 }
