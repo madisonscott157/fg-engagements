@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-10-20T14:31:07.830Z",
+  "lastUpdate": "2026-10-20T14:36:37.111Z",
   "upcoming": [
     {
       "horse": "VATICAN M.PS. 3 a.",
@@ -185,6 +185,18 @@
     }
   ],
   "results": [
+    {
+      "horse": "Vatican",
+      "date": "20/10/2026",
+      "track": "CLAIREFONTAINE",
+      "race": "",
+      "distance": "1.600",
+      "position": "2",
+      "jockey": "M. GUYON",
+      "gain": "0",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/WmhqQXRLY09vUnpsbU9hNHg0UVpMdz09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/Ly9KU0czNEJFOFRKTklMbWxpMWpkdz09"
+    },
     {
       "horse": "Alias",
       "date": "19/10/2026",
