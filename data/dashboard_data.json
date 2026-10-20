@@ -1,26 +1,6 @@
 {
-  "lastUpdate": "2026-10-20T09:02:09.577Z",
+  "lastUpdate": "2026-10-20T09:06:20.444Z",
   "upcoming": [
-    {
-      "horse": "CERAMIC (IRE) F.PS. 3 a.",
-      "date": "18/10/2026",
-      "track": "PARISLONGCHAMP",
-      "race": "DE SAINT-CYR",
-      "distance": "1.400",
-      "cat": "(L)",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/QzNzUTdqKzArMHNJN256Y1BUZU12UT09",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/dlczR042azNZZ2tGRVN3a3RYY0JLZz09"
-    },
-    {
-      "horse": "ALIAS H.PS. 2 a.",
-      "date": "19/10/2026",
-      "track": "DEAUVILLE",
-      "race": "HABITAT",
-      "distance": "1.900",
-      "cat": "(Classe 2)",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/ZzhibU9CNU5lQkJhM1c1Nm9kUzlLZz09",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/cnZGRVlGZGRBWGVjQkVjdGFubFM0UT09"
-    },
     {
       "horse": "VATICAN M.PS. 3 a.",
       "date": "20/10/2026",
@@ -30,6 +10,16 @@
       "cat": "(Maiden)",
       "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/WmhqQXRLY09vUnpsbU9hNHg0UVpMdz09",
       "horseUrl": "https://www.france-galop.com/fr/cheval/Ly9KU0czNEJFOFRKTklMbWxpMWpkdz09"
+    },
+    {
+      "horse": "MONSIEUR CHARLIE IRE M.PS. 2 a.",
+      "date": "22/10/2026",
+      "track": "DEAUVILLE",
+      "race": "DE FIERVILLE",
+      "distance": "1.500",
+      "cat": "(Maiden)",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/VlkyRkZwc2NXK0tyU0IrcVZCSTVrZz09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/VHdXSzhzcVJMQ1ZpN2hNVjNJTGpiUT09"
     }
   ],
   "engagements": [
