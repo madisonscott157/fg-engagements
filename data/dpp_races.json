@@ -1,43 +1,4 @@
 {
-  "lastUpdate": "2026-10-20T18:11:36.246Z",
-  "races": [
-    {
-      "horse": "VATICAN M.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/Ly9KU0czNEJFOFRKTklMbWxpMWpkdz09",
-      "statut": "DP-P/5721",
-      "date": "20/10/2026",
-      "track": "CLAIREFONTAINE",
-      "race": "COUTURE BARDIN",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/WmhqQXRLY09vUnpsbU9hNHg0UVpMdz09",
-      "cat": "(Maiden)",
-      "purse": "20.100",
-      "disc": "P",
-      "dist": "1.600",
-      "owner": "CHR. HEAD (S)",
-      "postTime": {
-        "hour": 16,
-        "minute": 15,
-        "formatted": "16h15"
-      }
-    },
-    {
-      "horse": "MONSIEUR CHARLIE IRE M.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/VHdXSzhzcVJMQ1ZpN2hNVjNJTGpiUT09",
-      "statut": "DP-P/1087",
-      "date": "22/10/2026",
-      "track": "DEAUVILLE",
-      "race": "DE FIERVILLE",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/VlkyRkZwc2NXK0tyU0IrcVZCSTVrZz09",
-      "cat": "(Maiden)",
-      "purse": "27.400",
-      "disc": "P",
-      "dist": "1.500",
-      "owner": "CHR. HEAD (S)",
-      "postTime": {
-        "hour": 15,
-        "minute": 57,
-        "formatted": "15h57"
-      }
-    }
-  ]
+  "lastUpdate": "2026-10-20T19:10:59.937Z",
+  "races": []
 }
