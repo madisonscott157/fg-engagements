@@ -1,44 +1,6 @@
 {
-  "lastUpdate": "2026-10-17T09:05:22.228Z",
+  "lastUpdate": "2026-10-20T09:05:18.502Z",
   "races": [
-    {
-      "horse": "CERAMIC (IRE) F.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/dlczR042azNZZ2tGRVN3a3RYY0JLZz09",
-      "statut": "DP-P/563",
-      "date": "18/10/2026",
-      "track": "PARISLONGCHAMP",
-      "race": "DE SAINT-CYR",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/QzNzUTdqKzArMHNJN256Y1BUZU12UT09",
-      "cat": "(L)",
-      "purse": "50.300",
-      "disc": "P",
-      "dist": "1.400",
-      "owner": "CHR. HEAD (S)",
-      "postTime": {
-        "hour": 17,
-        "minute": 0,
-        "formatted": "17h00"
-      }
-    },
-    {
-      "horse": "ALIAS H.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/cnZGRVlGZGRBWGVjQkVjdGFubFM0UT09",
-      "statut": "DP-P/1073",
-      "date": "19/10/2026",
-      "track": "DEAUVILLE",
-      "race": "HABITAT",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/ZzhibU9CNU5lQkJhM1c1Nm9kUzlLZz09",
-      "cat": "(Classe 2)",
-      "purse": "31.100",
-      "disc": "P",
-      "dist": "1.900",
-      "owner": "CHR. HEAD (S)",
-      "postTime": {
-        "hour": 14,
-        "minute": 30,
-        "formatted": "14h30"
-      }
-    },
     {
       "horse": "VATICAN M.PS. 3 a.",
       "horseUrl": "https://www.france-galop.com/fr/cheval/Ly9KU0czNEJFOFRKTklMbWxpMWpkdz09",
@@ -56,6 +18,25 @@
         "hour": 16,
         "minute": 15,
         "formatted": "16h15"
+      }
+    },
+    {
+      "horse": "MONSIEUR CHARLIE IRE M.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/VHdXSzhzcVJMQ1ZpN2hNVjNJTGpiUT09",
+      "statut": "DP-P/1087",
+      "date": "22/10/2026",
+      "track": "DEAUVILLE",
+      "race": "DE FIERVILLE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/VlkyRkZwc2NXK0tyU0IrcVZCSTVrZz09",
+      "cat": "(Maiden)",
+      "purse": "27.400",
+      "disc": "P",
+      "dist": "1.500",
+      "owner": "CHR. HEAD (S)",
+      "postTime": {
+        "hour": 15,
+        "minute": 57,
+        "formatted": "15h57"
       }
     }
   ]
