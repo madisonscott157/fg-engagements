@@ -1,5 +1,18 @@
 [
   {
+    "horse": "Vatican",
+    "date": "20/10/2026",
+    "track": "CLAIREFONTAINE",
+    "race": "",
+    "distance": "1.600",
+    "position": "2",
+    "jockey": "M. GUYON",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/WmhqQXRLY09vUnpsbU9hNHg0UVpMdz09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/Ly9KU0czNEJFOFRKTklMbWxpMWpkdz09",
+    "scrapedAt": "2026-10-20T14:35:43.720Z"
+  },
+  {
     "horse": "Alias",
     "date": "19/10/2026",
     "track": "DEAUVILLE",
