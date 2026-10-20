@@ -1,23 +1,6 @@
 {
-  "partants": {
-    "vatican m.ps. 3 a. | 20/10/2026 | clairefontaine | couture bardin | 1.600": {
-      "horse": "VATICAN M.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/Ly9KU0czNEJFOFRKTklMbWxpMWpkdz09",
-      "date": "20/10/2026",
-      "postTime": {
-        "hour": 16,
-        "minute": 15,
-        "formatted": "16h15"
-      },
-      "track": "CLAIREFONTAINE",
-      "race": "COUTURE BARDIN",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/WmhqQXRLY09vUnpsbU9hNHg0UVpMdz09",
-      "cat": "(Maiden)",
-      "dist": "1.600",
-      "statut": "DP-P/5721"
-    }
-  },
+  "partants": {},
   "newEngagements": {},
   "statusUpdates": {},
-  "lastPosted": "2026-10-19T10:51:19.473Z"
+  "lastPosted": "2026-10-20T09:01:48.259Z"
 }
