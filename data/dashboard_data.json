@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-10-20T23:56:14.864Z",
+  "lastUpdate": "2026-10-21T00:00:54.755Z",
   "upcoming": [
     {
       "horse": "VATICAN M.PS. 3 a.",
@@ -161,26 +161,6 @@
       "distance": "1.500",
       "cat": "",
       "status": "ND-P/1091",
-      "lastUpdate": 1792530659817
-    },
-    {
-      "horse": "Asylla F 3 A.",
-      "date": "20/10/2026",
-      "track": "clairefontaine",
-      "race": "des equidays",
-      "distance": "2.400",
-      "cat": "",
-      "status": "F1-P/5718",
-      "lastUpdate": 1792530659817
-    },
-    {
-      "horse": "Vatican M 3 A.",
-      "date": "20/10/2026",
-      "track": "clairefontaine",
-      "race": "couture bardin",
-      "distance": "1.600",
-      "cat": "",
-      "status": "DP-P/5721",
       "lastUpdate": 1792530659817
     }
   ],
