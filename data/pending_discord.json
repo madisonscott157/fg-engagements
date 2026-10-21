@@ -1,43 +1,6 @@
 {
   "partants": {},
   "newEngagements": {},
-  "statusUpdates": {
-    "big money man ire m.ps. 2 a. | 25/10/2026 | saint-cloud | criterium int. | 1.600": {
-      "horse": "BIG MONEY MAN IRE M.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/dUNFUytKdVBvN3N5Z1pLbVNXaWE5Zz09",
-      "date": "25/10/2026",
-      "track": "SAINT-CLOUD",
-      "race": "CRITERIUM INT.",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/SHAvSlE1RmxJYzFoQ3RqUjRZZndndz09",
-      "cat": "GR.I",
-      "dist": "1.600",
-      "statut": "F1-P/565",
-      "oldStatut": "VA-P/565"
-    },
-    "tortsanlot (gb) m.ps. 2 a. | 25/10/2026 | saint-cloud | crit. st-cloud | 2.000": {
-      "horse": "TORTSANLOT (GB) M.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/T2srQkxYWVcvRCs1cCtIR2FmUlczUT09",
-      "date": "25/10/2026",
-      "track": "SAINT-CLOUD",
-      "race": "CRIT. ST-CLOUD",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/S0lvQk5jOGV4OVg2aWIvd002VlNrUT09",
-      "cat": "GR.I",
-      "dist": "2.000",
-      "statut": "F1-P/566",
-      "oldStatut": "VA-P/566"
-    },
-    "house of tudor ire m.ps. 3 a. | 29/10/2026 | bdx le bouscat | ace impact | 2.400": {
-      "horse": "HOUSE OF TUDOR IRE M.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/TytyRjNQU1o3UDhEbGF5bWdDMFJhdz09",
-      "date": "29/10/2026",
-      "track": "BDX LE BOUSCAT",
-      "race": "ACE IMPACT",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/bGQyWDQ2YkF1ZTUzYVYraUx0ZmI1QT09",
-      "cat": "(Classe 1)",
-      "dist": "2.400",
-      "statut": "VA-P/5872",
-      "oldStatut": "-P/5872"
-    }
-  },
-  "lastPosted": "2026-10-21T08:51:43.299Z"
+  "statusUpdates": {},
+  "lastPosted": "2026-10-21T10:46:25.360Z"
 }
