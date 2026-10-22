@@ -1,5 +1,22 @@
 {
-  "partants": {},
+  "partants": {
+    "monsieur charlie ire m.ps. 2 a. | 22/10/2026 | deauville | de fierville | 1.500": {
+      "horse": "MONSIEUR CHARLIE IRE M.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/VHdXSzhzcVJMQ1ZpN2hNVjNJTGpiUT09",
+      "date": "22/10/2026",
+      "postTime": {
+        "hour": 15,
+        "minute": 57,
+        "formatted": "15h57"
+      },
+      "track": "DEAUVILLE",
+      "race": "DE FIERVILLE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/VlkyRkZwc2NXK0tyU0IrcVZCSTVrZz09",
+      "cat": "(Maiden)",
+      "dist": "1.500",
+      "statut": "DP-P/1087"
+    }
+  },
   "newEngagements": {},
   "statusUpdates": {},
   "lastPosted": "2026-10-21T10:46:25.360Z"
