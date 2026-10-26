@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "horse": "ASYLLA",
+    "date": "26/10/2026",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/UVY3dDFUQkNPMU83VThFZTRuQ3ArUT09",
+    "hippodrome": "MARSEILLE BORELY",
+    "addedAt": 1793016056290
+  },
+  {
+    "horse": "BARRAMUNDI",
+    "date": "26/10/2026",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/TVMzZ3VtZytZb0Y1N1lCbkxNY3QzZz09",
+    "hippodrome": "CHANTILLY",
+    "addedAt": 1793016056290
+  }
+]
