@@ -1,5 +1,70 @@
 {
-  "partants": {},
+  "partants": {
+    "asylla f.ps. 3 a. | 26/10/2026 | mar.borely | crit provence | 2.000": {
+      "horse": "ASYLLA F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/SkQ3K0xsNE1PbWJiMkJhWCtwbHNjQT09",
+      "date": "26/10/2026",
+      "postTime": {
+        "hour": 12,
+        "minute": 52,
+        "formatted": "12h52"
+      },
+      "track": "MAR.BORELY",
+      "race": "CRIT PROVENCE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/UVY3dDFUQkNPMU83VThFZTRuQ3ArUT09",
+      "cat": "(Classe 2)",
+      "dist": "2.000",
+      "statut": "DP-P/5953"
+    },
+    "barramundi (ire) m.ps. 2 a. | 26/10/2026 | chantilly | isonomy | 1.800": {
+      "horse": "BARRAMUNDI (IRE) M.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/TUw1V2ZQK1pYS0dsdDI3ZXJ3WXArdz09",
+      "date": "26/10/2026",
+      "postTime": {
+        "hour": 12,
+        "minute": 35,
+        "formatted": "12h35"
+      },
+      "track": "CHANTILLY",
+      "race": "ISONOMY",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/TVMzZ3VtZytZb0Y1N1lCbkxNY3QzZz09",
+      "cat": "(L)",
+      "dist": "1.800",
+      "statut": "DP-P/575"
+    },
+    "no tune (gb) f.ps. 3 a. | 26/10/2026 | chantilly | seine-et-oise | 1.200": {
+      "horse": "NO TUNE (GB) F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/QnhqdXA4MERPdXZveTZNNGVDeUNaZz09",
+      "date": "26/10/2026",
+      "postTime": {
+        "hour": 16,
+        "minute": 15,
+        "formatted": "16h15"
+      },
+      "track": "CHANTILLY",
+      "race": "SEINE-ET-OISE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/WCtLc1FRcEp1aUphR1F5Z0NadWEwZz09",
+      "cat": "GR.III",
+      "dist": "1.200",
+      "statut": "DP-P/571"
+    },
+    "royally ire f.ps. 2 a. | 26/10/2026 | chantilly | criter.vitesse | 1.100": {
+      "horse": "ROYALLY IRE F.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/UEFEMUZUYUlGRzhKelJHWVVlL2ZmQT09",
+      "date": "26/10/2026",
+      "postTime": {
+        "hour": 14,
+        "minute": 30,
+        "formatted": "14h30"
+      },
+      "track": "CHANTILLY",
+      "race": "CRITER.VITESSE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/ZTlZWnpxR25DVmtNeGVlelFkclBNdz09",
+      "cat": "(L)",
+      "dist": "1.100",
+      "statut": "DP-P/572"
+    }
+  },
   "newEngagements": {},
   "statusUpdates": {},
   "lastPosted": "2026-10-25T09:51:22.729Z"
