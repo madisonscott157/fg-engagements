@@ -1,6 +1,19 @@
 {
   "partants": {},
   "newEngagements": {},
-  "statusUpdates": {},
+  "statusUpdates": {
+    "house of tudor ire m.ps. 3 a. | 29/10/2026 | bdx le bouscat | ace impact | 2.400": {
+      "horse": "HOUSE OF TUDOR IRE M.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/TytyRjNQU1o3UDhEbGF5bWdDMFJhdz09",
+      "date": "29/10/2026",
+      "track": "BDX LE BOUSCAT",
+      "race": "ACE IMPACT",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/bGQyWDQ2YkF1ZTUzYVYraUx0ZmI1QT09",
+      "cat": "(Classe 1)",
+      "dist": "2.400",
+      "statut": "ND-P/5872",
+      "oldStatut": "VA-P/5872"
+    }
+  },
   "lastPosted": "2026-10-26T09:51:24.299Z"
 }
