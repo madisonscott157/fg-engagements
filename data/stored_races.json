@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-10-23T08:55:20.046Z",
+  "lastUpdate": "2026-10-26T09:55:19.215Z",
   "races": [
     {
       "horse": "ASYLLA F.PS. 3 a.",
@@ -75,6 +75,25 @@
         "hour": 14,
         "minute": 30,
         "formatted": "14h30"
+      }
+    },
+    {
+      "horse": "TAMAR F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/ZHhreVpNSEJ4d3UxRithRUZOVUk5Zz09",
+      "statut": "DP-P/5690",
+      "date": "28/10/2026",
+      "track": "LE MANS",
+      "race": "LA SARTHE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/UE9neWJGR2N1NTJDQVlKWkJQOURRZz09",
+      "cat": "(Maiden)",
+      "purse": "15.600",
+      "disc": "P",
+      "dist": "1.950",
+      "owner": "CHR. HEAD (S)",
+      "postTime": {
+        "hour": 14,
+        "minute": 47,
+        "formatted": "14h47"
       }
     }
   ]
