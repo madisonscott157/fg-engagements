@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-10-26T23:55:48.888Z",
+  "lastUpdate": "2026-10-27T00:01:19.638Z",
   "upcoming": [
     {
       "horse": "ASYLLA F.PS. 3 a.",
@@ -132,46 +132,6 @@
       "cat": "",
       "status": "DP-P/5690",
       "lastUpdate": 1793057520412
-    },
-    {
-      "horse": "No Tune (gb) F 3 A.",
-      "date": "26/10/2026",
-      "track": "chantilly",
-      "race": "seine-et-oise",
-      "distance": "1.200",
-      "cat": "",
-      "status": "DP-P/571",
-      "lastUpdate": 1793047293941
-    },
-    {
-      "horse": "Asylla F 3 A.",
-      "date": "26/10/2026",
-      "track": "mar.borely",
-      "race": "crit provence",
-      "distance": "2.000",
-      "cat": "",
-      "status": "DP-P/5953",
-      "lastUpdate": 1793047293941
-    },
-    {
-      "horse": "Barramundi (ire) M 2 A.",
-      "date": "26/10/2026",
-      "track": "chantilly",
-      "race": "isonomy",
-      "distance": "1.800",
-      "cat": "",
-      "status": "DP-P/575",
-      "lastUpdate": 1793047293941
-    },
-    {
-      "horse": "Royally F 2 A.",
-      "date": "26/10/2026",
-      "track": "chantilly",
-      "race": "criter.vitesse",
-      "distance": "1.100",
-      "cat": "",
-      "status": "DP-P/572",
-      "lastUpdate": 1793047293941
     }
   ],
   "results": [
