@@ -1,46 +1,6 @@
 {
-  "lastUpdate": "2026-10-28T11:01:49.863Z",
+  "lastUpdate": "2026-10-28T11:05:58.302Z",
   "upcoming": [
-    {
-      "horse": "ASYLLA F.PS. 3 a.",
-      "date": "26/10/2026",
-      "track": "MAR.BORELY",
-      "race": "CRIT PROVENCE",
-      "distance": "2.000",
-      "cat": "(Classe 2)",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/UVY3dDFUQkNPMU83VThFZTRuQ3ArUT09",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/SkQ3K0xsNE1PbWJiMkJhWCtwbHNjQT09"
-    },
-    {
-      "horse": "BARRAMUNDI (IRE) M.PS. 2 a.",
-      "date": "26/10/2026",
-      "track": "CHANTILLY",
-      "race": "ISONOMY",
-      "distance": "1.800",
-      "cat": "(L)",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/TVMzZ3VtZytZb0Y1N1lCbkxNY3QzZz09",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/TUw1V2ZQK1pYS0dsdDI3ZXJ3WXArdz09"
-    },
-    {
-      "horse": "NO TUNE (GB) F.PS. 3 a.",
-      "date": "26/10/2026",
-      "track": "CHANTILLY",
-      "race": "SEINE-ET-OISE",
-      "distance": "1.200",
-      "cat": "GR.III",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/WCtLc1FRcEp1aUphR1F5Z0NadWEwZz09",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/QnhqdXA4MERPdXZveTZNNGVDeUNaZz09"
-    },
-    {
-      "horse": "ROYALLY IRE F.PS. 2 a.",
-      "date": "26/10/2026",
-      "track": "CHANTILLY",
-      "race": "CRITER.VITESSE",
-      "distance": "1.100",
-      "cat": "(L)",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/ZTlZWnpxR25DVmtNeGVlelFkclBNdz09",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/UEFEMUZUYUlGRzhKelJHWVVlL2ZmQT09"
-    },
     {
       "horse": "TAMAR F.PS. 3 a.",
       "date": "28/10/2026",
@@ -50,6 +10,16 @@
       "cat": "(Maiden)",
       "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/UE9neWJGR2N1NTJDQVlKWkJQOURRZz09",
       "horseUrl": "https://www.france-galop.com/fr/cheval/ZHhreVpNSEJ4d3UxRithRUZOVUk5Zz09"
+    },
+    {
+      "horse": "MUNCH H.PS. 2 a.",
+      "date": "30/10/2026",
+      "track": "DEAUVILLE",
+      "race": "ST-LOYER-CHAMPS",
+      "distance": "1.400",
+      "cat": "HAND.",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/K2V3MExWK0NUZHpvR3dBeW1JMmhqZz09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/WVFQTHcyZTYxamtmWXkvL2c3Z3oyUT09"
     }
   ],
   "engagements": [
