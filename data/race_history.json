@@ -1,5 +1,18 @@
 [
   {
+    "horse": "Tamar",
+    "date": "28/10/2026",
+    "track": "LE MANS",
+    "race": "",
+    "distance": "1.950",
+    "position": "1",
+    "jockey": "S. DERIU",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/UE9neWJGR2N1NTJDQVlKWkJQOURRZz09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/ZHhreVpNSEJ4d3UxRithRUZOVUk5Zz09",
+    "scrapedAt": "2026-10-28T14:10:53.381Z"
+  },
+  {
     "horse": "No Tune",
     "date": "26/10/2026",
     "track": "CHANTILLY",
