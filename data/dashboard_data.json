@@ -1,16 +1,6 @@
 {
-  "lastUpdate": "2026-10-29T09:52:06.509Z",
+  "lastUpdate": "2026-10-29T09:56:13.030Z",
   "upcoming": [
-    {
-      "horse": "TAMAR F.PS. 3 a.",
-      "date": "28/10/2026",
-      "track": "LE MANS",
-      "race": "LA SARTHE",
-      "distance": "1.950",
-      "cat": "(Maiden)",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/UE9neWJGR2N1NTJDQVlKWkJQOURRZz09",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/ZHhreVpNSEJ4d3UxRithRUZOVUk5Zz09"
-    },
     {
       "horse": "MUNCH H.PS. 2 a.",
       "date": "30/10/2026",
@@ -20,6 +10,16 @@
       "cat": "HAND.",
       "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/K2V3MExWK0NUZHpvR3dBeW1JMmhqZz09",
       "horseUrl": "https://www.france-galop.com/fr/cheval/WVFQTHcyZTYxamtmWXkvL2c3Z3oyUT09"
+    },
+    {
+      "horse": "CHAMPAGNE SUNSET IRE F.PS. 2 a. ... (Sup.)",
+      "date": "31/10/2026",
+      "track": "ANGERS",
+      "race": "LA KOUMIA",
+      "distance": "2.000",
+      "cat": "(Maiden)",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/MnhTdlhFVmJITVZOb254eHJzTkpTZz09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/Q0cxODhoSmFRTDd0YVhlbXg1WmtDZz09"
     }
   ],
   "engagements": [
