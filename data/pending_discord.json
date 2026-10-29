@@ -1,23 +1,6 @@
 {
-  "partants": {
-    "munch h.ps. 2 a. | 30/10/2026 | deauville | st-loyer-champs | 1.400": {
-      "horse": "MUNCH H.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/WVFQTHcyZTYxamtmWXkvL2c3Z3oyUT09",
-      "date": "30/10/2026",
-      "postTime": {
-        "hour": 14,
-        "minute": 53,
-        "formatted": "14h53"
-      },
-      "track": "DEAUVILLE",
-      "race": "ST-LOYER-CHAMPS",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/K2V3MExWK0NUZHpvR3dBeW1JMmhqZz09",
-      "cat": "HAND.",
-      "dist": "1.400",
-      "statut": "DP-P/1110"
-    }
-  },
+  "partants": {},
   "newEngagements": {},
   "statusUpdates": {},
-  "lastPosted": "2026-10-28T11:56:22.664Z"
+  "lastPosted": "2026-10-29T09:51:48.419Z"
 }
