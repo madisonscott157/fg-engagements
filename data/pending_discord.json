@@ -1,6 +1,19 @@
 {
   "partants": {},
   "newEngagements": {},
-  "statusUpdates": {},
+  "statusUpdates": {
+    "asylla f.ps. 3 a. | 06/11/2026 | deauville | vexin normand | 2.500": {
+      "horse": "ASYLLA F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/SkQ3K0xsNE1PbWJiMkJhWCtwbHNjQT09",
+      "date": "06/11/2026",
+      "track": "DEAUVILLE",
+      "race": "VEXIN NORMAND",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/WFdEekczV2FzcVl1NmF1SklkYTFNQT09",
+      "cat": "(Classe 2)",
+      "dist": "2.500",
+      "statut": "VA-P/1146",
+      "oldStatut": "-P/1146"
+    }
+  },
   "lastPosted": "2026-10-29T09:51:48.419Z"
 }
