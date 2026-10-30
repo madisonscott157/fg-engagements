@@ -1,6 +1,43 @@
 {
   "partants": {},
   "newEngagements": {},
-  "statusUpdates": {},
+  "statusUpdates": {
+    "champagne sunset ire f.ps. 2 a. | 07/11/2026 | mar.borely | des prophetes | 1.800": {
+      "horse": "CHAMPAGNE SUNSET IRE F.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/Q0cxODhoSmFRTDd0YVhlbXg1WmtDZz09",
+      "date": "07/11/2026",
+      "track": "MAR.BORELY",
+      "race": "DES PROPHETES",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/Z0szVXg3TnU3U0MxWG40dXA2T3h0dz09",
+      "cat": "(Maiden)",
+      "dist": "1.800",
+      "statut": "VA-P/5971",
+      "oldStatut": "-P/5971"
+    },
+    "house of tudor ire m.ps. 3 a. | 07/11/2026 | deauville | pont d'ouilly | 2.500": {
+      "horse": "HOUSE OF TUDOR IRE M.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/TytyRjNQU1o3UDhEbGF5bWdDMFJhdz09",
+      "date": "07/11/2026",
+      "track": "DEAUVILLE",
+      "race": "PONT D'OUILLY",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/ZTNIYnZPemE5aWxBNC85WW42dG5TQT09",
+      "cat": "HAND.",
+      "dist": "2.500",
+      "statut": "VA-P/1129",
+      "oldStatut": "-P/1129"
+    },
+    "le ham m.ps. 2 a. | 08/11/2026 | saint-cloud | antivari | 1.500": {
+      "horse": "LE HAM M.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/ZjBSNXNLS1Z0T0xCV1hxUnByMnhKdz09",
+      "date": "08/11/2026",
+      "track": "SAINT-CLOUD",
+      "race": "ANTIVARI",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/eWFOdXh1cHVXQitKNzloM3lDOGE0Zz09",
+      "cat": "(Inédits)",
+      "dist": "1.500",
+      "statut": "VA-P/1156",
+      "oldStatut": "-P/1156"
+    }
+  },
   "lastPosted": "2026-10-30T09:56:36.646Z"
 }
