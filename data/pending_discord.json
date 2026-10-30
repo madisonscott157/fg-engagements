@@ -1,5 +1,38 @@
 {
-  "partants": {},
+  "partants": {
+    "munch h.ps. 2 a. | 30/10/2026 | deauville | st-loyer-champs | 1.400": {
+      "horse": "MUNCH H.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/WVFQTHcyZTYxamtmWXkvL2c3Z3oyUT09",
+      "date": "30/10/2026",
+      "postTime": {
+        "hour": 14,
+        "minute": 53,
+        "formatted": "14h53"
+      },
+      "track": "DEAUVILLE",
+      "race": "ST-LOYER-CHAMPS",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/K2V3MExWK0NUZHpvR3dBeW1JMmhqZz09",
+      "cat": "HAND.",
+      "dist": "1.400",
+      "statut": "DP-P/1110"
+    },
+    "champagne sunset ire f.ps. 2 a. ... (sup.) | 31/10/2026 | angers | la koumia | 2.000": {
+      "horse": "CHAMPAGNE SUNSET IRE F.PS. 2 a. ... (Sup.)",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/Q0cxODhoSmFRTDd0YVhlbXg1WmtDZz09",
+      "date": "31/10/2026",
+      "postTime": {
+        "hour": 12,
+        "minute": 18,
+        "formatted": "12h18"
+      },
+      "track": "ANGERS",
+      "race": "LA KOUMIA",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/MnhTdlhFVmJITVZOb254eHJzTkpTZz09",
+      "cat": "(Maiden)",
+      "dist": "2.000",
+      "statut": "DP-P/5697(Sup.)"
+    }
+  },
   "newEngagements": {},
   "statusUpdates": {},
   "lastPosted": "2026-10-29T11:50:59.079Z"
