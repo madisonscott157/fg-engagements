@@ -1,25 +1,6 @@
 {
-  "lastUpdate": "2026-10-30T20:56:12.660Z",
+  "lastUpdate": "2026-10-30T23:26:55.818Z",
   "races": [
-    {
-      "horse": "MUNCH H.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/WVFQTHcyZTYxamtmWXkvL2c3Z3oyUT09",
-      "statut": "DP-P/1110",
-      "date": "30/10/2026",
-      "track": "DEAUVILLE",
-      "race": "ST-LOYER-CHAMPS",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/K2V3MExWK0NUZHpvR3dBeW1JMmhqZz09",
-      "cat": "HAND.",
-      "purse": "25.900",
-      "disc": "P",
-      "dist": "1.400",
-      "owner": "CHR. HEAD (S)",
-      "postTime": {
-        "hour": 14,
-        "minute": 53,
-        "formatted": "14h53"
-      }
-    },
     {
       "horse": "CHAMPAGNE SUNSET IRE F.PS. 2 a. ... (Sup.)",
       "horseUrl": "https://www.france-galop.com/fr/cheval/Q0cxODhoSmFRTDd0YVhlbXg1WmtDZz09",
