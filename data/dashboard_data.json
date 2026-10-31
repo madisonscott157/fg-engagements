@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-10-30T23:56:09.003Z",
+  "lastUpdate": "2026-10-31T00:00:48.540Z",
   "upcoming": [
     {
       "horse": "MUNCH H.PS. 2 a.",
@@ -142,26 +142,6 @@
       "cat": "",
       "status": "DP-P/5697(Sup.)",
       "lastUpdate": 1793402815818
-    },
-    {
-      "horse": "Champagne Sunset F 2 A.",
-      "date": "30/10/2026",
-      "track": "deauville",
-      "race": "de la rocque",
-      "distance": "1.900",
-      "cat": "",
-      "status": "AP-P/1109",
-      "lastUpdate": 1793393772660
-    },
-    {
-      "horse": "Munch H 2 A.",
-      "date": "30/10/2026",
-      "track": "deauville",
-      "race": "st-loyer-champs",
-      "distance": "1.400",
-      "cat": "",
-      "status": "DP-P/1110",
-      "lastUpdate": 1793393772660
     }
   ],
   "results": [
