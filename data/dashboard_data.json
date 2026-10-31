@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-10-31T11:30:57.398Z",
+  "lastUpdate": "2026-10-31T11:36:03.957Z",
   "upcoming": [
     {
       "horse": "MUNCH H.PS. 2 a.",
@@ -145,6 +145,18 @@
     }
   ],
   "results": [
+    {
+      "horse": "Champagne Sunset",
+      "date": "31/10/2026",
+      "track": "ANGERS",
+      "race": "",
+      "distance": "2.000",
+      "position": "7",
+      "jockey": "S. DERIU",
+      "gain": "0",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/MnhTdlhFVmJITVZOb254eHJzTkpTZz09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/Q0cxODhoSmFRTDd0YVhlbXg1WmtDZz09"
+    },
     {
       "horse": "Munch",
       "date": "30/10/2026",
