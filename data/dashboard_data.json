@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-10-31T23:56:18.588Z",
+  "lastUpdate": "2026-11-01T00:01:22.422Z",
   "upcoming": [
     {
       "horse": "MUNCH H.PS. 2 a.",
@@ -121,26 +121,6 @@
       "distance": "1.900",
       "cat": "",
       "status": "NV-P/1140",
-      "lastUpdate": 1793480142970
-    },
-    {
-      "horse": "Show Em F 2 A.",
-      "date": "31/10/2026",
-      "track": "angers",
-      "race": "la koumia",
-      "distance": "2.000",
-      "cat": "",
-      "status": "ND-P/5697",
-      "lastUpdate": 1793480142970
-    },
-    {
-      "horse": "Champagne Sunset F 2 A.",
-      "date": "31/10/2026",
-      "track": "angers",
-      "race": "la koumia",
-      "distance": "2.000",
-      "cat": "",
-      "status": "DP-P/5697(Sup.)",
       "lastUpdate": 1793480142970
     }
   ],
