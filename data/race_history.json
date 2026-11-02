@@ -1,5 +1,18 @@
 [
   {
+    "horse": "Avec Toi",
+    "date": "30/10/2026",
+    "track": "KEENELAND",
+    "race": "",
+    "distance": "1.600",
+    "position": "3",
+    "jockey": "",
+    "gain": "76.595",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/WTFMTEZvM3dpNWRGdUlpSzJwK1Q0dz09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/Yy9LbUNpNitKTlBqTVVHQTU1bW1yZz09",
+    "scrapedAt": "2026-11-02T13:45:53.053Z"
+  },
+  {
     "horse": "Champagne Sunset",
     "date": "31/10/2026",
     "track": "ANGERS",
