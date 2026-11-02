@@ -1,6 +1,55 @@
 {
   "partants": {},
   "newEngagements": {},
-  "statusUpdates": {},
+  "statusUpdates": {
+    "duskwind ire f.ps. 3 a. | 05/11/2026 | chantilly | poteau brulis | 1.900": {
+      "horse": "DUSKWIND IRE F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/YkFCbGhuc29uZnhyenZ4YjM3cExadz09",
+      "date": "05/11/2026",
+      "track": "CHANTILLY",
+      "race": "POTEAU BRULIS",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/dEsyWDRxREFJS0lSdjd5c05Hb2dSdz09",
+      "cat": "(Maiden)",
+      "dist": "1.900",
+      "statut": "PB-P/1140",
+      "oldStatut": "VA-P/1140"
+    },
+    "asylla f.ps. 3 a. | 06/11/2026 | deauville | vexin normand | 2.500": {
+      "horse": "ASYLLA F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/SkQ3K0xsNE1PbWJiMkJhWCtwbHNjQT09",
+      "date": "06/11/2026",
+      "track": "DEAUVILLE",
+      "race": "VEXIN NORMAND",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/WFdEekczV2FzcVl1NmF1SklkYTFNQT09",
+      "cat": "(Classe 2)",
+      "dist": "2.500",
+      "statut": "F1-P/1146",
+      "oldStatut": "VA-P/1146"
+    },
+    "idonotwant usa f.ps. 2 a. | 09/11/2026 | chantilly | voie du garde | 1.900": {
+      "horse": "IDONOTWANT USA F.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/Tjluc3RjdG5jdVRQOU56QTFQZVZPUT09",
+      "date": "09/11/2026",
+      "track": "CHANTILLY",
+      "race": "VOIE DU GARDE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/NDNML2s2eDRBa0JxSHpUZTkzZ25NUT09",
+      "cat": "(Inédits)",
+      "dist": "1.900",
+      "statut": "VA-P/1159",
+      "oldStatut": "-P/1159"
+    },
+    "pemulwuy m.ps. 2 a. | 09/11/2026 | chantilly | du mont cesar | 1.900": {
+      "horse": "PEMULWUY M.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/UitPY0V5RTNDVTdESzQ0eVFTUjdzUT09",
+      "date": "09/11/2026",
+      "track": "CHANTILLY",
+      "race": "DU MONT CESAR",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/UDJscEc2a0hmNXcxdmh3b1Y5TnpsUT09",
+      "cat": "(Inédits)",
+      "dist": "1.900",
+      "statut": "VA-P/1158",
+      "oldStatut": "-P/1158"
+    }
+  },
   "lastPosted": "2026-11-02T10:01:49.611Z"
 }
