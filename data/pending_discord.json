@@ -1,31 +1,6 @@
 {
   "partants": {},
   "newEngagements": {},
-  "statusUpdates": {
-    "champagne sunset ire f.ps. 2 a. | 07/11/2026 | mar.borely | des prophetes | 1.800": {
-      "horse": "CHAMPAGNE SUNSET IRE F.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/Q0cxODhoSmFRTDd0YVhlbXg1WmtDZz09",
-      "date": "07/11/2026",
-      "track": "MAR.BORELY",
-      "race": "DES PROPHETES",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/Z0szVXg3TnU3U0MxWG40dXA2T3h0dz09",
-      "cat": "(Maiden)",
-      "dist": "1.800",
-      "statut": "F1-P/5971",
-      "oldStatut": "VA-P/5971"
-    },
-    "house of tudor ire m.ps. 3 a. | 11/11/2026 | toulouse | ville toulouse | 2.400": {
-      "horse": "HOUSE OF TUDOR IRE M.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/TytyRjNQU1o3UDhEbGF5bWdDMFJhdz09",
-      "date": "11/11/2026",
-      "track": "TOULOUSE",
-      "race": "VILLE TOULOUSE",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/WitIN2cxY0kra2owbVRaSW41VlEvQT09",
-      "cat": "(Classe 2)",
-      "dist": "2.400",
-      "statut": "VA-P/6283",
-      "oldStatut": "-P/6283"
-    }
-  },
-  "lastPosted": "2026-11-03T09:46:44.865Z"
+  "statusUpdates": {},
+  "lastPosted": "2026-11-03T11:41:02.345Z"
 }
