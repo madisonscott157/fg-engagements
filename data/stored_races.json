@@ -1,42 +1,23 @@
 {
-  "lastUpdate": "2026-10-29T09:55:22.657Z",
+  "lastUpdate": "2026-11-03T09:50:18.713Z",
   "races": [
     {
-      "horse": "MUNCH H.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/WVFQTHcyZTYxamtmWXkvL2c3Z3oyUT09",
-      "statut": "DP-P/1110",
-      "date": "30/10/2026",
-      "track": "DEAUVILLE",
-      "race": "ST-LOYER-CHAMPS",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/K2V3MExWK0NUZHpvR3dBeW1JMmhqZz09",
-      "cat": "HAND.",
-      "purse": "25.900",
-      "disc": "P",
-      "dist": "1.400",
-      "owner": "CHR. HEAD (S)",
-      "postTime": {
-        "hour": 14,
-        "minute": 53,
-        "formatted": "14h53"
-      }
-    },
-    {
-      "horse": "CHAMPAGNE SUNSET IRE F.PS. 2 a. ... (Sup.)",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/Q0cxODhoSmFRTDd0YVhlbXg1WmtDZz09",
-      "statut": "DP-P/5697(Sup.)",
-      "date": "31/10/2026",
-      "track": "ANGERS",
-      "race": "LA KOUMIA",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/MnhTdlhFVmJITVZOb254eHJzTkpTZz09",
+      "horse": "DUSKWIND IRE F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/YkFCbGhuc29uZnhyenZ4YjM3cExadz09",
+      "statut": "DP-P/1140",
+      "date": "05/11/2026",
+      "track": "CHANTILLY",
+      "race": "POTEAU BRULIS",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/dEsyWDRxREFJS0lSdjd5c05Hb2dSdz09",
       "cat": "(Maiden)",
-      "purse": "21.000",
+      "purse": "20.100",
       "disc": "P",
-      "dist": "2.000",
+      "dist": "1.900",
       "owner": "CHR. HEAD (S)",
       "postTime": {
-        "hour": 12,
-        "minute": 18,
-        "formatted": "12h18"
+        "hour": 16,
+        "minute": 32,
+        "formatted": "16h32"
       }
     }
   ]
