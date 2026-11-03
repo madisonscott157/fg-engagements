@@ -1,25 +1,15 @@
 {
-  "lastUpdate": "2026-11-03T09:47:06.417Z",
+  "lastUpdate": "2026-11-03T09:50:48.548Z",
   "upcoming": [
     {
-      "horse": "MUNCH H.PS. 2 a.",
-      "date": "30/10/2026",
-      "track": "DEAUVILLE",
-      "race": "ST-LOYER-CHAMPS",
-      "distance": "1.400",
-      "cat": "HAND.",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/K2V3MExWK0NUZHpvR3dBeW1JMmhqZz09",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/WVFQTHcyZTYxamtmWXkvL2c3Z3oyUT09"
-    },
-    {
-      "horse": "CHAMPAGNE SUNSET IRE F.PS. 2 a. ... (Sup.)",
-      "date": "31/10/2026",
-      "track": "ANGERS",
-      "race": "LA KOUMIA",
-      "distance": "2.000",
+      "horse": "DUSKWIND IRE F.PS. 3 a.",
+      "date": "05/11/2026",
+      "track": "CHANTILLY",
+      "race": "POTEAU BRULIS",
+      "distance": "1.900",
       "cat": "(Maiden)",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/MnhTdlhFVmJITVZOb254eHJzTkpTZz09",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/Q0cxODhoSmFRTDd0YVhlbXg1WmtDZz09"
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/dEsyWDRxREFJS0lSdjd5c05Hb2dSdz09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/YkFCbGhuc29uZnhyenZ4YjM3cExadz09"
     }
   ],
   "engagements": [
