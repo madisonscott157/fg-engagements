@@ -1,5 +1,22 @@
 {
-  "partants": {},
+  "partants": {
+    "duskwind ire f.ps. 3 a. | 05/11/2026 | chantilly | poteau brulis | 1.900": {
+      "horse": "DUSKWIND IRE F.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/YkFCbGhuc29uZnhyenZ4YjM3cExadz09",
+      "date": "05/11/2026",
+      "postTime": {
+        "hour": 16,
+        "minute": 32,
+        "formatted": "16h32"
+      },
+      "track": "CHANTILLY",
+      "race": "POTEAU BRULIS",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/dEsyWDRxREFJS0lSdjd5c05Hb2dSdz09",
+      "cat": "(Maiden)",
+      "dist": "1.900",
+      "statut": "DP-P/1140"
+    }
+  },
   "newEngagements": {},
   "statusUpdates": {},
   "lastPosted": "2026-11-03T11:41:02.345Z"
