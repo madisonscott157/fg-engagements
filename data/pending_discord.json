@@ -1,6 +1,43 @@
 {
   "partants": {},
   "newEngagements": {},
-  "statusUpdates": {},
+  "statusUpdates": {
+    "le ham m.ps. 2 a. | 08/11/2026 | saint-cloud | antivari | 1.500": {
+      "horse": "LE HAM M.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/ZjBSNXNLS1Z0T0xCV1hxUnByMnhKdz09",
+      "date": "08/11/2026",
+      "track": "SAINT-CLOUD",
+      "race": "ANTIVARI",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/eWFOdXh1cHVXQitKNzloM3lDOGE0Zz09",
+      "cat": "(Inédits)",
+      "dist": "1.500",
+      "statut": "PB-P/1156",
+      "oldStatut": "VA-P/1156"
+    },
+    "idonotwant usa f.ps. 2 a. | 09/11/2026 | chantilly | voie du garde | 1.900": {
+      "horse": "IDONOTWANT USA F.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/Tjluc3RjdG5jdVRQOU56QTFQZVZPUT09",
+      "date": "09/11/2026",
+      "track": "CHANTILLY",
+      "race": "VOIE DU GARDE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/NDNML2s2eDRBa0JxSHpUZTkzZ25NUT09",
+      "cat": "(Inédits)",
+      "dist": "1.900",
+      "statut": "PB-P/1159",
+      "oldStatut": "VA-P/1159"
+    },
+    "pemulwuy m.ps. 2 a. | 09/11/2026 | chantilly | du mont cesar | 1.900": {
+      "horse": "PEMULWUY M.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/UitPY0V5RTNDVTdESzQ0eVFTUjdzUT09",
+      "date": "09/11/2026",
+      "track": "CHANTILLY",
+      "race": "DU MONT CESAR",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/UDJscEc2a0hmNXcxdmh3b1Y5TnpsUT09",
+      "cat": "(Inédits)",
+      "dist": "1.900",
+      "statut": "PB-P/1158",
+      "oldStatut": "VA-P/1158"
+    }
+  },
   "lastPosted": "2026-11-05T10:01:25.718Z"
 }
