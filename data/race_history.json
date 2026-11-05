@@ -1,5 +1,18 @@
 [
   {
+    "horse": "Duskwind",
+    "date": "05/11/2026",
+    "track": "CHANTILLY",
+    "race": "",
+    "distance": "1.900",
+    "position": "16",
+    "jockey": "L. MABROUK",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/dEsyWDRxREFJS0lSdjd5c05Hb2dSdz09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/YkFCbGhuc29uZnhyenZ4YjM3cExadz09",
+    "scrapedAt": "2026-11-05T15:45:57.566Z"
+  },
+  {
     "horse": "Avec Toi",
     "date": "30/10/2026",
     "track": "KEENELAND",
