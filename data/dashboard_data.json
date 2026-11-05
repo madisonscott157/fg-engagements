@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-11-05T15:41:06.184Z",
+  "lastUpdate": "2026-11-05T15:47:15.192Z",
   "upcoming": [
     {
       "horse": "DUSKWIND IRE F.PS. 3 a.",
@@ -21,7 +21,7 @@
       "distance": "1.800",
       "cat": "",
       "status": "VA-P/583",
-      "lastUpdate": 1793890262359
+      "lastUpdate": 1793893612292
     },
     {
       "horse": "Barramundi (ire) M 2 A.",
@@ -31,7 +31,7 @@
       "distance": "1.800",
       "cat": "",
       "status": "VA-P/583",
-      "lastUpdate": 1793890262359
+      "lastUpdate": 1793893612292
     },
     {
       "horse": "Asylla F 3 A.",
@@ -41,7 +41,7 @@
       "distance": "2.100",
       "cat": "",
       "status": "VA-P/4184",
-      "lastUpdate": 1793890262359
+      "lastUpdate": 1793893612292
     },
     {
       "horse": "House Of Tudor M 3 A.",
@@ -51,7 +51,7 @@
       "distance": "2.400",
       "cat": "",
       "status": "VA-P/6283",
-      "lastUpdate": 1793890262359
+      "lastUpdate": 1793893612292
     },
     {
       "horse": "Idonotwant F 2 A.",
@@ -61,7 +61,7 @@
       "distance": "1.900",
       "cat": "",
       "status": "PB-P/1159",
-      "lastUpdate": 1793890262359
+      "lastUpdate": 1793893612292
     },
     {
       "horse": "Pemulwuy M 2 A.",
@@ -71,7 +71,7 @@
       "distance": "1.900",
       "cat": "",
       "status": "PB-P/1158",
-      "lastUpdate": 1793890262359
+      "lastUpdate": 1793893612292
     },
     {
       "horse": "Le Ham M 2 A.",
@@ -81,7 +81,7 @@
       "distance": "1.500",
       "cat": "",
       "status": "PB-P/1156",
-      "lastUpdate": 1793890262359
+      "lastUpdate": 1793893612292
     },
     {
       "horse": "Champagne Sunset F 2 A.",
@@ -91,7 +91,7 @@
       "distance": "1.800",
       "cat": "",
       "status": "F1-P/5971",
-      "lastUpdate": 1793890262359
+      "lastUpdate": 1793893612292
     },
     {
       "horse": "House Of Tudor M 3 A.",
@@ -101,7 +101,7 @@
       "distance": "2.500",
       "cat": "",
       "status": "ND-P/1129",
-      "lastUpdate": 1793890262359
+      "lastUpdate": 1793893612292
     },
     {
       "horse": "Asylla F 3 A.",
@@ -111,7 +111,7 @@
       "distance": "2.500",
       "cat": "",
       "status": "F1-P/1146",
-      "lastUpdate": 1793890262359
+      "lastUpdate": 1793893612292
     },
     {
       "horse": "Duskwind F 3 A.",
@@ -121,7 +121,7 @@
       "distance": "1.900",
       "cat": "",
       "status": "DP-P/1140",
-      "lastUpdate": 1793890262359
+      "lastUpdate": 1793893612292
     },
     {
       "horse": "Hottot H 3 A.",
@@ -131,7 +131,7 @@
       "distance": "1.600",
       "cat": "",
       "status": "F1-P/1141",
-      "lastUpdate": 1793890262359
+      "lastUpdate": 1793893612292
     },
     {
       "horse": "Tamar F 3 A.",
@@ -141,10 +141,22 @@
       "distance": "1.900",
       "cat": "",
       "status": "NV-P/1140",
-      "lastUpdate": 1793890262359
+      "lastUpdate": 1793893612292
     }
   ],
   "results": [
+    {
+      "horse": "Duskwind",
+      "date": "05/11/2026",
+      "track": "CHANTILLY",
+      "race": "",
+      "distance": "1.900",
+      "position": "16",
+      "jockey": "L. MABROUK",
+      "gain": "0",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/dEsyWDRxREFJS0lSdjd5c05Hb2dSdz09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/YkFCbGhuc29uZnhyenZ4YjM3cExadz09"
+    },
     {
       "horse": "Avec Toi",
       "date": "30/10/2026",
