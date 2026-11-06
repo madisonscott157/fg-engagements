@@ -1,15 +1,25 @@
 {
-  "lastUpdate": "2026-11-06T09:52:19.279Z",
+  "lastUpdate": "2026-11-06T09:55:53.571Z",
   "upcoming": [
     {
-      "horse": "DUSKWIND IRE F.PS. 3 a.",
-      "date": "05/11/2026",
+      "horse": "LE HAM M.PS. 2 a.",
+      "date": "08/11/2026",
+      "track": "SAINT-CLOUD",
+      "race": "ANTIVARI",
+      "distance": "1.500",
+      "cat": "(Inédits)",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/eWFOdXh1cHVXQitKNzloM3lDOGE0Zz09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/ZjBSNXNLS1Z0T0xCV1hxUnByMnhKdz09"
+    },
+    {
+      "horse": "PEMULWUY M.PS. 2 a.",
+      "date": "09/11/2026",
       "track": "CHANTILLY",
-      "race": "POTEAU BRULIS",
+      "race": "DU MONT CESAR",
       "distance": "1.900",
-      "cat": "(Maiden)",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/dEsyWDRxREFJS0lSdjd5c05Hb2dSdz09",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/YkFCbGhuc29uZnhyenZ4YjM3cExadz09"
+      "cat": "(Inédits)",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/UDJscEc2a0hmNXcxdmh3b1Y5TnpsUT09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/UitPY0V5RTNDVTdESzQ0eVFTUjdzUT09"
     }
   ],
   "engagements": [
