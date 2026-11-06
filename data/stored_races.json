@@ -1,23 +1,42 @@
 {
-  "lastUpdate": "2026-11-03T09:50:18.713Z",
+  "lastUpdate": "2026-11-06T09:55:20.892Z",
   "races": [
     {
-      "horse": "DUSKWIND IRE F.PS. 3 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/YkFCbGhuc29uZnhyenZ4YjM3cExadz09",
-      "statut": "DP-P/1140",
-      "date": "05/11/2026",
+      "horse": "LE HAM M.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/ZjBSNXNLS1Z0T0xCV1hxUnByMnhKdz09",
+      "statut": "DP-P/1156",
+      "date": "08/11/2026",
+      "track": "SAINT-CLOUD",
+      "race": "ANTIVARI",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/eWFOdXh1cHVXQitKNzloM3lDOGE0Zz09",
+      "cat": "(Inédits)",
+      "purse": "45.700",
+      "disc": "P",
+      "dist": "1.500",
+      "owner": "CHR. HEAD (S)",
+      "postTime": {
+        "hour": 12,
+        "minute": 48,
+        "formatted": "12h48"
+      }
+    },
+    {
+      "horse": "PEMULWUY M.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/UitPY0V5RTNDVTdESzQ0eVFTUjdzUT09",
+      "statut": "DP-P/1158",
+      "date": "09/11/2026",
       "track": "CHANTILLY",
-      "race": "POTEAU BRULIS",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/dEsyWDRxREFJS0lSdjd5c05Hb2dSdz09",
-      "cat": "(Maiden)",
-      "purse": "20.100",
+      "race": "DU MONT CESAR",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/UDJscEc2a0hmNXcxdmh3b1Y5TnpsUT09",
+      "cat": "(Inédits)",
+      "purse": "27.400",
       "disc": "P",
       "dist": "1.900",
       "owner": "CHR. HEAD (S)",
       "postTime": {
-        "hour": 16,
-        "minute": 32,
-        "formatted": "16h32"
+        "hour": 14,
+        "minute": 12,
+        "formatted": "14h12"
       }
     }
   ]
