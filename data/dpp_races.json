@@ -1,25 +1,6 @@
 {
-  "lastUpdate": "2026-11-08T20:31:16.413Z",
+  "lastUpdate": "2026-11-08T23:23:51.604Z",
   "races": [
-    {
-      "horse": "LE HAM M.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/ZjBSNXNLS1Z0T0xCV1hxUnByMnhKdz09",
-      "statut": "DP-P/1156",
-      "date": "08/11/2026",
-      "track": "SAINT-CLOUD",
-      "race": "ANTIVARI",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/eWFOdXh1cHVXQitKNzloM3lDOGE0Zz09",
-      "cat": "(Inédits)",
-      "purse": "45.700",
-      "disc": "P",
-      "dist": "1.500",
-      "owner": "CHR. HEAD (S)",
-      "postTime": {
-        "hour": 12,
-        "minute": 48,
-        "formatted": "12h48"
-      }
-    },
     {
       "horse": "PEMULWUY M.PS. 2 a.",
       "horseUrl": "https://www.france-galop.com/fr/cheval/UitPY0V5RTNDVTdESzQ0eVFTUjdzUT09",
