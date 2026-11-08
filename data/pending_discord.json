@@ -1,5 +1,38 @@
 {
-  "partants": {},
+  "partants": {
+    "le ham m.ps. 2 a. | 08/11/2026 | saint-cloud | antivari | 1.500": {
+      "horse": "LE HAM M.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/ZjBSNXNLS1Z0T0xCV1hxUnByMnhKdz09",
+      "date": "08/11/2026",
+      "postTime": {
+        "hour": 12,
+        "minute": 48,
+        "formatted": "12h48"
+      },
+      "track": "SAINT-CLOUD",
+      "race": "ANTIVARI",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/eWFOdXh1cHVXQitKNzloM3lDOGE0Zz09",
+      "cat": "(Inédits)",
+      "dist": "1.500",
+      "statut": "DP-P/1156"
+    },
+    "pemulwuy m.ps. 2 a. | 09/11/2026 | chantilly | du mont cesar | 1.900": {
+      "horse": "PEMULWUY M.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/UitPY0V5RTNDVTdESzQ0eVFTUjdzUT09",
+      "date": "09/11/2026",
+      "postTime": {
+        "hour": 14,
+        "minute": 12,
+        "formatted": "14h12"
+      },
+      "track": "CHANTILLY",
+      "race": "DU MONT CESAR",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/UDJscEc2a0hmNXcxdmh3b1Y5TnpsUT09",
+      "cat": "(Inédits)",
+      "dist": "1.900",
+      "statut": "DP-P/1158"
+    }
+  },
   "newEngagements": {},
   "statusUpdates": {},
   "lastPosted": "2026-11-07T11:46:24.617Z"
