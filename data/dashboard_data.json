@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-11-08T11:55:55.091Z",
+  "lastUpdate": "2026-11-08T12:01:40.642Z",
   "upcoming": [
     {
       "horse": "LE HAM M.PS. 2 a.",
@@ -95,6 +95,18 @@
     }
   ],
   "results": [
+    {
+      "horse": "Le Ham",
+      "date": "08/11/2026",
+      "track": "SAINT-CLOUD",
+      "race": "",
+      "distance": "1.500",
+      "position": "6",
+      "jockey": "C. SOUMILLON",
+      "gain": "0",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/eWFOdXh1cHVXQitKNzloM3lDOGE0Zz09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/ZjBSNXNLS1Z0T0xCV1hxUnByMnhKdz09"
+    },
     {
       "horse": "Duskwind",
       "date": "05/11/2026",
