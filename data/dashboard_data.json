@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-11-08T23:55:41.912Z",
+  "lastUpdate": "2026-11-09T00:00:59.660Z",
   "upcoming": [
     {
       "horse": "LE HAM M.PS. 2 a.",
@@ -82,16 +82,6 @@
       "cat": "",
       "status": "DP-P/1158",
       "lastUpdate": 1794180231604
-    },
-    {
-      "horse": "Le Ham M 2 A.",
-      "date": "08/11/2026",
-      "track": "saint-cloud",
-      "race": "antivari",
-      "distance": "1.500",
-      "cat": "",
-      "status": "DP-P/1156",
-      "lastUpdate": 1794169876412
     }
   ],
   "results": [
