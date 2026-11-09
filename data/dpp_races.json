@@ -1,24 +1,4 @@
 {
-  "lastUpdate": "2026-11-09T20:56:11.813Z",
-  "races": [
-    {
-      "horse": "PEMULWUY M.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/UitPY0V5RTNDVTdESzQ0eVFTUjdzUT09",
-      "statut": "DP-P/1158",
-      "date": "09/11/2026",
-      "track": "CHANTILLY",
-      "race": "DU MONT CESAR",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/UDJscEc2a0hmNXcxdmh3b1Y5TnpsUT09",
-      "cat": "(Inédits)",
-      "purse": "27.400",
-      "disc": "P",
-      "dist": "1.900",
-      "owner": "CHR. HEAD (S)",
-      "postTime": {
-        "hour": 14,
-        "minute": 12,
-        "formatted": "14h12"
-      }
-    }
-  ]
+  "lastUpdate": "2026-11-09T23:56:31.658Z",
+  "races": []
 }
