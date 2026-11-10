@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-11-09T23:56:57.154Z",
+  "lastUpdate": "2026-11-10T00:01:30.223Z",
   "upcoming": [
     {
       "horse": "LE HAM M.PS. 2 a.",
@@ -82,26 +82,6 @@
       "cat": "",
       "status": "ND-P/6283",
       "lastUpdate": 1794268591658
-    },
-    {
-      "horse": "Idonotwant F 2 A.",
-      "date": "09/11/2026",
-      "track": "chantilly",
-      "race": "voie du garde",
-      "distance": "1.900",
-      "cat": "",
-      "status": "AP-P/1159",
-      "lastUpdate": 1794257771813
-    },
-    {
-      "horse": "Pemulwuy M 2 A.",
-      "date": "09/11/2026",
-      "track": "chantilly",
-      "race": "du mont cesar",
-      "distance": "1.900",
-      "cat": "",
-      "status": "DP-P/1158",
-      "lastUpdate": 1794257771813
     }
   ],
   "results": [
