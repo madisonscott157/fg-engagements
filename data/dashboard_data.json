@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-11-11T23:55:48.410Z",
+  "lastUpdate": "2026-11-12T00:00:50.400Z",
   "upcoming": [
     {
       "horse": "LE HAM M.PS. 2 a.",
@@ -61,26 +61,6 @@
       "distance": "1.950",
       "cat": "",
       "status": "VA-P/6243",
-      "lastUpdate": 1794430911493
-    },
-    {
-      "horse": "Asylla F 3 A.",
-      "date": "11/11/2026",
-      "track": "toulouse",
-      "race": "fille de l'air",
-      "distance": "2.100",
-      "cat": "",
-      "status": "F1-P/4184",
-      "lastUpdate": 1794430911493
-    },
-    {
-      "horse": "House Of Tudor M 3 A.",
-      "date": "11/11/2026",
-      "track": "toulouse",
-      "race": "ville toulouse",
-      "distance": "2.400",
-      "cat": "",
-      "status": "ND-P/6283",
       "lastUpdate": 1794430911493
     }
   ],
