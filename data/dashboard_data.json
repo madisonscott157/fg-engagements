@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-11-12T06:55:56.461Z",
+  "lastUpdate": "2026-11-12T07:01:16.501Z",
   "upcoming": [
     {
       "horse": "LE HAM M.PS. 2 a.",
@@ -31,7 +31,7 @@
       "distance": "1.800",
       "cat": "",
       "status": "VA-P/583",
-      "lastUpdate": 1794463274940
+      "lastUpdate": 1794466855423
     },
     {
       "horse": "Barramundi (ire) M 2 A.",
@@ -41,7 +41,7 @@
       "distance": "1.800",
       "cat": "",
       "status": "VA-P/583",
-      "lastUpdate": 1794463274940
+      "lastUpdate": 1794466855423
     },
     {
       "horse": "Jolly's Friend F 2 A.",
@@ -51,7 +51,7 @@
       "distance": "1.400",
       "cat": "",
       "status": "VA-P/1166",
-      "lastUpdate": 1794463274940
+      "lastUpdate": 1794466855423
     },
     {
       "horse": "Tamar F 3 A.",
@@ -61,7 +61,7 @@
       "distance": "1.950",
       "cat": "",
       "status": "VA-P/6243",
-      "lastUpdate": 1794463274940
+      "lastUpdate": 1794466855423
     }
   ],
   "results": [
