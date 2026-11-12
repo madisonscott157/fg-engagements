@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-11-12T09:51:26.163Z",
+  "lastUpdate": "2026-11-12T09:57:18.492Z",
   "upcoming": [
     {
       "horse": "LE HAM M.PS. 2 a.",
@@ -31,7 +31,7 @@
       "distance": "1.800",
       "cat": "",
       "status": "VA-P/583",
-      "lastUpdate": 1794474068358
+      "lastUpdate": 1794477390451
     },
     {
       "horse": "Barramundi (ire) M 2 A.",
@@ -41,7 +41,37 @@
       "distance": "1.800",
       "cat": "",
       "status": "VA-P/583",
-      "lastUpdate": 1794474068358
+      "lastUpdate": 1794477390451
+    },
+    {
+      "horse": "Monsieur Charlie M 2 A.",
+      "date": "20/11/2026",
+      "track": "chantilly",
+      "race": "de l'eperon",
+      "distance": "1.600",
+      "cat": "",
+      "status": "-P/1198",
+      "lastUpdate": 1794477390451
+    },
+    {
+      "horse": "Durythme H 5 A.",
+      "date": "19/11/2026",
+      "track": "saint-cloud",
+      "race": "de la frette",
+      "distance": "1.400",
+      "cat": "",
+      "status": "-P/1196",
+      "lastUpdate": 1794477390451
+    },
+    {
+      "horse": "Hottot H 3 A.",
+      "date": "19/11/2026",
+      "track": "saint-cloud",
+      "race": "de windsor",
+      "distance": "2.000",
+      "cat": "",
+      "status": "-P/1190",
+      "lastUpdate": 1794477390451
     },
     {
       "horse": "Jolly's Friend F 2 A.",
@@ -51,7 +81,7 @@
       "distance": "1.400",
       "cat": "",
       "status": "VA-P/1166",
-      "lastUpdate": 1794474068358
+      "lastUpdate": 1794477390451
     },
     {
       "horse": "Tamar F 3 A.",
@@ -61,7 +91,7 @@
       "distance": "1.950",
       "cat": "",
       "status": "VA-P/6243",
-      "lastUpdate": 1794474068358
+      "lastUpdate": 1794477390451
     }
   ],
   "results": [
