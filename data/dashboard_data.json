@@ -1,25 +1,15 @@
 {
-  "lastUpdate": "2026-11-13T09:56:42.033Z",
+  "lastUpdate": "2026-11-13T10:00:59.473Z",
   "upcoming": [
     {
-      "horse": "LE HAM M.PS. 2 a.",
-      "date": "08/11/2026",
-      "track": "SAINT-CLOUD",
-      "race": "ANTIVARI",
-      "distance": "1.500",
-      "cat": "(Inédits)",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/eWFOdXh1cHVXQitKNzloM3lDOGE0Zz09",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/ZjBSNXNLS1Z0T0xCV1hxUnByMnhKdz09"
-    },
-    {
-      "horse": "PEMULWUY M.PS. 2 a.",
-      "date": "09/11/2026",
-      "track": "CHANTILLY",
-      "race": "DU MONT CESAR",
-      "distance": "1.900",
-      "cat": "(Inédits)",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/UDJscEc2a0hmNXcxdmh3b1Y5TnpsUT09",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/UitPY0V5RTNDVTdESzQ0eVFTUjdzUT09"
+      "horse": "TAMAR F.PS. 3 a.",
+      "date": "16/11/2026",
+      "track": "LE MANS",
+      "race": "J. DE NICOLAY",
+      "distance": "1.950",
+      "cat": "(Classe 2)",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/SzJvREZvRjFtdm1pcERaQUVUUnBXUT09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/ZHhreVpNSEJ4d3UxRithRUZOVUk5Zz09"
     }
   ],
   "engagements": [
