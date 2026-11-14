@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-11-13T10:00:22.591Z",
+  "lastUpdate": "2026-11-14T10:00:28.050Z",
   "races": [
     {
       "horse": "TAMAR F.PS. 3 a.",
@@ -18,6 +18,25 @@
         "hour": 12,
         "minute": 23,
         "formatted": "12h23"
+      }
+    },
+    {
+      "horse": "JOLLY'S FRIEND F.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/TGxNcXBhOUxrUlplYzlOQ05nb1ZqUT09",
+      "statut": "DP-P/1166",
+      "date": "17/11/2026",
+      "track": "CHANTILLY",
+      "race": "CARR. CHENE SEC",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/ZFZzemVNU1Z3bElaaXJyc20yL2ZOZz09",
+      "cat": "(Inédits)",
+      "purse": "27.400",
+      "disc": "P",
+      "dist": "1.400",
+      "owner": "CHR. HEAD (S)",
+      "postTime": {
+        "hour": 13,
+        "minute": 10,
+        "formatted": "13h10"
       }
     }
   ]
