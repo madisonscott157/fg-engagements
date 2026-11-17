@@ -1,23 +1,6 @@
 {
-  "partants": {
-    "jolly's friend f.ps. 2 a. | 17/11/2026 | chantilly | carr. chene sec | 1.400": {
-      "horse": "JOLLY'S FRIEND F.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/TGxNcXBhOUxrUlplYzlOQ05nb1ZqUT09",
-      "date": "17/11/2026",
-      "postTime": {
-        "hour": 13,
-        "minute": 10,
-        "formatted": "13h10"
-      },
-      "track": "CHANTILLY",
-      "race": "CARR. CHENE SEC",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/ZFZzemVNU1Z3bElaaXJyc20yL2ZOZz09",
-      "cat": "(Inédits)",
-      "dist": "1.400",
-      "statut": "DP-P/1166"
-    }
-  },
+  "partants": {},
   "newEngagements": {},
   "statusUpdates": {},
-  "lastPosted": "2026-11-16T11:46:33.778Z"
+  "lastPosted": "2026-11-17T09:56:21.361Z"
 }
