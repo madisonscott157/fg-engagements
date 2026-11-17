@@ -1,5 +1,18 @@
 [
   {
+    "horse": "Jolly's Friend",
+    "date": "17/11/2026",
+    "track": "CHANTILLY",
+    "race": "",
+    "distance": "1.400",
+    "position": "10",
+    "jockey": "C. SOUMILLON",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/ZFZzemVNU1Z3bElaaXJyc20yL2ZOZz09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/TGxNcXBhOUxrUlplYzlOQ05nb1ZqUT09",
+    "scrapedAt": "2026-11-17T12:26:06.519Z"
+  },
+  {
     "horse": "Tamar",
     "date": "16/11/2026",
     "track": "LE MANS",
