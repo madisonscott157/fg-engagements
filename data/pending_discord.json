@@ -1,6 +1,55 @@
 {
   "partants": {},
   "newEngagements": {},
-  "statusUpdates": {},
+  "statusUpdates": {
+    "alias h.ps. 2 a. | 20/11/2026 | chantilly | thomas bryon | 1.800": {
+      "horse": "ALIAS H.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/cnZGRVlGZGRBWGVjQkVjdGFubFM0UT09",
+      "date": "20/11/2026",
+      "track": "CHANTILLY",
+      "race": "THOMAS BRYON",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/aVVsU05rRnJrUjQ4QzdqL3ZhVHBpUT09",
+      "cat": "GR.III",
+      "dist": "1.800",
+      "statut": "PB-P/583",
+      "oldStatut": "VA-P/583"
+    },
+    "monsieur charlie ire m.ps. 2 a. | 20/11/2026 | chantilly | de l'eperon | 1.600": {
+      "horse": "MONSIEUR CHARLIE IRE M.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/VHdXSzhzcVJMQ1ZpN2hNVjNJTGpiUT09",
+      "date": "20/11/2026",
+      "track": "CHANTILLY",
+      "race": "DE L'EPERON",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/YW1sSE9scHIyT0pvYXVsV3BJSjVwdz09",
+      "cat": "(Maiden)",
+      "dist": "1.600",
+      "statut": "PB-P/1198",
+      "oldStatut": "VA-P/1198"
+    },
+    "basha h.ps. 3 a. | 25/11/2026 | deauville | lyphard | 1.900": {
+      "horse": "BASHA H.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/SlFXdG42NTZ1b1pKUk9hV0I0L0J5UT09",
+      "date": "25/11/2026",
+      "track": "DEAUVILLE",
+      "race": "LYPHARD",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/OFhNOHA3YXNYR2ovdTRmUmFZMm9yUT09",
+      "cat": "(L)",
+      "dist": "1.900",
+      "statut": "VA-P/584",
+      "oldStatut": "-P/584"
+    },
+    "vatican m.ps. 3 a. | 25/11/2026 | deauville | du hamel | 1.900": {
+      "horse": "VATICAN M.PS. 3 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/Ly9KU0czNEJFOFRKTklMbWxpMWpkdz09",
+      "date": "25/11/2026",
+      "track": "DEAUVILLE",
+      "race": "DU HAMEL",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/dnB6ZFFUVld6aE9PbWR4WnI0RHMyZz09",
+      "cat": "(Maiden)",
+      "dist": "1.900",
+      "statut": "VA-P/1223",
+      "oldStatut": "-P/1223"
+    }
+  },
   "lastPosted": "2026-11-17T09:56:21.361Z"
 }
