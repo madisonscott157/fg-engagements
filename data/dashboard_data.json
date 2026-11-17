@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-11-17T10:50:53.008Z",
+  "lastUpdate": "2026-11-17T10:56:56.406Z",
   "upcoming": [
     {
       "horse": "JOLLY'S FRIEND F.PS. 2 a.",
@@ -30,8 +30,8 @@
       "race": "lyphard",
       "distance": "1.900",
       "cat": "",
-      "status": "-P/584",
-      "lastUpdate": 1794909365906
+      "status": "VA-P/584",
+      "lastUpdate": 1794912954319
     },
     {
       "horse": "Vatican M 3 A.",
@@ -40,8 +40,8 @@
       "race": "du hamel",
       "distance": "1.900",
       "cat": "",
-      "status": "-P/1223",
-      "lastUpdate": 1794909365906
+      "status": "VA-P/1223",
+      "lastUpdate": 1794912954319
     },
     {
       "horse": "Champagne Sunset F 2 A.",
@@ -51,7 +51,7 @@
       "distance": "1.600",
       "cat": "",
       "status": "VA-P/1205",
-      "lastUpdate": 1794909365906
+      "lastUpdate": 1794912954319
     },
     {
       "horse": "Munch H 2 A.",
@@ -61,7 +61,7 @@
       "distance": "1.500",
       "cat": "",
       "status": "VA-P/6388",
-      "lastUpdate": 1794909365906
+      "lastUpdate": 1794912954319
     },
     {
       "horse": "Alias H 2 A.",
@@ -70,8 +70,8 @@
       "race": "thomas bryon",
       "distance": "1.800",
       "cat": "",
-      "status": "VA-P/583",
-      "lastUpdate": 1794909365906
+      "status": "PB-P/583",
+      "lastUpdate": 1794912954319
     },
     {
       "horse": "Barramundi (ire) M 2 A.",
@@ -81,7 +81,7 @@
       "distance": "1.800",
       "cat": "",
       "status": "F1-P/583",
-      "lastUpdate": 1794909365906
+      "lastUpdate": 1794912954319
     },
     {
       "horse": "Monsieur Charlie M 2 A.",
@@ -90,8 +90,8 @@
       "race": "de l'eperon",
       "distance": "1.600",
       "cat": "",
-      "status": "VA-P/1198",
-      "lastUpdate": 1794909365906
+      "status": "PB-P/1198",
+      "lastUpdate": 1794912954319
     },
     {
       "horse": "Durythme H 5 A.",
@@ -101,7 +101,7 @@
       "distance": "1.400",
       "cat": "",
       "status": "DP-P/1196",
-      "lastUpdate": 1794909365906
+      "lastUpdate": 1794912954319
     },
     {
       "horse": "Hottot H 3 A.",
@@ -111,7 +111,7 @@
       "distance": "2.000",
       "cat": "",
       "status": "AP-P/1190",
-      "lastUpdate": 1794909365906
+      "lastUpdate": 1794912954319
     },
     {
       "horse": "Jolly's Friend F 2 A.",
@@ -121,7 +121,7 @@
       "distance": "1.400",
       "cat": "",
       "status": "DP-P/1166",
-      "lastUpdate": 1794909365906
+      "lastUpdate": 1794912954319
     }
   ],
   "results": [
