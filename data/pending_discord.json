@@ -1,23 +1,6 @@
 {
-  "partants": {
-    "durythme h.ps. 5 a. | 19/11/2026 | saint-cloud | de la frette | 1.400": {
-      "horse": "DURYTHME H.PS. 5 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/ck1hc3FmZTFuRU44aEVFaU4wTU9OQT09",
-      "date": "19/11/2026",
-      "postTime": {
-        "hour": 11,
-        "minute": 27,
-        "formatted": "11h27"
-      },
-      "track": "SAINT-CLOUD",
-      "race": "DE LA FRETTE",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/azBraWtpSmdkYlQxcDA2dEl0Q0xUUT09",
-      "cat": "(Classe 3)",
-      "dist": "1.400",
-      "statut": "DP-P/1196"
-    }
-  },
+  "partants": {},
   "newEngagements": {},
   "statusUpdates": {},
-  "lastPosted": "2026-11-17T11:51:23.992Z"
+  "lastPosted": "2026-11-18T10:01:58.677Z"
 }
