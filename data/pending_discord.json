@@ -1,19 +1,6 @@
 {
   "partants": {},
   "newEngagements": {},
-  "statusUpdates": {
-    "eclipseoftheheart ire f.ps. 2 a. | 26/11/2026 | chantilly | vivier madame | 1.600": {
-      "horse": "ECLIPSEOFTHEHEART IRE F.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/bXd6c3F5bTBhK2FONTFKd2d4VllKQT09",
-      "date": "26/11/2026",
-      "track": "CHANTILLY",
-      "race": "VIVIER MADAME",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/dHVTTnJHRzl0dklTNlVkL2xXNmY5Zz09",
-      "cat": "(Inédits)",
-      "dist": "1.600",
-      "statut": "VA-P/1229",
-      "oldStatut": "-P/1229"
-    }
-  },
-  "lastPosted": "2026-11-18T10:01:58.677Z"
+  "statusUpdates": {},
+  "lastPosted": "2026-11-18T12:00:59.927Z"
 }
