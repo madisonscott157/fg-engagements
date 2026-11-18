@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-11-17T23:55:50.429Z",
+  "lastUpdate": "2026-11-18T00:01:24.794Z",
   "upcoming": [
     {
       "horse": "JOLLY'S FRIEND F.PS. 2 a.",
@@ -111,16 +111,6 @@
       "distance": "2.000",
       "cat": "",
       "status": "AP-P/1190",
-      "lastUpdate": 1794948343178
-    },
-    {
-      "horse": "Jolly's Friend F 2 A.",
-      "date": "17/11/2026",
-      "track": "chantilly",
-      "race": "carr. chene sec",
-      "distance": "1.400",
-      "cat": "",
-      "status": "DP-P/1166",
       "lastUpdate": 1794948343178
     }
   ],
