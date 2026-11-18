@@ -1,25 +1,6 @@
 {
-  "lastUpdate": "2026-11-17T10:00:26.880Z",
+  "lastUpdate": "2026-11-18T10:05:24.282Z",
   "races": [
-    {
-      "horse": "JOLLY'S FRIEND F.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/TGxNcXBhOUxrUlplYzlOQ05nb1ZqUT09",
-      "statut": "DP-P/1166",
-      "date": "17/11/2026",
-      "track": "CHANTILLY",
-      "race": "CARR. CHENE SEC",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/ZFZzemVNU1Z3bElaaXJyc20yL2ZOZz09",
-      "cat": "(Inédits)",
-      "purse": "27.400",
-      "disc": "P",
-      "dist": "1.400",
-      "owner": "CHR. HEAD (S)",
-      "postTime": {
-        "hour": 13,
-        "minute": 10,
-        "formatted": "13h10"
-      }
-    },
     {
       "horse": "DURYTHME H.PS. 5 a.",
       "horseUrl": "https://www.france-galop.com/fr/cheval/ck1hc3FmZTFuRU44aEVFaU4wTU9OQT09",
@@ -37,6 +18,44 @@
         "hour": 11,
         "minute": 27,
         "formatted": "11h27"
+      }
+    },
+    {
+      "horse": "ALIAS H.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/cnZGRVlGZGRBWGVjQkVjdGFubFM0UT09",
+      "statut": "DP-P/583",
+      "date": "20/11/2026",
+      "track": "CHANTILLY",
+      "race": "THOMAS BRYON",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/aVVsU05rRnJrUjQ4QzdqL3ZhVHBpUT09",
+      "cat": "GR.III",
+      "purse": "73.200",
+      "disc": "P",
+      "dist": "1.800",
+      "owner": "CHR. HEAD (S)",
+      "postTime": {
+        "hour": 13,
+        "minute": 43,
+        "formatted": "13h43"
+      }
+    },
+    {
+      "horse": "MONSIEUR CHARLIE IRE M.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/VHdXSzhzcVJMQ1ZpN2hNVjNJTGpiUT09",
+      "statut": "DP-P/1198",
+      "date": "20/11/2026",
+      "track": "CHANTILLY",
+      "race": "DE L'EPERON",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/YW1sSE9scHIyT0pvYXVsV3BJSjVwdz09",
+      "cat": "(Maiden)",
+      "purse": "27.400",
+      "disc": "P",
+      "dist": "1.600",
+      "owner": "CHR. HEAD (S)",
+      "postTime": {
+        "hour": 12,
+        "minute": 33,
+        "formatted": "12h33"
       }
     }
   ]
