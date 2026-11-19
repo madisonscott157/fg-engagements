@@ -1,5 +1,18 @@
 [
   {
+    "horse": "Durythme",
+    "date": "19/11/2026",
+    "track": "SAINT-CLOUD",
+    "race": "RECL.",
+    "distance": "1.400",
+    "position": "10",
+    "jockey": "L. MABROUK",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/azBraWtpSmdkYlQxcDA2dEl0Q0xUUT09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/ck1hc3FmZTFuRU44aEVFaU4wTU9OQT09",
+    "scrapedAt": "2026-11-19T10:45:47.418Z"
+  },
+  {
     "horse": "Jolly's Friend",
     "date": "17/11/2026",
     "track": "CHANTILLY",
