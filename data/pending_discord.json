@@ -1,5 +1,54 @@
 {
-  "partants": {},
+  "partants": {
+    "durythme h.ps. 5 a. | 19/11/2026 | saint-cloud | de la frette | 1.400": {
+      "horse": "DURYTHME H.PS. 5 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/ck1hc3FmZTFuRU44aEVFaU4wTU9OQT09",
+      "date": "19/11/2026",
+      "postTime": {
+        "hour": 11,
+        "minute": 27,
+        "formatted": "11h27"
+      },
+      "track": "SAINT-CLOUD",
+      "race": "DE LA FRETTE",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/azBraWtpSmdkYlQxcDA2dEl0Q0xUUT09",
+      "cat": "(Classe 3)",
+      "dist": "1.400",
+      "statut": "DP-P/1196"
+    },
+    "alias h.ps. 2 a. | 20/11/2026 | chantilly | thomas bryon | 1.800": {
+      "horse": "ALIAS H.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/cnZGRVlGZGRBWGVjQkVjdGFubFM0UT09",
+      "date": "20/11/2026",
+      "postTime": {
+        "hour": 13,
+        "minute": 43,
+        "formatted": "13h43"
+      },
+      "track": "CHANTILLY",
+      "race": "THOMAS BRYON",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/aVVsU05rRnJrUjQ4QzdqL3ZhVHBpUT09",
+      "cat": "GR.III",
+      "dist": "1.800",
+      "statut": "DP-P/583"
+    },
+    "monsieur charlie ire m.ps. 2 a. | 20/11/2026 | chantilly | de l'eperon | 1.600": {
+      "horse": "MONSIEUR CHARLIE IRE M.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/VHdXSzhzcVJMQ1ZpN2hNVjNJTGpiUT09",
+      "date": "20/11/2026",
+      "postTime": {
+        "hour": 12,
+        "minute": 33,
+        "formatted": "12h33"
+      },
+      "track": "CHANTILLY",
+      "race": "DE L'EPERON",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/YW1sSE9scHIyT0pvYXVsV3BJSjVwdz09",
+      "cat": "(Maiden)",
+      "dist": "1.600",
+      "statut": "DP-P/1198"
+    }
+  },
   "newEngagements": {},
   "statusUpdates": {},
   "lastPosted": "2026-11-18T12:00:59.927Z"
