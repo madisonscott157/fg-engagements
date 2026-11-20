@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-11-19T23:56:30.829Z",
+  "lastUpdate": "2026-11-20T00:01:00.359Z",
   "upcoming": [
     {
       "horse": "DURYTHME H.PS. 5 a.",
@@ -111,26 +111,6 @@
       "distance": "1.600",
       "cat": "",
       "status": "DP-P/1198",
-      "lastUpdate": 1795128766768
-    },
-    {
-      "horse": "Durythme H 5 A.",
-      "date": "19/11/2026",
-      "track": "saint-cloud",
-      "race": "de la frette",
-      "distance": "1.400",
-      "cat": "",
-      "status": "DP-P/1196",
-      "lastUpdate": 1795128766768
-    },
-    {
-      "horse": "Hottot H 3 A.",
-      "date": "19/11/2026",
-      "track": "saint-cloud",
-      "race": "de windsor",
-      "distance": "2.000",
-      "cat": "",
-      "status": "AP-P/1190",
       "lastUpdate": 1795128766768
     }
   ],
