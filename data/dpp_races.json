@@ -1,25 +1,6 @@
 {
-  "lastUpdate": "2026-11-19T22:52:46.769Z",
+  "lastUpdate": "2026-11-20T06:01:30.582Z",
   "races": [
-    {
-      "horse": "DURYTHME H.PS. 5 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/ck1hc3FmZTFuRU44aEVFaU4wTU9OQT09",
-      "statut": "DP-P/1196",
-      "date": "19/11/2026",
-      "track": "SAINT-CLOUD",
-      "race": "DE LA FRETTE",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/azBraWtpSmdkYlQxcDA2dEl0Q0xUUT09",
-      "cat": "(Classe 3)",
-      "purse": "25.000",
-      "disc": "P",
-      "dist": "1.400",
-      "owner": "CHR. HEAD (S)",
-      "postTime": {
-        "hour": 11,
-        "minute": 27,
-        "formatted": "11h27"
-      }
-    },
     {
       "horse": "ALIAS H.PS. 2 a.",
       "horseUrl": "https://www.france-galop.com/fr/cheval/cnZGRVlGZGRBWGVjQkVjdGFubFM0UT09",
