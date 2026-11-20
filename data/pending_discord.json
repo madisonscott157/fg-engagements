@@ -1,39 +1,6 @@
 {
-  "partants": {
-    "alias h.ps. 2 a. | 20/11/2026 | chantilly | thomas bryon | 1.800": {
-      "horse": "ALIAS H.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/cnZGRVlGZGRBWGVjQkVjdGFubFM0UT09",
-      "date": "20/11/2026",
-      "postTime": {
-        "hour": 13,
-        "minute": 43,
-        "formatted": "13h43"
-      },
-      "track": "CHANTILLY",
-      "race": "THOMAS BRYON",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/aVVsU05rRnJrUjQ4QzdqL3ZhVHBpUT09",
-      "cat": "GR.III",
-      "dist": "1.800",
-      "statut": "DP-P/583"
-    },
-    "monsieur charlie ire m.ps. 2 a. | 20/11/2026 | chantilly | de l'eperon | 1.600": {
-      "horse": "MONSIEUR CHARLIE IRE M.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/VHdXSzhzcVJMQ1ZpN2hNVjNJTGpiUT09",
-      "date": "20/11/2026",
-      "postTime": {
-        "hour": 12,
-        "minute": 33,
-        "formatted": "12h33"
-      },
-      "track": "CHANTILLY",
-      "race": "DE L'EPERON",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/YW1sSE9scHIyT0pvYXVsV3BJSjVwdz09",
-      "cat": "(Maiden)",
-      "dist": "1.600",
-      "statut": "DP-P/1198"
-    }
-  },
+  "partants": {},
   "newEngagements": {},
   "statusUpdates": {},
-  "lastPosted": "2026-11-19T11:51:17.716Z"
+  "lastPosted": "2026-11-20T09:56:53.735Z"
 }

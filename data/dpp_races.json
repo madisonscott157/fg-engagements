@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-11-20T08:56:20.113Z",
+  "lastUpdate": "2026-11-20T09:56:32.195Z",
   "races": [
     {
       "horse": "ALIAS H.PS. 2 a.",
@@ -37,6 +37,44 @@
         "hour": 12,
         "minute": 33,
         "formatted": "12h33"
+      }
+    },
+    {
+      "horse": "CHAMPAGNE SUNSET IRE F.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/Q0cxODhoSmFRTDd0YVhlbXg1WmtDZz09",
+      "statut": "DP-P/1205",
+      "date": "23/11/2026",
+      "track": "CHANTILLY",
+      "race": "ENCLOS KANG.",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/cGFvMFFMc1RpV01hT0NPOWlSL0sxdz09",
+      "cat": "HAND.",
+      "purse": "25.900",
+      "disc": "P",
+      "dist": "1.600",
+      "owner": "CHR. HEAD (S)",
+      "postTime": {
+        "hour": 14,
+        "minute": 12,
+        "formatted": "14h12"
+      }
+    },
+    {
+      "horse": "MUNCH H.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/WVFQTHcyZTYxamtmWXkvL2c3Z3oyUT09",
+      "statut": "DP-P/6388",
+      "date": "23/11/2026",
+      "track": "MAR.P VIVAUX",
+      "race": "DES CRIQUES",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/OU8rNmVnNEV3dUhBVWtzVFp1bjg5UT09",
+      "cat": "(Maiden)",
+      "purse": "21.000",
+      "disc": "P",
+      "dist": "1.500",
+      "owner": "CHR. HEAD (S)",
+      "postTime": {
+        "hour": 18,
+        "minute": 45,
+        "formatted": "18h45"
       }
     }
   ]
