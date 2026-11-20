@@ -1,5 +1,18 @@
 [
   {
+    "horse": "Monsieur Charlie",
+    "date": "20/11/2026",
+    "track": "CHANTILLY",
+    "race": "",
+    "distance": "1.600",
+    "position": "1",
+    "jockey": "A. LEMAITRE",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/YW1sSE9scHIyT0pvYXVsV3BJSjVwdz09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/VHdXSzhzcVJMQ1ZpN2hNVjNJTGpiUT09",
+    "scrapedAt": "2026-11-20T11:50:58.823Z"
+  },
+  {
     "horse": "Durythme",
     "date": "19/11/2026",
     "track": "SAINT-CLOUD",
