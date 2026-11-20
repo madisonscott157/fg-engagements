@@ -1,5 +1,18 @@
 [
   {
+    "horse": "Alias",
+    "date": "20/11/2026",
+    "track": "CHANTILLY",
+    "race": "GR.III",
+    "distance": "1.800",
+    "position": "2",
+    "jockey": "M. GUYON",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/aVVsU05rRnJrUjQ4QzdqL3ZhVHBpUT09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/cnZGRVlGZGRBWGVjQkVjdGFubFM0UT09",
+    "scrapedAt": "2026-11-20T13:00:39.364Z"
+  },
+  {
     "horse": "Monsieur Charlie",
     "date": "20/11/2026",
     "track": "CHANTILLY",
