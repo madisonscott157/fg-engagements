@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-11-21T11:35:48.666Z",
+  "lastUpdate": "2026-11-21T11:41:55.656Z",
   "upcoming": [
     {
       "horse": "ALIAS H.PS. 2 a.",
@@ -51,7 +51,7 @@
       "distance": "1.600",
       "cat": "",
       "status": "VA-P/1229",
-      "lastUpdate": 1795257973871
+      "lastUpdate": 1795261277300
     },
     {
       "horse": "Basha H 3 A.",
@@ -60,8 +60,8 @@
       "race": "lyphard",
       "distance": "1.900",
       "cat": "",
-      "status": "VA-P/584",
-      "lastUpdate": 1795257973871
+      "status": "PB-P/584",
+      "lastUpdate": 1795261277300
     },
     {
       "horse": "Vatican M 3 A.",
@@ -70,8 +70,8 @@
       "race": "du hamel",
       "distance": "1.900",
       "cat": "",
-      "status": "VA-P/1223",
-      "lastUpdate": 1795257973871
+      "status": "PB-P/1223",
+      "lastUpdate": 1795261277300
     },
     {
       "horse": "Champagne Sunset F 2 A.",
@@ -81,7 +81,7 @@
       "distance": "1.600",
       "cat": "",
       "status": "DP-P/1205",
-      "lastUpdate": 1795257973871
+      "lastUpdate": 1795261277300
     },
     {
       "horse": "Munch H 2 A.",
@@ -91,7 +91,7 @@
       "distance": "1.500",
       "cat": "",
       "status": "DP-P/6388",
-      "lastUpdate": 1795257973871
+      "lastUpdate": 1795261277300
     }
   ],
   "results": [
