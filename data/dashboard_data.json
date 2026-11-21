@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-11-20T23:56:22.612Z",
+  "lastUpdate": "2026-11-21T00:00:53.669Z",
   "upcoming": [
     {
       "horse": "ALIAS H.PS. 2 a.",
@@ -91,36 +91,6 @@
       "distance": "1.500",
       "cat": "",
       "status": "DP-P/6388",
-      "lastUpdate": 1795213704774
-    },
-    {
-      "horse": "Alias H 2 A.",
-      "date": "20/11/2026",
-      "track": "chantilly",
-      "race": "thomas bryon",
-      "distance": "1.800",
-      "cat": "",
-      "status": "DP-P/583",
-      "lastUpdate": 1795213704774
-    },
-    {
-      "horse": "Barramundi (ire) M 2 A.",
-      "date": "20/11/2026",
-      "track": "chantilly",
-      "race": "thomas bryon",
-      "distance": "1.800",
-      "cat": "",
-      "status": "F1-P/583",
-      "lastUpdate": 1795213704774
-    },
-    {
-      "horse": "Monsieur Charlie M 2 A.",
-      "date": "20/11/2026",
-      "track": "chantilly",
-      "race": "de l'eperon",
-      "distance": "1.600",
-      "cat": "",
-      "status": "DP-P/1198",
       "lastUpdate": 1795213704774
     }
   ],
