@@ -1,44 +1,6 @@
 {
-  "lastUpdate": "2026-11-20T22:28:24.774Z",
+  "lastUpdate": "2026-11-21T06:01:12.624Z",
   "races": [
-    {
-      "horse": "ALIAS H.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/cnZGRVlGZGRBWGVjQkVjdGFubFM0UT09",
-      "statut": "DP-P/583",
-      "date": "20/11/2026",
-      "track": "CHANTILLY",
-      "race": "THOMAS BRYON",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/aVVsU05rRnJrUjQ4QzdqL3ZhVHBpUT09",
-      "cat": "GR.III",
-      "purse": "73.200",
-      "disc": "P",
-      "dist": "1.800",
-      "owner": "CHR. HEAD (S)",
-      "postTime": {
-        "hour": 13,
-        "minute": 43,
-        "formatted": "13h43"
-      }
-    },
-    {
-      "horse": "MONSIEUR CHARLIE IRE M.PS. 2 a.",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/VHdXSzhzcVJMQ1ZpN2hNVjNJTGpiUT09",
-      "statut": "DP-P/1198",
-      "date": "20/11/2026",
-      "track": "CHANTILLY",
-      "race": "DE L'EPERON",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/YW1sSE9scHIyT0pvYXVsV3BJSjVwdz09",
-      "cat": "(Maiden)",
-      "purse": "27.400",
-      "disc": "P",
-      "dist": "1.600",
-      "owner": "CHR. HEAD (S)",
-      "postTime": {
-        "hour": 12,
-        "minute": 33,
-        "formatted": "12h33"
-      }
-    },
     {
       "horse": "CHAMPAGNE SUNSET IRE F.PS. 2 a.",
       "horseUrl": "https://www.france-galop.com/fr/cheval/Q0cxODhoSmFRTDd0YVhlbXg1WmtDZz09",
