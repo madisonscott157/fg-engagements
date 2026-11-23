@@ -1,6 +1,31 @@
 {
   "partants": {},
   "newEngagements": {},
-  "statusUpdates": {},
+  "statusUpdates": {
+    "eclipseoftheheart ire f.ps. 2 a. | 26/11/2026 | chantilly | vivier madame | 1.600": {
+      "horse": "ECLIPSEOFTHEHEART IRE F.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/bXd6c3F5bTBhK2FONTFKd2d4VllKQT09",
+      "date": "26/11/2026",
+      "track": "CHANTILLY",
+      "race": "VIVIER MADAME",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/dHVTTnJHRzl0dklTNlVkL2xXNmY5Zz09",
+      "cat": "(Inédits)",
+      "dist": "1.600",
+      "statut": "PB-P/1229",
+      "oldStatut": "VA-P/1229"
+    },
+    "idonotwant usa f.ps. 2 a. | 01/12/2026 | deauville | grand chesnay | 1.900": {
+      "horse": "IDONOTWANT USA F.PS. 2 a.",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/Tjluc3RjdG5jdVRQOU56QTFQZVZPUT09",
+      "date": "01/12/2026",
+      "track": "DEAUVILLE",
+      "race": "GRAND CHESNAY",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/T05XSi9TOHo5VVM1U05BaldWMWVhUT09",
+      "cat": "(Inédits)",
+      "dist": "1.900",
+      "statut": "VA-P/1245",
+      "oldStatut": "-P/1245"
+    }
+  },
   "lastPosted": "2026-11-23T10:01:51.776Z"
 }
