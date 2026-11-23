@@ -1,5 +1,18 @@
 [
   {
+    "horse": "Champagne Sunset",
+    "date": "23/11/2026",
+    "track": "CHANTILLY",
+    "race": "HAND.",
+    "distance": "1.600",
+    "position": "11",
+    "jockey": "M. GUYON",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/cGFvMFFMc1RpV01hT0NPOWlSL0sxdz09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/Q0cxODhoSmFRTDd0YVhlbXg1WmtDZz09",
+    "scrapedAt": "2026-11-23T13:30:59.855Z"
+  },
+  {
     "horse": "Alias",
     "date": "20/11/2026",
     "track": "CHANTILLY",
