@@ -1,26 +1,6 @@
 {
-  "lastUpdate": "2026-11-23T10:02:13.156Z",
+  "lastUpdate": "2026-11-23T10:06:12.197Z",
   "upcoming": [
-    {
-      "horse": "ALIAS H.PS. 2 a.",
-      "date": "20/11/2026",
-      "track": "CHANTILLY",
-      "race": "THOMAS BRYON",
-      "distance": "1.800",
-      "cat": "GR.III",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/aVVsU05rRnJrUjQ4QzdqL3ZhVHBpUT09",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/cnZGRVlGZGRBWGVjQkVjdGFubFM0UT09"
-    },
-    {
-      "horse": "MONSIEUR CHARLIE IRE M.PS. 2 a.",
-      "date": "20/11/2026",
-      "track": "CHANTILLY",
-      "race": "DE L'EPERON",
-      "distance": "1.600",
-      "cat": "(Maiden)",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/YW1sSE9scHIyT0pvYXVsV3BJSjVwdz09",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/VHdXSzhzcVJMQ1ZpN2hNVjNJTGpiUT09"
-    },
     {
       "horse": "CHAMPAGNE SUNSET IRE F.PS. 2 a.",
       "date": "23/11/2026",
@@ -40,6 +20,26 @@
       "cat": "(Maiden)",
       "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/OU8rNmVnNEV3dUhBVWtzVFp1bjg5UT09",
       "horseUrl": "https://www.france-galop.com/fr/cheval/WVFQTHcyZTYxamtmWXkvL2c3Z3oyUT09"
+    },
+    {
+      "horse": "BASHA H.PS. 3 a.",
+      "date": "25/11/2026",
+      "track": "DEAUVILLE",
+      "race": "LYPHARD",
+      "distance": "1.900",
+      "cat": "(L)",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/OFhNOHA3YXNYR2ovdTRmUmFZMm9yUT09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/SlFXdG42NTZ1b1pKUk9hV0I0L0J5UT09"
+    },
+    {
+      "horse": "VATICAN M.PS. 3 a.",
+      "date": "25/11/2026",
+      "track": "DEAUVILLE",
+      "race": "DU HAMEL",
+      "distance": "1.900",
+      "cat": "(Maiden)",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/dnB6ZFFUVld6aE9PbWR4WnI0RHMyZz09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/Ly9KU0czNEJFOFRKTklMbWxpMWpkdz09"
     }
   ],
   "engagements": [
