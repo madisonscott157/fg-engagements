@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-11-23T13:26:09.074Z",
+  "lastUpdate": "2026-11-23T13:31:43.402Z",
   "upcoming": [
     {
       "horse": "CHAMPAGNE SUNSET IRE F.PS. 2 a.",
@@ -105,6 +105,18 @@
     }
   ],
   "results": [
+    {
+      "horse": "Champagne Sunset",
+      "date": "23/11/2026",
+      "track": "CHANTILLY",
+      "race": "HAND.",
+      "distance": "1.600",
+      "position": "11",
+      "jockey": "M. GUYON",
+      "gain": "0",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/cGFvMFFMc1RpV01hT0NPOWlSL0sxdz09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/Q0cxODhoSmFRTDd0YVhlbXg1WmtDZz09"
+    },
     {
       "horse": "Alias",
       "date": "20/11/2026",
