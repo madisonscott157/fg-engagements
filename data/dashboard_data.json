@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-11-23T23:56:09.942Z",
+  "lastUpdate": "2026-11-24T00:00:56.645Z",
   "upcoming": [
     {
       "horse": "CHAMPAGNE SUNSET IRE F.PS. 2 a.",
@@ -81,26 +81,6 @@
       "distance": "1.900",
       "cat": "",
       "status": "DP-P/1223",
-      "lastUpdate": 1795465863523
-    },
-    {
-      "horse": "Champagne Sunset F 2 A.",
-      "date": "23/11/2026",
-      "track": "chantilly",
-      "race": "enclos kang.",
-      "distance": "1.600",
-      "cat": "",
-      "status": "DP-P/1205",
-      "lastUpdate": 1795465863523
-    },
-    {
-      "horse": "Munch H 2 A.",
-      "date": "23/11/2026",
-      "track": "mar.p vivaux",
-      "race": "des criques",
-      "distance": "1.500",
-      "cat": "",
-      "status": "DP-P/6388",
       "lastUpdate": 1795465863523
     }
   ],
