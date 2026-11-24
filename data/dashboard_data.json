@@ -1,26 +1,6 @@
 {
-  "lastUpdate": "2026-11-24T09:52:02.152Z",
+  "lastUpdate": "2026-11-24T09:55:53.398Z",
   "upcoming": [
-    {
-      "horse": "CHAMPAGNE SUNSET IRE F.PS. 2 a.",
-      "date": "23/11/2026",
-      "track": "CHANTILLY",
-      "race": "ENCLOS KANG.",
-      "distance": "1.600",
-      "cat": "HAND.",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/cGFvMFFMc1RpV01hT0NPOWlSL0sxdz09",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/Q0cxODhoSmFRTDd0YVhlbXg1WmtDZz09"
-    },
-    {
-      "horse": "MUNCH H.PS. 2 a.",
-      "date": "23/11/2026",
-      "track": "MAR.P VIVAUX",
-      "race": "DES CRIQUES",
-      "distance": "1.500",
-      "cat": "(Maiden)",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/OU8rNmVnNEV3dUhBVWtzVFp1bjg5UT09",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/WVFQTHcyZTYxamtmWXkvL2c3Z3oyUT09"
-    },
     {
       "horse": "BASHA H.PS. 3 a.",
       "date": "25/11/2026",
@@ -40,6 +20,16 @@
       "cat": "(Maiden)",
       "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/dnB6ZFFUVld6aE9PbWR4WnI0RHMyZz09",
       "horseUrl": "https://www.france-galop.com/fr/cheval/Ly9KU0czNEJFOFRKTklMbWxpMWpkdz09"
+    },
+    {
+      "horse": "ECLIPSEOFTHEHEART IRE F.PS. 2 a.",
+      "date": "26/11/2026",
+      "track": "CHANTILLY",
+      "race": "VIVIER MADAME",
+      "distance": "1.600",
+      "cat": "(Inédits)",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/dHVTTnJHRzl0dklTNlVkL2xXNmY5Zz09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/bXd6c3F5bTBhK2FONTFKd2d4VllKQT09"
     }
   ],
   "engagements": [
