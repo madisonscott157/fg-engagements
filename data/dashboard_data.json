@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-11-24T08:51:05.981Z",
+  "lastUpdate": "2026-11-24T08:56:40.161Z",
   "upcoming": [
     {
       "horse": "CHAMPAGNE SUNSET IRE F.PS. 2 a.",
@@ -51,7 +51,7 @@
       "distance": "1.900",
       "cat": "",
       "status": "VA-P/1245",
-      "lastUpdate": 1795506975240
+      "lastUpdate": 1795510580877
     },
     {
       "horse": "Eclipseoftheheart F 2 A.",
@@ -61,7 +61,7 @@
       "distance": "1.600",
       "cat": "",
       "status": "PB-P/1229",
-      "lastUpdate": 1795506975240
+      "lastUpdate": 1795510580877
     },
     {
       "horse": "Basha H 3 A.",
@@ -71,7 +71,7 @@
       "distance": "1.900",
       "cat": "",
       "status": "DP-P/584",
-      "lastUpdate": 1795506975240
+      "lastUpdate": 1795510580877
     },
     {
       "horse": "Vatican M 3 A.",
@@ -81,7 +81,7 @@
       "distance": "1.900",
       "cat": "",
       "status": "DP-P/1223",
-      "lastUpdate": 1795506975240
+      "lastUpdate": 1795510580877
     }
   ],
   "results": [
