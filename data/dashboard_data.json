@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-11-24T12:46:06.669Z",
+  "lastUpdate": "2026-11-24T12:51:35.766Z",
   "upcoming": [
     {
       "horse": "BASHA H.PS. 3 a.",
@@ -41,7 +41,7 @@
       "distance": "1.900",
       "cat": "",
       "status": "VA-P/1245",
-      "lastUpdate": 1795521089475
+      "lastUpdate": 1795524673808
     },
     {
       "horse": "Eclipseoftheheart F 2 A.",
@@ -51,7 +51,7 @@
       "distance": "1.600",
       "cat": "",
       "status": "DP-P/1229",
-      "lastUpdate": 1795521089475
+      "lastUpdate": 1795524673808
     },
     {
       "horse": "Basha H 3 A.",
@@ -61,7 +61,7 @@
       "distance": "1.900",
       "cat": "",
       "status": "DP-P/584",
-      "lastUpdate": 1795521089475
+      "lastUpdate": 1795524673808
     },
     {
       "horse": "Vatican M 3 A.",
@@ -71,7 +71,7 @@
       "distance": "1.900",
       "cat": "",
       "status": "DP-P/1223",
-      "lastUpdate": 1795521089475
+      "lastUpdate": 1795524673808
     }
   ],
   "results": [
