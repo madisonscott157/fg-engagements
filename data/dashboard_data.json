@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-11-26T12:41:22.423Z",
+  "lastUpdate": "2026-11-26T12:46:41.333Z",
   "upcoming": [
     {
       "horse": "BASHA H.PS. 3 a.",
@@ -65,6 +65,18 @@
     }
   ],
   "results": [
+    {
+      "horse": "Eclipseoftheheart",
+      "date": "26/11/2026",
+      "track": "CHANTILLY",
+      "race": "",
+      "distance": "1.600",
+      "position": "5",
+      "jockey": "T. PICCONE",
+      "gain": "0",
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/dHVTTnJHRzl0dklTNlVkL2xXNmY5Zz09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/bXd6c3F5bTBhK2FONTFKd2d4VllKQT09"
+    },
     {
       "horse": "Basha",
       "date": "25/11/2026",
