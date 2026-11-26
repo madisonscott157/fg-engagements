@@ -1,5 +1,18 @@
 [
   {
+    "horse": "Eclipseoftheheart",
+    "date": "26/11/2026",
+    "track": "CHANTILLY",
+    "race": "",
+    "distance": "1.600",
+    "position": "5",
+    "jockey": "T. PICCONE",
+    "gain": "0",
+    "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/dHVTTnJHRzl0dklTNlVkL2xXNmY5Zz09",
+    "horseUrl": "https://www.france-galop.com/fr/cheval/bXd6c3F5bTBhK2FONTFKd2d4VllKQT09",
+    "scrapedAt": "2026-11-26T12:45:55.865Z"
+  },
+  {
     "horse": "Basha",
     "date": "25/11/2026",
     "track": "DEAUVILLE",
