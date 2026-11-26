@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-11-25T23:55:47.736Z",
+  "lastUpdate": "2026-11-26T00:01:22.427Z",
   "upcoming": [
     {
       "horse": "BASHA H.PS. 3 a.",
@@ -61,26 +61,6 @@
       "distance": "1.600",
       "cat": "",
       "status": "DP-P/1229",
-      "lastUpdate": 1795639296849
-    },
-    {
-      "horse": "Basha H 3 A.",
-      "date": "25/11/2026",
-      "track": "deauville",
-      "race": "lyphard",
-      "distance": "1.900",
-      "cat": "",
-      "status": "DP-P/584",
-      "lastUpdate": 1795639296849
-    },
-    {
-      "horse": "Vatican M 3 A.",
-      "date": "25/11/2026",
-      "track": "deauville",
-      "race": "du hamel",
-      "distance": "1.900",
-      "cat": "",
-      "status": "DP-P/1223",
       "lastUpdate": 1795639296849
     }
   ],
