@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-11-27T09:41:11.008Z",
+  "lastUpdate": "2026-11-27T09:47:01.250Z",
   "upcoming": [
     {
       "horse": "BASHA H.PS. 3 a.",
@@ -41,7 +41,7 @@
       "distance": "1.900",
       "cat": "",
       "status": "VA-P/1261",
-      "lastUpdate": 1795769473463
+      "lastUpdate": 1795772799141
     },
     {
       "horse": "Idonotwant F 2 A.",
@@ -51,7 +51,7 @@
       "distance": "1.900",
       "cat": "",
       "status": "VA-P/1245",
-      "lastUpdate": 1795769473463
+      "lastUpdate": 1795772799141
     }
   ],
   "results": [
