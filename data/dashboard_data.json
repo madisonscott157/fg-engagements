@@ -1,35 +1,15 @@
 {
-  "lastUpdate": "2026-11-28T09:46:54.992Z",
+  "lastUpdate": "2026-11-28T09:51:09.194Z",
   "upcoming": [
     {
-      "horse": "BASHA H.PS. 3 a.",
-      "date": "25/11/2026",
+      "horse": "IDONOTWANT USA F.PS. 2 a.",
+      "date": "01/12/2026",
       "track": "DEAUVILLE",
-      "race": "LYPHARD",
+      "race": "GRAND CHESNAY",
       "distance": "1.900",
-      "cat": "(L)",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/OFhNOHA3YXNYR2ovdTRmUmFZMm9yUT09",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/SlFXdG42NTZ1b1pKUk9hV0I0L0J5UT09"
-    },
-    {
-      "horse": "VATICAN M.PS. 3 a.",
-      "date": "25/11/2026",
-      "track": "DEAUVILLE",
-      "race": "DU HAMEL",
-      "distance": "1.900",
-      "cat": "(Maiden)",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/dnB6ZFFUVld6aE9PbWR4WnI0RHMyZz09",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/Ly9KU0czNEJFOFRKTklMbWxpMWpkdz09"
-    },
-    {
-      "horse": "ECLIPSEOFTHEHEART IRE F.PS. 2 a.",
-      "date": "26/11/2026",
-      "track": "CHANTILLY",
-      "race": "VIVIER MADAME",
-      "distance": "1.600",
       "cat": "(Inédits)",
-      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/dHVTTnJHRzl0dklTNlVkL2xXNmY5Zz09",
-      "horseUrl": "https://www.france-galop.com/fr/cheval/bXd6c3F5bTBhK2FONTFKd2d4VllKQT09"
+      "raceUrl": "https://www.france-galop.com/fr/course/detail/2026/P/T05XSi9TOHo5VVM1U05BaldWMWVhUT09",
+      "horseUrl": "https://www.france-galop.com/fr/cheval/Tjluc3RjdG5jdVRQOU56QTFQZVZPUT09"
     }
   ],
   "engagements": [
