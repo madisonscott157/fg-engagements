@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-11-28T12:31:14.138Z",
+  "lastUpdate": "2026-11-28T12:36:28.081Z",
   "upcoming": [
     {
       "horse": "IDONOTWANT USA F.PS. 2 a.",
@@ -21,7 +21,7 @@
       "distance": "1.900",
       "cat": "",
       "status": "VA-P/1261",
-      "lastUpdate": 1795866057606
+      "lastUpdate": 1795869368082
     },
     {
       "horse": "Idonotwant F 2 A.",
@@ -31,7 +31,7 @@
       "distance": "1.900",
       "cat": "",
       "status": "DP-P/1245",
-      "lastUpdate": 1795866057606
+      "lastUpdate": 1795869368082
     }
   ],
   "results": [
